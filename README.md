@@ -2,7 +2,7 @@
 This repository contains reproducible code for a small benchmark of all most tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods
 
 ## Used mitogenome assemblers
----
+
 In our work, we used the following mitochondrial genome assemblers:
 
 * [MITObim](https://github.com/chrishah/MITObim) (Version 1.9.1)
@@ -19,7 +19,7 @@ In our work, we used the following mitochondrial genome assemblers:
 You can access detailed information about the assembler and installation instructions by following the link — just click on the assembler’s name.
 
 ## The sequencing and reference data
----
+
 For testing mitogenome assemblers, we used data from both DNA and RNA sequencing of various amphipod species from Lake Baikal, which are available in GenBank. In addition, we assessed the impact on mitogenome assembly of the number of animals used for nucleic acid extraction (either one animal or several animals) and the level of genome coverage.
 
 ### Raw reads:
@@ -49,7 +49,7 @@ seqtk sample -s 12345 your.fq 0.01 > 1p_your.fq
 To reduce the coverage, replace „your.fq“ with the name of your fastq file and change the number „0.01“ to the one you need. In this case, 0.01 corresponds to 1 % of the original coverage.
 
 ## Developed tools
----
+
 For simplifying the analysis of assemblers, several small tools were written in Bash:
 	
 ### monitor_PPID2407_2.sh
@@ -67,7 +67,7 @@ timestamp          | pid    | ppid   | user    | %cpu | %mem| rss_mb| vsz_mb | c
 :-----------------:| :----: | :-----:| :-----: | :--: | :-: | :---: | :----: | :----: |
 2025-10-06 20:01:27| 3717589| 3717588| username| 0.0  | 0.0 | 9.59  | 16.58  | python |
 2025-10-06 20:01:28| 3717589| 3717588| username| 104.0| 0.0 | 21.50 | 31.58  | python |
----
+
 ### res_LNS.sh
 
 res_LNS.sh is a tool created to obtain statistical information on terminal mitochondrial genome sequences. This script allows you to search for the necessary files by path pattern and display statistical information about the studied .fasta file: 
@@ -83,7 +83,7 @@ res_LNS.sh is a tool created to obtain statistical information on terminal mitoc
 #Example of using res_LNS.sh (General command)
 The/path/where/it/is/stored/res_LNS.sh 'pattern/path/to/your/file/*.fasta'
 ```
----
+
 ### lenght_uniq_seq5.sh
 
 lenght_uniq_seq5.sh is a tool created to analyse the final .fasta file of mitogenome assembly. This script allows for an extensive search for files by pattern, with the ability to specify the search depth, count the number of contigs/scaffolds/sequences, and evaluate the length of each. In the final stage, the script generates a .csv file containing the following information: assembler name, type of data used for mitogenome assembly, reference type, contig number, total number of contigs, contig length.
@@ -100,7 +100,7 @@ Assembler  | Raw reads  | Reference    | Contig Number | Total Contigs | Contig 
 ARC        | genome     | part_COI_Ecy | 1             | 2             | 7522         |
 ARC        | genome     | part_COI_Ecy | 2             | 2             | 5434         |
 
----
+
 ### cyclescripts.sh
 
 cyclescripts.sh — this tool allows running mitogenome assemblers with various types of input data. The cyclescripts.sh tool works with a universal script for each of the assemblers, in which the main parameters are replaced with variables. The main parameters for the assemblers are collected into a separate configuration file and are passed to cyclescripts.sh along with the universal assembler script. Thus, cyclescripts.sh takes as input a configuration file with a list of parameters and a universal script for the assembler.
@@ -130,10 +130,10 @@ The presented configuration file was created for the [MITObim](https://github.co
 
 This formatting of the configuration file will allow cyclescripts.sh to skip lines 1, 2, 4, 6 and run only the 3rd and 5th sets of arguments.
 
----
+
 
 ## Multi-assembler algorithm
----
+
 
 ### Steps for executing the algorithm
 
@@ -142,7 +142,7 @@ This formatting of the configuration file will allow cyclescripts.sh to skip lin
 3. Creating configuration files for the assemblers of your choice.
 4. Running cyclescripts.sh.
 
----
+
 ### 1. Installing assemblers and setting up the workspace
 To install the assemblers on your computer, follow the installation instructions on the web pages of the presented assemblers in this repository:
 
@@ -162,7 +162,7 @@ After you have successfully installed the mitogenome assemblers, you need to cre
 Great! The installation and setup step is complete.
 
 - [X] Installing assemblers and setting up the workspace.
----
+
 ### 2. Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository.
 
 1. First, you need to download the additional tools listed above and save them in the mt_Assemblers folder.
@@ -213,7 +213,7 @@ Great! The step of installing additional tools and downloading universal scripts
 
 - [x] Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository
 
----
+
 
 ## 3. Creating configuration files for the assemblers you have chosen
 
@@ -236,7 +236,7 @@ Configuration files differ for each assembler in the number of arguments, so it 
 Great! The step of creating configuration files is completed.
 
 - [x] Creating configuration files for the assemblers you have chosen
----
+
 ## 4. Running cyclescripts.sh
 
 The cyclescripts.sh script is best run in a separate folder, as it creates logs, and if there are many launch options, there will accordingly be many logs. cyclescripts.sh creates a log of critical errors and a general log of the assembler launch, which will contain information about the assembly process.
@@ -255,7 +255,7 @@ The logs that are created will be presented in the following formats:
 
 Great! The step to launch cyclescripts.sh is completed.
 - [x] Running cyclescripts.sh
----
+
 
 ## Conclusion
 
