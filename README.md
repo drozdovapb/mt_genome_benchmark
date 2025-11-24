@@ -181,16 +181,17 @@ Great! The installation and setup step is complete.
 2. You can use additional tools by specifying the full path to the script. However, you can also add the script to the PATH variable and then use only its name to launch it. [Here](https://askubuntu.com/questions/540344/add-custom-script-to-path) is the instruction on how to do it.
 3. Next, for each of the assemblers, it is necessary to download the universal launch script from the namesake folders of this repository or from the link below and save it in your folders named after the assemblers.
 
-* [universal_script_MITObim.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_MitoZ.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_GetOrganelle.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_mtGrasp.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_Norgal.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_MEANGS.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_MitoFinder.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_ARC.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_NOVOPlasty.sh](ссылка_на_скрипт_в_репозитории)
-* [universal_script_MITGARD.sh](ссылка_на_скрипт_в_репозитории)
+* [universal_script_MITObim.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/universal_script_MITObim.sh)
+* [universal_script_COI_MITObim.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/universal_script_COI_MITObim.sh)
+* [universal_script_MitoZ.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoZ/universal_script_MitoZ.sh)
+* [universal_script_GetOrganelle.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/GetOrganelle/universal_script_GetOrganelle.sh)
+* [universal_script_mtGrasp.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/mtGrasp/universal_script_mtGrasp.sh)
+* [universal_script_Norgal.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Norgal/universal_script_Norgal.sh)
+* [universal_script_MEANGS.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MEANGS/universal_script_MEANGS.sh)
+* [universal_script_MitoFinder.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoFinder/universal_script_MitoFinder.sh)
+* [universal_script_ARC.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/ARC/universal_script_ARC.sh)
+* [universal_script_NOVOPlasty.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/NOVOPlasty/universal_script_NOVOPlasty.sh)
+* [universal_script_MITGARD.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITGARD/universal_script_MITGARD.sh)
 
 **Important!** Each universal script uses monitor_PPID2407_2.sh within itself. To avoid issues, you should add this tool to the PATH variable before running the universal assembler scripts.[Link to how to do it.](https://askubuntu.com/questions/540344/add-custom-script-to-path) However, if you do not want to use resource monitoring, you should open the universal script in a text editor and modify the commented lines.
 
@@ -221,17 +222,18 @@ Configuration files differ for each assembler in the number of arguments, so it 
 
 **Links to configuration files and parameter descriptions:**
 
-* [Configuration_file_MITObim.txt](ссылка_на_файл_в_репозитории) 
-* [Configuration_file_MitoZ.txt](ссылка_на_файл_в_репозитории) 
-* [Configuration_file_GetOrganelle.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_mtGrasp.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_Norgal.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_MEANGS.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_MitoFinder.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_ARC.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_NOVOPlasty.txt](ссылка_на_файл_в_репозитории)
-* [Configuration_file_MITGARD.txt](ссылка_на_файл_в_репозитории)
-* [Description_of_parameters.xlsx](ссылка_на_файл_в_репозитории)
+* [Configuration_file_MITObim.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/Configuration_file_MITObim.txt)
+* [Configuration_file_MITObim_COI.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/Configuration_file_MITObim_COI.txt) 
+* [Configuration_file_MitoZ.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoZ/Configuration_file_MitoZ.txt) 
+* [Configuration_file_GetOrganelle.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/GetOrganelle/Configuration_file_GetOrganelle.txt)
+* [Configuration_file_mtGrasp.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/mtGrasp/Configuration_file_mtGrasp.txt)
+* [Configuration_file_Norgal.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Norgal/Configuration_file_Norgal.txt)
+* [Configuration_file_MEANGS.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MEANGS/Configuration_file_MEANGS.txt)
+* [Configuration_file_MitoFinder.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoFinder/Configuration_file_MitoFinder.txt)
+* [Configuration_file_ARC.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/ARC/Configuration_file_ARC.txt)
+* [Configuration_file_NOVOPlasty.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/NOVOPlasty/Configuration_file_NOVOPlasty.txt)
+* [Configuration_file_MITGARD.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITGARD/Configuration_file_MITGARD.txt)
+* [Description_of_parameters.xlsx](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Description_of_parameters.xlsx)
 
 Great! The step of creating configuration files is completed.
 
