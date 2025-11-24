@@ -167,16 +167,16 @@ Great! The installation and setup step is complete.
 
 1. First, you need to download the additional tools listed above and save them in the mt_Assemblers folder.
 	
-	* [monitor_PPID2407_2.sh](ссылка_на_скрипт_в_репозитории)
-	* [res_LNS.sh](ссылка_на_скрипт_в_репозитории)
-	* [lenght_uniq_seq5.sh](ссылка_на_скрипт_в_репозитории)
-	* [evaluate_completeness.sh](https://github.com/chloroExtractorTeam/benchmark/blob/master/code/evaluate_completeness.sh)
-	* [cyclescripts.sh](ссылка_на_скрипт_в_репозитории)
+* [monitor_PPID2407_2.sh](ссылка_на_скрипт_в_репозитории)
+* [res_LNS.sh](ссылка_на_скрипт_в_репозитории)
+* [lenght_uniq_seq5.sh](ссылка_на_скрипт_в_репозитории)
+* [evaluate_completeness.sh](https://github.com/chloroExtractorTeam/benchmark/blob/master/code/evaluate_completeness.sh)
+* [cyclescripts.sh](ссылка_на_скрипт_в_репозитории)
 
- 	**Addition:**: If you want to evaluate the SCORE of your assemblies, you need to install the following as well:
+**Addition:**: If you want to evaluate the SCORE of your assemblies, you need to install the following as well:
 
-	* [minimap2](https://github.com/lh3/minimap2)
-	* [bedtools2](https://github.com/arq5x/bedtools2)
+* [minimap2](https://github.com/lh3/minimap2)
+* [bedtools2](https://github.com/arq5x/bedtools2)
 	
 2. You can use additional tools by specifying the full path to the script. However, you can also add the script to the PATH variable and then use only its name to launch it. [Here](https://askubuntu.com/questions/540344/add-custom-script-to-path) is the instruction on how to do it.
 3. Next, for each of the assemblers, it is necessary to download the universal launch script from the namesake folders of this repository or from the link below and save it in your folders named after the assemblers.
