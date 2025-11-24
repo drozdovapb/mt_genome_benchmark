@@ -167,13 +167,13 @@ Great! The installation and setup step is complete.
 
 1. First, you need to download the additional tools listed above and save them in the mt_Assemblers folder.
 	
-* [monitor_PPID2407_2.sh](ссылка_на_скрипт_в_репозитории)
-* [res_LNS.sh](ссылка_на_скрипт_в_репозитории)
-* [lenght_uniq_seq5.sh](ссылка_на_скрипт_в_репозитории)
+* [monitor_PPID2407_2.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/monitor_PPID2407_2.sh)
+* [res_LNS.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/res_LNS.sh)
+* [lenght_uniq_seq5.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/lenght_uniq_seq5.sh)
 * [evaluate_completeness.sh](https://github.com/chloroExtractorTeam/benchmark/blob/master/code/evaluate_completeness.sh)
-* [cyclescripts.sh](ссылка_на_скрипт_в_репозитории)
+* [cyclescripts.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/cyclescripts.sh)
 
-**Addition:**: If you want to evaluate the SCORE of your assemblies, you need to install the following as well:
+**Addition:** If you want to evaluate the SCORE of your assemblies, you need to install the following as well:
 
 * [minimap2](https://github.com/lh3/minimap2)
 * [bedtools2](https://github.com/arq5x/bedtools2)
