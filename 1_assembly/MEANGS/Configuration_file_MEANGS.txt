@@ -1,13 +1,16 @@
 #data
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_1.fq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_2.fq Ecya 225
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR3467057_1_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR3467057_2_2.fastq Ecya_rna 243
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_Ecy_D1_trim_filt_1.fq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_Ecy_D1_trim_filt_2.fq Ecya_1p 225 
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/1p_seqtk_SRR3467057_1_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/1p_seqtk_SRR3467057_2_2.fastq Ecya_1p_rna 243
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/10p_Ecy_D1_trim_filt_1.fq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/10p_Ecy_D1_trim_filt_2.fq Ecya_10p 225
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/10p_seqtk_SRR3467057_1_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/10p_seqtk_SRR3467057_2_2.fastq Ecya_10p_rna 243
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/16p_Ecy_D1_trim_filt_1.fq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/16p_Ecy_D1_trim_filt_2.fq Ecya_16p 225
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/SRR31211521_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/SRR31211521_2.fastq Ecya_NCBI 280
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR8206017_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR8206017_2.fastq Ecya_our_rna 160
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/50p_SRR31211521_1.fastq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/50p_SRR31211521_2.fastq Ecya_NCBI_50p 280
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_1.fq /media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_2.fq Bpul 228
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_2.fq name=Ecya len_ins=225
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR3467057_1_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR3467057_2_2.fastq name=Ecya_rna len_ins=243
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_Ecy_D1_trim_filt_2.fq name=Ecya_1p len_ins=225
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/1p_seqtk_SRR3467057_1_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/1p_seqtk_SRR3467057_2_2.fastq name=Ecya_1p_rna len_ins=243
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/10p_Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/10p_Ecy_D1_trim_filt_2.fq name=Ecya_10p len_ins=225
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/10p_seqtk_SRR3467057_1_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/10p_seqtk_SRR3467057_2_2.fastq name=Ecya_10p_rna len_ins=243
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/16p_Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/16p_Ecy_D1_trim_filt_2.fq name=Ecya_16p len_ins=225
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/SRR31211521_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/SRR31211521_2.fastq name=Ecya_NCBI len_ins=280
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR8206017_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR8206017_2.fastq name=Ecya_our_rna len_ins=160
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/50p_SRR31211521_1.fastq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/50p_SRR31211521_2.fastq name=Ecya_NCBI_50p len_ins=280
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_2.fq name=Bpul len_ins=228
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_1_3x_cover.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_2_3x_cover.fq name=Bpul_3x len_ins=228
+#name=Ecya_3x_1_2 read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_1_3x_cover.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_2_3x_cover.fq len_ins=225
+
 
