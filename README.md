@@ -38,7 +38,11 @@ For testing mitogenome assemblers, we used data from both DNA and RNA sequencing
 * _[Eulimnogammarus cyaneus](https://www.ncbi.nlm.nih.gov/nuccore/NC_023104.1)_ (*COI* gene, partial cds)
 * _[Eulimnogammarus cyaneus](ссылку)_ (*COI* and *CYTB* full genes, for mitobim)!
 * _[Eulimnogammarus verrucosus](https://www.ncbi.nlm.nih.gov/nuccore/NC_023104.1)_ (Complete genome)
-* _[Baikalogammarus pullus](ссылку)_ (Complete genome)!
+* _[Eulimnogammarus verrucosus](ссылку_наши)_ (*COI* full gene)
+* _[Eulimnogammarus verrucosus](ссылку_наши)_ (*COI* gene, partial cds)
+* _[Baikalogammarus pullus](ссылку_наши)_ (Complete genome)!
+* _[Baikalogammarus pullus](ссылку_наши)_ (*COI* full gene)
+* _[Baikalogammarus pullus](ссылку_наши)_ (COI* gene, partial cds)
 
 ### Reduced genome coverage:
 Genome coverage was reduced using the [seqtk](https://github.com/lh3/seqtk) tool with the following command:
@@ -48,6 +52,11 @@ seqtk sample -s 12345 your.fq 0.01 > 1p_your.fq
 ```
 To reduce the coverage, replace „your.fq“ with the name of your fastq file and change the number „0.01“ to the one you need. In this case, 0.01 corresponds to 1 % of the original coverage.
 
+### Code for trim and filtr reads
+
+```
+here
+```
 ## Developed tools
 
 For simplifying the analysis of assemblers, several small tools were written in Bash:
@@ -107,28 +116,37 @@ cyclescripts.sh — this tool allows running mitogenome assemblers with various 
 
 ```
 #Example of using cyclescripts.sh
-The/path/where/it/is/stored/cyclescripts.sh The/path/where/it/is/stored/configuration_file.txt The/path/where/it/is/stored/Universal_Assembler's_Script
+The/path/where/it/is/stored/cyclescripts_4.sh The/path/where/it/is/stored/configuration_file.txt The/path/where/it/is/stored/Universal_Assembler's_Script Assembler_name
+#If you run cyclescripts.sh without arguments, it will show you a usage example. After launching, you will see: 
+Usage: ./cyclescripts_4.sh <config_file> <universal_script> <assembler_name>
+assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, NOVOPlasty, Norgal, mtGrasp
 ```
 
 **Configuration file**
 
-A configuration file in .txt format consists of lines of actual arguments that will be passed to the universal assembler script. Therefore, it is closely related to the variables available in the assembler script and is fully dependent on the settings of the universal script. The functionality of cyclescripts.sh allows skipping commented lines (#), thereby providing the opportunity to create one common configuration file and, if necessary, to run repeated assemblies of target datasets by skipping unnecessary ones through line commenting.
+A configuration file in .txt format consists of lines of actual arguments that will be passed to the universal assembler script. Therefore, it is closely related to the variables available in the assembler script and is fully dependent on the settings of the universal script. The functionality of cyclescripts.sh allows skipping commented lines (#), thereby providing the opportunity to create one common configuration file and, if necessary, to run repeated assemblies of target datasets by skipping unnecessary ones through line commenting. The configuration file is populated according to specific keys that vary across different assemblers. Examples of configuration files for each assembler are available in this repository within the folders of the same name.
 
 ```
 #Exemple configuration file
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved.fastq /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa Ecya
-/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved.fastq /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Eve_ref.fa Eve
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_merge.fastq /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa Ecya_1p
-/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/1p_merge.fastq /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Eve_ref.fa Eve_1p
-#/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/10p_merge.fastq /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa Ecya_10p
+#reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_2
+reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_3
 ```
-The presented configuration file was created for the [MITObim](https://github.com/chrishah/MITObim) assembler and contains the following parameters:
+The presented configuration file was created for the [MITObim](https://github.com/chrishah/MITObim) assembler and contains the following 
+
+arguments name:
+
+* **reads** or **read1** / **read2** — Argument that expects the path to your raw reads (for the MITObim assembler used as an example, a single set of reads is used).
+* **config** - Argument that expects the path to the assembler's own configuration file. (Some assemblers, such as NOVOplasty, require configuration files containing paths to raw reads and a reference).
+* **ref** — Argument that expects the path to your reference sequence.
+* **name** — Argument that expects the name of the directory that will be used to store all output assembly files for this configuration.
+
+parameters:
 
 * **/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved.fastq** — Path to raw reads.
 * **/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa** — Path to the reference.
 * **Ecya** - The name of the directory that will be created for the output files of the assembler with the given arguments.
 
-This formatting of the configuration file will allow cyclescripts.sh to skip lines 1, 2, 4, 6 and run only the 3rd and 5th sets of arguments.
+This formatting of the configuration file will allow cyclescripts.sh to skip line 1 and run only the 2nd set of arguments.
 
 
 
@@ -179,6 +197,9 @@ Great! The installation and setup step is complete.
 * [bedtools2](https://github.com/arq5x/bedtools2)
 	
 2. You can use additional tools by specifying the full path to the script. However, you can also add the script to the PATH variable and then use only its name to launch it. [Here](https://askubuntu.com/questions/540344/add-custom-script-to-path) is the instruction on how to do it.
+   
+   P.S. The universal assembler scripts use the computer resource monitor monitor_PPID2407_2.sh. If you want it to run during the assembly process, it must be added to the PATH variable.
+   
 3. Next, for each of the assemblers, it is necessary to download the universal launch script from the namesake folders of this repository or from the link below and save it in your folders named after the assemblers.
 
 * [universal_script_MITObim.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/universal_script_MITObim.sh)
@@ -193,28 +214,11 @@ Great! The installation and setup step is complete.
 * [universal_script_NOVOPlasty.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/NOVOPlasty/universal_script_NOVOPlasty.sh)
 * [universal_script_MITGARD.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITGARD/universal_script_MITGARD.sh)
 
-**Important!** Each universal script uses monitor_PPID2407_2.sh within itself. To avoid issues, you should add this tool to the PATH variable before running the universal assembler scripts.[Link to how to do it.](https://askubuntu.com/questions/540344/add-custom-script-to-path) However, if you do not want to use resource monitoring, you should open the universal script in a text editor and modify the commented lines.
-
-```
-#Example of modifying the ARC script
-##To use monitor_PPID2407_2.sh
-monitor_PPID2407_2.sh '/media/main/sandbox/ad/tool_biuld_mt_genome_links/ARC/bin/ARC -c '$config'' ${papka}_use_res_ARC.csv
-
-#monitor_PPID2407_2.sh для оценки потребления ресурсов сборщиком ARC
-/media/main/sandbox/ad/tool_biuld_mt_genome_links/ARC/bin/ARC -c $config
-
-##To AVOID using monitor_PPID2407_2.sh.
-#monitor_PPID2407_2.sh '/media/main/sandbox/ad/tool_biuld_mt_genome_links/ARC/bin/ARC -c '$config'' ${papka}_use_res_ARC.csv
-
-monitor_PPID2407_2.sh для оценки потребления ресурсов сборщиком ARC
-/media/main/sandbox/ad/tool_biuld_mt_genome_links/ARC/bin/ARC -c $config
-```
+**Important!** Each universal script uses monitor_PPID2407_2.sh within itself. To avoid issues, you should add this tool to the PATH variable before running the universal assembler scripts.[Link to how to do it.](https://askubuntu.com/questions/540344/add-custom-script-to-path) However, if you do not want to use resource monitoring, simply skip the step of installing the monitor. The universal assembler scripts will warn you that the monitor is unavailable but will continue with the assembly.
 
 Great! The step of installing additional tools and downloading universal scripts is completed.
 
 - [x] Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository
-
-
 
 ## 3. Creating configuration files for the assemblers you have chosen
 
@@ -239,7 +243,11 @@ Great! The step of creating configuration files is completed.
 
 - [x] Creating configuration files for the assemblers you have chosen
 
-## 4. Running cyclescripts.sh
+## 4. Simulating assembler operation
+
+Before running the assembly on your own data, we strongly recommend testing the functionality of all installed assemblers and critical additional tools (such as the resource monitor monitor_PPID2407_2.sh). For this purpose, we have specially created a small dataset (reads and a reference complete genome of the species _[Baikalogammarus pullus](ссылку)_). Download the data into your prepared folder and unpack the archives containing the reads. Use them as input data. The folder contains several reference sequences (the complete mitochondrial genome of Baikalogammarus pullus — the species to which the simulated reads belong, the Folmer fragment of COI from Baikalogammarus pullus, and the complete mitochondrial genome of the closely related species Eulimnogammarus verrucosus) for testing cyclescripts.sh.
+
+## 5. Running cyclescripts.sh
 
 The cyclescripts.sh script is best run in a separate folder, as it creates logs, and if there are many launch options, there will accordingly be many logs. cyclescripts.sh creates a log of critical errors and a general log of the assembler launch, which will contain information about the assembly process.
 
@@ -252,7 +260,7 @@ The logs that are created will be presented in the following formats:
 
 ```
 #Example of running cyclescripts.sh (General command)
-./cyclescripts.sh The/path/to/your/configuration/file.txt The/path/to/the/universal_assembler_script.sh
+./cyclescripts.sh The/path/to/your/configuration/file.txt The/path/to/the/universal_assembler_script.sh Assembler_name
 ```
 
 Great! The step to launch cyclescripts.sh is completed.
