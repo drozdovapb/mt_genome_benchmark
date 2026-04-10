@@ -1,0 +1,5 @@
+#data
+read1=sim_R1_Bpul.fastq read2=sim_R2_Bpul.fastq ref=rf_mt_genome_Bpul.fasta name=Bpul
+read1=sim_R1_Bpul.fastq read2=sim_R2_Bpul.fastq ref=mt_genom_Bpul_COI_ref.fa name=Bpul_COI
+read1=sim_R1_Bpul.fastq read2=sim_R2_Bpul.fastq ref=mt_genom_Eve_ref.fa name=Bpul_Eve
+

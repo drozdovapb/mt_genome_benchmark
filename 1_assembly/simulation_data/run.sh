@@ -1,0 +1,1 @@
+./cyclescripts.sh Config_ARC.txt universal_script_ARC.sh ARC;./cyclescripts.sh Config_GetOrganell.txt universal_script_GetOrganelle.sh GetOrganelle;./cyclescripts.sh Config_MITObim.txt universal_script_MITObim.sh MITObim

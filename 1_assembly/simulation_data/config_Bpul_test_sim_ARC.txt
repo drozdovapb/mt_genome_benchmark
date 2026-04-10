@@ -1,0 +1,28 @@
+## Configuration options start with a single "#" and use
+## Name=test_ARC_simulation_data_Bpul
+##
+## Data Columns define samples:
+## Sample_ID:Sim_data
+## FileName: path for fasta/fastq file
+## FileType: PE1, PE2, or SE
+## FileFormat: fasta or fastq
+# reference=mt_genom_Bpul_COI_ref.fa
+# numcycles=10
+# mapper=bowtie2
+# assembler=spades
+# only-assembler=False
+# nprocs=7
+# format=fastq
+# verbose=True
+# urt=True
+# map_against_reads=False
+# assemblytimeout=2
+# bowtie2_k=5
+# rip=True
+# subsample=1
+# maskrepeats=True
+# sloppymapping=True
+# sra=False
+Sample_ID	FileName	FileType
+Sample1	sim_R1_Bpul.fastq	PE1
+Sample1	sim_R2_Bpul.fastq	PE2
