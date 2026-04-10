@@ -1,0 +1,4 @@
+#data
+config={{REPO_ROOT}}/1_assembly/simulation_data/config_Bpul_COI_test_sim_ARC.txt name=Bpul_COI
+config={{REPO_ROOT}}/1_assembly/simulation_data/config_Bpul_test_sim_ARC.txt name=Bpul
+config={{REPO_ROOT}}/1_assembly/simulation_data/config_Eve_test_sim_ARC.txt name=Bpul_Eve
