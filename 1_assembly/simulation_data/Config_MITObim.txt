@@ -1,3 +1,0 @@
-#data
-reads=interleaved_bpul_sim.fastq ref=rf_mt_genome_Bpul.fasta name=Bpul
-reads=interleaved_bpul_sim.fastq ref=mt_genom_Eve_ref.fa name=Bpul_Eve

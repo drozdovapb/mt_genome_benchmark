@@ -1,4 +1,0 @@
-#data
-config=config_Bpul_COI_test_sim_ARC.txt name=Bpul_COI
-config=config_Bpul_test_sim_ARC.txt name=Bpul
-config=config_Eve_test_sim_ARC.txt name=Bpul_Eve
