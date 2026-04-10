@@ -1,0 +1,3 @@
+#data
+reads={{REPO_ROOT}}/1_assembly/simulation_data/interleaved_bpul_sim.fastq ref={{REPO_ROOT}}/1_assembly/simulation_data/rf_mt_genome_Bpul.fasta name=Bpul
+reads={{REPO_ROOT}}/1_assembly/simulation_data/interleaved_bpul_sim.fastq ref={{REPO_ROOT}}/1_assembly/simulation_data/mt_genom_Eve_ref.fa name=Bpul_Eve

@@ -1,0 +1,5 @@
+#data
+read1={{REPO_ROOT}}/1_assembly/simulation_data/sim_R1_Bpul.fastq read2={{REPO_ROOT}}/1_assembly/simulation_data/sim_R2_Bpul.fastq ref={{REPO_ROOT}}/1_assembly/simulation_data/rf_mt_genome_Bpul.fasta name=Bpul
+read1={{REPO_ROOT}}/1_assembly/simulation_data/sim_R1_Bpul.fastq read2={{REPO_ROOT}}/1_assembly/simulation_data/sim_R2_Bpul.fastq ref={{REPO_ROOT}}/1_assembly/simulation_data/mt_genom_Bpul_COI_ref.fa name=Bpul_COI
+read1={{REPO_ROOT}}/1_assembly/simulation_data/sim_R1_Bpul.fastq read2={{REPO_ROOT}}/1_assembly/simulation_data/sim_R2_Bpul.fastq ref={{REPO_ROOT}}/1_assembly/simulation_data/mt_genom_Eve_ref.fa name=Bpul_Eve
+
