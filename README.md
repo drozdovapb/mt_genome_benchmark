@@ -144,11 +144,56 @@ parameters:
 
 * **/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved.fastq** — Path to raw reads.
 * **/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa** — Path to the reference.
-* **Ecya** - The name of the directory that will be created for the output files of the assembler with the given arguments.
+* **Ecya_3x_3** - The name of the directory that will be created for the output files of the assembler with the given arguments.
 
 This formatting of the configuration file will allow cyclescripts.sh to skip line 1 and run only the 2nd set of arguments.
 
 
+## Simulating assembler operation
+
+
+To evaluate the correct functioning of the tools we have developed, we recommend running a mitochondrial genome assembly on the test data provided in the simulation_data folder.
+
+1. First, you need to create a directory for subsequent work.
+	
+	Linux command to create a directory:
+
+	```
+	mkdir name_your_dir
+	```
+2. Next, you need to download our repository. This can be done either via a browser or through the terminal.
+
+	Terminal command:
+	```
+	git clone https://github.com/drozdovapb/mt_genome_benchmark.git
+	```
+
+3. Then, navigate into the repository folder, which is named after the repository itself: mt_genome_benchmark. Inside this folder, you will find two subdirectories — 1_assembly and 2_annotation — as well as a README.md file. You need to move into the 1_assembly directory.  
+4. Once inside 1_assembly, you must make all the working tools (scripts) executable.
+
+	Linux command:
+	```
+	chmod +x */*.sh
+	```
+5. After executing this command, navigate into the Developed_tools directory.
+6. In this directory, you will find the executable script run_simulation_data.sh, which you need to run.
+
+	Command to run run_simulation_data.sh:
+	```
+	./run_simulation_data.sh
+	```
+
+7. The simulation takes approximately 5–10 minutes to complete.
+8. Once finished, you should find the output files in the respective assembler folders:  
+	**ARC**   
+	**GetOrganelle**   
+	**MITObim**
+9. Within each of these folders, you should see three subdirectories indicating the reference used:  
+**Bpul** - complete mitogenome reference of *B. pullus*  
+**Bpul_COI** - Folmer COI fragment reference of COI *B. pullus*  
+**Bpul_Eve** - complete mitogenome reference of the closely related species *E. verrucosus*
+
+These folders contain the results produced by the assemblers used in the test simulation.
 
 ## Multi-assembler algorithm
 
@@ -243,11 +288,7 @@ Great! The step of creating configuration files is completed.
 
 - [x] Creating configuration files for the assemblers you have chosen
 
-## 4. Simulating assembler operation
-
-Before running the assembly on your own data, we strongly recommend testing the functionality of all installed assemblers and critical additional tools (such as the resource monitor monitor_PPID2407_2.sh). For this purpose, we have specially created a small dataset (reads and a reference complete genome of the species _[Baikalogammarus pullus](ссылку)_). Download the data into your prepared folder and unpack the archives containing the reads. Use them as input data. The folder contains several reference sequences (the complete mitochondrial genome of Baikalogammarus pullus — the species to which the simulated reads belong, the Folmer fragment of COI from Baikalogammarus pullus, and the complete mitochondrial genome of the closely related species Eulimnogammarus verrucosus) for testing cyclescripts.sh.
-
-## 5. Running cyclescripts.sh
+## 4. Running cyclescripts.sh
 
 The cyclescripts.sh script is best run in a separate folder, as it creates logs, and if there are many launch options, there will accordingly be many logs. cyclescripts.sh creates a log of critical errors and a general log of the assembler launch, which will contain information about the assembly process.
 
