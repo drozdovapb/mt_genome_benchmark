@@ -1,6 +1,24 @@
 #!/bin/bash
 set -uo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$SCRIPT_DIR"
+
+while [[ "$REPO_ROOT" != "/" ]]; do
+    if [[ -f "$REPO_ROOT/README.md" ]] || [[ -d "$REPO_ROOT/.git" ]]; then
+        break
+    fi
+    REPO_ROOT="$(dirname "$REPO_ROOT")"
+done
+
+if [[ "$REPO_ROOT" == "/" ]]; then
+    echo "ERROR: Could not find repository root (no README.md or .git found)" >&2
+    exit 1
+fi
+
+export REPO_ROOT
+# =============================================================
+
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <config_file> <universal_script> <assembler_name>"
     echo "  assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, NOVOPlasty, Norgal, mtGrasp"
@@ -27,6 +45,7 @@ error_log() {
 exec 2> >(tee -a "$ERROR_LOG_FILE")
 
 log "Run: ${0##*/}"
+log "REPO_ROOT = $REPO_ROOT"
 log "Config: $config_file"
 log "Assembler script: $universal_script"
 log "Assembler: $assembler_name"
@@ -86,7 +105,10 @@ parse_line() {
         local found=0
         for i in "${!keys[@]}"; do
             if [[ "${keys[$i]}" == "$key" ]]; then
-                out_args+=("${vals[$i]}")
+                # repo_root value
+                val="${vals[$i]}"
+                val="${val//\{\{REPO_ROOT\}\}/$REPO_ROOT}"
+                out_args+=("$val")
                 found=1
                 break
             fi
@@ -114,7 +136,7 @@ while IFS= read -r line || [ -n "$line" ]; do
     log "Processing string $line_number: $line_clean"
 
     if parse_line "$line_clean" args; then
-        log "Arguments: ${args[*]}"
+        log "Arguments (after REPO_ROOT substitution): ${args[*]}"
         log "Run: $universal_script ${args[*]}"
         start_time=$(date +%s)
         if "$universal_script" "${args[@]}" >> "$LOG_FILE" 2>&1; then
@@ -138,3 +160,4 @@ log "Errors: $error_count"
 log "Finished"
 
 exit $((error_count > 0 ? 1 : 0))
+
