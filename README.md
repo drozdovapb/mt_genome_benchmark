@@ -1,9 +1,14 @@
 # mt_genome_benchmark
 This repository contains reproducible code for a small benchmark of all most tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods
 
-## Used mitogenome assemblers
+## Table of contents:
+  * [Dependencies](https://github.com/drozdovapb/mt_genome_benchmark#dependencies)
+  * [Data](https://github.com/drozdovapb/mt_genome_benchmark#the-sequencing-and-reference-data)
+  * [Developed scripts](https://github.com/drozdovapb/mt_genome_benchmark#developed-scripts)
 
-In our work, we used the following mitochondrial genome assemblers:
+## Dependencies
+
+In this work, we used the following mitochondrial genome assemblers (whether you need all or some of them depends on your goals):
 
 * [MITObim](https://github.com/chrishah/MITObim) (Version 1.9.1)
 * [MitoZ](https://github.com/linzhi2013/MitoZ) (Version 3.6)
@@ -16,20 +21,18 @@ In our work, we used the following mitochondrial genome assemblers:
 * [NOVOPlasty](https://github.com/ndierckx/NOVOPlasty.git) (Version 4.3.5)
 * [MITGARD](https://github.com/pedronachtigall/MITGARD) (Version 1.0)
 
-You can access detailed information about the assembler and installation instructions by following the link — just click on the assembler’s name.
+You can access detailed information about the assembler and installation instructions by following the link—just click on the assembler name. Please note that we did not develop any of those and are not responsible for their maintenance, but we did run all of them and might be able to help with installation and running issues—please [open an issue]([url](https://github.com/drozdovapb/mt_genome_benchmark/issues)) if you need help. In addition, all the credit goes to the authors, so please do not forget to cite corresponding papers if you use any of those.
 
 ## The sequencing and reference data
 
-For testing mitogenome assemblers, we used data from both DNA and RNA sequencing of various amphipod species from Lake Baikal, which are available in GenBank. In addition, we assessed the impact on mitogenome assembly of the number of animals used for nucleic acid extraction (either one animal or several animals) and the level of genome coverage.
+For testing mitogenome assemblers, we used data from both DNA and RNA sequencing of various amphipod species from Lake Baikal, which are available in NCBI GenBank/DDBJ/ENA. In addition, we assessed the impact on mitogenome assembly of the number of animals used for nucleic acid extraction (either one animal or several animals) and the level of genome coverage.
 
 ### Raw reads:
 
-* _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR31211521&display=metadata)_ (One animal, DNAseq)
-* _[Eulimnogammarus cyaneus](ссылку)_ (Several animals, DNAseq)!
-* _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR3467057&display=metadata)_ (One animal, RNAseq)
+* _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911160&display=metadata)_ (Several animals, DNAseq)!
 * _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR8206017&display=metadata)_ (Several animals, RNAseq)
-* _[Eulimnogammarus verrucosus](ссылку)_ (DNAseq)!
-* _[Baikalogammarus pullus](ссылку)_ (DNAseq)!
+* _[Eulimnogammarus verrucosus S](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911165&display=metadata)_ (DNAseq)!
+* _[Baikalogammarus pullus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911159&display=metadata)_ (DNAseq)!
 
 ### References:
 
@@ -52,14 +55,14 @@ seqtk sample -s 12345 your.fq 0.01 > 1p_your.fq
 ```
 To reduce the coverage, replace „your.fq“ with the name of your fastq file and change the number „0.01“ to the one you need. In this case, 0.01 corresponds to 1 % of the original coverage.
 
-### Code for trim and filtr reads
+### Trim and filter reads
 
 ```
-here
+java -jar trimmomatic-0.39.jar PE -phred33 Sample_1.fq.gz Sample_2.fq.gz Sample_pairedPE_1.fq Sample_upaired_1.fq Sample_pairedPE_2.fq Sample_upaired_2.fq  ILLUMINACLIP:Seq_adapters.fasta:2:7:1
 ```
-## Developed tools
+## Developed scripts
 
-For simplifying the analysis of assemblers, several small tools were written in Bash:
+Each assembler has a slightly different output format. For simplifying the analysis of assemblers, several small tools were written in Bash:
 	
 ### monitor_PPID2407_2.sh
 
@@ -93,7 +96,7 @@ res_LNS.sh is a tool created to obtain statistical information on terminal mitoc
 The/path/where/it/is/stored/res_LNS.sh 'pattern/path/to/your/file/*.fasta'
 ```
 
-### lenght_uniq_seq5.sh
+### length_uniq_seq5.sh
 
 lenght_uniq_seq5.sh is a tool created to analyse the final .fasta file of mitogenome assembly. This script allows for an extensive search for files by pattern, with the ability to specify the search depth, count the number of contigs/scaffolds/sequences, and evaluate the length of each. In the final stage, the script generates a .csv file containing the following information: assembler name, type of data used for mitogenome assembly, reference type, contig number, total number of contigs, contig length.
 
