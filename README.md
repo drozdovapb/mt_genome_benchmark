@@ -1,10 +1,14 @@
 # mt_genome_benchmark
-This repository contains reproducible code for a small benchmark of all most tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods
+This repository contains reproducible code for a small benchmark of most tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods
+
+If you would like to skip the detail and just go to the recommended procedure for mitochondrial genome assembly, click here: [Procedure 2. Recommended procedure](https://github.com/drozdovapb/mt_genome_benchmark#recommended-procedure).
 
 ## Table of contents:
   * [Dependencies](https://github.com/drozdovapb/mt_genome_benchmark#dependencies)
   * [Data](https://github.com/drozdovapb/mt_genome_benchmark#the-sequencing-and-reference-data)
   * [Developed scripts](https://github.com/drozdovapb/mt_genome_benchmark#developed-scripts)
+  * [Procedure 1. Assembler benchmark](https://github.com/drozdovapb/mt_genome_benchmark#multi-assembler-algorithm)
+  * [Procedure 2. Recommended procedure](https://github.com/drozdovapb/mt_genome_benchmark#recommended-procedure)
 
 ## Dependencies
 
@@ -22,6 +26,12 @@ In this work, we used the following mitochondrial genome assemblers (whether you
 * [MITGARD](https://github.com/pedronachtigall/MITGARD) (Version 1.0)
 
 You can access detailed information about the assembler and installation instructions by following the link—just click on the assembler name. Please note that we did not develop any of those and are not responsible for their maintenance, but we did run all of them and might be able to help with installation and running issues—please [open an issue]([url](https://github.com/drozdovapb/mt_genome_benchmark/issues)) if you need help. In addition, all the credit goes to the authors, so please do not forget to cite corresponding papers if you use any of those.
+
+
+The following tools were used to evaluate the SCORE of the obtained assemblies:
+
+* [minimap2](https://github.com/lh3/minimap2)
+* [bedtools2](https://github.com/arq5x/bedtools2)
 
 ## The sequencing and reference data
 
@@ -60,11 +70,13 @@ To reduce the coverage, replace „your.fq“ with the name of your fastq file a
 ```
 java -jar trimmomatic-0.39.jar PE -phred33 Sample_1.fq.gz Sample_2.fq.gz Sample_pairedPE_1.fq Sample_upaired_1.fq Sample_pairedPE_2.fq Sample_upaired_2.fq  ILLUMINACLIP:Seq_adapters.fasta:2:7:1
 ```
-## Developed scripts
+## Repository content
+
+### Developed scripts
 
 Each assembler has a slightly different output format. For simplifying the analysis of assemblers, several small tools were written in Bash:
 	
-### monitor_PPID2407_2.sh
+#### monitor_PPID2407_2.sh
 
 monitor_PPID2407_2.sh is a tool created to monitor the computer resources used by any running command. Every second, it records the consumed resources and additional parameters (Time, PID, PPID, Username, %CPU, %MEM, RSS, VSZ, Command) and outputs them to a .csv file.
 
@@ -80,7 +92,7 @@ timestamp          | pid    | ppid   | user    | %cpu | %mem| rss_mb| vsz_mb | c
 2025-10-06 20:01:27| 3717589| 3717588| username| 0.0  | 0.0 | 9.59  | 16.58  | python |
 2025-10-06 20:01:28| 3717589| 3717588| username| 104.0| 0.0 | 21.50 | 31.58  | python |
 
-### res_LNS.sh
+#### res_LNS.sh
 
 res_LNS.sh is a tool created to obtain statistical information on terminal mitochondrial genome sequences. This script allows you to search for the necessary files by path pattern and display statistical information about the studied .fasta file: 
 
@@ -96,7 +108,7 @@ res_LNS.sh is a tool created to obtain statistical information on terminal mitoc
 The/path/where/it/is/stored/res_LNS.sh 'pattern/path/to/your/file/*.fasta'
 ```
 
-### length_uniq_seq5.sh
+#### length_uniq_seq5.sh
 
 lenght_uniq_seq5.sh is a tool created to analyse the final .fasta file of mitogenome assembly. This script allows for an extensive search for files by pattern, with the ability to specify the search depth, count the number of contigs/scaffolds/sequences, and evaluate the length of each. In the final stage, the script generates a .csv file containing the following information: assembler name, type of data used for mitogenome assembly, reference type, contig number, total number of contigs, contig length.
 
@@ -113,7 +125,7 @@ ARC        | genome     | part_COI_Ecy | 1             | 2             | 7522   
 ARC        | genome     | part_COI_Ecy | 2             | 2             | 5434         |
 
 
-### cyclescripts.sh
+#### cyclescripts.sh
 
 cyclescripts.sh — this tool allows running mitogenome assemblers with various types of input data. The cyclescripts.sh tool works with a universal script for each of the assemblers, in which the main parameters are replaced with variables. The main parameters for the assemblers are collected into a separate configuration file and are passed to cyclescripts.sh along with the universal assembler script. Thus, cyclescripts.sh takes as input a configuration file with a list of parameters and a universal script for the assembler.
 
@@ -130,7 +142,7 @@ assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, 
 A configuration file in .txt format consists of lines of actual arguments that will be passed to the universal assembler script. Therefore, it is closely related to the variables available in the assembler script and is fully dependent on the settings of the universal script. The functionality of cyclescripts.sh allows skipping commented lines (#), thereby providing the opportunity to create one common configuration file and, if necessary, to run repeated assemblies of target datasets by skipping unnecessary ones through line commenting. The configuration file is populated according to specific keys that vary across different assemblers. Examples of configuration files for each assembler are available in this repository within the folders of the same name.
 
 ```
-#Exemple configuration file
+#Example configuration file
 #reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_2
 reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_3
 ```
@@ -152,8 +164,7 @@ parameters:
 This formatting of the configuration file will allow cyclescripts.sh to skip line 1 and run only the 2nd set of arguments.
 
 
-## Simulating assembler operation
-
+## Before you begin: test your setup
 
 To evaluate the correct functioning of the tools we have developed, we recommend running a mitochondrial genome assembly on the test data provided in the simulation_data folder.
 
@@ -200,6 +211,7 @@ These folders contain the results produced by the assemblers used in the test si
 
 ## Multi-assembler algorithm
 
+This step-by-step guide describes the generalized benchmarking procedure.
 
 ### Steps for executing the algorithm
 
@@ -268,7 +280,7 @@ Great! The step of installing additional tools and downloading universal scripts
 
 - [x] Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository
 
-## 3. Creating configuration files for the assemblers you have chosen
+### 3. Creating configuration files for the assemblers you have chosen
 
 Configuration files differ for each assembler in the number of arguments, so it is important to take this into account when creating a configuration file. Since the files are individual for each assembler, the simplest way to create such a file with your input data is to download it from the appropriate assembler folder and format it by inserting your data instead of the examples. Sample files and argument descriptions are available in this repository.
 
@@ -291,7 +303,7 @@ Great! The step of creating configuration files is completed.
 
 - [x] Creating configuration files for the assemblers you have chosen
 
-## 4. Running cyclescripts.sh
+### 4. Running cyclescripts.sh
 
 The cyclescripts.sh script is best run in a separate folder, as it creates logs, and if there are many launch options, there will accordingly be many logs. cyclescripts.sh creates a log of critical errors and a general log of the assembler launch, which will contain information about the assembly process.
 
@@ -304,13 +316,17 @@ The logs that are created will be presented in the following formats:
 
 ```
 #Example of running cyclescripts.sh (General command)
-./cyclescripts.sh The/path/to/your/configuration/file.txt The/path/to/the/universal_assembler_script.sh Assembler_name
+./cyclescripts.sh path/to/your/configuration/file.txt path/to/the/universal_assembler_script.sh Assembler_name
 ```
 
 Great! The step to launch cyclescripts.sh is completed.
 - [x] Running cyclescripts.sh
 
 
-## Conclusion
+### Conclusion
 
 After all the assemblers you are interested in have assembled mitogenomes or something similar for you, you should evaluate the quality of these assemblies. The tools presented above in this repository will help you with this.
+
+## Recommended procedure
+
+...
