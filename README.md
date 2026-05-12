@@ -1,7 +1,10 @@
 # mt_genome_benchmark
-This repository contains reproducible code for a small benchmark of most tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods
+This repository contains reproducible code for a benchmark of most existing tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods.
 
-If you would like to skip the detail and just go to the recommended procedure for mitochondrial genome assembly, click here: [Procedure 2. Recommended procedure](https://github.com/drozdovapb/mt_genome_benchmark#recommended-procedure).
+If you:
+  * wish to reproduce this analysis, please keep reading;
+  * wish to perform a similar analysis using own data, please check out [Procedure 1. Multi-assembler algorith](https://github.com/drozdovapb/mt_genome_benchmark#multi-assembler-algorithm);
+  * would like to skip the detail and just go to the recommended procedure for mitochondrial genome assembly, click here: [Procedure 2. Recommended procedure](https://github.com/drozdovapb/mt_genome_benchmark#recommended-procedure).
 
 ## Table of contents:
   * [Dependencies](https://github.com/drozdovapb/mt_genome_benchmark#dependencies)
@@ -27,7 +30,6 @@ In this work, we used the following mitochondrial genome assemblers (whether you
 
 You can access detailed information about the assembler and installation instructions by following the link—just click on the assembler name. Please note that we did not develop any of those and are not responsible for their maintenance, but we did run all of them and might be able to help with installation and running issues—please [open an issue]([url](https://github.com/drozdovapb/mt_genome_benchmark/issues)) if you need help. In addition, all the credit goes to the authors, so please do not forget to cite corresponding papers if you use any of those.
 
-
 The following tools were used to evaluate the SCORE of the obtained assemblies:
 
 * [minimap2](https://github.com/lh3/minimap2)
@@ -39,10 +41,13 @@ For testing mitogenome assemblers, we used data from both DNA and RNA sequencing
 
 ### Raw reads:
 
+DNA sequencing (DBNseq):
 * _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911160&display=metadata)_ (Several animals, DNAseq)!
-* _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR8206017&display=metadata)_ (Several animals, RNAseq)
 * _[Eulimnogammarus verrucosus S](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911165&display=metadata)_ (DNAseq)!
 * _[Baikalogammarus pullus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=DRR911159&display=metadata)_ (DNAseq)!
+RNA sequencing:
+* _[Eulimnogammarus cyaneus](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR8206017&display=metadata)_ (Several animals, RNAseq)
+
 
 ### References:
 
@@ -110,7 +115,7 @@ The/path/where/it/is/stored/res_LNS.sh 'pattern/path/to/your/file/*.fasta'
 
 #### length_uniq_seq5.sh
 
-lenght_uniq_seq5.sh is a tool created to analyse the final .fasta file of mitogenome assembly. This script allows for an extensive search for files by pattern, with the ability to specify the search depth, count the number of contigs/scaffolds/sequences, and evaluate the length of each. In the final stage, the script generates a .csv file containing the following information: assembler name, type of data used for mitogenome assembly, reference type, contig number, total number of contigs, contig length.
+length_uniq_seq5.sh is a tool created to analyse the final .fasta file of mitogenome assembly. This script allows for an extensive search for files by pattern, with the ability to specify the search depth, count the number of contigs/scaffolds/sequences, and evaluate the length of each. In the final stage, the script generates a .csv file containing the following information: assembler name, type of data used for mitogenome assembly, reference type, contig number, total number of contigs, contig length.
 
 ```
 #Example of using lenght_uniq_seq5.sh.
@@ -329,4 +334,69 @@ After all the assemblers you are interested in have assembled mitogenomes or som
 
 ## Recommended procedure
 
-...
+We found that the following procedure has maximal efficiency:
+<img width="431" height="491" alt="image" src="https://github.com/user-attachments/assets/c80a6c88-0525-45d4-8e6b-612dc1e686fe" />
+
+Let's try with _Gammarus lacustris_—it's a well-studied species (species complex but still), and there is a reference mitochondrial genome available.
+## todo try with Gla by the Gla reference!! redo!!
+
+```
+(base) drozdovapb@server:~/mt_genomes/mt_genome_benchmark$ ./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MITObim/Configuration_file_MITObim.txt ./1_assembly/MITObim/universal_script_MITObim.sh  MITObim
+
+#stopped_here now for G. lacustris
+
+
+./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MitoFinder/Configuration_file_MitoFinder.txt ./1_assembly/MitoFinder/universal_script_MitoFinder.sh MitoFinder
+
+
+./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MITObim/Configuration_file_MITObim.txt ./1_assembly/MitoFinder/universal_script_MitoFinder.sh MitoFinder
+
+
+reads=/media/main/sandbox/drozdovapb/mt_genomes/test_Gla/Gla_D2_filt_interleaved.fastq.gz ref=/media/main/sandbox/drozdovapb/mt_genomes/mt_genome_benchmark/1_assembly/MitoFinder/Gla/mt_genom_Gla_posCont/mt_genom_Gla_posCont_MitoFinder_megahit_mitfi_Final_Results/mt_genom_Gla_posCont_mtDNA_contig.fasta name=Gla_D2_2
+
+
+./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MITObim/Configuration_file_MITObim.txt ./1_assembly/MITObim/universal_script_MITObim.sh  MITObim
+
+reads=/media/main/sandbox/drozdovapb/mt_genomes/mt_genome_benchmark/Gla/Gla_D2_filt_interleaved.fastq.gz ref=/media/main/sandbox/drozdovapb/mt_genomes/mt_genome_benchmark/1_assembly/MitoFinder/Gla/mt_genom_Gla_posCont/mt_genom_Gla_posCont_MitoFinder_megahit_mitfi_Final_Results/mt_genom_Gla_posCont_mtDNA_contig.fasta name=Gla_D2_2
+```
+
+And now let's try with _Gammarus dabanus_, a very poorly studied species with almost no available data.
+We will use _E. cyaneus_ as a reference.
+
+first MitoFinder
+``` 
+  601  ./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MitoFinder/Configuration_file_MitoFinder.txt ./1_assembly/MitoFinder/universal_script_MitoFinder.sh MitoFinder
+  602  ls /media/main/genome/DNBSeq2023_proj617/result/SSP_617_WGS_Gda-D2/SSP_617_WGS_Gda-D2_trim_filt_1.fq.gz
+  603  ls /media/main/genome/DNBSeq2023_proj617/result/SSP_617_WGS_Gda-D2/SSP_617_WGS_Gda-D2_trim_filt_2.fq.gz
+  604  ls /media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.gb
+  605  ls
+  606  cat errors_2026-05-07_12-55-37.log 
+  607  ./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MitoFinder/Configuration_file_MitoFinder.txt ./1_assembly/MitoFinder/universal_script_MitoFinder.sh MitoFinder
+  608  nano 1_assembly/MitoFinder/Configuration_file_MitoFinder.txt 
+  609  ./1_assembly/Developed_tools/cyclescripts.sh ./1_assembly/MitoFinder/Configuration_file_MitoFinder.txt ./1_assembly/MitoFinder/universal_script_MitoFinder.sh MitoFinder
+  610  history | tail -10
+```
+
+Result:
+```
+2 genes were found in mtDNA_contig_1
+14 genes were found in mtDNA_contig_2
+1 gene was found in mtDNA_contig_3
+2 genes were found in mtDNA_contig_4
+1 gene was found in mtDNA_contig_5
+```
+
+Not bad but far from ideal. Let's proceed with MITObim.
+
+```
+export read1=/media/main/genome/DNBSeq2023_proj617/result/SSP_617_WGS_Gda-D2/SSP_617_WGS_Gda-D2_trim_filt_1.fq.gz
+export read2=/media/main/genome/DNBSeq2023_proj617/result/SSP_617_WGS_Gda-D2/SSP_617_WGS_Gda-D2_trim_filt_2.fq.gz
+bbduk.sh -Xmx1G in=$read1 in2=$read2 out=Gda_D2_filt_interleaved.fastq.gz  # important! fq is illegal, should be fastq!
+```
+
+```
+reads=/media/main/sandbox/drozdovapb/mt_genomes/test_Gda/Gda_D2_filt_interleaved.fastq.gz ref=./1_assembly/MitoFinder/Gda/mt_genom_Gda_posCont/mt_genom_Gda_posCont_MitoFinder_megahit_mitfi_Final_Results/mt_genom_Gda_posCont_mtDNA_contig_2.fasta name=Gda_D2_2
+```
+
+## TODO test result
+
