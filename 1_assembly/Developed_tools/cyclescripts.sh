@@ -2,35 +2,71 @@
 set -uo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$SCRIPT_DIR"
 
-while [[ "$REPO_ROOT" != "/" ]]; do
-    if [[ -f "$REPO_ROOT/README.md" ]] || [[ -d "$REPO_ROOT/.git" ]]; then
-        break
+if [[ -n "${REPO_ROOT:-}" ]]; then
+    REPO_ROOT="$(realpath -m "$REPO_ROOT")"
+    export REPO_ROOT
+    echo "Using REPO_ROOT from environment: $REPO_ROOT" >&2
+else
+    REPO_ROOT="$SCRIPT_DIR"
+    while [[ "$REPO_ROOT" != "/" ]]; do
+        if [[ -d "$REPO_ROOT/.git" ]]; then
+            break
+        fi
+        REPO_ROOT="$(dirname "$REPO_ROOT")"
+    done
+
+    if [[ "$REPO_ROOT" == "/" ]]; then
+        REPO_ROOT="$SCRIPT_DIR"
+        echo "WARNING: Could not find repository root (no .git folder)." >&2
+        echo "Using SCRIPT_DIR as REPO_ROOT: $REPO_ROOT" >&2
+        echo "If you use '{{REPO_ROOT}}' in config files, this may cause issues." >&2
+        echo "Set the REPO_ROOT environment variable or clone the full repository." >&2
     fi
-    REPO_ROOT="$(dirname "$REPO_ROOT")"
-done
+    export REPO_ROOT
+fi
+# ================================================================
 
-if [[ "$REPO_ROOT" == "/" ]]; then
-    echo "ERROR: Could not find repository root (no README.md or .git found)" >&2
+get_cli_arg() {
+    local key="$1"
+    shift
+    for arg in "$@"; do
+        if [[ "$arg" =~ ^${key}= ]]; then
+            echo "${arg#*=}"
+            return 0
+        fi
+    done
+    return 1
+}
+
+if [[ "$*" != *"="* ]]; then
+    echo "ERROR: This script now requires key=value arguments." >&2
+    echo "Usage: $0 config_file=/path/to/config.txt universal_script=/path/to/script.sh assembler_name=ARC" >&2
+    echo "  or:   $0 config=/path/to/config.txt script=/path/to/script.sh assembler=ARC" >&2
+    echo "  assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, NOVOPlasty, Norgal, mtGrasp" >&2
     exit 1
 fi
 
-export REPO_ROOT
-# =============================================================
-
-if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <config_file> <universal_script> <assembler_name>"
-    echo "  assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, NOVOPlasty, Norgal, mtGrasp"
+config_file="$(get_cli_arg "config_file" "$@")" || config_file="$(get_cli_arg "config" "$@")" || {
+    echo "ERROR: Missing required key 'config_file' or 'config'" >&2
     exit 1
-fi
+}
+universal_script="$(get_cli_arg "universal_script" "$@")" || universal_script="$(get_cli_arg "script" "$@")" || {
+    echo "ERROR: Missing required key 'universal_script' or 'script'" >&2
+    exit 1
+}
+assembler_name="$(get_cli_arg "assembler_name" "$@")" || assembler_name="$(get_cli_arg "assembler" "$@")" || {
+    echo "ERROR: Missing required key 'assembler_name' or 'assembler'" >&2
+    exit 1
+}
 
-config_file="$1"
-universal_script="$2"
-assembler_name="$3"
+LOG_DIR="./logs"
+mkdir -p "$LOG_DIR" || { echo "ERROR: Failed to create log directory '$LOG_DIR'" >&2; exit 1; }
 
-LOG_FILE="script_$(date +'%Y-%m-%d_%H-%M-%S').log"
-ERROR_LOG_FILE="errors_$(date +'%Y-%m-%d_%H-%M-%S').log"
+TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
+LOG_FILE="${LOG_DIR}/script_${assembler_name}_${TIMESTAMP}.log"
+ERROR_LOG_FILE="${LOG_DIR}/errors_${assembler_name}_${TIMESTAMP}.log"
+# ====================================================================
 
 log() {
     local timestamp=$(date +"%Y-%m-%d %H:%M:%S")
@@ -49,9 +85,9 @@ log "REPO_ROOT = $REPO_ROOT"
 log "Config: $config_file"
 log "Assembler script: $universal_script"
 log "Assembler: $assembler_name"
+log "Log directory: $LOG_DIR"
 log "----------------------------------------"
 
-# Checking existence and permissions with explicit messages
 if [ ! -f "$config_file" ]; then
     error_log "Configuration file not found: $config_file"
     exit 1
@@ -65,25 +101,6 @@ if [ ! -x "$universal_script" ]; then
     exit 1
 fi
 
-# Determining the key order for each assembler
-case "$assembler_name" in
-    ARC)            key_order="config name" ;;
-    GetOrganelle)   key_order="read1 read2 ref name" ;;
-    MEANGS)         key_order="read1 read2 name len_ins" ;;
-    MITGARD)        key_order="read1 read2 ref name" ;;
-    MITObim)        key_order="reads ref name" ;;
-    MitoFinder)     key_order="read1 read2 ref name" ;;
-    MitoZ)          key_order="read1 read2 name" ;;
-    NOVOPlasty)     key_order="config name" ;;
-    Norgal)         key_order="read1 read2 name" ;;
-    mtGrasp)        key_order="read1 read2 ref name" ;;
-    *)              error_log "Неизвестный сборщик: $assembler_name"; exit 1 ;;
-esac
-
-# Convert string to array
-key_order_arr=($key_order)
-
-# String parsing function (without associative arrays)
 parse_line() {
     local line="$1"
     local -n out_args=$2
@@ -91,60 +108,59 @@ parse_line() {
     local vals=()
     out_args=()
 
+    if [[ ! "$line" =~ = ]]; then
+        error_log "Invalid format: line does not contain any '='. Expected: key1=value1 key2=value2 ..."
+        return 1
+    fi
+
     for token in $line; do
         if [[ "$token" =~ ^([a-zA-Z0-9_]+)=(.*)$ ]]; then
             keys+=("${BASH_REMATCH[1]}")
             vals+=("${BASH_REMATCH[2]}")
         else
-            error_log "Invalid token: $token"
+            error_log "Invalid token: '$token' (expected key=value)"
             return 1
         fi
     done
 
-    for key in "${key_order_arr[@]}"; do
-        local found=0
-        for i in "${!keys[@]}"; do
-            if [[ "${keys[$i]}" == "$key" ]]; then
-                # repo_root value
-                val="${vals[$i]}"
-                val="${val//\{\{REPO_ROOT\}\}/$REPO_ROOT}"
-                out_args+=("$val")
-                found=1
-                break
-            fi
-        done
-        if [[ $found -eq 0 ]]; then
-            error_log "Required key missing '$key'"
-            return 1
-        fi
+    for i in "${!keys[@]}"; do
+        key="${keys[$i]}"
+        val="${vals[$i]}"
+        val="${val//\{\{REPO_ROOT\}\}/$REPO_ROOT}"
+        out_args+=("$key=$val")
     done
     return 0
 }
 
-# Main loop
+# -------------------------------------------------------------------
+# Main loop over config file lines
+# -------------------------------------------------------------------
 line_number=0
 error_count=0
 
 while IFS= read -r line || [ -n "$line" ]; do
     ((line_number++))
-    # Remove comment
+    # Remove comments (everything after #) and trim whitespace
     line_clean="${line%%#*}"
-    # Trim leading and trailing spaces using sed
     line_clean=$(echo "$line_clean" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
     [ -z "$line_clean" ] && continue
 
     log "Processing string $line_number: $line_clean"
 
     if parse_line "$line_clean" args; then
-        log "Arguments (after REPO_ROOT substitution): ${args[*]}"
+        log "Arguments (key=value): ${args[*]}"
         log "Run: $universal_script ${args[*]}"
         start_time=$(date +%s)
-        if "$universal_script" "${args[@]}" >> "$LOG_FILE" 2>&1; then
+
+        "$universal_script" "${args[@]}" 2>&1 | tee -a "$LOG_FILE"
+        exit_code=${PIPESTATUS[0]}
+
+        if [ $exit_code -eq 0 ]; then
             end_time=$(date +%s)
             duration=$((end_time - start_time))
             log "Successfully completed in ${duration} sec"
         else
-            error_log "String $line_number: execution error (code $?)"
+            error_log "String $line_number: execution error (code $exit_code)"
             error_log "Arguments: ${args[*]}"
             ((error_count++))
         fi
@@ -160,4 +176,3 @@ log "Errors: $error_count"
 log "Finished"
 
 exit $((error_count > 0 ? 1 : 0))
-
