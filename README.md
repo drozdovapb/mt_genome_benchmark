@@ -17,16 +17,19 @@ If you:
 
 In this work, we used the following mitochondrial genome assemblers (whether you need all or some of them depends on your goals):
 
-* [MITObim](https://github.com/chrishah/MITObim) (Version 1.9.1)
-* [MitoZ](https://github.com/linzhi2013/MitoZ) (Version 3.6)
-* [GetOrganelle](https://github.com/Kinggerm/GetOrganelle) (Version 1.7.4.1)
-* [mtGrasp](https://github.com/bcgsc/mtGrasp) (Version 1.1.8)
-* [Norgal](https://bitbucket.org/kosaidtu/norgal) (Version 1.0.0)
-* [MEANGS](http://github.com/YanCCscu/meangs) (Version 1.0)
-* [MitoFinder](https://github.com/RemiAllio/MitoFinder_container/) (Version 1.4.1)
-* [ARC](https://github.com/ibest/ARC.git) (Version 1.1.4-beta)
-* [NOVOPlasty](https://github.com/ndierckx/NOVOPlasty.git) (Version 4.3.5)
-* [MITGARD](https://github.com/pedronachtigall/MITGARD) (Version 1.0)
+* [MITObim](https://github.com/chrishah/MITObim) (Version 1.9.1) - You need to add the executable file to the PATH variable
+* [MitoZ](https://github.com/linzhi2013/MitoZ) (Version 3.6) - For this assembler, you need to create a conda environment named "mitozEnv"
+* [GetOrganelle](https://github.com/Kinggerm/GetOrganelle) (Version 1.7.4.1) - You need to add the executable file to the PATH variable
+* [mtGrasp](https://github.com/bcgsc/mtGrasp) (Version 1.1.8) - For this assembler, you need to create a conda environment named "mtgrasp"
+* [Norgal](https://bitbucket.org/kosaidtu/norgal) (Version 1.0.0) - You need to add the executable file to the PATH variable.
+* [MEANGS](http://github.com/YanCCscu/meangs) (Version 1.0) - You need to add the executable file to the PATH variable
+* [MitoFinder](https://github.com/RemiAllio/MitoFinder_container/) (Version 1.4.1) - You need to add the executable file to the PATH variable
+* [ARC](https://github.com/ibest/ARC.git) (Version 1.1.4-beta) - For this assembler, you need to create a conda environment named "ARS_python_2.7"
+* [NOVOPlasty](https://github.com/ndierckx/NOVOPlasty.git) (Version 4.3.5) - You need to add the executable file to the PATH variable
+* [MITGARD](https://github.com/pedronachtigall/MITGARD) (Version 1.0) - You need to add the executable file to the PATH variable
+
+[Link to how to do it (PATH).](https://askubuntu.com/questions/540344/add-custom-script-to-path)
+
 
 You can access detailed information about the assembler and installation instructions by following the link—just click on the assembler name. Please note that we did not develop any of those and are not responsible for their maintenance, but we did run all of them and might be able to help with installation and running issues—please [open an issue]([url](https://github.com/drozdovapb/mt_genome_benchmark/issues)) if you need help. In addition, all the credit goes to the authors, so please do not forget to cite corresponding papers if you use any of those.
 
@@ -142,33 +145,6 @@ Usage: ./cyclescripts_4.sh <config_file> <universal_script> <assembler_name>
 assembler_name: ARC, GetOrganelle, MEANGS, MITGARD, MITObim, MitoFinder, MitoZ, NOVOPlasty, Norgal, mtGrasp
 ```
 
-**Configuration file**
-
-A configuration file in .txt format consists of lines of actual arguments that will be passed to the universal assembler script. Therefore, it is closely related to the variables available in the assembler script and is fully dependent on the settings of the universal script. The functionality of cyclescripts.sh allows skipping commented lines (#), thereby providing the opportunity to create one common configuration file and, if necessary, to run repeated assemblies of target datasets by skipping unnecessary ones through line commenting. The configuration file is populated according to specific keys that vary across different assemblers. Examples of configuration files for each assembler are available in this repository within the folders of the same name.
-
-```
-#Example configuration file
-#reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_2
-reads=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved_3x_cover.fastq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya_3x_3
-```
-The presented configuration file was created for the [MITObim](https://github.com/chrishah/MITObim) assembler and contains the following 
-
-arguments name:
-
-* **reads** or **read1** / **read2** — Argument that expects the path to your raw reads (for the MITObim assembler used as an example, a single set of reads is used).
-* **config** - Argument that expects the path to the assembler's own configuration file. (Some assemblers, such as NOVOplasty, require configuration files containing paths to raw reads and a reference).
-* **ref** — Argument that expects the path to your reference sequence.
-* **name** — Argument that expects the name of the directory that will be used to store all output assembly files for this configuration.
-
-parameters:
-
-* **/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/EC_interleaved.fastq** — Path to raw reads.
-* **/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa** — Path to the reference.
-* **Ecya_3x_3** - The name of the directory that will be created for the output files of the assembler with the given arguments.
-
-This formatting of the configuration file will allow cyclescripts.sh to skip line 1 and run only the 2nd set of arguments.
-
-
 ## Before you begin: test your setup
 
 To evaluate the correct functioning of the tools we have developed, we recommend running a mitochondrial genome assembly on the test data provided in the simulation_data folder.
@@ -218,104 +194,74 @@ These folders contain the results produced by the assemblers used in the test si
 
 This step-by-step guide describes the generalized benchmarking procedure.
 
-### Steps for executing the algorithm
+After you have tested your setup in the step titled "Before you begin: test your setup", you already have the downloaded repository and can perform a multiple assembly similar to the one we did. For this you will need:
 
-1. Installing assemblers and setting up the workspace.
-2. Downloading and setting up additional tools and universal scripts for the assemblers of your choice from this repository.
-3. Creating configuration files for the assemblers of your choice.
-4. Running cyclescripts.sh.
+1. Your sequencing data (raw reads)
+2. Reference sequences for those assemblers that require them
 
+### Configuration files and universal scripts
 
-### 1. Installing assemblers and setting up the workspace
-To install the assemblers on your computer, follow the installation instructions on the web pages of the presented assemblers in this repository:
+In order to run the Multi-assembler algorithm, you first need to set up the configuration files for each assembler. Example configuration files for each assembler are provided in the correspondingly named folders. You simply need to replace the required fields with those matching your data.
 
-* [MITObim](https://github.com/chrishah/MITObim) (Version 1.9.1)
-* [MitoZ](https://github.com/linzhi2013/MitoZ) (Version 3.6)
-* [GetOrganelle](https://github.com/Kinggerm/GetOrganelle) (Version 1.7.4.1)
-* [mtGrasp](https://github.com/bcgsc/mtGrasp) (Version 1.1.8)
-* [Norgal](https://bitbucket.org/kosaidtu/norgal) (Version 1.0.0)
-* [MEANGS](http://github.com/YanCCscu/meangs) (Version 1.0)
-* [MitoFinder](https://github.com/RemiAllio/MitoFinder_container/) (Version 1.4.1)
-* [ARC](https://github.com/ibest/ARC.git) (Version 1.1.4-beta)
-* [NOVOPlasty](https://github.com/ndierckx/NOVOPlasty.git) (Version 4.3.5)
-* [MITGARD](https://github.com/pedronachtigall/MITGARD) (Version 1.0)
+~~~
+Example: Modifying the configuration file for the GetOrganelle assembler
+The configuration file provided in the repository looks as follows:
 
-After you have successfully installed the mitogenome assemblers, you need to create a directory (folder) in which you will carry out further work. For example, mt_Assemblers. Next, within this directory, you should create subfolders named after the assemblers you have installed.
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_2.fq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa name=Ecya
+#read1=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_1.fq read2=/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Ecy_D1_trim_filt_2.fq ref=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Eve_ref.fa name=Eve
 
-Great! The installation and setup step is complete.
+As you can see, it contains four key arguments — read1, read2, ref, name
 
-- [X] Installing assemblers and setting up the workspace.
+To make this file functional, you need to specify the full paths to your sequencing data (read1 and read2), the full path to your reference sequence, and a working name for the directory where the results will be saved.
+~~~
+Thus, you need to modify the configuration files for all assemblers.
 
-### 2. Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository.
+~~~
+Explanation of mandatory argument keys that may appear in configuration files:
 
-1. First, you need to download the additional tools listed above and save them in the mt_Assemblers folder.
-	
-* [monitor_PPID2407_2.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/monitor_PPID2407_2.sh)
-* [res_LNS.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/res_LNS.sh)
-* [lenght_uniq_seq5.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/lenght_uniq_seq5.sh)
-* [evaluate_completeness.sh](https://github.com/chloroExtractorTeam/benchmark/blob/master/code/evaluate_completeness.sh)
-* [cyclescripts.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Developed%20tools/cyclescripts.sh)
+read1 — Path to forward reads;
+read2 — Path to reverse reads;
+config — Path to the configuration file required by the assembler itself (not to be confused with the configuration file for the Multi-assembler algorithm presented in this work);
+name — Name of the directory that will be created during the assembly process and where the results will be saved;
+len_ins — Insert length;
+ref — Path to the reference sequence;
+clade — Group of organisms corresponding to the taxonomy of your species (usually restricted and fixed in the assembler's manual);
+genetic_code — Genetic code type (usually restricted and fixed in the assembler's manual);
 
-**Addition:** If you want to evaluate the SCORE of your assemblies, you need to install the following as well:
+Explanation of available options that can be used when creating configuration files or using universal assembler scripts: 
 
-* [minimap2](https://github.com/lh3/minimap2)
-* [bedtools2](https://github.com/arq5x/bedtools2)
-	
-2. You can use additional tools by specifying the full path to the script. However, you can also add the script to the PATH variable and then use only its name to launch it. [Here](https://askubuntu.com/questions/540344/add-custom-script-to-path) is the instruction on how to do it.
-   
-   P.S. The universal assembler scripts use the computer resource monitor monitor_PPID2407_2.sh. If you want it to run during the assembly process, it must be added to the PATH variable.
-   
-3. Next, for each of the assemblers, it is necessary to download the universal launch script from the namesake folders of this repository or from the link below and save it in your folders named after the assemblers.
+threads — Number of threads used for the assembly (default: 4);
+memory — Amount of RAM used during the assembly (default: 4);
+mode — Assembly mode (if available in the universal script, refer to the assembler's manual);
+kbait — k-mer size;
+start — Iteration start;
+end — Iteration end;
+assembler — Assembler type;
+organism — Genetic code type (usually restricted and fixed in the assembler's manual);
+processors — Number of threads used for the assembly (default: 4);
+skip_filter — Skip the filtering step (if the data have already been filtered);
 
-* [universal_script_MITObim.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/universal_script_MITObim.sh)
-* [universal_script_COI_MITObim.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/universal_script_COI_MITObim.sh)
-* [universal_script_MitoZ.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoZ/universal_script_MitoZ.sh)
-* [universal_script_GetOrganelle.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/GetOrganelle/universal_script_GetOrganelle.sh)
-* [universal_script_mtGrasp.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/mtGrasp/universal_script_mtGrasp.sh)
-* [universal_script_Norgal.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Norgal/universal_script_Norgal.sh)
-* [universal_script_MEANGS.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MEANGS/universal_script_MEANGS.sh)
-* [universal_script_MitoFinder.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoFinder/universal_script_MitoFinder.sh)
-* [universal_script_ARC.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/ARC/universal_script_ARC.sh)
-* [universal_script_NOVOPlasty.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/NOVOPlasty/universal_script_NOVOPlasty.sh)
-* [universal_script_MITGARD.sh](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITGARD/universal_script_MITGARD.sh)
+Available options for each assembler can be viewed by running the universal script without any arguments.
 
-**Important!** Each universal script uses monitor_PPID2407_2.sh within itself. To avoid issues, you should add this tool to the PATH variable before running the universal assembler scripts.[Link to how to do it.](https://askubuntu.com/questions/540344/add-custom-script-to-path) However, if you do not want to use resource monitoring, simply skip the step of installing the monitor. The universal assembler scripts will warn you that the monitor is unavailable but will continue with the assembly.
+~~~
 
-Great! The step of installing additional tools and downloading universal scripts is completed.
+### Running cyclescripts.sh
 
-- [x] Downloading and configuring additional tools and universal scripts for the assemblers you have chosen from this repository
+After you have adapted the configuration files to your data, you need to navigate to the repository folder named Developed_tools. In this folder, you will find cyclescripts.sh, which will allow you to start the multiple assembly process.
 
-### 3. Creating configuration files for the assemblers you have chosen
+~~~
+#Example of running cyclescripts.sh (General command)
+./cyclescripts.sh path/to/your/configuration/file.txt path/to/the/universal_assembler_script.sh Assembler_name
+~~~
 
-Configuration files differ for each assembler in the number of arguments, so it is important to take this into account when creating a configuration file. Since the files are individual for each assembler, the simplest way to create such a file with your input data is to download it from the appropriate assembler folder and format it by inserting your data instead of the examples. Sample files and argument descriptions are available in this repository.
+cyclescripts.sh will create a logs directory where critical error logs and a general assembler run log will be written; the run log will contain information about the assembly process.
 
-**Links to configuration files and parameter descriptions:**
-
-* [Configuration_file_MITObim.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/Configuration_file_MITObim.txt)
-* [Configuration_file_MITObim_COI.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITObim/Configuration_file_MITObim_COI.txt) 
-* [Configuration_file_MitoZ.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoZ/Configuration_file_MitoZ.txt) 
-* [Configuration_file_GetOrganelle.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/GetOrganelle/Configuration_file_GetOrganelle.txt)
-* [Configuration_file_mtGrasp.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/mtGrasp/Configuration_file_mtGrasp.txt)
-* [Configuration_file_Norgal.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Norgal/Configuration_file_Norgal.txt)
-* [Configuration_file_MEANGS.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MEANGS/Configuration_file_MEANGS.txt)
-* [Configuration_file_MitoFinder.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MitoFinder/Configuration_file_MitoFinder.txt)
-* [Configuration_file_ARC.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/ARC/Configuration_file_ARC.txt)
-* [Configuration_file_NOVOPlasty.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/NOVOPlasty/Configuration_file_NOVOPlasty.txt)
-* [Configuration_file_MITGARD.txt](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/MITGARD/Configuration_file_MITGARD.txt)
-* [Description_of_parameters.xlsx](https://github.com/drozdovapb/mt_genome_benchmark/blob/main/1_assembly/Description_of_parameters.xlsx)
-
-Great! The step of creating configuration files is completed.
-
-- [x] Creating configuration files for the assemblers you have chosen
-
-### 4. Running cyclescripts.sh
-
-The cyclescripts.sh script is best run in a separate folder, as it creates logs, and if there are many launch options, there will accordingly be many logs. cyclescripts.sh creates a log of critical errors and a general log of the assembler launch, which will contain information about the assembly process.
+Results for each assembler will be saved into the correspondingly named folders.
 
 The logs that are created will be presented in the following formats:
 
-* errors_2025-10-21_18_27-42.log — A log with launch errors, this is indicated by the «errors» log type, «2025-10-21» is the log creation date in the year-month-day format, «18_27_42» hms is the log creation time in the 24-hour time format.
-* script_2025-10-21_18_27-42.log — A log with information about the assembly process, this is indicated by the “script” log type, “2025-10-21” is the log creation date in the year-month-day format, “18_27_42” hms is the log creation time in the 24-hour time format.
+* errors_Assembler_name2025-10-21_18_27-42.log — A log with launch errors, this is indicated by the «errors» log type, «2025-10-21» is the log creation date in the year-month-day format, «18_27_42» hms is the log creation time in the 24-hour time format.
+* script_Assembler_name2025-10-21_18_27-42.log — A log with information about the assembly process, this is indicated by the “script” log type, “2025-10-21” is the log creation date in the year-month-day format, “18_27_42” hms is the log creation time in the 24-hour time format.
 
 **Convenient!** cyclescripts.sh can be added to the PATH variable. [Link to how to do it.](https://askubuntu.com/questions/540344/add-custom-script-to-path)
 
