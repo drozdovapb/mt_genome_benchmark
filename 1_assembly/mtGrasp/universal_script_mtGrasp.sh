@@ -50,7 +50,7 @@ if [[ "$*" == *"="* ]]; then
 else
     # --- Positional mode (backward compatibility) ---
     if [ "$#" -ne 4 ]; then
-        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.fa name=output_folder [threads=8] [memory=5] [nsub=yes]"
+        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.fa name=output_folder [threads=4] [memory=5] [nsub=yes]"
         error "Usage (positional): $0 <readseq1> <readseq2> <ref> <output_folder_name>"
         exit 1
     fi
@@ -58,13 +58,13 @@ else
     read2="$2"
     ref="$3"
     papka_name="$4"
-    threads="8"
+    threads="4"          # изменено с 8 на 4
     memory="5"
     nsub=""
 fi
 
 # --- Set defaults for optional parameters ---
-threads="${threads:-8}"
+threads="${threads:-4}"   # изменено с 8 на 4
 memory="${memory:-5}"
 nsub="${nsub:-}"
 
