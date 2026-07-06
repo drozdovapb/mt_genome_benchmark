@@ -51,7 +51,7 @@ if [[ "$*" == *"="* ]]; then
 else
     # --- Positional mode (backward compatibility) ---
     if [ "$#" -ne 4 ]; then
-        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.gb name=output_folder [assembler=megahit|idba|metaspades] [organism=5] [processors=8] [memory=32]"
+        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.gb name=output_folder [assembler=megahit|idba|metaspades] [organism=5] [processors=4] [memory=4]"
         error "Usage (positional): $0 <readseq1> <readseq2> <ref> <output_folder_name>"
         exit 1
     fi
@@ -61,15 +61,15 @@ else
     papka_name="$4"
     assembler="megahit"
     organism="5"
-    processors="8"
-    memory="32"
+    processors="4"      # изменено с 8 на 4
+    memory="4"          # изменено с 32 на 4
 fi
 
 # --- Set defaults for optional parameters ---
 assembler="${assembler:-megahit}"
 organism="${organism:-5}"
-processors="${processors:-8}"
-memory="${memory:-32}"
+processors="${processors:-4}"   # изменено с 8 на 4
+memory="${memory:-4}"           # изменено с 32 на 4
 
 # --- Validate assembler ---
 if [[ "$assembler" != "megahit" && "$assembler" != "idba" && "$assembler" != "metaspades" ]]; then
