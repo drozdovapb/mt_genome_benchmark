@@ -52,7 +52,7 @@ else
     # --- Positional mode (backward compatibility) ---
     # Now expects 5 arguments: read1 read2 name clade genetic_code
     if [ "$#" -ne 5 ]; then
-        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq name=output_folder clade=Arthropoda genetic_code=5 [assembler=megahit] [memory=12] [skip_filter=yes]"
+        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq name=output_folder clade=Arthropoda genetic_code=5 [assembler=megahit] [memory=4] [skip_filter=yes]"
         error "Usage (positional): $0 <readseq1> <readseq2> <output_folder_name> <clade> <genetic_code>"
         exit 1
     fi
@@ -62,13 +62,13 @@ else
     clade="$4"
     genetic_code="$5"
     assembler="megahit"
-    memory="12"
+    memory="4"
     skip_filter=""
 fi
 
 # --- Set defaults for optional parameters ---
 assembler="${assembler:-megahit}"
-memory="${memory:-12}"
+memory="${memory:-4}"
 skip_filter="${skip_filter:-}"
 
 # --- Validate numeric parameters ---
