@@ -42,10 +42,13 @@ if [[ "$*" == *"="* ]]; then
     read2="$(get_arg "read2" "$@")" || { error "Missing required key 'read2'"; exit 1; }
     ref="$(get_arg "ref" "$@")" || { error "Missing required key 'ref'"; exit 1; }
     papka_name="$(get_arg "name" "$@")" || { error "Missing required key 'name'"; exit 1; }
+
+    # Optional arguments (defaults set later)
+    threads="$(get_arg "threads" "$@")" || true
 else
     # --- Positional mode (backward compatibility) ---
     if [ "$#" -ne 4 ]; then
-        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.fa name=output_folder"
+        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq ref=/path/ref.fa name=output_folder [threads=4]"
         error "Usage (positional): $0 <readseq1> <readseq2> <ref> <output_folder_name>"
         exit 1
     fi
@@ -53,6 +56,16 @@ else
     read2="$2"
     ref="$3"
     papka_name="$4"
+    threads="4"
+fi
+
+# --- Set defaults for optional parameters ---
+threads="${threads:-4}"
+
+# --- Validate numeric parameters ---
+if ! [[ "$threads" =~ ^[0-9]+$ ]]; then
+    error "threads must be a positive integer (got '$threads')"
+    exit 1
 fi
 
 # --- Function to check a file (exists, not empty, readable) ---
@@ -103,7 +116,6 @@ if command -v get_organelle_from_reads.py &> /dev/null; then
     GETORG_CMD="get_organelle_from_reads.py"
     log "Found get_organelle_from_reads.py in PATH: $(which get_organelle_from_reads.py)"
 elif [[ -n "${GETORG_BIN:-}" && -f "$GETORG_BIN" ]]; then
-    # If GETORG_BIN is set, use it (we don't require it to be executable, just a file)
     GETORG_CMD="$GETORG_BIN"
     log "Using GETORG_BIN: $GETORG_BIN"
 else
@@ -113,9 +125,9 @@ else
     exit 1
 fi
 
-# --- Build the command to run GetOrganelle ---
+# --- Build the command to run GetOrganelle (with configurable threads) ---
 # Note: the original command has -R 10 twice; we preserve it.
-GETORG_CMD_FULL="$GETORG_CMD -1 $read1 -2 $read2 -R 10 -F animal_mt -t 16 -s $ref -o ${papka_name}_rna_getorgan -R 10"
+GETORG_CMD_FULL="$GETORG_CMD -1 $read1 -2 $read2 -R 10 -F animal_mt -t $threads -s $ref -o ${papka_name}_rna_getorgan -R 10"
 log "Command prepared: $GETORG_CMD_FULL"
 
 # --- Determine the monitoring script ---
