@@ -48,19 +48,19 @@ if [[ "$*" == *"="* ]]; then
 else
     # --- Positional mode (backward compatibility) ---
     if [ "$#" -ne 3 ]; then
-        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq name=output_folder [threads=8] [blast=yes]"
+        error "Usage (key=value): $0 read1=/path/R1.fastq read2=/path/R2.fastq name=output_folder [threads=4] [blast=yes]"
         error "Usage (positional): $0 <readseq1> <readseq2> <output_folder_name>"
         exit 1
     fi
     read1="$1"
     read2="$2"
     papka_name="$3"
-    threads="8"
+    threads="4"          # изменено с 8 на 4
     blast=""
 fi
 
 # --- Set defaults for optional parameters ---
-threads="${threads:-8}"
+threads="${threads:-4}"   # изменено с 8 на 4
 blast="${blast:-}"
 
 # --- Validate numeric parameters ---
@@ -120,7 +120,6 @@ elif command -v norgal.py &> /dev/null; then
     log "Found norgal.py in PATH: $(which norgal.py)"
 elif [[ -n "${NORGAL_PY:-}" && -f "$NORGAL_PY" ]]; then
     # If NORGAL_PY is set to a .py file, run it with python
-    # Check if python is available
     if command -v python &> /dev/null; then
         NORGAL_CMD="python $NORGAL_PY"
         log "Using NORGAL_PY: $NORGAL_PY"
