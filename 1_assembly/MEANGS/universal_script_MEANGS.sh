@@ -108,7 +108,6 @@ if command -v meangs.py &> /dev/null; then
     MEANGS_CMD="meangs.py"
     log "Found meangs.py in PATH: $(which meangs.py)"
 elif [[ -n "${MEANGS_BIN:-}" && -f "$MEANGS_BIN" ]]; then
-    # If MEANGS_BIN is set, use it (we don't require it to be executable, just a file)
     MEANGS_CMD="$MEANGS_BIN"
     log "Using MEANGS_BIN: $MEANGS_BIN"
 else
@@ -118,9 +117,9 @@ else
     exit 1
 fi
 
-# --- Build the command to run MEANGS ---
+# --- Build the command to run MEANGS (without explicit threads/memory) ---
 OUT_PREFIX="${papka_name}_mt_meangs_quick_base"
-MEANGS_CMD_FULL="$MEANGS_CMD -1 $read1 -2 $read2 -o $OUT_PREFIX -t 8 -i $len_ins"
+MEANGS_CMD_FULL="$MEANGS_CMD -1 $read1 -2 $read2 -o $OUT_PREFIX -i $len_ins"
 log "Command prepared: $MEANGS_CMD_FULL"
 
 # --- Determine the monitoring script ---
