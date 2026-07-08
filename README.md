@@ -11,9 +11,16 @@ We found that the following procedure has maximal efficiency:
 <img width="431" height="491" alt="image" src="https://github.com/user-attachments/assets/c80a6c88-0525-45d4-8e6b-612dc1e686fe" />
 
 ### Dependencies
- - [ ] (_optional_) `NCBI sratools` (https://github.com/ncbi/sra-tools) for downloading raw reads if using reads from NCBI;
- - [ ] `BBTools` (https://bbmap.org/) for read manipulation;
- - [ ] (_optional_) FastQC https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+This pipeline has been tested in several Linux distributions.
+
+ - (_optional_) `NCBI sratools` (https://github.com/ncbi/sra-tools) for downloading raw reads from NCBI;
+ - `BBTools` (https://bbmap.org/) for read manipulation;
+ - (_optional_) FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for checking read quality;
+ - MitoFinder, which can be installed in two ways:
+   - for direct compilation (https://github.com/RemiAllio/MitoFinder); we highly recommend creating a reserved conda environment using python 2.7.
+   - or as a Singularity containter (https://github.com/RemiAllio/MitoFinder_container/); requires Singularity.
+ - MITObim (https://github.com/chrishah/MITObim).
   
 
 Particular versions used in this work are available in the [full procedure](https://github.com/drozdovapb/mt_genome_benchmark/tree/main/1_assembly/README.md), but in general this procedure should work with any recent version.
@@ -36,7 +43,7 @@ Particular versions used in this work are available in the [full procedure](http
 #download adapter sequences
 curl https://raw.githubusercontent.com/BioInfoTools/BBMap/refs/heads/master/resources/adapters.fa
 #trim adapters and filter reads by quality:
-bbduk.sh -Xmx1G in= in2=SSP_617_WGS_Ofl-D2_L1_2.fq.gz out=Ofl_filt_1.fq.gz out2=Ofl_filt_2.fq.gz \
+bbduk.sh -Xmx1G in=DRR911170_1.fastq in2=DRR911170_2.fastq out=Ofl_filt_1.fq.gz out2=Ofl_filt_2.fq.gz \
   ktrim=r k=23 mink=11 hdist=1 ref=adapters.fa
 ```
 #### 2. *De novo* assembly with MitoFinder
