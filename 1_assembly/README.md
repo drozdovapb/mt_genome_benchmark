@@ -1,6 +1,6 @@
 ## Multi-assembler algorithm
 
-This step-by-step guide describes the generalized benchmarking procedure.
+This step-by-step guide describes the generalized benchmarking procedure.1
 
 After you have tested your setup in the step titled "Before you begin: test your setup", you already have the downloaded repository and can perform a multiple assembly similar to the one we did. For this you will need:
 
