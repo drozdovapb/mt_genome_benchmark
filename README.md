@@ -25,13 +25,6 @@ This pipeline has been tested in several Linux distributions.
 
 Particular versions used in this work are available in the [full procedure](https://github.com/drozdovapb/mt_genome_benchmark/tree/main/1_assembly/README.md), but in general this procedure should work with any recent version.
 
-### Data
-
-  - Short genome reads the studied organism. 
-    - In this demonstration it will be *Ommatogammarus flavus* `DRR911170`, which can be downloaded like this: `fasterq-dump DRR911170`.
-  - Assembly of a related mitochondrial genome in .fasta and genbank formats. The reference does not have to be very close. However, the closer the genome, the faster the analysis it will be and the better the chance of assembling a complete genome is. 
-    - In this demonstration we use *Eulimnogammarus cyaneus*. The studied species are separated by a phylogenetic distance close to 0.5 substitutions/site and have split up ~15 million years ago based on the analysis of 15 mitochondrial genes. Reference *E. cyaneus* genome (Romanova et al., 2016) is available from NCBI Genbank in [fasta](https://www.ncbi.nlm.nih.gov/nuccore/KX341964.1?report=fasta) and [genbank](https://www.ncbi.nlm.nih.gov/nuccore/KX341964.1?report=genbank) formats. We will save these files as `KX341964_Ecy_mt_genome.fa` and `KX341964_Ecy_mt_genome.gb`, respectively.
-
 ### Procedure
 
 > [!IMPORTANT]
