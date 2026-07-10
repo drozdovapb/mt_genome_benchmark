@@ -34,6 +34,10 @@ Particular versions used in this work are available in the [full procedure](http
 
 ### Procedure
 
+> [!IMPORTANT]
+> **Execution Guide:**
+> Before running the pipeline, it is recommended to copy all the commands into a local text editor. Replace the placeholder paths (/PATH/YOUR/READS_1.fq.gz) and output filenames (NAME_YOUR_READS_1_TRIM.fq.gz) with your actual data. Since the code block includes line breaks, editing it in a text file first is much easier than doing it directly in the terminal.
+
 #### 1. Read preprocessing
 
   - Download reads using SRA/DRA/ERA accession number if necessary (see above).
@@ -41,26 +45,27 @@ Particular versions used in this work are available in the [full procedure](http
 
 ```
 #download adapter sequences
-curl https://raw.githubusercontent.com/BioInfoTools/BBMap/refs/heads/master/resources/adapters.fa
+curl -O -# https://raw.githubusercontent.com/BioInfoTools/BBMap/refs/heads/master/resources/adapters.fa
 #trim adapters and filter reads by quality:
-bbduk.sh -Xmx1G in=DRR911170_1.fastq in2=DRR911170_2.fastq out=Ofl_filt_1.fq.gz out2=Ofl_filt_2.fq.gz \
-  ktrim=r k=23 mink=11 hdist=1 ref=adapters.fa
+bbduk.sh -Xmx1G in=/PATH/YOUR/READS_1.fq.gz in2=/PATH/YOUR/READS_2.fq.gz out=NAME_YOUR_READS_1_TRIM.fq.gz out2=NAME_YOUR_READS_2_TRIM.fq.gz \
+ ktrim=r k=23 mink=11 hdist=1 ref=adapters.fa
 ```
 #### 2. *De novo* assembly with MitoFinder
 
   - Filter reads: optional but greatly reduces computational load, so highly recommended if performing the analysis using a personal computer. If RAM usage is not a concern, skip this step and change -1 and -2 arguments in the mitofinder run to the filtered reads above.
 
 ```
-bbduk.sh in=Ofl_filt_1.fq.gz in2=Ofl_filt_2.fq.gz \
-  ref=KX341964_Ecy_mt_genome.fa \
-  outm=Ofl_filt_Ecym_1.fq.gz outm2=Ofl_filt_Ecym_2.fq.gz k=17
-  rcomp=t qhdist=0 -Xmx2g
+bbduk.sh in=/PATH/YOUR/NAME_YOUR_READS_1_TRIM.fq.gz in2=/PATH/YOUR/NAME_YOUR_READS_2_TRIM.fq.gz \
+ ref=/PATH/YOUR/REFERENCE_SEQ.fa outm=NAME_YOUR_READS_1_TRIM_FILT.fq.gz outm2=NAME_YOUR_READS_2_TRIM_FILT.fq.gz \
+ k=17 rcomp=t qhdist=0 -Xmx2g
 ```
   - Run MitoFinder. If it was installed via a conda environment, first activate it.
  
 ```
+#Run if Mitofinder has been installed in the conda environment. If this is not the case, skip this line.
 conda activate mitofinder
-mitofinder -j Ofl_2Ecy_mf -1 Ofl_filt_Ecym_1.fq.gz -2 Ofl_filt_Ecym_2.fq.gz -o 5 KX341964_Ecy_mt_genome.gb
+#Run MitoFinder
+mitofinder -j run_name -1 /PATH/YOUR/NAME_YOUR_READS_1_TRIM_FILT.fq.gz -2 /PATH/YOUR/NAME_YOUR_READS_2_TRIM_FILT.fq.gz -o 5 -r /PATH/YOUR/REFERENCE.gb
 ```
   - Check the result by inspecting the log file. If the expected number of genes (15 genes for Metazoa) and a circular mitochondrial genome (in case the genome of the studied organism is expected to be circular) were found, this is the finished mitochondrial genome assembly. The annotation results are found in the folder named as `<samplename>_MitoFinder_megahit_mitfi_Final_Results/`.
     - In this case, we will find that MitoFinder found four mitochondrial contigs with 12, 3, 2, and 1 genes (some genes were found twice) and did not find any evidence of circularization.
@@ -70,15 +75,16 @@ mitofinder -j Ofl_2Ecy_mf -1 Ofl_filt_Ecym_1.fq.gz -2 Ofl_filt_Ecym_2.fq.gz -o 5
   - Preprocess reads: for MITObim, reads need to be interleaved, and this file needs to have the `fastq.gz` extension. Please note that at this stage we need the adapter and quality-trimmed reads **not** filtered to match the reference.
 
 ```
-bbduk.sh -Xmx1G in=Ofl_filt_1.fq.gz in2=Ofl_filt_2.fq.gz out=Ofl_filt_interleaved.fastq.gz
+bbduk.sh -Xmx1G in=/PATH/YOUR/NAME_YOUR_READS_1_TRIM_FILT.fq.gz in2=/PATH/YOUR/NAME_YOUR_READS_2_TRIM_FILT.fq.gz out=NAME_YOUR_READS_FILT_INTERLEAVED.fastq.gz
 ```
   - Run MITObim using the largest contig from the MitoFinder assembly (in this case, we will save it to a file `Ofl_mf_largest_mtDNA_contig.fasta`):
 
 ```
-MITObim.pl -start 1 -end 30 -sample Ofl -ref Ofl_mf -readpool Ofl_filt_interleaved.fastq.gz --kbait 31 --quick Ofl_mf_largest_mtDNA_contig.fasta
+MITObim.pl -start 1 -end 30 -sample NAME -ref REF_NAME -readpool NAME_YOUR_READS_FILT_INTERLEAVED.fastq.gz --kbait 31 --quick Ofl_mf_largest_mtDNA_contig.fasta
 ```
    - Tip 1: `MITObim.pl` needs to be in your `$PATH` for this command, or you can provide full path to the script.
-   - Tip 2: if you are running a non-English locale and receive an error connected to that, execute the following command: `#if you are running in a non-English locale and 
+   - Tip 2:  MITObim relies on MIRA, which must also be added to your `$PATH`.
+   - Tip 3: if you are running a non-English locale and receive an error connected to that, execute the following command: `#if you are running in a non-English locale and 
 #export LC_ALL=C`.
 
   - Annotate the MITObim assembly result with MitoFinder. The final assembly can be found in the `iteration*` folder with the largest number and has the name ending with `noIUPAC.fasta`.
@@ -87,8 +93,7 @@ MITObim.pl -start 1 -end 30 -sample Ofl -ref Ofl_mf -readpool Ofl_filt_interleav
 
 
 ```
-mitofinder -a iteration15/Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta -r KX341964_Ecy_mt_genome.gb -o 5 -j Ofl_mf_mb
+mitofinder -a iteration15/NAME_it15_noIUPAC.fasta -r /PATH/YOUR/REFERENCE.gb -o 5 -j NAME_YOUR_ANNOTATION
 ```
 
   - Inspect the log file and the `<samplename>_MitoFinder_megahit_mitfi_Final_Results/` folder to assess circularization and assembly quality, as well the found genes.
-    - In our *O. flavus* example, at this stage we obtained a complete circular genome.
