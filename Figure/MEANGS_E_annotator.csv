@@ -1,0 +1,13 @@
+Path;Path_Duplicate;Gene_Count
+transcriptome_Bpul_rna;de_novo;0
+genome_10p;de_novo;3
+transcriptome_10p;de_novo;10
+genome_16p;de_novo;4
+genome_1p;de_novo;0
+transcriptome_1p;de_novo;5
+genome;de_novo;9
+genome_NCBI_50p;de_novo;12
+genome_NCBI;de_novo;12
+genome_our_rna;de_novo;3
+genome_Eve_Eve;de_novo;5
+transcriptome_Eve_Eve_rna;de_novo;3
