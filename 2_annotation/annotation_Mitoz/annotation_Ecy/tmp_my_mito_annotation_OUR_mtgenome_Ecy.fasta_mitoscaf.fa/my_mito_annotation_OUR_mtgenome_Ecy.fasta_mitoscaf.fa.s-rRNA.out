@@ -1,0 +1,130 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.1 (July 2014)
+# Copyright (C) 2014 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+# target sequence database:              /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+# CM configuration:                      glocal
+# tabular output of hits:                my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.tbl
+# number of worker threads:              16 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       12snew_curated.47-1  [CLEN=952]
+Hit scores:
+ rank     E-value  score  bias  sequence  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------- ------ ------   --- ----- ----  -----------
+  (1) !   1.6e-09   38.1  98.5  Ec        12936  12189 -  cm    no 0.31  topology=circular
+
+
+Hit alignments:
+>> Ec  topology=circular
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   1.6e-09   38.1  98.5  cm        1      952 []       12936       12189 - .. 0.71    no 0.31
+
+                                  v         v           v v v vvv  v     vv vv                 vvv                 NC
+                            :::<<<<<_______>>>>>,{{{{{{{{{{,{{{{{{{{,,,,[[[-[[[,,<<____>>,,,,,,(((,,,,,,,<<<<<<<<< CS
+  12snew_curated.47-1     1 cAAAgguuUGGUCCUaaccUUacuaucAacuuuaacuaaaauUAcACAuGCAAGuaUCcaCaccCCaGuGAgAAUGCCCuuaauuc 86   
+                              A::: U    C UA :::U::::::A : U+    :A + U :     :A G: U +:CA           A GC CU:A:::C
+                   Ec 12936 GUACCCGUAUAACUUAGGGGUUAACCUAUUCUAGUAAUAAUAUUU-----UAUGUUUUAGCA---------CUAAGCACUAACACC 12865
+                            ****************99999666666655443333333333322.....245777777775.........56899********** PP
+
+                                                  v  v                v   v  v v   v     v  v v vvv                NC
+                            <______>>>>>>>>>>,,,<<<<<<__________._____>>->>>><<<.--<<___>>-.>>>,))),,,<<____>>,,,, CS
+  12snew_curated.47-1    87 caaaaaaggaauuaaGGAGCggGcAuCAGGCACAca.aaaaaaUAgCccaua.ACgCCUUGcu.uagCCaCACCCCCAaGGGAAau 169  
+                            :A++AA+:G:::U:AG    :: :A  A   A A+A AAA++ UA: :: :     C U+G U  :        C: A  :G  + 
+                   Ec 12864 UAUUAAUAGGUGUUAGUGCUUAGUACUAAUAAAAAAaAAAUUAUAGAUGUAUuUGGCGUAGGUuUAUGGUUUUUCUUAGUAGGUUG 12779
+                            *****************888888888877777766666666677766665542456677665413333455777777777775555 PP
+
+                                vvvv         vvvvv      v    v    vvvvv v   vvv v        v     v                v  NC
+                            ,,.]]]]]],,,,,,,,<<<<<--<<<<<____>>>>>>>>>>,}}-}}}}}}....,,,<<<<<<<<________________>> CS
+  12snew_curated.47-1   170 CA.GCaGUgAUaAAcAUuaAgcaAuaAgcGAAAgcUugacUuaGuuAuaguua....aaAgggccGGuAAAucUcGUGCCAGCcaC 250  
+                             A :    : U+  +       A U: G G A  C :GA+++   U :         A+ : G:: G  AA++U GUGCCAGC  C
+                   Ec 12778 GAcAUGCGAGUUUGU-------AUUUGGCGUAGCCUAGAAAAUUAUUAGGUU-uauuAUUUUGGAGGUUAAAUUGGUGCCAGCAUC 12701
+                            331111223333333.......445555555433333332222222222222.255555678************************ PP
+
+                                              v   v v           vv        vv   vv  v                        v    v NC
+                            >-------------->>>>>,.}}}}}}}}}},,,,[[[[,,,,,,((((((((((-----------((((((((,,,<<<<<<<< CS
+  12snew_curated.47-1   251 CGCGGUUAUACGAgAggcccA.aguUgauaguaaaCGGCGUAAAGaGuGgguaaaaaaaaaaaaaAAuuAaaguuAAAuuuuaacu 335  
+                             GCGGUUAUAC  + ::C :A  : U::::::           AG   G::     +A+++++ AAA           :: :  : 
+                   Ec 12700 UGCGGUUAUACUUAGUCCUAAaAAUUAGGUUAG----------AGG--GAU-----UAUUUUUCAAA---------GUGUUAGUUU 12641
+                            ***********9999999776145566666663..........232..222.....22333333333.........3499999999 PP
+
+                            vv            v vv    v                                  v   vv   vv    vvvv           NC
+                            <<<<<______>>>>->>>>>>>>>,,,,,,,,,,,,<<____>>))))))))----)))-))))))),,,,<<<<<<---<<--- CS
+  12snew_curated.47-1   336 aagcuGUaAaAagcuauaguuaaaaauAAaaucaaaaACgAAAGUaacuuUaaaaaauuuGaaccCaCGAAAgCuaaGAaACAAAC 421  
+                              :::GU AAA:::    :  : ::+UA   U AA+    AA              AU   A ::C +G            ::AAC
+                   Ec 12640 UUUUGGUGAAAUAAUGCUAGUUUGUUUAUUGUUAAU----AAG-------------AU--UAGGUCCAGC----------UAGAAC 12584
+                            9*************9999999999987766665542....222.............11..1222222232..........3579** PP
+
+                                                    vvvv                                    vv                     NC
+                            <<<<_________>>>>--->>>>>>>>,,,,,,,,,,<<<<<<<__________>>>>>>>]]]],<<<<-----<<<<____>> CS
+  12snew_curated.47-1   422 uGGGAUUAGAUACCCCaCUAUGCuuaGcCaUAAAcauagauaauuaaaaaaAcAAaauuaucCGCCaGaguAcUACaAGCaAaAGC 507  
+                            ::GGAUUAGA ACCC::CUA::        UAAA                               C :A UA UA A     +A  
+                   Ec 12583 CAGGAUUAGAGACCCUGCUACU--GUCUGUUAAA------------------------------UCUAAUUAUUAUA-----UA-- 12537
+                            ********************76..2222223222..............................2489999999985.....33.. PP
+
+                                                         v                  v         v            v          v  v NC
+                            >>--->>>>,,,,,,,,{{{{-{{{{{{{{,,,,,,,{{{{{,,{{{{{{{{{{,,,<<<<________>>>>,,,,,,,,[[[[[ CS
+  12snew_curated.47-1   508 UuAAAacuCAAAGGACUUGGCGGugCcccAaAcCCAcCuAGAGGAGCCuGUucuAuAAuCGAUAAuCCaCGaUaAACCUcACCacc 593  
+                             UA AA U:A A G   UG:CG ::::::       +:UAGAGGAG:: G:U U UAA CGAUAA  C CG U     U+ : :: 
+                   Ec 12536 -UAUAAGUUACAUGGUCUGGCGGCUUAAU----UGUUUUAGAGGAGUUUGCUUU-UAAUCGAUAAGGCUCGUUGUCUUUUGUUUAU 12457
+                            .57789999*************8776655....4566**************977.89****************9876665555544 PP
+
+                                                              v v                       v v     vv       vv        NC
+                            [[-----------[[-[[--[[[[[[[[[[,,,,(((,,,<<<____>>>,<<____>>,))),,,,,<<<_____>>>,,,,,]] CS
+  12snew_curated.47-1   594 uCUUGcuAAuaCAGCCuaUAuACCaCCGuCGuCAGCuuACCcuaugAagGaacAAaAguAaGCAaAAuaguuaaAaacuAAAAcGu 679  
+                            U:U     AU      U:UA:ACC::C:U    A :U+A :::A+ A:::A          :   AA   :U +A :  AA A  U
+                   Ec 12456 UUU-----AU---UUAUGUACACCGUCAUUU--AGUUAAUUUUAAUAGAAA----------AAUUAAGGUAUUUAGUUAAAUAGGU 12391
+                            433.....33...556************985..677777755554444442..........22333333334445688899999** PP
+
+                                                  v  v         v                                  v  v          v  NC
+                            ]-]]]---]]]]]]]]----]]]]]]],,}}-}}}}}}}},,,,,<<<<<___.>>>>>,,,,,,,,,,<<<<<<<______>>>> CS
+  12snew_curated.47-1   680 CAGGuCAAGGUguaGCuuAUGagguGGgAagAaAUgGGCUACAUUuuCuaaaa.uaGaaaAuuACGaAaaauauuaUGAAAuuaau 764  
+                            :AG::CAAGGU::A  UU  :A :: :+AA  A:U ::CUACA U     A+A      AAU+A   A+:  :  A GAA  U  :
+                   Ec 12390 UAGAUCAAGGUGCAGAUU--AAUUA-AAAAGUAGUUAACUACAAU-----AUAg-----AAUAAUAUAUGGGCGUAAGAAUGUGGG 12318
+                            **************6655..33444.458899*************.....4443.....666667777888888888888888888 PP
+
+                             v                       vvvvvv         vvvvvv            v                            NC
+                            >>>,.,,,,,,,,,}}}}},,,,,<<<<<<<_________>>>>>>>,,,,,,,,,,,}}}}}}}}}}-}},,,,,,,,,,,,,,< CS
+  12snew_curated.47-1   765 auuu.gAAGGaGGAUUUaGuAGUAAauaaaaAauAGAgaGuuuuauUGAAaaaGGCucUgggGcaCGCACAcACCGCCCGUCACuC 849  
+                              :U + A G+GGAUUUA: AGUAA UA   A   G          UGA +++     U:::::: G:ACA A  GCCCGUCA UC
+                   Ec 12317 UACUaAUAAGUGGAUUUAAGAGUAAUUAGUUAU--GUU--------UGAUUUUAUU--UAUUAAGUGUACAAAUUGCCCGUCAAUC 12244
+                            877746699**************9865443322..223........4444444444..45666778******************** PP
+
+                              v                                                 v                                  NC
+                            <<<<<<<<<<<<<<<<<<<<----<_______>-->>>>>>>>>>>>>>>>>>>>>,,,,,,,,,,,,,,,,<<<<<<<<<<____ CS
+  12snew_curated.47-1   850 uCcccaaguaaaaggaaaaaaaaaauAaauAAuAauuuuuccuuuuacuagggGaGguAAGUCGUAACAuGGuAAGuguACcGGAA 935  
+                            UC                            AA                     GAG+UAAGUCG AACA+ G:A:: G:AC GGAA
+                   Ec 12243 UCU---------------------------AA---------------------GAGAUAAGUCGAAACAAAGUAGAGGUACUGGAA 12206
+                            *94...........................44.....................9******************************** PP
+
+                                              NC
+                            >>>>>>>>>>::::::: CS
+  12snew_curated.47-1   936 gGUgcaCUUgGAaaAau 952  
+                             GU:C ::U: A    +
+                   Ec 12205 GGUACUUCUAAAGGCGA 12189
+                            ***************** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (952 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 1  (4760 residues re-searched)
+Windows   passing  local HMM SSV           filter:              28  (0.8759); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              28  (0.8759); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               1  (0.06022); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.06022); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:               1  (0.06022); expected (0.02)
+Envelopes passing glocal HMM envelope defn filter:               1  (0.02298); expected (0.02)
+Envelopes passing glocal CM  CYK           filter:               1  (0.02298); expected (0.0001)
+Total CM hits reported:                                          1  (0.02232); includes 0 truncated hit(s)
+
+# CPU time: 0.92u 0.09s 00:00:01.01 Elapsed: 00:00:00.99
+//
+[ok]

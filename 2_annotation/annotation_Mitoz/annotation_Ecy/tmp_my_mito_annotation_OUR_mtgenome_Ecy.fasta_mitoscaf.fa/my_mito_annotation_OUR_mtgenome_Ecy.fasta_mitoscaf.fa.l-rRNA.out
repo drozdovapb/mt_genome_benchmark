@@ -1,0 +1,186 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.1 (July 2014)
+# Copyright (C) 2014 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+# target sequence database:              /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+# CM configuration:                      glocal
+# tabular output of hits:                /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.tbl
+# number of worker threads:              16 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       16snew_curated.81-1  [CLEN=1630]
+Hit scores:
+ rank     E-value  score  bias  sequence  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------- ------ ------   --- ----- ----  -----------
+  (1) !   4.5e-06   20.5 199.5  Ec        12444  11099 -  cm    no 0.29  topology=circular
+
+
+Hit alignments:
+>> Ec  topology=circular
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   4.5e-06   20.5 199.5  cm        1     1630 []       12444       11099 - .. 0.61    no 0.29
+
+                                                                                              vv    vv     vv vv   NC
+                            :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<<<____>>>,,,,<<-<<-- CS
+  16snew_curated.81-1     1 gcaaaAaAgCUAGCccAAacAaaaaaaaaaaaaaaaaaaaaaaaAAaaaaaaaaaaaaaauaAAagAAAaCAUUcuucaacccuAG 86   
+                              ++   A+ UAG   A ++ AA+A AAAAA             AA   A+++A  +AAAUA   :  A CA  :           
+                   Ec 12444 CACCGUCAUUUAGUUAAUUUUAAUAGAAAAAU-----------UAAGGUAUUUAGUUAAAUAGGUUAGAUCAAGG----------- 12381
+                            99999999999999887777666665554443...........22222222222222222222222222222222........... PP
+
+                                           vvvv                       v      v                                     NC
+                            --<<_____>>---->>>>,,,,,,,,,,,,,,,,,,,,,,,<<____>>,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, CS
+  16snew_curated.81-1    87 UAuaGGaGAuaGAAAagguaaauugGaGCaAUAGAaAaAGUACCGcAAGGGAAAGaUGAAAgAgAAAUGAAAAaaaAuuaAAGcAa 172  
+                              U:     :AGA  A+ UAAA++G AG +A   A AA  UA   +AA   A  G  G AAGA+   UG   A++AAU+A  G A+
+                   Ec 12380 --UG-----CAGAUUAAUUAAAAAGUAGUUAACUACAAUAUAGAAUAAUAUAUGGGCGUAAGAAUG-UGGGUACUAAUAAGUGGAU 12303
+                            ..22.....222222333333344444433333333333333333455667777778888877665.4444466677777778888 PP
+
+                                      vv       vv                   vvvvvvv           v               v       v    NC
+                            ,,,,,,,,,<<<_______>>>,,,,,,,,,,,,,,,,,,{{{{{{{,,,,,,,,<<<<<-<<<____>>>-->>>>>,,,,[[-- CS
+  16snew_curated.81-1   173 aAAAAAGCAgAGAUuAAacCUcGUACCUUUUGCAUcAUGAuuuAGCaAGaAaAaucaagCAaAgAGAAcUuuAGcuugaaacCCCG 258  
+                              AA AG A:  A U A    :  A  UU U  AU A G         G+A AA+::: C             G ::: + C    
+                   Ec 12302 UUAAGAGUAAUUAGUUAUG-UUUGAUUUUAUUUAUUAAGU--------GUACAAAUUGCCC------------GUCAAUCUCUAA- 12239
+                            8888888885544333332.22223333333333333333........5666666666663............666666666544. PP
+
+                                v   v         v    v v            v        v              v      v     v       vvv NC
+                            -[[[[[[[[,,,,,((((((((((,<<<<._____>>>>,,,<<<-<<<<<________>>>>>>>>,,)-))))))))),,,<<< CS
+  16snew_curated.81-1   259 AaACcaaGcGAGCUACucaaagaCAGCcc.aaauAggGCaAACCCGuCuCUGUgGCAAAAGaGuGGGAAGAucuuugaGUAGAGGu 343  
+                                     GAG UA ::  A:A A :::  A   :::  AA  : :  CU      AAAG  ::  AA AU:U  :: UA A+  
+                   Ec 12238 ---------GAGAUAAGUCGAAACAAAGUaGAGGUACUGGAAGGUACUUCU------AAAGGCGAUUAAAAUUUUUACUUACAAU- 12169
+                            .........456777777777777776665555556667899999988888......7889999999999999999999997643. PP
+
+                                 vvv      v   v          v     v                      vvvvv       v  v vv        v NC
+                            _____>>>,,,,,,]]]]]]]]------]],,[[[[[[,,,,<<<<<____>>>>>,,<<<<<<<<<<<<<<<<<<<________> CS
+  16snew_curated.81-1   344 GAaAAaCCUAcCGAgCuugGUuAUAGCUGGUUGCCcaagAAAuGaAuauAAgUuCaaCcuuaaauuuucuuuaaaaaaaaaaaAAu 429  
+                             A AAA   ACC A+   G      GCU  U ::: :  AAAU:: :AUA : ::AA  ++A :UU:: U :: :    +++  A 
+                   Ec 12168 AAGAAA--CACCUAA---G---GGCGCUUUUAUAUUGGUAAAUAUUUAUAGAGAUAAAGAAAGUUUAAUUACUGUACCUUUUGUAU 12091
+                            222222..4555551...1...1124443333333333344444433333333333333333333333333333333333333333 PP
+
+                            v v  v        vvvvv      vv                    vv                          v  vvv      NC
+                            >>>>>>>>>>->>>>>>>>,,,,,<<<<<<<<<<______>>>>>>>>>>,,<<<______>>>,,,((((-((((--(((----- CS
+  16snew_curated.81-1   430 uuuuaaagaaAaauuuaagAGuUAuuCaAagGgGGUACAGCcCcuUuGaaAaAGGAuACAACCUuaauaggAGgauAAagaucAuA 515  
+                             : :: A :: AA:     AG+UA:U+           A          :  :::AU  A :::UA : ::  ::  A   ++ UA
+                   Ec 12090 CAGGGGAGUUUAAA-----AGAUAAUA----------UAA---------UUGUUAAUCGAGUAAUAUGGAACUUUUUAUUAAAGUA 12029
+                            33333333332222.....44444321..........111.........2222222222222222222222222222222222222 PP
+
+                                         vvvvvvv vvvv         vvv vvvv    vv  vv      vvvv  vvvv                   NC
+                            -------------((((<<<-<<<<_________>>>->>>>,,,,<<--<<______>>>>,,))))------------------ CS
+  16snew_curated.81-1   516 auaaaaaAaaaauauguuaGUgGGCCUAAAAGCAGCCAcCuaaaaAgAAAGCGUUAAAGCUcAAacauaaaaaaaaauauAAUacc 601  
+                            +UA ++ A                  U AA                                                        
+                   Ec 12028 UUAGUUGA----------------AUUUAANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN 11959
+                            22221111................11111111110000001111100000000011111111111111111111111111111111 PP
+
+                                     vvv  v               v     v v   v    v   v v       vvvv vvv           v      NC
+                            ---------)))--)))))))),,,,,,]]]]]],,<<<<<<<____>>>>>>>,,,,,,,}}}}.}}},,,,,,,{{,,<<<<__ CS
+  16snew_curated.81-1   602 aAaAaaaaAucuaAaucCccuaaaaauAuugGGCcAuuCcAuaaaaauaUgGaaGAaAuaAuGCU.aaaAUgAGUAAcAAGaaaaa 686  
+                                           :: :: :+ A+UA : :::+A U :AU A++A AU:+A  AAA AAUGCU  AAAU AG  ::AA  :: +
+                   Ec 11958 NNNNNNNNNNNNGUUAAGUUUUUCAUUAUCUAUAUAAU-UAUUAUUAUAUAAAGAAAACAAUGCUuUAAAUUAG--CUAA-GUUGU 11877
+                            11122222222222222233345555555544444443.33334444444443333334443332123333333..3322.22222 PP
+
+                                 vvv vvvvvv        vvvvv             vvvvv       v                                 NC
+                            __>>>>(((((((((,,,,,,,,<<<<<_____________>>>>>,,,,,,<<<_______________________________ CS
+  16snew_curated.81-1   687 aauuuCuCcuaGCaCAAGugUAaauCagAAcGGAaaaaccAcuGauAAUUAACgaacccaaaaaaaaaaAaaaAaAAaaaAacAAa 772  
+                            +A::    :                               A+U+AU  UUAA               A A  +AA A A+    A+
+                   Ec 11876 UAAAUUGUUUUA----------------------------AAUAAUCUUUAAAGU---------CUUAGAUUUAAUAGAUUUUUAG 11828
+                            222222222222............................222233444443222.........1111122222222222222333 PP
+
+                                                v                 vvvvv    v vv vvvv      v                      v NC
+                            ___________________>>>,,,,,<<______>>,)))))----)))),[[[[---[[[[[[[[[-[[[[[-----------[ CS
+  16snew_curated.81-1   773 AAAAaaauuaaaaaaaaaAucGUUAACCCaACACAGGAGuGCuaaaAagGaAaGAcUAAaagaaaaagAAGGaACUCGGCAAACau 858  
+                                AA UU A +A +AA    UUA  : AACA   :A U   + AA :  A        A: A:A :AA ::ACUC G       
+                   Ec 11827 GGUUAACUUUAGUAGUAAUGAUUUAGUUUAACAAUGAAUUUAUUGAAUAUAA-AG---UGAAAAUAUAAAUUUACUCAGA-----G 11751
+                            3333333333444444444455888888888888888744444333333333.22...2566677788********9875.....4 PP
+
+                                      v             v       v v           v v                     v     v          NC
+                            [[[[[[[[,,<<<<<_____>>>>>,,,<<<<<<<___________>>>>>>>,,,((((,<<<--<<<<<_____>>>-->>>>> CS
+  16snew_curated.81-1   859 aagcCCCGcCUGUUUACCAAAAACAUcGCCuCuaGcAaaaaAAguAUuaGaGGUacuGCCUGCCCAGUGACuAuaaGUUuAACGGC 944  
+                            :A:: : G+  GUUUA CAAAAAC U   :U: :          U  : :A: UA : CCUGCCCAGUGA       UU+AACGGC
+                   Ec 11750 UAAAUUAGAAAGUUUAACAAAAACAUUUUUUUUUGUG-------UUAAUAAAGUAUGGCCUGCCCAGUGAG---U-AUUAAACGGC 11676
+                            44555589*****************998888766542.......2233456779***************94...3.49******** PP
+
+                                                                     v         v                             v     NC
+                            <<<<<<______>>>>>>,,<<<____________>>><<<<<<_____>>>>>>,,,,,,,,,,)))),,,]]-]]]]]]]--]] CS
+  16snew_curated.81-1   945 CGCGGuAUuuUgaCCGUGCAAAGGUAGCGuAAUCACUUGuCccuUAAAUaggGaCcuGUAUGAAUGGCaaaACGAGGgcuuaACUg 1030 
+                             GC GUAUUUUGAC GU C AA GUAGC+UAAUCA UUG:: C:UAA U:G ::C+ G AUGAA GG : A C  : ::U:   U:
+                   Ec 11675 UGCGGUAUUUUGACUGUGCUAAGGUAGCAUAAUCAUUUGCUUCUUAAUUGGUAGCUGGAAUGAACGGUUGAGCU-GGUUUAA--UA 11593
+                            ************************************************************************98.4444444..** PP
+
+                                     v   vvvv                                                                      NC
+                            ]]]-]]]]]]]]]]]]]}},,,,,,,,,,<<<<<<________>>>>>>,,,,,,{{{-{{{-{{,,,,,{{{{{-{{{{{{{,<< CS
+  16snew_curated.81-1  1031 UCUCcuuuuucuagUCagUGAAAUUGAUCucCCCGUGcAGAAGCGGGgaUAaaaacAuAAGACGAGAAGACCCuaUGGAgCUuuAg 1116 
+                            : U : U:U :U +   :: AAAUU A  UC   GU +  A  C   GAUA +  :A:  GAC A AAGACCCUA ::AGCUU+A 
+                   Ec 11592 AGUGUGUAUAUUUAAAUAGAAAAUUAAAGUCAAGGUAAUAAUUCUUUGAUAUUU-UAGGGGACGAUAAGACCCUA-AAAGCUUAAU 11509
+                            ***9888877777666677999****************************9865.9*******************.99******** PP
+
+                                v                                                            v                     NC
+                            <<<-<<<<<<<<______________________________________________>>>>>>>>>>>>>,,<<<<<___>>>>> CS
+  16snew_curated.81-1  1117 acaaaaaaaccaauaaaaaaaAAaaaaaaacaaaaAAggaaaaaAAaaaaaaaaaaaaugguuuuuugucUUuGGuuGGGGCgaCC 1202 
+                            A:A A           ++A+AA                G + +    +++ AA  +A         U:U UUU ::UGGGGCG:: 
+                   Ec 11508 AAAUA-----------UUAUAA---------------UGGUUUUGUUUUUCAAGUUAG--------UUUGUUUUACUGGGGCGGUA 11457
+                            **961...........122222...............112222222223333333444........******************** PP
+
+                                                   v v                                                      v      NC
+                            <<<<<<___________>>>>>>[,((,,,,,,,,,,,,,,<--<<<<<<<<<____>>>>>>>>>>,<________>,)),,,,, CS
+  16snew_curated.81-1  1203 ucGGaGaAAAAaAAAACCuCCgagaggAauaggaaaaucuuuaAacuuaGAguaACaacUCuaaguaacAgAaauaugAccAauAa 1288 
+                            ::: ::        AAC:: ::: ++                                                       AAU A
+                   Ec 11456 CUAGUAU----UUUAACUAUUAGGUA-------------------------------------------------------AAUUA 11430
+                            5544333....223333333333332.......................................................33345 PP
+
+                                    v    v        v                                  v                       v     NC
+                            ,,,,,<<<<___.>>>>,,,,,],,,,,}}}}}--}}}}}}},,,,,,,<<<<<<<<<<<<---<<_______>>--->>>>>>>> CS
+  16snew_curated.81-1  1289 uGAuCCggcAaa.gccGAUCAAcGaAcCaAGuUACCCuaGGGAUAACAGCGcAAuCCccuccaAGAGuCCAUAUCGACgaggGGgU 1373 
+                            +GAUCC:: AAA  ::GAU  A  + + AAGUUAC::UAGGGAUAACAG:G:AAU : :U:  AGAG  C UAUC A :A: : GU
+                   Ec 11429 AGAUCCUUAAAAuAAAGAUGGAGCGUAAAAGUUACUUUAGGGAUAACAGUGCAAUAUUUUUGGAGAGAUCUUAUCAAUAAAUAUGU 11344
+                            6666776665554556788877777888********************************************************** PP
+
+                                                     v     v   vv      vv   v                          v           NC
+                            >->>>,,,,,,,,,(((((-((((((,,<<<<<<<<<______>>>>>>->>>,,<<<<<_____>>>>>,,,,,)))))--)--- CS
+  16snew_curated.81-1  1374 UUaCGACCUCGAUGUUGGAUCAGGACAUCcuAAugGuGCAGCcgCuaUUAagGGUuCGUUUGUUCAACGaUUAAAGUCCUACGUGA 1459 
+                            UU:C:ACCUCGAUGUUG:AU:A::A  UC::  UG  GCAG    UA   ::G    GUUUGUUCAAC  UUAAA U::UAC:UGA
+                   Ec 11343 UUGCAACCUCGAUGUUGAAUUAAAAUUUCUACGUGAAGCAGAAGGUAUAGUAG-AGGGUUUGUUCAACCUUUAAAUUUUUACAUGA 11259
+                            *************************9999988999999999998888887887.59****************************** PP
+
+                                                                          v           vv                   vv    v NC
+                            ))))),,,,,<<<<<<<____>>>->>>>,,,,}}--}}}}}}.,(((((.....<<<<<<<_______________>>>>>>>,< CS
+  16snew_curated.81-1  1460 UCUGAGUUCAGACCGGAGuAAUCCAGGUCgGUUUCUAUCUaUg.aagaua.....uuuuucCuAGUACGAAAGGACcGgaaaaaag 1539 
+                            U:UGAGUUCA:A:CGG  UAA CCAG:U:GG UU UAUC :U: A: :U:     : :  : UAGUACGAAAGG    :  : :+ 
+                   Ec 11258 UUUGAGUUCAAAUCGGUUUAAGCCAGAUUGGAUUUUAUCUCUAaAUAUUCuuuaaAUCUUUUUAGUACGAAAGGGUUGAUUGGUU- 11174
+                            *******************************************5333444788999999******************99999998. PP
+
+                                     v     v       v    v                             v       v                    NC
+                            <<<<---<<<_____>>>->>>>>,<<<<---<<<<<____________>>>>>---->>>>)))-)--),,,,<<<<_______> CS
+  16snew_curated.81-1  1540 gGGCCaAugcuaaAagcacGCCccacccuuAauuaauGAAaacAAcUaAauuaaaaAAaggguauacaauaaaaacCcaAGAaAAg 1625 
+                                 + UG UA  A CAC            AU:AA:G A     C AA:UU:A  A     :A:    :++A :C::  GA+A :
+                   Ec 11173 -----UUUGUUAGCAUCAC----UUUGGCGGAUAAACGCA-----CAAAGUUUAGGACUUUGGAACGGGAUCA-CCAAGUGAUA-U 11104
+                            .....46888888888887....4678888889999*987.....5577999999999888877777665555.9999999986.9 PP
+
+                                  NC
+                            >>>:: CS
+  16snew_curated.81-1  1626 Gguau 1630 
+                            :G:A 
+                   Ec 11103 UGGAG 11099
+                            999** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (1630 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 1  (8148 residues re-searched)
+Windows   passing  local HMM SSV           filter:              18  (0.8896); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              18  (0.8896); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.1384); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.1384); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:               1  (0.1384); expected (0.02)
+Envelopes passing glocal HMM envelope defn filter:               1  (0.03868); expected (0.02)
+Envelopes passing glocal CM  CYK           filter:               1  (0.03868); expected (0.0001)
+Total CM hits reported:                                          1  (0.03648); includes 0 truncated hit(s)
+
+# CPU time: 2.87u 0.18s 00:00:03.05 Elapsed: 00:00:03.04
+//
+[ok]

@@ -1,0 +1,13 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Ec                   -         12snew_curated.47-1  -          cm        1      952    12936    12189      -    no    1 0.31  98.5   38.1   1.6e-09 !   topology=circular
+#
+# Program:         cmsearch
+# Version:         1.1.1 (July 2014)
+# Pipeline mode:   SEARCH
+# Query file:      /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+# Target file:     /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+# Option settings: cmsearch -g --tblout my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa 
+# Current dir:     /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+# Date:            Tue Jul 14 14:35:43 2026
+# [ok]

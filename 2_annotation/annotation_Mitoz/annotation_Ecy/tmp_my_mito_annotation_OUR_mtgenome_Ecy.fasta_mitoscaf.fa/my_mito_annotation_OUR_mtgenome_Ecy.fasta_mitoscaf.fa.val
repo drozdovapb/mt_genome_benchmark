@@ -1,0 +1,3 @@
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit II [lcl|Ec:1703-2384] [lcl|Ec: raw, dna len= 14374] -> [lcl|Ec_2]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 2 [lcl|Ec:13377-14358] [lcl|Ec: raw, dna len= 14374] -> [lcl|Ec_13]
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|Ec: raw, dna len= 14374
