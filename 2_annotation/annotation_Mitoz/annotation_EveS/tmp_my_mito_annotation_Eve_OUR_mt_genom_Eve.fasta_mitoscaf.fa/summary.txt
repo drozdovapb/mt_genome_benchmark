@@ -1,0 +1,60 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+E_v_S          15601          yes            Eulimnogammarus verrucosus
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+E_v_S          203    264    62         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+E_v_S          263    315    53         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+E_v_S          317    374    58         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+E_v_S          403    464    62         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+E_v_S          465    526    62         +          tRNA   trnM(cau)  tRNA-Met                          1              
+E_v_S          526    1508   983        +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+E_v_S          1508   1568   61         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+E_v_S          1568   1628   61         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+E_v_S          1631   3166   1536       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+E_v_S          3165   3226   62         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+E_v_S          3226   3908   683        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+E_v_S          3908   3968   61         +          tRNA   trnK(uuu)  tRNA-Lys                          1              
+E_v_S          3968   4029   62         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+E_v_S          4029   4185   157        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+E_v_S          4178   4847   670        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+E_v_S          4846   5632   787        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+E_v_S          5634   5988   355        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+E_v_S          5986   6045   60         +          tRNA   trnA(ugc)  tRNA-Ala                          1              
+E_v_S          6098   6159   62         +          tRNA   trnN(guu)  tRNA-Asn                          1              
+E_v_S          6156   6219   64         +          tRNA   trnE(uuc)  tRNA-Glu                          1              
+E_v_S          6213   6273   61         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+E_v_S          6271   6331   61         -          tRNA   trnF(gaa)  tRNA-Phe                          1              
+E_v_S          6331   8041   1711       -          CDS    ND5        NADH dehydrogenase subunit 5      1              
+E_v_S          8044   8106   63         -          tRNA   trnH(gug)  tRNA-His                          1              
+E_v_S          8101   9403   1303       -          CDS    ND4        NADH dehydrogenase subunit 4      1              
+E_v_S          9408   9702   295        -          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+E_v_S          9705   9765   61         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+E_v_S          9764   9826   63         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+E_v_S          9831   10329  499        +          CDS    ND6        NADH dehydrogenase subunit 6      1              
+E_v_S          10328  11465  1138       +          CDS    CYTB       cytochrome b                      1              
+E_v_S          11463  11524  62         +          tRNA   trnS(uga)  tRNA-Ser                          1              
+E_v_S          11767  12694  928        -          CDS    ND1        NADH dehydrogenase subunit 1      1              
+E_v_S          12684  14086  1403       -          rRNA   l-rRNA     16S ribosomal RNA                 1              
+E_v_S          12700  12762  63         -          tRNA   trnL(uag)  tRNA-Leu                          2              
+E_v_S          13744  13808  65         -          tRNA   trnV(uac)  tRNA-Val                          1              
+E_v_S          13788  14533  746        -          rRNA   s-rRNA     12S ribosomal RNA                 1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           21
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                36
+
+
+Potential missing genes:
+#Gene             total_missing_number
+--------------------------------------
+tRNA-Ser                             1
+
+If you got the mitochondrial genome using the `findmitoscaf`
+or `assemble` module of MitoZ, the missing genes might be
+found from the '*.high_abundance*' and '*.low_abundance*' files
+in the 'tmp' directory!

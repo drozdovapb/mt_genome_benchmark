@@ -1,0 +1,14 @@
+>E_v_S
+ND2	526	1507	+	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+COX1	1631	3165	+	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+COX2	3226	3907	+	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+ATP8	4029	4184	+
+ATP6	4178	4846	+
+COX3	4846	5631	+
+ND3	5634	5987	+
+ND5	6331	8040	-
+ND4	8101	9402	-
+ND4L	9408	9701	-
+ND6	9831	10328	+
+CYTB	10328	11464	+
+ND1	11767	12693	-

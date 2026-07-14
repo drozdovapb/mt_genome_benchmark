@@ -1,0 +1,46 @@
+
+# where circos you install
+circos_path     =   circos
+bwa             =   bwa
+samtools        =   samtools
+
+threads         =   16
+
+# optional arguments for samtools
+opts_samtools   =  -a -a
+
+#color
+cds             =   141,211,199
+rRNA            =   253,192,134
+tRNA            =   251,128,114
+
+# whether draw GC content circle
+gc              =   no
+win             =   50
+gc_fill         =   128,177,211
+
+# whether draw depth abundance circle
+run_map           =   no
+depth_file      =   
+depth_fill      =   190,186,218
+fq              =   ,
+
+# whether draw base around circle
+base            =   no
+
+# locus name's clolor showed on center of circle
+locus_color     =   black
+
+# gene name label color
+label_color     =   black
+
+# image
+outdir          =   /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization
+png             =   yes
+svg             =   yes
+
+# color or file
+background      =   white
+#background     =   ./background.png
+
+    
