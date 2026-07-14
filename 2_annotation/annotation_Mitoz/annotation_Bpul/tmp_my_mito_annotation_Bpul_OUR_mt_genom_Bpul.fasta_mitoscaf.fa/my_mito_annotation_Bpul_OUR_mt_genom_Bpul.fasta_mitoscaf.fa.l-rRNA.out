@@ -1,0 +1,116 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.1 (July 2014)
+# Copyright (C) 2014 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+# target sequence database:              /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+# CM configuration:                      glocal
+# tabular output of hits:                /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.tbl
+# number of worker threads:              16 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       16snew_curated.81-1  [CLEN=1630]
+Hit scores:
+ rank     E-value  score  bias  sequence  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------- ------ ------   --- ----- ----  -----------
+  (1) !   3.8e-10  194.2  47.9  Bp        16284  15628 -  cm    5' 0.37  topology=circular
+
+
+Hit alignments:
+>> Bp  topology=circular
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   3.8e-10  194.2  47.9  cm      865     1630 ~]       16284       15628 - ~. 0.82    5' 0.37
+
+                                       v             v     v   v           v   v                   v     v         NC
+                            ~~~~~~~[[,,<<<<<_____>>>>>,,,<<<<<<<___________>>>>>>>,,,((((,<<<--<<<<<_____>>>-->>>> CS
+  16snew_curated.81-1     1 <[864]*CGcCUGUUUACCAAAAACAUcGCCuCuaGcAaaaaAAguAUuaGaGGUacuGCCUGCCCAGUGACuAuaaGUUuAACGG 943  
+                                    G+  GUUUA CAAAAAC    CC :U:      AA GU +:A: GGUA+::CCUGCCCAGUGA     + UU AACGG
+                   Bp 16284 <[  0]*AGAAAGUUUAGCAAAAACAGUUCCGUUC------AAGGUCAGAAAGGUAAGACCUGCCCAGUGAG----UGUUCAACGG 16216
+                            .......************************8876......34455557778*******************7....47******** PP
+
+                             v                v                                                         ???????  ? NC
+                            ><<<<<<______>>>>>>,,<<<____________>>><<<<<<_____>>>>>>,,,,,,,,,,)))),,,]]-]]]]]]]--] CS
+  16snew_curated.81-1   944 CCGCGGuAUuuUgaCCGUGCAAAGGUAGCGuAAUCACUUGuCccuUAAAUaggGaCcuGUAUGAAUGGCaaaACGAGGgcuuaACU 1029 
+                            C GC:GUAUUUUGAC:GU   AA GUAGC+UAAUCA UUG ::::UAA U:::: C+ G AUGAAUGG::+AAC A          
+                   Bp 16215 CGGCAGUAUUUUGACUGUAUUAAGGUAGCAUAAUCAUUUGUUAUUUAAUUGAUAGCUGGCAUGAAUGGUUUAACUAAAUUAGGGGA 16130
+                            ***************************************************************************98777777665 PP
+
+                            ????  ??????????????                                                          v        NC
+                            ]]]]-]]]]]]]]]]]]]}},,,,,,,,,,<<<<<<________>>>>>>,,,,,,{{{-{{{-{{,,,,,{{{{{-{{{{{{{,< CS
+  16snew_curated.81-1  1030 gUCUCcuuuuucuagUCagUGAAAUUGAUCucCCCGUGcAGAAGCGGGgaUAaaaacAuAAGACGAGAAGACCCuaUGGAgCUuuA 1115 
+                            GU U   U      GU A U AA UU A  U    GUG+  A  C    AU  +  : :  GAC A AAGACCCU:U: AGCUUUA
+                   Bp 16129 GUUU--GUAGCGCUGUAAAUAAACUUAAAGUUAAGGUGAUAAUUCUUUGAUGGU-CUGGGGGACGAAAAGACCCUGUA-AGCUUUA 16048
+                            5555..556666779999*********************************876.58999****************95.9****** PP
+
+                                 v                                                            v           v   v    NC
+                            <<<<-<<<<<<<<______________________________________________>>>>>>>>>>>>>,,<<<<<___>>>> CS
+  16snew_curated.81-1  1116 gacaaaaaaaccaauaaaaaaaAAaaaaaaacaaaaAAggaaaaaAAaaaaaaaaaaaaugguuuuuugucUUuGGuuGGGGCgaC 1201 
+                            :A:A A        U  A ++A            ++A  G        + +A    ++A        U:U:UUU : U GGG G :
+                   Bp 16047 UAAAUA-------GUGUAGUUA------------UUAGUGG-------UGUAGGGUUUA--------UUUAUUUUAUUGGGGGGGU 15996
+                            999951.......111111111............1111111.......12223334444........99999************** PP
+
+                             vv                   vv  v                                                      v     NC
+                            ><<<<<<___________>>>>>>[,((,,,,,,,,,,,,,,<--<<<<<<<<<____>>>>>>>>>>,<________>,)),,,, CS
+  16snew_curated.81-1  1202 CucGGaGaAAAAaAAAACCuCCgagaggAauaggaaaaucuuuaAacuuaGAguaACaacUCuaaguaacAgAaauaugAccAauA 1287 
+                                                    :+ :              UAA          AC          AA   A   ++ A:     
+                   Bp 15995 AGU---------------------UUUAUU------------UAA----------ACU---------AAG--A---CAUAUUUG-G 15968
+                            *53.....................332222............211..........222.........222..2...22333333.4 PP
+
+                                                                v                 v          v         v           NC
+                            ,,,,,,<<<<___.>>>>,,,,,],,,,,}}}}}--}}}}}}},,,,,,,<<<<<<<<<<<<---<<_______>>--->>>>>>> CS
+  16snew_curated.81-1  1288 auGAuCCggcAaa.gccGAUCAAcGaAcCaAGuUACCCuaGGGAUAACAGCGcAAuCCccuccaAGAGuCCAUAUCGACgaggGGg 1372 
+                            ++GAUCC:::AAA :::GAU AA: +   AAGUUAC ::AGGGAUAACAGCG:A U ::CU: AA AG+ C UAU GA :AG:: G
+                   Bp 15967 UAGAUCCUUUAAAuAAAGAUAAAACGGGUAAGUUACUUCAGGGAUAACAGCGUAAUAGACUUGAAUAGCUCGUAUUGAUAAGUCUG 15882
+                            89********8878************************************************************************ PP
+
+                            v                         v   v   v            v    v                       v          NC
+                            >>->>>,,,,,,,,,(((((-((((((,,<<<<<<<<<______>>>>>>->>>,,<<<<<_____>>>>>,,,,,)))))--)-- CS
+  16snew_curated.81-1  1373 UUUaCGACCUCGAUGUUGGAUCAGGACAUCcuAAugGuGCAGCcgCuaUUAagGGUuCGUUUGUUCAACGaUUAAAGUCCUACGUG 1458 
+                             UU:CGACCUCGAUGUUG:AU:AG       ::: G UGCAG  G U :: :   U: GUUUGUUCAAC :UU  A   CUAC:UG
+                   Bp 15881 AUUGCGACCUCGAUGUUGAAUUAGGGUUAUUCUGUGCUGCAGGAGGUUCA-GUGAUGGGUUUGUUCAACCCUUUUAUUUCUACAUG 15797
+                            *************************************************8.9999******************************* PP
+
+                                                                           v vvv                                   NC
+                            -))))),,,,,<<<<<<<____>>>->>>>,,,,}}--}}}}}}..,(((((......<<<<<<<_______________>>>>>> CS
+  16snew_curated.81-1  1459 AUCUGAGUUCAGACCGGAGuAAUCCAGGUCgGUUUCUAUCUaUg..aagaua......uuuuucCuAGUACGAAAGGACcGgaaaa 1536 
+                            AU:UGAGUUCA A:CGG  U A CCAG:U GGUUU UAUC : :    :A+A      : :U:::UAGUACGAAAGG CC:::A: 
+                   Bp 15796 AUUUGAGUUCAGAUCGGUUUGAGCCAGAUUGGUUUUUAUCUCUAgg--UAAAaauugaAUCUCUUUAGUACGAAAGGGCCAAGAGG 15713
+                            ******************************************9954..44445677889999999***************999999 PP
+
+                                vv                   vv      v   v                    v    v   vvv    v            NC
+                            >,<<<<<---<<<._____.>>>->>>>>,<<<<---<<<<<____________>>>>>---->>>>)))-)--),,,,<<<<___ CS
+  16snew_curated.81-1  1537 aaggGGCCaAugc.uaaAa.gcacGCCccacccuuAauuaauGAAaacAAcUaAauuaaaaAAaggguauacaauaaaaacCcaAG 1620 
+                            :+::  :   :GC       GC: :  ::  C: UAA  : :G      ACU  : :    A  :G    A:  + A   :::+AG
+                   Bp 15712 UUUUUGUUCGCGCcGUUUUgGCGGAGCAACGCACUAAGUUUAGG-----ACUU-UGAGAGGAUCUGU---AAUCAGACGGUAAUAG 15636
+                            87655554445554555551555565666655555553333322.....2332.2222222333333...3333333358888899 PP
+
+                                       NC
+                            ____>>>>:: CS
+  16snew_curated.81-1  1621 AaAAgGguau 1630 
+                            A+  ::: +U
+                   Bp 15635 AU--UUAUUU 15628
+                            88..999*** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (1630 consensus positions)
+Target sequences:                                                1  (32568 residues searched)
+Target sequences re-searched for truncated hits:                 1  (8148 residues re-searched)
+Windows   passing  local HMM SSV           filter:              20  (0.8847); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              19  (0.8847); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.05452); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.02726); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:               1  (0.02726); expected (0.02)
+Envelopes passing glocal HMM envelope defn filter:               1  (0.01614); expected (0.02)
+Envelopes passing glocal CM  CYK           filter:               1  (0.01614); expected (0.0001)
+Total CM hits reported:                                          1  (0.03227); includes 1 truncated hit(s)
+
+# CPU time: 1.15u 0.14s 00:00:01.29 Elapsed: 00:00:01.31
+//
+[ok]

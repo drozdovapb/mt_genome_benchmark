@@ -1,0 +1,68 @@
+>Feature Bp
+3216	4200	gene
+			gene	ND2
+3216	4200	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+4322	5884	gene
+			gene	COX1
+4322	5884	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+5919	6597	gene
+			gene	COX2
+5919	6597	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+6717	6875	gene
+			gene	ATP8
+6717	6875	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+6869	7540	gene
+			gene	ATP6
+6869	7540	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+7540	8325	gene
+			gene	COX3
+7540	8325	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+8328	8681	gene
+			gene	ND3
+8328	8681	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+10732	9020	gene
+			gene	ND5
+10732	9020	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+12106	10775	gene
+			gene	ND4
+12106	10775	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+12390	12100	gene
+			gene	ND4L
+12390	12100	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+12973	13482	gene
+			gene	ND6
+12973	13482	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+13482	14612	gene
+			gene	CYTB
+13482	14612	CDS
+			product	cytochrome b
+			transl_table	5
+15639	14707	gene
+			gene	ND1
+15639	14707	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
