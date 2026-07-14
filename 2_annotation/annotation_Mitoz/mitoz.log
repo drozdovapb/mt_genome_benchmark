@@ -1,0 +1,1118 @@
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mtgenome_Ecy.fasta'], fq1='', fq2='', func=<function main at 0x7f7ff39ea040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. cyaneus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation')
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mtgenome_Ecy.fasta'], fq1='', fq2='', func=<function main at 0x7f7ff39ea040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. cyaneus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation')
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:32:26,325 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - WARNING - 
+File /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mtgenome_Ecy.fasta, the sequence id '>Ec': length is okay! And there is topology information 'topology=circular' at the header line!!
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mtgenome_Ecy.fasta
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mtgenome_Ecy.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/my_mito_annotation.OUR_mtgenome_Ecy.fasta.result
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:32:26,326 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:32:26,331 - mitoz.utility.utility - INFO - 
+Got topology information for Ec: topology=circular
+
+2026-07-14 14:32:26,331 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:32:26,337 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 14:32:44,509 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2026-07-14 14:32:44,517 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position
+
+2026-07-14 14:32:44,542 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.most_related_species.txt 
+
+2026-07-14 14:32:45,149 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position >my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted
+
+2026-07-14 14:32:45,157 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted 5 my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted.revised
+
+2026-07-14 14:32:45,378 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted.revised my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2026-07-14 14:32:45,409 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 5 my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.ft
+
+2026-07-14 14:32:45,431 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:32:45,431 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.most_related_species.txt
+
+2026-07-14 14:32:45,431 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:32:45,431 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna
+
+2026-07-14 14:32:45,438 - mitoz.utility.utility - INFO - 
+cd /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/mitfi
+# and find the cmsearch progrm 
+./detect_platform.sh 
+java -Xmx2048m -jar mitfi.jar -cores 1  -code 5 -evalue 0.001 -onlycutoff /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.Ec >>/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna
+
+2026-07-14 14:35:42,485 - mitoz.utility.utility - INFO - 
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.Ec
+
+2026-07-14 14:35:42,492 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna.ft
+
+2026-07-14 14:35:42,513 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:35:42,513 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:35:42,513 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa >my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.out
+
+2026-07-14 14:35:43,575 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.ft
+
+2026-07-14 14:35:43,598 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa >/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.out
+
+2026-07-14 14:35:46,738 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 14:35:46,760 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:35:46,760 - mitoz.utility.utility - INFO - 
+rRNA_annotation() return:
+s_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.ft
+l_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 14:35:46,760 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:35:46,761 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/join_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.tbl my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 14:35:46,794 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/find_contro_region.py -fa_file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa -PCG_cutoff_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list -PCG_len_ratio 0.9  -s_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm -l_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm -rRNA_len_ratio 0.9  -tRNA_num_min 22  -fea_files my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.l-rRNA.ft -CR_len_min 600  -outfile my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.control_region.ft
+
+2026-07-14 14:35:47,015 - mitoz.utility.utility - INFO - 
+cat my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.control_region.ft >> /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.tbl
+
+2026-07-14 14:35:47,021 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_fsa.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa 'E. cyaneus' 5 /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.fsa
+
+2026-07-14 14:35:47,052 - mitoz.utility.utility - INFO - 
+tbl2asn -t /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt -a s -p . -V vb
+
+2026-07-14 14:35:47,369 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/genbank_gene_stat_v2.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.most_related_species.txt annotate > summary.txt
+
+2026-07-14 14:35:47,594 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:35:47,594 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() return:
+    tbl_file:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.tbl
+    errorsummary_val_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/errorsummary.val
+    tbl2asn_gbf: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf
+    summary_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/summary.txt
+
+2026-07-14 14:35:47,595 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa
+
+2026-07-14 14:35:47,595 - mitoz.utility.utility - INFO - 
+mitoz-tools gbseqextractor -f /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf -prefix my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf -types CDS rRNA tRNA wholeseq gene -cds_translation -p -l
+
+2026-07-14 14:35:49,809 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation
+
+2026-07-14 14:35:49,809 - mitoz.utility.utility - INFO - 
+gather_result() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/my_mito_annotation.OUR_mtgenome_Ecy.fasta.result
+
+2026-07-14 14:35:49,810 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.most_related_species.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/errorsummary.val /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf* /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/summary.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/my_mito_annotation.OUR_mtgenome_Ecy.fasta.result
+
+2026-07-14 14:35:49,834 - mitoz.utility.utility - INFO - 
+visualize.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'yes', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 14:35:49,834 - mitoz.utility.utility - INFO - 
+visualize.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'no', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 14:35:49,835 - mitoz.utility.utility - INFO - 
+visualize.main() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 14:35:49,835 - mitoz.utility.utility - INFO - 
+visualize.main() chdir to: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 14:35:49,835 - mitoz.utility.utility - INFO - 
+sort_gb_by_length():
+in_gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf
+out_gb: my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 14:35:49,850 - mitoz.utility.utility - INFO - 
+updated args.gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 14:35:49,850 - mitoz.utility.utility - INFO - 
+circos using this config_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+2026-07-14 14:35:49,851 - mitoz.utility.utility - INFO - 
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/visualize/draw_circos_for_mitogenome_auto_depth.pl --gb /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf.sortedByLength --conf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+
+2026-07-14 14:35:54,852 - mitoz.utility.utility - INFO - 
+visualize.main() returns: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 14:35:54,853 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/circos.png /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/mt_visualization/circos.svg  /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/my_mito_annotation.OUR_mtgenome_Ecy.fasta.result
+
+2026-07-14 14:35:54,863 - mitoz.utility.utility - INFO - 
+
+Found resulting_gb_files:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/tmp_my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa/my_mito_annotation_OUR_mtgenome_Ecy.fasta_mitoscaf.fa.gbf
+
+2026-07-14 14:35:54,864 - mitoz.utility.utility - INFO - 
+And related resulting files can be found from:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation/my_mito_annotation.OUR_mtgenome_Ecy.fasta.result
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast'], fq1='', fq2='', func=<function main at 0x7f9986204040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast'], fq1='', fq2='', func=<function main at 0x7f9986204040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:37:05,109 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:37:05,110 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:37:05,110 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:37:05,110 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:37:05,110 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:37:05,110 - mitoz.utility.utility - ERROR - 
+Can NOT access /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast !!!
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast'], fq1='', fq2='', func=<function main at 0x7fd2c28aa040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast'], fq1='', fq2='', func=<function main at 0x7fd2c28aa040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:38:39,458 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:38:39,459 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:38:39,459 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:38:39,459 - mitoz.utility.utility - ERROR - 
+Can NOT access /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fast !!!
+
+2026-07-14 15:39:02,005 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:39:02,005 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:39:02,005 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fasta'], fq1='', fq2='', func=<function main at 0x7f173cd3e040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fasta'], fq1='', fq2='', func=<function main at 0x7f173cd3e040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Eve', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='E. verrucosus_S', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_EveS')
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - WARNING - 
+File /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fasta, the sequence id '>E_v_S': length is okay! And there is topology information 'topology=circular' at the header line!!
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fasta
+
+2026-07-14 15:39:02,006 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Eve.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/my_mito_annotation_Eve.OUR_mt_genom_Eve.fasta.result
+
+2026-07-14 15:39:02,007 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:39:02,007 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:39:02,012 - mitoz.utility.utility - INFO - 
+Got topology information for E_v_S: topology=circular
+
+2026-07-14 15:39:02,012 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:39:02,016 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 15:39:22,970 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2026-07-14 15:39:22,977 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position
+
+2026-07-14 15:39:23,000 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.most_related_species.txt 
+
+2026-07-14 15:39:23,588 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted
+
+2026-07-14 15:39:23,592 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted 5 my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted.revised
+
+2026-07-14 15:39:23,840 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted.revised my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2026-07-14 15:39:23,863 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 5 my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.ft
+
+2026-07-14 15:39:23,879 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:39:23,879 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.most_related_species.txt
+
+2026-07-14 15:39:23,879 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:39:23,879 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:39:23,884 - mitoz.utility.utility - INFO - 
+cd /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/mitfi
+# and find the cmsearch progrm 
+./detect_platform.sh 
+java -Xmx2048m -jar mitfi.jar -cores 1  -code 5 -evalue 0.001 -onlycutoff /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.E_v_S >>/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:42:49,591 - mitoz.utility.utility - INFO - 
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.E_v_S
+
+2026-07-14 15:42:49,595 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna.ft
+
+2026-07-14 15:42:49,612 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:42:49,612 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:42:49,612 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa >my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.out
+
+2026-07-14 15:42:50,562 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.ft
+
+2026-07-14 15:42:50,578 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa >/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.out
+
+2026-07-14 15:42:53,607 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:42:53,632 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:42:53,632 - mitoz.utility.utility - INFO - 
+rRNA_annotation() return:
+s_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.ft
+l_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:42:53,632 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:42:53,632 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/join_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.tbl my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:42:53,657 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/find_contro_region.py -fa_file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa -PCG_cutoff_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list -PCG_len_ratio 0.9  -s_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm -l_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm -rRNA_len_ratio 0.9  -tRNA_num_min 22  -fea_files my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.l-rRNA.ft -CR_len_min 600  -outfile my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.control_region.ft
+
+2026-07-14 15:42:53,868 - mitoz.utility.utility - INFO - 
+cat my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.control_region.ft >> /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.tbl
+
+2026-07-14 15:42:53,873 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_fsa.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa 'E. verrucosus_S' 5 /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.fsa
+
+2026-07-14 15:42:53,897 - mitoz.utility.utility - INFO - 
+tbl2asn -t /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt -a s -p . -V vb
+
+2026-07-14 15:42:53,920 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/genbank_gene_stat_v2.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.most_related_species.txt annotate > summary.txt
+
+2026-07-14 15:42:54,138 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:42:54,139 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() return:
+    tbl_file:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.tbl
+    errorsummary_val_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/errorsummary.val
+    tbl2asn_gbf: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf
+    summary_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/summary.txt
+
+2026-07-14 15:42:54,139 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa
+
+2026-07-14 15:42:54,139 - mitoz.utility.utility - INFO - 
+mitoz-tools gbseqextractor -f /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf -prefix my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf -types CDS rRNA tRNA wholeseq gene -cds_translation -p -l
+
+2026-07-14 15:42:54,948 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS
+
+2026-07-14 15:42:54,949 - mitoz.utility.utility - INFO - 
+gather_result() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/my_mito_annotation_Eve.OUR_mt_genom_Eve.fasta.result
+
+2026-07-14 15:42:54,949 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.most_related_species.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/errorsummary.val /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf* /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/summary.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/my_mito_annotation_Eve.OUR_mt_genom_Eve.fasta.result
+
+2026-07-14 15:42:54,955 - mitoz.utility.utility - INFO - 
+visualize.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'yes', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 15:42:54,955 - mitoz.utility.utility - INFO - 
+visualize.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'no', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 15:42:54,955 - mitoz.utility.utility - INFO - 
+visualize.main() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:42:54,955 - mitoz.utility.utility - INFO - 
+visualize.main() chdir to: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:42:54,956 - mitoz.utility.utility - INFO - 
+sort_gb_by_length():
+in_gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf
+out_gb: my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 15:42:54,966 - mitoz.utility.utility - INFO - 
+updated args.gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 15:42:54,967 - mitoz.utility.utility - INFO - 
+circos using this config_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+2026-07-14 15:42:54,967 - mitoz.utility.utility - INFO - 
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/visualize/draw_circos_for_mitogenome_auto_depth.pl --gb /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf.sortedByLength --conf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+
+2026-07-14 15:42:57,449 - mitoz.utility.utility - INFO - 
+visualize.main() returns: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:42:57,449 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/circos.png /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/mt_visualization/circos.svg  /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/my_mito_annotation_Eve.OUR_mt_genom_Eve.fasta.result
+
+2026-07-14 15:42:57,454 - mitoz.utility.utility - INFO - 
+
+Found resulting_gb_files:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/tmp_my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa/my_mito_annotation_Eve_OUR_mt_genom_Eve.fasta_mitoscaf.fa.gbf
+
+2026-07-14 15:42:57,454 - mitoz.utility.utility - INFO - 
+And related resulting files can be found from:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_EveS/my_mito_annotation_Eve.OUR_mt_genom_Eve.fasta.result
+
+2026-07-14 15:45:57,770 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f5dfcc62040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f5dfcc62040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:45:57,771 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - WARNING - 
+Error: file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta the sequence id '>Mitogenome_B_pullus' is too long! Please rename it! But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - CRITICAL - 
+Some sequence ids are too long! Please rename them first!
+But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:45:57,772 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:45:57,777 - mitoz.utility.utility - WARNING - 
+Can NOT find topology information for Mitogenome_B_pullus. Now I assume it is topology=linear!!!
+
+2026-07-14 15:45:57,777 - mitoz.utility.utility - CRITICAL - 
+Error: the sequence id Mitogenome_B_pullus is too long! Please rename it!
+
+2026-07-14 15:45:57,777 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:45:57,782 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 15:46:25,026 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7ff19404b040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7ff19404b040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:46:25,027 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - WARNING - 
+Error: file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta the sequence id '>Mitogenome_B_pullus' is too long! Please rename it! But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - CRITICAL - 
+Some sequence ids are too long! Please rename them first!
+But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:46:25,028 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:46:25,033 - mitoz.utility.utility - WARNING - 
+Can NOT find topology information for Mitogenome_B_pullus. Now I assume it is topology=linear!!!
+
+2026-07-14 15:46:25,033 - mitoz.utility.utility - CRITICAL - 
+Error: the sequence id Mitogenome_B_pullus is too long! Please rename it!
+
+2026-07-14 15:46:25,033 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:46:25,038 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 15:46:35,459 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2026-07-14 15:46:35,466 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position
+
+2026-07-14 15:46:35,494 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position
+
+
+2026-07-14 15:46:35,495 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt 
+
+2026-07-14 15:46:36,026 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt 
+
+
+2026-07-14 15:46:36,026 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted
+
+2026-07-14 15:46:36,034 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+sort -k1,1 -k6,6n my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted
+
+
+2026-07-14 15:46:36,034 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised
+
+2026-07-14 15:46:36,248 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2026-07-14 15:46:36,275 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+
+2026-07-14 15:46:36,299 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:46:36,299 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt
+
+2026-07-14 15:46:36,299 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:46:36,300 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:46:36,308 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft
+
+2026-07-14 15:46:36,329 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft
+
+
+2026-07-14 15:46:36,330 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:46:36,330 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:46:36,330 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.out
+
+2026-07-14 15:46:36,341 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+cmsearch -g --tblout my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.out
+
+
+2026-07-14 15:48:20,492 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:48:20,492 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:48:20,492 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f318eba2040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:48:20,492 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f318eba2040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:48:20,492 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - WARNING - 
+Error: file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta the sequence id '>Mitogenome_B_pullus' is too long! Please rename it! But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - CRITICAL - 
+Some sequence ids are too long! Please rename them first!
+But REMEMBER to keep 'topology=linear' or 'topology=circular' at the header line!!
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:48:20,493 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:48:20,494 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:48:20,499 - mitoz.utility.utility - WARNING - 
+Can NOT find topology information for Mitogenome_B_pullus. Now I assume it is topology=linear!!!
+
+2026-07-14 15:48:20,499 - mitoz.utility.utility - CRITICAL - 
+Error: the sequence id Mitogenome_B_pullus is too long! Please rename it!
+
+2026-07-14 15:48:20,499 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:48:20,504 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 15:48:31,005 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2026-07-14 15:48:31,012 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position
+
+2026-07-14 15:48:31,037 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position
+
+
+2026-07-14 15:48:31,037 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt 
+
+2026-07-14 15:48:31,643 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt 
+
+
+2026-07-14 15:48:31,643 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted
+
+2026-07-14 15:48:31,649 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+sort -k1,1 -k6,6n my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted
+
+
+2026-07-14 15:48:31,649 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised
+
+2026-07-14 15:48:31,880 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2026-07-14 15:48:31,905 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+
+2026-07-14 15:48:31,924 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:48:31,924 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt
+
+2026-07-14 15:48:31,924 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:48:31,925 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:48:31,931 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft
+
+2026-07-14 15:48:31,949 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft
+
+
+2026-07-14 15:48:31,950 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:48:31,950 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:48:31,950 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.out
+
+2026-07-14 15:48:31,958 - mitoz.utility.utility - ERROR - 
+Error occured when running command:
+cmsearch -g --tblout my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.out
+
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/spades.py
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+Found: /media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/megahit
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f105b3b8040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta'], fq1='', fq2='', func=<function main at 0x7f105b3b8040>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='my_mito_annotation_Bpul', profiles_dir='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='B. pullus', template_sbt='/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='16', workdir='annotation_Bpul')
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+Creating workdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:51:20,467 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - WARNING - 
+File /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta, the sequence id '>Bp': length is okay! And there is topology information 'topology=circular' at the header line!!
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+Starting to annotate /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+result_wdir for /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/OUR_mt_genom_Bpul.fasta: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+working in /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:51:20,468 - mitoz.utility.utility - INFO - 
+annotation_infile: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:51:20,474 - mitoz.utility.utility - INFO - 
+Got topology information for Bp: topology=circular
+
+2026-07-14 15:51:20,474 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:51:20,478 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/media/main/sandbox/ad/miniforge3/envs/mitozEnv/share/wise2/wisecfg
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa -d /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 16
+
+2026-07-14 15:51:40,911 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2026-07-14 15:51:40,919 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position
+
+2026-07-14 15:51:40,943 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.solar.genewise.gff.cds.position.cds /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt 
+
+2026-07-14 15:51:41,777 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted
+
+2026-07-14 15:51:41,784 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised
+
+2026-07-14 15:51:42,046 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2026-07-14 15:51:42,071 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.position.sorted.revised.filtered 5 my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+
+2026-07-14 15:51:42,090 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:51:42,090 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt
+
+2026-07-14 15:51:42,090 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:51:42,090 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:51:42,096 - mitoz.utility.utility - INFO - 
+cd /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/mitfi
+# and find the cmsearch progrm 
+./detect_platform.sh 
+java -Xmx2048m -jar mitfi.jar -cores 1  -code 5 -evalue 0.001 -onlycutoff /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.Bp >>/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna
+
+2026-07-14 15:55:18,711 - mitoz.utility.utility - INFO - 
+rm -rf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.Bp
+
+2026-07-14 15:55:18,716 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft
+
+2026-07-14 15:55:18,732 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:55:18,733 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:55:18,733 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.out
+
+2026-07-14 15:55:19,662 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.ft
+
+2026-07-14 15:55:19,679 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.tbl --cpu 16 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa >/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.out
+
+2026-07-14 15:55:21,039 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:55:21,055 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:55:21,056 - mitoz.utility.utility - INFO - 
+rRNA_annotation() return:
+s_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.ft
+l_rRNA_ft: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:55:21,056 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:55:21,056 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/join_ft.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.tbl my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.ft
+
+2026-07-14 15:55:21,072 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/find_contro_region.py -fa_file /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa -PCG_cutoff_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list -PCG_len_ratio 0.9  -s_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm -l_rRNA_CM_file /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm -rRNA_len_ratio 0.9  -tRNA_num_min 22  -fea_files my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.cds.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.trna.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.s-rRNA.ft /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.l-rRNA.ft -CR_len_min 600  -outfile my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.control_region.ft
+
+2026-07-14 15:55:21,294 - mitoz.utility.utility - INFO - 
+cat my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.control_region.ft >> /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.tbl
+
+2026-07-14 15:55:21,299 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_fsa.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa 'B. pullus' 5 /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.fsa
+
+2026-07-14 15:55:21,322 - mitoz.utility.utility - INFO - 
+tbl2asn -t /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt -a s -p . -V vb
+
+2026-07-14 15:55:21,343 - mitoz.utility.utility - INFO - 
+/media/main/sandbox/ad/miniforge3/envs/mitozEnv/bin/python3.8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/genbank_gene_stat_v2.py /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt annotate > summary.txt
+
+2026-07-14 15:55:21,569 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:55:21,569 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() return:
+    tbl_file:/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.tbl
+    errorsummary_val_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/errorsummary.val
+    tbl2asn_gbf: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf
+    summary_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/summary.txt
+
+2026-07-14 15:55:21,569 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa
+
+2026-07-14 15:55:21,569 - mitoz.utility.utility - INFO - 
+mitoz-tools gbseqextractor -f /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf -prefix my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf -types CDS rRNA tRNA wholeseq gene -cds_translation -p -l
+
+2026-07-14 15:55:22,378 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir back to /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul
+
+2026-07-14 15:55:22,379 - mitoz.utility.utility - INFO - 
+gather_result() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:55:22,379 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.most_related_species.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.tbl /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/errorsummary.val /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf* /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/summary.txt /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:55:22,386 - mitoz.utility.utility - INFO - 
+visualize.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'yes', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 15:55:22,386 - mitoz.utility.utility - INFO - 
+visualize.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'no', 'fq1': '', 'fq2': '', 'bwa': 'bwa', 'thread': '16', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2026-07-14 15:55:22,386 - mitoz.utility.utility - INFO - 
+visualize.main() creating: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:55:22,386 - mitoz.utility.utility - INFO - 
+visualize.main() chdir to: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:55:22,386 - mitoz.utility.utility - INFO - 
+sort_gb_by_length():
+in_gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf
+out_gb: my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 15:55:22,397 - mitoz.utility.utility - INFO - 
+updated args.gb: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf.sortedByLength
+
+2026-07-14 15:55:22,398 - mitoz.utility.utility - INFO - 
+circos using this config_file: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+2026-07-14 15:55:22,398 - mitoz.utility.utility - INFO - 
+perl /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/visualize/draw_circos_for_mitogenome_auto_depth.pl --gb /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf.sortedByLength --conf /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/visual_config.txt
+
+
+2026-07-14 15:55:24,890 - mitoz.utility.utility - INFO - 
+visualize.main() returns: /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization
+
+2026-07-14 15:55:24,891 - mitoz.utility.utility - INFO - 
+cp -r /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/circos.png /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/mt_visualization/circos.svg  /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
+
+2026-07-14 15:55:24,896 - mitoz.utility.utility - INFO - 
+
+Found resulting_gb_files:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/tmp_my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa/my_mito_annotation_Bpul_OUR_mt_genom_Bpul.fasta_mitoscaf.fa.gbf
+
+2026-07-14 15:55:24,896 - mitoz.utility.utility - INFO - 
+And related resulting files can be found from:
+/media/main/sandbox/ad/mt_BM/use_Mitoz/annotation/annotation_Bpul/my_mito_annotation_Bpul.OUR_mt_genom_Bpul.fasta.result
