@@ -1,4 +1,18 @@
+## Requirements
+
+library(xlsx)
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+library(RColorBrewer)
+library(ggtext)
+library(dplyr)
+library(ggh4x)
+
+## Data manipulation 
+##### 
 # Combine data into a single data frame
+setwd("./raw_statistics/")
 ARC_nG <- read.csv("ARC_annotator.csv", sep = ";")
 ARC_1_nG <- read.csv("ARC_annotator_1.csv", sep = ";")
 Getorganel_nG <- read.csv("Georganell_annotator.csv", sep = ";")
@@ -33,8 +47,6 @@ NOVOplasty_nG$Assembler <- "NOVOplasty"
 
 all_nG <- rbind(ARC_nG, ARC_1_nG, Getorganel_nG, MEANGS_E_nG, MEANGS_nG, MITGARD_nG, Mitobim_nG, Mitobim_1_nG, 
                 Mitofinder_nG, Mitofinder_1_nG, Mitoz_nG, mtgrasp_nG, Norgal_nG, Norgal_1_nG, NOVOplasty_nG)
-
-library(xlsx)
 all_table <- read.xlsx("Results_file.xlsx", 1)
 
 colnames(all_nG)[4] <- "assembler"
@@ -44,10 +56,17 @@ colnames(all_nG)[2] <- colnames(all_table)[3]
 
 all_table_nG <- merge(all_table, all_nG, by = c(colnames(all_table)[1], colnames(all_table)[2], colnames(all_table)[3]), all.x = TRUE)
 
+setwd("../")
+#write.csv(all_table_nG, "all_table_nG.csv")
+######
+
+
+## Read the resulting table
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 
-# Figure 1
+## Figure X (Ecy only)
+######
 
 mt_result <- all_table_nG_new
 
@@ -61,23 +80,17 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[2] <- "n_contigs"
-colnames(mt_result)[3] <- "lenght"
+colnames(mt_result)[3] <- "length"
 colnames(mt_result)[4] <- "score"
 colnames(mt_result)[5] <- "genes"
 mt_result$species <- "E. cyaneus"
 
 
-
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-library(RColorBrewer)
-
 str(mt_result)
 mt_result <- as.data.frame(mt_result)
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 plot_data <- mt_result %>%
@@ -99,7 +112,7 @@ plot_data <- plot_data %>%
 plot_data[is.na(plot_data)] <- 0
 
 
-library(ggtext)
+
 
 # 2. PLOT CONSTRUCTION (single facet for E. cyaneus)
 ggplot(plot_data, aes(x = max_len_kb, y = max_score, color = assembler)) +
@@ -188,9 +201,10 @@ ggplot(plot_data, aes(x = max_len_kb, y = max_score, color = assembler)) +
 
 ggsave("17032026_figure_1.png", width = 35, height = 26, units = "cm", dpi = 300)
 
+#############
 
-
-#cover
+## Figure #coverage (Figure 2)
+######
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 mt_result <- all_table_nG_new
@@ -212,22 +226,19 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[3] <- "n_contigs"
-colnames(mt_result)[4] <- "lenght"
+colnames(mt_result)[4] <- "length"
 colnames(mt_result)[5] <- "score"
 colnames(mt_result)[6] <- "genes"
 mt_result$species <- "E. cyaneus"
 
 
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-library(RColorBrewer)
+
 
 str(mt_result)
 mt_result <- as.data.frame(mt_result)
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 plot_data <- mt_result %>%
@@ -359,8 +370,12 @@ ggplot() +
   )
 
 ggsave("23032026_figure_2_2.png", width = 36, height = 25, units = "cm", dpi = 300)
+######
 
-#DNA or RNA
+
+## Figure 1: different species + DNA or RNA? 
+######
+
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 mt_result <- all_table_nG_new
@@ -386,7 +401,7 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[4] <- "n_contigs"
-colnames(mt_result)[5] <- "lenght"
+colnames(mt_result)[5] <- "length"
 colnames(mt_result)[6] <- "score"
 colnames(mt_result)[7] <- "genes"
 
@@ -408,16 +423,13 @@ mt_result$Species <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "E. 
 
 
 
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-library(RColorBrewer)
+
 
 str(mt_result)
 mt_result <- as.data.frame(mt_result)
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 plot_data <- mt_result %>%
@@ -434,9 +446,6 @@ plot_data <- mt_result %>%
 plot_data <- plot_data %>%
   mutate(across(where(is.numeric), ~ ifelse(is.infinite(.) & . < 0, 0, .)))
 
-library(ggtext)
-library(dplyr)
-library(ggh4x)
 
 plot_data_clean <- plot_data
 
@@ -469,10 +478,6 @@ hline_data$value <- ifelse(hline_data$species == "B. pullus", 16.284,
 str(hline_data)
 
 hline_data$value <- as.numeric(hline_data$value)
-
-library(ggtext)
-library(dplyr)
-library(ggh4x)
 
 first_facet_data <- subset(plot_data_clean, 
                            data_type == "genome" & species == "B. pullus")
@@ -629,10 +634,12 @@ geom_segment(data = points_near_intersection5,
     panel.spacing = unit(0.8, "cm"),
     plot.margin = margin(t = 10, r = 5, b = 5, l = 5)
   )
-
 ggsave("23032026_figure_3_2.png", width = 45, height = 25, units = "cm", dpi = 300)
+######
 
 
+## Figure 3(?): #compare_seeds
+######
 #seed
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
@@ -659,7 +666,7 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[4] <- "n_contigs"
-colnames(mt_result)[5] <- "lenght"
+colnames(mt_result)[5] <- "length"
 colnames(mt_result)[6] <- "score"
 colnames(mt_result)[7] <- "genes"
 
@@ -693,16 +700,12 @@ mt_result$tipeseed <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "Mi
 
 
 
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-library(RColorBrewer)
 
 str(mt_result)
 mt_result <- as.data.frame(mt_result)
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 plot_data <- mt_result %>%
@@ -719,10 +722,6 @@ plot_data <- mt_result %>%
 
 plot_data <- plot_data %>%
   mutate(across(where(is.numeric), ~ ifelse(is.infinite(.) & . < 0, 0, .)))
-
-library(ggtext)
-library(dplyr)
-library(ggh4x)
 
 plot_data_clean <- plot_data
 
@@ -769,10 +768,6 @@ str(hline_data)
 
 hline_data$value <- as.numeric(hline_data$value)
 
-
-library(ggtext)
-library(dplyr)
-library(ggh4x)
 
 threshold_x <- 0.3
 
@@ -976,9 +971,14 @@ ggplot(plot_data_clean, aes(x = max_len_kb, y = max_score, fill = assembler)) +
     plot.margin = margin(t = 15, r = 40, b = 10, l = 10)
   )
 
-ggsave("23032026_figure_4_2.png", width = 55, height = 32, units = "cm", dpi = 300)
+ggsave("16072026_figure_4_2.png", width = 55, height = 32, units = "cm", dpi = 300)
 
-#Time and RSS
+
+## Figure S1: Time and memory requirements
+
+## Figure S...: Time and RSS
+#######
+
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 mt_result <- all_table_nG_new
@@ -1046,8 +1046,8 @@ library(RColorBrewer)
 str(mt_result)
 mt_result <- as.data.frame(mt_result)
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 plot_data <- mt_result %>%
@@ -1200,5 +1200,5 @@ ggplot(plot_data_clean, aes(x = Time, y = Memory, fill = assembler)) +
     plot.margin = margin(t = 15, r = 10, b = 10, l = 10)
   )
 
-ggsave("23032026_figure_5_2.png", width = 55, height = 32, units = "cm", dpi = 300)
-
+ggsave("Figure_time_RSS.png", width = 55, height = 32, units = "cm", dpi = 300)
+######
