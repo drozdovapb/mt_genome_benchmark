@@ -1,0 +1,107 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnH.cm
+# target sequence database:              mitos2_anno/B_pullus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnH  [CLEN=68]
+Hit scores:
+ rank     E-value  score  bias  sequence             start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------- ------ ------   --- ----- ----  -----------
+  (1) !   9.8e-07   46.6   0.0  Mitogenome_B_pullus  10791  10733 -  cm    no 0.41  -
+  (2) !   5.3e-05   37.5   0.0  Mitogenome_B_pullus  12852  12911 +  cm    no 0.32  -
+  (3) !   8.6e-05   36.4   0.0  Mitogenome_B_pullus   9019   8960 -  cm    no 0.38  -
+  (4) !    0.0003   33.5   0.6  Mitogenome_B_pullus  12970  12911 -  cm    no 0.23  -
+  (5) !   0.00052   32.3   4.5  Mitogenome_B_pullus   6656   6716 +  cm    no 0.18  -
+
+
+Hit alignments:
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   9.8e-07   46.6   0.0  cm        1       68 []       10791       10733 - .. 0.95    no 0.41
+
+                                                                                             NC
+                            (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<~~~~~~>>))))))): CS
+                 trnH     1 guuuaaaUAgUUUAAauuuAAAAcAuUaGaUUGUGGuuCuAaAGAUag*[10]*cuuuuaaacc 68   
+                            :::: ::UAGUUU A+  +AAAAC+:UA :UUGUGGU: UA:AGAU::      :::: ::::+
+  Mitogenome_B_pullus 10791 ACCAGGGUAGUUU-AU--AAAAACGCUACUUUGUGGUGGUAGAGAUGU*[ 4]*ACUCUUGGUA 10733
+                            *************.99..****************************98...5..99******** PP
+
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (2) !   5.3e-05   37.5   0.0  cm        1       68 []       12852       12911 + .. 0.93    no 0.32
+
+                                                                                              NC
+                            (((((((,,<<<<_______>>>>,<<<<<__~~~~~>>>>>,,,,<<<~~~~~>>>))))))): CS
+                 trnH     1 guuuaaaUAgUUUAAauuuAAAAcAuUaGaUU*[5]*uCuAaAGAUaga*[8]*ucuuuuaaacc 68   
+                            GU:U::AUAGUUUA A  +AAAACAUUAG:UU     :CUAAA+  :G:     :C:U::A:AC+
+  Mitogenome_B_pullus 12852 GUCUCUAUAGUUUAUA--AAAAACAUUAGUUU*[5]*ACUAAAAUAGGC*[2]*GCCUAGAGACU 12911
+                            *************777..************98..8..*******99998..5..899******** PP
+
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (3) !   8.6e-05   36.4   0.0  cm        1       68 []        9019        8960 - .. 0.95    no 0.38
+
+                                                    v                v                        NC
+                           (((((((,,<<<<_______>>>>,<<<<<___~~~~~>>>>>,,,,<<<~~~~~>>>))))))): CS
+                 trnH    1 guuuaaaUAgUUUAAauuuAAAAcAuUaGaUUG*[4]*uCuAaAGAUaga*[8]*ucuuuuaaacc 68  
+                           GU:UAAAUAG:UUAA   +AAA:C+ UA AUUG     U UA AGA :G:     :C:UUUA:AC+
+  Mitogenome_B_pullus 9019 GUCUAAAUAGCUUAAG--AAAAGCGCUACAUUG*[4]*UGUAAAGACGGU*[2]*ACCUUUAGACA 8960
+                           ****************..*************98..8..**********98..3..89********* PP
+
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (4) !    0.0003   33.5   0.6  cm        1       68 []       12970       12911 - .. 0.85    no 0.23
+
+                                                                            vv      vv           NC
+                            (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<<<<____>>>>>))))))): CS
+                 trnH     1 guuuaaaUAgUUUAAauuuAAAAcAuUaGaUUGUGGuuCuAaAGAUagaagAAaucuucuuuuaaacc 68   
+                             :::AA:UA:UUUA A  +AAAA:A UAG:UU  GGU:CUA AGA  :          : :UU::: +
+  Mitogenome_B_pullus 12970 CAAAAAGUAGUUUAUA--AAAAAUAGUAGUUUUGGGUACUACAGAAGAUU------UUUUCUUUUUGA 12911
+                            *************777..*************933666******9984432......3566******** PP
+
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (5) !   0.00052   32.3   4.5  cm        1       68 []        6656        6716 + .. 0.97    no 0.18
+
+                                                        v       v            v    v             NC
+                           (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<<<<____>>>>>))))))): CS
+                 trnH    1 guuuaaaUAgUUUAAauuuAAAAcAuUaGaUUGUGGuuCuAaAGAUagaagAAaucuucuuuuaaacc 68  
+                           :::::A:UAGUU AA   +A AACAUUA: UUGU ++ :UAAA+ UA:::+     :::U:U:::::+
+  Mitogenome_B_pullus 6656 AAAGUACUAGUUAAAC--AAUAACAUUAAAUUGUCAAAUUAAAAUUACUUA-----AAGUGUACUUUA 6716
+                           ****************..****************999***********984.....79********** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (68 consensus positions)
+Target sequences:                                                1  (32568 residues searched)
+Target sequences re-searched for truncated hits:                 1  (516 residues re-searched)
+Windows   passing  local HMM SSV           filter:             184  (0.8442); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              96  (0.4798); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              24  (0.1444); expected (0.02)
+Windows   passing glocal HMM Forward       filter:              13  (0.1132); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:              14  (0.03573); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               5  (0.011); expected (0.0001)
+Total CM hits reported:                                          5  (0.009068); includes 0 truncated hit(s)
+
+# CPU time: 0.22u 0.00s 00:00:00.22 Elapsed: 00:00:00.22
+//
+[ok]

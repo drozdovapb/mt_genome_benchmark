@@ -1,0 +1,68 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnL2.cm
+# target sequence database:              mitos2_anno/E_cyaneus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnL2  [CLEN=71]
+Hit scores:
+ rank     E-value  score  bias  sequence              start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------- ------ ------   --- ----- ----  -----------
+  (1) !   3.5e-08   47.9   0.0  Mitogenome_E_cyaneus  11164  11105 -  cm    no 0.43  -
+  (2) !     2e-07   44.3   0.0  Mitogenome_E_cyaneus   1642   1702 +  cm    no 0.38  -
+
+
+Hit alignments:
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   3.5e-08   47.9   0.0  cm        1       71 []       11164       11105 - .. 0.93    no 0.43
+
+                                                                                                     NC
+                             (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                 trnL2     1 acUAaugUGGCAgAauauGaaUGCAauaGaUUUAAAAuCuauuuAUAgaggUUCAAaUccucUcauUAguA 71   
+                             A::A:U:UGGC:GA++A   A:GCA::A::UUUA++A::U:: +A :G      A+     C::A:U::UA
+  Mitogenome_E_cyaneus 11164 AUCACUUUGGCGGAUAA---ACGCACAAAGUUUAGGACUUUGGAACGG-----GAUCA---CCAAGUGAUA 11105
+                             *****************...**************************77.....24444...99******** PP
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (2) !     2e-07   44.3   0.0  cm        1       71 []        1642        1702 + .. 0.95    no 0.38
+
+                                                         v       v                                  NC
+                            (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                 trnL2    1 acUAaugUGGCAgAauauGaaUGCAauaGaUUUAAAAuCuauuuAUAgaggUUCAAaUccucUcauUAguA 71  
+                            A:UA::GUGGCAGA+U U  AUGCA:UAG UUUAAA  CUA:+ A :G     C AA    C:C::UA:UA
+  Mitogenome_E_cyaneus 1642 AUUAGAGUGGCAGAUUUU--AUGCAGUAGCUUUAAAGACUACACAAGG-----CUAAG---CCCUCUAAUA 1702
+                            *****************9..****************************.....55555...********** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (71 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 1  (660 residues re-searched)
+Windows   passing  local HMM SSV           filter:             147  (0.9303); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:             110  (0.7411); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              28  (0.2236); expected (0.02)
+Windows   passing glocal HMM Forward       filter:              15  (0.1971); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:              15  (0.04533); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               6  (0.01833); expected (0.0001)
+Total CM hits reported:                                          2  (0.004115); includes 0 truncated hit(s)
+
+# CPU time: 0.32u 0.00s 00:00:00.32 Elapsed: 00:00:00.32
+//
+[ok]

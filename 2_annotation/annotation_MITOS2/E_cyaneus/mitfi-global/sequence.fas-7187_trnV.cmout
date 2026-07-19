@@ -1,0 +1,116 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnV.cm
+# target sequence database:              mitos2_anno/E_cyaneus//sequence.fas-7187
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.1
+# Max sensitivity mode:                  on [all heuristic filters off]
+# maximum DP search matrix size:         80000.0 Mb
+# truncated hit detection:               off [due to --max]
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnV  [CLEN=70]
+Hit scores:
+ rank     E-value  score  bias  sequence              start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------- ------ ------   --- ----- ----  -----------
+  (1) !    0.0015   27.0   1.2  Mitogenome_E_cyaneus   1113   1052 -  cm    no 0.23  -
+ ------ inclusion threshold ------
+  (2) ?     0.012   22.8   0.0  Mitogenome_E_cyaneus  11877  11936 +  cm    no 0.42  -
+  (3) ?     0.019   21.8   0.6  Mitogenome_E_cyaneus   7232   7291 +  cm    no 0.22  -
+  (4) ?     0.037   20.4   0.0  Mitogenome_E_cyaneus  11650  11708 +  cm    no 0.39  -
+  (5) ?     0.066   19.3   0.2  Mitogenome_E_cyaneus  13767  13708 -  cm    no 0.28  -
+  (6) ?     0.078   18.9   0.0  Mitogenome_E_cyaneus   5009   4958 -  cm    no 0.31  -
+
+
+Hit alignments:
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (1) !    0.0015   27.0   1.2  cm        1       70 []        1113        1052 - ..   25.8    no 0.23
+
+                                  v                                                        v        NC
+                            (((((((,,<<<<______>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                  trnV    1 CAaaauaUAGCUuAAauaaaAGCAUuUcaCUU*[4]*ugAaAAGAUaucugUgCAAaUcagauuauuuUGA 70  
+                            CAAAA: UA::UUA +UA AA::A U ::+UU     :: A AGA A:  :       :  :U :UUUUGA
+  Mitogenome_E_cyaneus 1113 CAAAAAUUAGUUUAUUUA-AAAUAGUAGUUUU*[4]*ACUACAGAAAAGGA-------UUCUUUUUUUUGA 1052
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (2) ?     0.012   22.8   0.0  cm        1       70 []       11877       11936 + ..   21.4    no 0.42
+
+                                  v      v      v                              v       v     v       NC
+                             (((((((,,<<<<______>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                  trnV     1 CAaaauaUAGCUuAAauaaaAGCAUuUcaCUU*[4]*ugAaAAGAUaucugUgCAAaUcagauuauuuUGA 70   
+                             :AAA: : AG::     +  ::CAUUU::CUU     ::AAA  A ::CU         AG::: :UUU:A
+  Mitogenome_E_cyaneus 11877 AAAACUGAAGUAA---CUCCUACAUUUGGCUU*[4]*CCAAAUUACGGCUA-------AAGCCCUGUUUUA 11936
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (3) ?     0.019   21.8   0.6  cm        1       70 []        7232        7291 + ..   19.8    no 0.22
+
+                                                                                              NC
+                            (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<~~~~~~>>>))))))): CS
+                  trnV    1 CAaaauaUAGCUuAAauaaaAGCAUuUcaCUUACACugAaAAGAUauc*[11]*gauuauuuUGA 70  
+                            : AA:::UA: UUA AUA AA :AU  : CUU CA  :  AA A A::      ::U:::UU :A
+  Mitogenome_E_cyaneus 7232 UGAAUCUUAAGUUAUAUA-AACUAUGAGCCUUCCAAGCUUAAAAAAAU*[ 2]*AUUAGAUUUAA 7291
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (4) ?     0.037   20.4   0.0  cm        1       70 []       11650       11708 + ..   19.3    no 0.39
+
+                                  v                                                          v       NC
+                             (((((((,,<<<<______>>>>,<<<<<_______>>>.>>,,,,<<<<<_______>>>>>))))))): CS
+                  trnV     1 CAaaauaUAGCUuAAauaaaAGCAUuUcaCUUACACugA.aAAGAUaucugUgCAAaUcagauuauuuUGA 70   
+                             ::::: :UAG:U:   UAA:A:C  UU:ACUU CACU:A A AG        + AA U     : ::::: 
+  Mitogenome_E_cyaneus 11650 AGGGUUGUAGUUU--CUAAGAACGGUUAACUUGCACUUAaACAGGA-----CUAAAGU-----CUACCCUU 11708
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (5) ?     0.066   19.3   0.2  cm        1       70 []       13767       13708 - ..   17.7    no 0.28
+
+                                                                              v       v             NC
+                             (((((((,,<<<<______>>>>,<<<<<__~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                  trnV     1 CAaaauaUAGCUuAAauaaaAGCAUuUcaCU*[5]*ugAaAAGAUaucugUgCAAaUcagauuauuuUGA 70   
+                             :  AA AUA::UU  AU+AAA:: U  CA+U     UG  AAGAU:U:         + :A:U UU  :A
+  Mitogenome_E_cyaneus 13767 GCUAAGAUAGUUU--AUUAAAAUGUUACAUU*[5]*UGUGAAGAUGUAU--------UGUACUUUUAGCA 13708
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (6) ?     0.078   18.9   0.0  cm        1       70 []        5009        4958 - ..   13.3    no 0.31
+
+                                                                                       NC
+                            (((((((..,,<<<<______>>>>,<<<<<_______>>>>>,~~~~~~))))))): CS
+                  trnV    1 CAaaaua..UAGCUuAAauaaaAGCAUuUcaCUUACACugAaAA*[20]*uauuuUGA 70  
+                            :AA :::  UA       +AA     U U:ACUUACA U:A AA      ::: UU:A
+  Mitogenome_E_cyaneus 5009 AAAGGCGauUA-------AAA----UUUUUACUUACAAUAAGAA*[11]*CGCUUUUA 4958
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (70 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 0  (0 residues re-searched)
+Windows   passing  local HMM SSV           filter:                  (off)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:                  (off)
+Windows   passing  local HMM Forward  bias filter:                  (off)
+Windows   passing glocal HMM Forward       filter:                  (off)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:                  (off)
+Envelopes passing  local CM  CYK           filter:                  (off)
+Total CM hits reported:                                          6  (0.01228); includes 0 truncated hit(s)
+
+# CPU time: 19.02u 0.00s 00:00:19.02 Elapsed: 00:00:19.13
+//
+[ok]

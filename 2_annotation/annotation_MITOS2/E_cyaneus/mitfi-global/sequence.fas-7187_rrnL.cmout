@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/rrnL.cm
+# target sequence database:              mitos2_anno/E_cyaneus//sequence.fas-7187
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rrnL  [CLEN=1537]
+Hit scores:
+ rank     E-value  score  bias  sequence              start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------- ------ ------   --- ----- ----  -----------
+  (1) !   8.6e-87  341.8  82.3  Mitogenome_E_cyaneus   4632   3924 -  cm    no 0.30  -
+
+
+Hit alignments:
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   8.6e-87  341.8  82.3  cm      640     1535 ..        4632        3924 - .. 0.83    no 0.30
+
+                                  v                vvvv                                                                               v  vvv   vvv      v                      v          v             v         v           v                       v    v                                                  v         v                             v             v   vvv  v                                                                       v                                                           v                                           v v      v                           v                                  v                       v                             v     v   vv      vv   v                          v                                                     v vvv          vv                   vv    vvvvv   vv       vv vvvvv v vv   vvvvv            vvvvv    vv vvvv    v                      NC
+                            ,,,,,,{{,,<<<<____>>>>(((((,,,,,,,,<<_____._>>,,,,,,<<<________________________________>>>,,,,,<<______>>,)--)))),[[[[---[[[[[[[[[-[[[[[-----------[[[[[[[[[,,<<<<<_____>>>>>,,,<<<<<<<___________>>>>>>>,,,((((,<<<--<<<<<____>>>-->>>>><<<<<<______>>>>>>,,<<<____________>>><<<<<<_____>>>>>>,,,,,,,,,,)))),,,]]-]]]]]]]--]]]]]-]]]]]]]]]]]]]}},,,,,,,,,,<<<<<<________>>>>>>,,,,,,{{{-{{{-{{,,,,,{{{{{-{{{{{{{,<<<<<-<<<<<<<<_____________________________________________>>>>>>>>>>>>>,,<<<<<___>>>>><<<<<<___________>>>>>>[,(~~~~~~),,,,,,,,,,<<<<___>.>>>,,,,,],,,,,}}}}}--}}}}}}},,,,,,,<<<<<<<<<<<<---<<_______>>--->>>>>>>>>->>>,,,,,,,,,(((((-((((((,,<<<<<<<<<______>>>>>>->>>,,<<<<<_____>>>>>,,,,,)))))--)---))))),,,,,<<<<<<<____>>>->>>>,,,,}}--}}}}}}(((((.......<<<<<<<_______________>>>>>>>,<<<<<---<<<_____>>>->>>>>,<<<<---<<<<<____________>>>>>---->>>>)))-)--),,,<<<<__..._____>>>> CS
+                  rrnL  640 UuAGUAacaAgaaauuuauuucuccucAaGUgUAaauaaccA.gauaaUUAAcgaaaaaaaaaacaAaAAAaaaauuauuaaauaaAucgUUAAcccaACACaggagaaaggaAugauUAAaauaaauaaAAGGaACUCGGCAAAcauaagcccCGcCUGUUUAcCAAAAACAUcgCcucuuGcaaaauaAgUAUaagagGUcuagCCUGCCCAgUGacauaaguUaAAcGGCcGCGGUAUuuUGACCGUgCaaAgGUAGCAUAAUCAcUuGucuuuUAAuUgaagaCUuGUAUGAAUGGcuuaACGAgggcuuaACUgUCUCuuauuuauuaucaguGAAAUUgAUuuucccGUGAAAAaGCgggaaUaaaauuauAaGACGAGAAGACCCUaUgGAgCUUuAaauuauuaauucaauuauauuaaauaauuuuuuaauaaggaaaaAAauuaauuaaaaaugaauuaaaauuUUUgGUuGGGGCgACcucgGaguAaAAaaaAACcuCcgauug*[37]*caauaaUGAUCCgguAuua.ccGAUcAAagGAacAAGuUACCcuAGGGAUAACAGCGuAauccucuuuaAGAGUuCaUAUCGAcaagaggguUUgCGACCUCGAUGUUGGAUcAgGacAuccuaaugGuGCAGcagCuauuAaggGUugGUcUGUUCgACcaUUAAAguCcUACgUGAUCUGAGUUCAGACCGGcGUAAgCCAGGUCGGUUUCUAUCuauaauuuu.......uuuuuccUAGUACGAAAGGACCggaaaaauggggcCaAuucuaaAagaacgccccacccuuAauuaauGAaaucAacUaAauuaaauAAagggaaaaaaauuuugcccaA...gAuaAgggc 1535
+                            UUAGUA :AA    U ++        + AGU+UAA    C A G  AAUU A                                      UU A             A+A++ A:       A: A:: AAA  :ACUC G   A   :A:::::G+  GUUUA CAAAAAC U + :U::U +       GU  A::A: U+U::CCUGCCCAGUGA +    UUAAACGGC GC GUAUUUUGAC GU C+AA:GUAGCAUAAUCA:UUG:: :UUAAUUG: ::CU G AUGAA GG:: A C: ::::U:   U:  U U ::U :U A+ ::  AAAUU+A  U::: GU A AA  C :::AUA+++ UA: :GAC:A AAGACCCUA ::AGCUU+A A::++                         UUA++A GG++++  +UU+ ++ ++A         ::U UUU:::UGGGGCG:::::: ::U    +++AAC:: ::: U       +AAU+A GAUCC:::A++: ::GAU  A  G A AAGUUAC::UAGGGAUAACAG:G:AAU:: :UU +AGAG UC+UAUC A AA: ::GUUU:C:ACCUCGAUGUUG:AU:A::A  UC::  UG  GCAG+A  UA   ::G   GGU:UGUUC:ACC UUAAA U::UAC:UGAU:UGAGUUCA:A:CGG: UAA:CCAG:U:GG UU:UAUC::UA :U+U       :::  ::UAGUACGAAAGG + ::  :::U++ G+ A  +               +C:CUU          AU+AAC  A +         :    +:A  ++U::::AA   GAU A::::
+  Mitogenome_E_cyaneus 4632 UUAGUAGUAA----UGAU--------UUAGUUUAA----CAAuG--AAUUUA--------------------------------------UUGA-------------AUAUA-AAG----UGAAAAUAUAAAUUUACUCAG---A--GUAAAUUAGAAAGUUUAACAAAAACAUUUUUUUUUGU-------GUUAAUAAAGUAUGGCCUGCCCAGUGAGU---AUUAAACGGCUGCGGUAUUUUGACUGUGCUAAGGUAGCAUAAUCAUUUGCUUCUUAAUUGGUAGCUGGAAUGAACGGUUGAGCU-GGUUUAA--UAAGUGUGUAUAUUUAAAUAGAAAAUUAAAGUCAAGGUAAUAAUUCUUUGAUAUUU-UAGGGGACGAUAAGACCCUA-AAAGCUUAAUAAAUA-------------------------UUAUAAUGGUUUUGUUUUUCAAGUUAG--------UUUGUUUUACUGGGGCGGUACUAGUAU----UUUAACUAUUAGGU-*[ 0]*AAAUUAAGAUCCUUAAAAUaAAGAUGGAGCGUAAAAGUUACUUUAGGGAUAACAGUGCAAUAUUUUUGGAGAGAUCUUAUCAAUAAAUAUGUUUGCAACCUCGAUGUUGAAUUAAAAUUUCUACGUGAAGCAGAAGGUAUAGUAG-AGGGUUUGUUCAACCUUUAAAUUUUUACAUGAUUUGAGUUCAAAUCGGUUUAAGCCAGAUUGGAUUUUAUCUCUAAAUAUucuuuaaAUCUUUUUAGUACGAAAGGGUUGAUUGGUUUUUGUUAGCA---------------UCACUUUGGCG----GAUAAACGCACAAAG------U----UUAGGACUUUGGAAcggGAUCACCAA 3924
+                            **********....4444........444556666....22222..333333......................................2211.............11111.221....2455678999********977...4..788888899******************9999999976.......566699999******************54...5*********************************************************************************99.8888877..*************999************************************9875.9*******************.*************72.........................111222222244555566666666666........********************8766555....45555555555555.......35556777777777665541568***9999*******************************************************************************************************************.7**************************************************************************99886************************************95544322222...............22222222222....222222233322222......2....24444555666666444688888889 PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (1537 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 1  (7684 residues re-searched)
+Windows   passing  local HMM SSV           filter:              20  (0.8945); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              20  (0.8945); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.1304); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.1304); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               3  (0.1082); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               1  (0.03146); expected (0.0001)
+Total CM hits reported:                                          1  (0.01946); includes 0 truncated hit(s)
+
+# CPU time: 16.06u 0.81s 00:00:16.86 Elapsed: 00:00:16.99
+//
+[ok]

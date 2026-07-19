@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnN.cm
+# target sequence database:              mitos2_anno/E_verrucosus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnN  [CLEN=72]
+Hit scores:
+ rank     E-value  score  bias  sequence                   start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------- ------ ------   --- ----- ----  -----------
+  (1) !   0.00058   28.3   0.0  Mitogenome_E_verrucosus_S   6098   6158 +  cm    no 0.38  -
+
+
+Hit alignments:
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   0.00058   28.3   0.0  cm        1       72 []        6098        6158 + .. 0.92    no 0.38
+
+                                 v                        v               v                             v  NC
+                                 (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,,<<<<<___~~~~~>>>>>))))))): CS
+                       trnN    1 UagauuGAAGCcauuaguUaagGCauuUagCUGUUAAcuAaaAgaUUGuaggAUc*[4]*ccuaCCaaucuAG 72  
+                                   GA:U:AAGCCA  A++++AGGC+  U:: UGUUA ::A    A UG:   A +        :C:A:UC   
+  Mitogenome_E_verrucosus_S 6098 UUGACUAAAGCCA--AAAAGAGGCGUGUCAUUGUUACUGAUUUAAGUGG---AAA*[1]*---CCUAGUCGUU 6158
+                                 *************..***************************8877787...554..3.....78******** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (72 consensus positions)
+Target sequences:                                                1  (31202 residues searched)
+Target sequences re-searched for truncated hits:                 1  (408 residues re-searched)
+Windows   passing  local HMM SSV           filter:             265  (0.9217); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:             155  (0.6351); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              13  (0.06688); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               8  (0.06688); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:              11  (0.02556); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               2  (0.004556); expected (0.0001)
+Total CM hits reported:                                          1  (0.00193); includes 0 truncated hit(s)
+
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.13
+//
+[ok]

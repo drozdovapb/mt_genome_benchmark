@@ -1,0 +1,68 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnY.cm
+# target sequence database:              mitos2_anno/E_verrucosus//sequence.fas-7800
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnY  [CLEN=70]
+Hit scores:
+ rank     E-value  score  bias  sequence                   start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------- ------ ------   --- ----- ----  -----------
+  (1) !   0.00024   26.8   0.0  Mitogenome_E_verrucosus_S  10966  11026 +  cm    no 0.38  -
+  (2) !    0.0052   21.1   0.0  Mitogenome_E_verrucosus_S   8060   7979 -  cm    no 0.29  -
+
+
+Hit alignments:
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   0.00024   26.8   0.0  cm        1       70 []       10966       11026 + .. 0.87    no 0.38
+
+                                                              v        v            v       v             NC
+                                  (((((((,,<<<<______>>>>,<<<<<_______.>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                       trnY     1 ggUaagaUGGCuGAguguUAaGCGauagaUUGUAAA.ucuauuuAuGgaggUUuaAaUccucCucuuAccA 70   
+                                  : :A:::UGGC:GA U+U A:GC+:UAG +U UAAA +CUA:+ A GG :         : CC:::U: :A
+  Mitogenome_E_verrucosus_S 10966 AUAAGAGUGGCAGAUUUU-AUGCAGUAG-CUUUAAAgACUACACAAGGCU--------UAGCCCUCUUAUA 11026
+                                  **************9987.*********.444555544********9985........37899******** PP
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (2) !    0.0052   21.1   0.0  cm        1       70 []        8060        7979 - .. 0.83    no 0.29
+
+                                          vvv        vvv v               v                   NC
+                                 (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,~~~~~~))))))): CS
+                       trnY    1 ggUaagaUGGCuGAguguUAaGCGauagaUUGUAAAucuauuuAu*[17]*ucuuAccA 70  
+                                 GGUA:::UG   :A+U+  : +C+ UA::UUGUAAA::UA +UAU      :::UACC 
+  Mitogenome_E_verrucosus_S 8060 GGUAUAGUG---UAAUUA-ACACAAUAAGUUGUAAACUUAGAUAU*[33]*UUAUACCC 7979
+                                 ***988555...888886.7778******************8775...8..7899**** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (70 consensus positions)
+Target sequences:                                                1  (31202 residues searched)
+Target sequences re-searched for truncated hits:                 1  (760 residues re-searched)
+Windows   passing  local HMM SSV           filter:             130  (0.8793); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              97  (0.6945); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              21  (0.174); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               9  (0.129); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               9  (0.02469); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               3  (0.006602); expected (0.0001)
+Total CM hits reported:                                          2  (0.004474); includes 0 truncated hit(s)
+
+# CPU time: 0.23u 0.00s 00:00:00.23 Elapsed: 00:00:00.24
+//
+[ok]

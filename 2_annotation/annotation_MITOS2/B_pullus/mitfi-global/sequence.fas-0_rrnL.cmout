@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/rrnL.cm
+# target sequence database:              mitos2_anno/B_pullus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rrnL  [CLEN=1537]
+Hit scores:
+ rank     E-value  score  bias  sequence             start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------- ------ ------   --- ----- ----  -----------
+  (1) !   2.2e-89  352.2  31.9  Mitogenome_B_pullus  16284  15665 -  cm    5' 0.38  -
+
+
+Hit alignments:
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   2.2e-89  352.2  31.9  cm      793     1537 ~]       16284       15665 - ~. 0.86    5' 0.38
+
+                                       v             v     v   v           v   v                   v    v         v                v                                                         ???????    ??? ???????????????                                                         v             v                                                           v           v   v                           v vv      vv                           v             v                           v         v                                    v   v   v            v    v                       v                                                       vvv                                     vvvv                 vvvv                                      vvv        vv           vv   NC
+                            ~~~~~~~[[,,<<<<<_____>>>>>,,,<<<<<<<___________>>>>>>>,,,((((,<<<--<<<<<____>>>-->>>>><<<<<<______>>>>>>,,<<<____________>>><<<<<<_____>>>>>>,,,,,,,,,,)))),,,]]-]]]]]]]--]]]]]-]]]]]]]]]]]]]}},,,,,,,,,,<<<<<<________>>>>>>,,,,,,{{{-{{{-{{,,,,,{{{{{-{{{{{{{,<<<<<-<<<<<<<<_____________________________________________>>>>>>>>>>>>>,,<<<<<___>>>>><<<<<<___________>>>>>>[,((~~~~~~)),,,,,,,,,,<<<<_.__>>>>,,,,,],,,,,}}}}}--}}}}}}},,,,,,,<<<<<<<<<<<<---<<_______>>--->>>>>>>>>->>>,,,,,,,,,(((((-((((((,,<<<<<<<<<______>>>>>>->>>,,<<<<<_____>>>>>,,,,,)))))--)---))))),,,,,<<<<<<<____>>>->>>>,,,,}}--}}}}}}(((((.......<<<<<<<_______________>>>>>>>,<<<<<---<<<_____>>>->>>>>,<<<<---<<<<<____________>>>>>---->>>>)))-)--),,,<<<<_______>>>>:: CS
+                 rrnL     1 <[792]*CGcCUGUUUAcCAAAAACAUcgCcucuuGcaaaauaAgUAUaagagGUcuagCCUGCCCAgUGacauaaguUaAAcGGCcGCGGUAUuuUGACCGUgCaaAgGUAGCAUAAUCAcUuGucuuuUAAuUgaagaCUuGUAUGAAUGGcuuaACGAgggcuuaACUgUCUCuuauuuauuaucaguGAAAUUgAUuuucccGUGAAAAaGCgggaaUaaaauuauAaGACGAGAAGACCCUaUgGAgCUUuAaauuauuaauucaauuauauuaaauaauuuuuuaauaaggaaaaAAauuaauuaaaaaugaauuaaaauuUUUgGUuGGGGCgACcucgGaguAaAAaaaAACcuCcgauugg*[35]*ccaauaaUGAUCCgguA.uuaccGAUcAAagGAacAAGuUACCcuAGGGAUAACAGCGuAauccucuuuaAGAGUuCaUAUCGAcaagaggguUUgCGACCUCGAUGUUGGAUcAgGacAuccuaaugGuGCAGcagCuauuAaggGUugGUcUGUUCgACcaUUAAAguCcUACgUGAUCUGAGUUCAGACCGGcGUAAgCCAGGUCGGUUUCUAUCuauaauuuu.......uuuuuccUAGUACGAAAGGACCggaaaaauggggcCaAuucuaaAagaacgccccacccuuAauuaauGAaaucAacUaAauuaaauAAagggaaaaaaauuuugcccaAgAuaAgggcuu 1537 
+                                   :G+  GUUUA CAAAAAC   +CC :U: +       GU  :A: GGU++::CCUGCCCAGUGA +    UU AACGGC GC:GUAUUUUGAC:GU  +AA:GUAGCAUAAUCA:UUG:::UUUAAUUGA:::CU G AUGAAUGG::UAAC:A             U+U       U U A U AA UU+A  U::: GUGA AA  C :::AU  +  U : :GAC:A AAGACCCU:U :AGCUUUA:A::++             U +A U+AUU+                 U +A   +++A        ::U:UUU:: U GGG G :::: :::U    ++AAAC::: :: U        ++++  + GAUCC::UA +UA::GAU AA  G  +AAGUUAC:+:AGGGAUAACAGCGUA:U:::CUU AA AG UC UAU GA AAG:::G:UUGCGACCUCGAUGUUG:AU:AG    +  ::: G:UGCAG AG:U :: :   U:GGU:UGUUC:ACC:UU  A   CUAC:UGAU:UGAGUUCA:A:CGG: U+A:CCAG:U:GGUUU:UAUC:: A::U++       :::U:::UAGUACGAAAGG CC:::A:::U++ G                             U::::G    C ++U+ ::::A            :AA:     C:AAG U+A:G  UU
+  Mitogenome_B_pullus 16284 <[  0]*AGAAAGUUUAGCAAAAACAGUUCCGUUCAA------GGUCAGAAAGGUAAGACCUGCCCAGUGAGU---GUUCAACGGCGGCAGUAUUUUGACUGUAUUAAGGUAGCAUAAUCAUUUGUUAUUUAAUUGAUAGCUGGCAUGAAUGGUUUAACUAAAUUAGGGG--AGUUUGUAGCGCUGUAAAUAAACUUAAAGUUAAGGUGAUAAUUCUUUGAUGGUC-UGGGGGACGAAAAGACCCUGU-AAGCUUUAUAAAUA------------GUGUAGUUAUUA-------------GUGGUGUAGGGUUUA--------UUUAUUUUAUUGGGGGGGUAGUUUUAU----UUAAACUAAGACAU--*[ 0]*AUUUGGUAGAUCCUUUAaAUAAAGAUAAAACGGGUAAGUUACUUCAGGGAUAACAGCGUAAUAGACUUGAAUAGCUCGUAUUGAUAAGUCUGAUUGCGACCUCGAUGUUGAAUUAGGGUUAUUCUGUGCUGCAGGAGGUUCA-GUGAUGGGUUUGUUCAACCCUUUUAUUUCUACAUGAUUUGAGUUCAGAUCGGUUUGAGCCAGAUUGGUUUUUAUCUCUAGGUAAaaauugaAUCUCUUUAGUACGAAAGGGCCAAGAGGUUUUUG-----------------------------UUCGCGC---CGUUUUGGCGGA-----------GCAAC--GCACUAAGUUUAGGACUU 15665
+                            .......***************************976......677789**********************64...6************************************************************************************999999966..45556666777777899*********************************9875.99******************6.6***********62............222221111111.............122333444555566........********************8654444....22233322222222........334446889999999862568999**********************************************************************************************************************.6667***************************************************************************99886*************************************3221.............................2233322...223333333333...........33333..3347778888889999** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (1537 consensus positions)
+Target sequences:                                                1  (32568 residues searched)
+Target sequences re-searched for truncated hits:                 1  (7684 residues re-searched)
+Windows   passing  local HMM SSV           filter:              22  (0.9046); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              22  (0.9046); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.1264); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               2  (0.1264); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               2  (0.03294); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               2  (0.03292); expected (0.0001)
+Total CM hits reported:                                          1  (0.03081); includes 1 truncated hit(s)
+
+# CPU time: 2.92u 0.15s 00:00:03.07 Elapsed: 00:00:03.09
+//
+[ok]

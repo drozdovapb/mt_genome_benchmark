@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnM.cm
+# target sequence database:              mitos2_anno/B_pullus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnM  [CLEN=70]
+Hit scores:
+ rank     E-value  score  bias  sequence             start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------- ------ ------   --- ----- ----  -----------
+  (1) !   2.1e-06   40.1   0.0  Mitogenome_B_pullus   3155   3214 +  cm    no 0.42  -
+
+
+Hit alignments:
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   2.1e-06   40.1   0.0  cm        1       69 [.        3155        3214 + .. 0.95    no 0.42
+
+                                                    v             v                         NC
+                           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<~~~~~~>>>))))))) CS
+                 trnM    1 aguaagGUAAGCUAAaUaaAGCUaucGGGCUCAUACCCCgaAaAUGga*[11]*ucCCcuuacu 69  
+                           :::AAG:UAAGCUAA UA AGCU : GGG+UCAUACCCC :  AUGG:      :CC:CUU:::
+  Mitogenome_B_pullus 3155 UAAAAGAUAAGCUAACUA-AGCUGACGGGUUCAUACCCCUUUUAUGGC*[ 3]*GCCUCUUUUA 3214
+                           ******************.***************************98...5..89***99885 PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (70 consensus positions)
+Target sequences:                                                1  (32568 residues searched)
+Target sequences re-searched for truncated hits:                 1  (1012 residues re-searched)
+Windows   passing  local HMM SSV           filter:              99  (0.858); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              35  (0.3529); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              11  (0.1336); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               5  (0.07513); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               5  (0.0134); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               2  (0.005122); expected (0.0001)
+Total CM hits reported:                                          1  (0.001787); includes 0 truncated hit(s)
+
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.14
+//
+[ok]

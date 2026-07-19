@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/rrnS.cm
+# target sequence database:              mitos2_anno/B_pullus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rrnS  [CLEN=894]
+Hit scores:
+ rank     E-value  score  bias  sequence             start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------- ------ ------   --- ----- ----  -----------
+  (1) !   2.6e-59  235.0  23.6  Mitogenome_B_pullus   2548   1900 -  cm    no 0.37  -
+
+
+Hit alignments:
+>> Mitogenome_B_pullus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   2.6e-59  235.0  23.6  cm        1      894 []        2548        1900 - .. 0.84    no 0.37
+
+                               v             v  v v   v vv   v   v                                                                                   v                v      v    v             v                v                      vv v   v v       v      vv v   vvv                      vvvvvvv                   vvvvvvv                                vvv    v vv       vv    v                         v vv                   v                                                  v                    v   v     v            v           vvv v                          v                      vv    vv         vvv     vvv      v                    v vvv     v    v         v vvv   vvv v          vv   v        v   vv                     v vv           vv v              v                                                               v              v            NC
+                           :::<<<<<_______>>>>>,{{{{{{{{{{,{{{{{{{{,,,,[[[-[[[,,<<____>>,,,,,,(((,,,,,,,~~~~~~~~~~~~,)))~~~~~~,,,,,]]]]]],,,,,,,,<<<<<--<<<<<____>>>>>>>>>>,}}-}}}}}}.,,,<<<<<<<<________________>>>-------------->>>>>,}}}}}}}}}},,,,[[[[,,,,,,((((((((((-----------((((((((,,,<<<<<<<<<<<<<______>>>>->>>>>>>>>,,,,,,,,,,,,<<____>>))))))))----)))-))))))),,,,<<<<<<---<<---<<<<_________>>>>--->>>>>>>>,,,,,,,,,,,,,,,,]]]],<<<<-----<<<<____>>>>--->>>>,,,,,,,,{{{{-{{{{{{{{,,,,,,,{{{{{,,{{{{{{{{{{,,,<<<<________>>>>,,,,,,,,[[[[[[[-----------[[-[[--[[[[[[[[[[,,,,(((,,,<<<____>>>,<<____>>,))),,,,,<<<_____>>>,,,,,]]]-]]]---]]]]]]]]----]]]]]]],,}}-}}}}}}}},,,,,<<<<<___>>>>>,,,,,,,,,,<<<<<<<______>>>>>>>,,,,,,,,,,}}}}},,,,,<<<<<<<__~~~~~>>>>>>>,,,,,,,,,,,}}}}}}}}}}-}},,,,,,,,,,,,,,<<<<<<_______>>>>>>,,,,,,,,,,,,,,,,<<<<<<<<<<____>>>>>>>>>>::::::: CS
+                 rrnS    1 uAAagguuUGGUccUagccuUacuauuaacuuuaacuaaauUUAuAcAUGcAAguaUcugcauuCCaGUGAgaAUGc*[26]**[46]*CCAC*[11]*aaucAgCAgUaaUuAAuAUUaaguaAuaagcGAAAgcuugacuuAGuuAuaguua.auAgggucGGuaAAuuUuGUGCCAGCaaCCGCGGUUAuACgauagacccAaguuaauaguuuucGGcgUAAAGagugguuuaaauauuuaaaaaAuuaaaguuaAAuuuuaacuuagcuGUaAAAagcuuaaguuaaaauuAAauucaauuacgAAAguaacuuuaauaaauuugaaaccacGAAAgcuaagauAcaAACugGGAUUAGAUACCCcauUAugcuuagccgUAAAuuuuuaaaaacgCCaggguAcUAcaaGcaauagCuuaAAacccAAAGgAcUUGgCGgugcuuuAgAuCcaucuAGAGGAgccUGuucuaUAaucGAUAAuCCaCgauaaAcCUuACcuuuucUUGcuaauucAGcuugUAuAccgCCGucgUcAGcuuAcccuuUgAaggaacaAuAguaagCaaAAuuguuauaaacaAaaAaguCAGGuCAAggUgcagCuuAUgaaaagGgaagAaaUGggcUACAuUuucuaauauagaaaAuuAcGgAuaauauuuUGAAAuaaauauuUGAAGGuGGAUUUaguAGUAAaauaaaAa*[7]*uuuauuUGAAuuugGCucUaaagcacGcACAcAuCGCCCGUCACUCuccucUaaaUAAgaggaGaUAAGUCGUAACAuaGuAgGuguAccGGAAggUgcaCcUaGAaaaau 894 
+                           +AA  GUUU +  C AGC  U : :UU :     A: : : UUA:ACAU C                                                     G AGU:  UA U UUA::           A      ::UAG: A: :    A+A::::::G AAA+U UGUGCCAGCA C:GCGGUUAUAC +++:::::   : AA: : + U GG:         : :U: ++UA+ U A++AA           UU+   +:U: ::GU+AAA:: :+A:       ++A +U CA  +AC AA GU                :A: :++G      ++  U  : ACU:GGAUUAGAUACCC:A+UA:       +GU A         +  :CC+:: UA UA      A +     AAA ::A A G + UG:CG:::::     U  ++:UAGAGGAG:: GUU U+UAA CGAU A CC CG UA  +CU+ACC   U+         + :: UGUA:ACCG:C:  +  A:C:  +CC:UU+A:GG+  AA+A+UA:G:AA       +UA +CAAA+AA  :AG:UCAAGGU:CA:: UA  A   GG +A+ AAU ::CUACA+U+U+ AAUA   A +A UA+GG +  ::U  UG      A::     A GUG AUUUA:UAGUAA A     +         U UGA  ++G C C   :::::G:ACA AU GCCCGUCA UCUC       UAA   GAGA+AAGUCG AACA+AGUAG  ::ACCGGAAGGU::  CUA  A  A+
+  Mitogenome_B_pullus 2548 AAAGUGUUUUACACAAGCUUUAUUUUUUGUCC--AGGCAGGUUAAACAUGC--------------------------*[ 4]**[ 4]*----*[ 8]*-----GUAGUUUAUAGUCUUAUAG----------A-----AUAUAGCCAGUC---aAAAAUAGAGGUAAAAUAUGUGCCAGCAUCUGCGGUUAUACCUAUUCUGUGACUCAAAUAGAGUAGGUG--------AGCUACUUUAAGUGAUUAA-----------UUAGGGUAUUUUAGUGAAAUAGGAAU-------AAAGGUGCACGAACUAAGGU----------------AAGGUUUGG-----UUUCUUUGGACUAGGAUUAGAUACCCUACUACUG-----UGUUAU--------UCAGCCUAAUUAUUAU-----AGU----UAAAGUUAUACGGUAUGGCGGCUAGC----UUAUCUUAGAGGAGUUUGUU-UUUAAUCGAUGAGCCUCGCUAGCUCUCACCAUGUUA--------UUUUAUGUACACCGUCAUUU--AGCUAGUCCUUUAAGGGU--AAAAUUAGGUAAU------UUAGUCAAAUAAGCUAGAUCAAGGUGCAGAGUA--AGCCGG-UAAGAAUUAACUACAAUAUAGAAUA---A-UA-UAUGGUACUCCUAGUGG--CUCAGGCUAAUAAGUGAAUUUAAUAGUAAUAGC---U*[3]*---AUUUGAUCAAGUCAC--ACUAGUGUACAAAUUGCCCGUCAGUCUC-------UAA---GAGACAAGUCGAAACAAAGUAGGCACACCGGAAGGUGUUUCUAAGAGCAA 1900
+                           ******************98877777766655..6778999********98.............................8.....9.........9.......89***************98..........6.....89*****99887...39************************************************9999999999999999964........3334444444444444444...........444455667999*******9988765.......33444444444455555555................222222232.....334577999**********************984.....555443........447899**********.....344....89********************9997....88899**************8.569**************************9866553........55999************987..9****************9..4567777777543......333467899999******************985..566799.66779************87664333...3.34.89999999999999886..477888899999****************97632...2..2.....256899999998888..8999************************.......888...************************************************** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (894 consensus positions)
+Target sequences:                                                1  (32568 residues searched)
+Target sequences re-searched for truncated hits:                 1  (4468 residues re-searched)
+Windows   passing  local HMM SSV           filter:              28  (0.8813); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              26  (0.877); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.08805); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.08805); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               2  (0.04485); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               2  (0.0398); expected (0.0001)
+Total CM hits reported:                                          1  (0.01752); includes 0 truncated hit(s)
+
+# CPU time: 14.31u 0.48s 00:00:14.79 Elapsed: 00:00:14.87
+//
+[ok]

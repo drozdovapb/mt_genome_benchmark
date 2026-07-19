@@ -1,0 +1,81 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnF.cm
+# target sequence database:              mitos2_anno/E_cyaneus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnF  [CLEN=67]
+Hit scores:
+ rank     E-value  score  bias  sequence              start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------- ------ ------   --- ----- ----  -----------
+  (1) !   1.4e-09   54.0   0.0  Mitogenome_E_cyaneus   4807   4748 -  cm    no 0.35  -
+  (2) !   2.6e-05   34.0   0.2  Mitogenome_E_cyaneus   6580   6521 -  cm    no 0.28  -
+  (3) !   0.00047   28.1   0.0  Mitogenome_E_cyaneus   8180   8239 +  cm    no 0.27  -
+
+
+Hit alignments:
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   1.4e-09   54.0   0.0  cm        1       67 []        4807        4748 - .. 0.96    no 0.35
+
+                                        v      v                            v      v            NC
+                            (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<____>>>>>))))))): CS
+                  trnF    1 guuuauGUAGCUUAAauUAAAGCAuagCACUGAAGAUGcuaAGAUGguuaaaaauaacCCauaaacA 67  
+                            :UU:A::UAGCU AA  UA AGC U:GCA+UGAAGAUGC:AAG+UG:          :C::U:AA:A
+  Mitogenome_E_cyaneus 4807 AUUUAGAUAGCUAAAG-UAGAGCGUUGCAUUGAAGAUGCAAAGGUGAGU------UUUCUCUGAAUA 4748
+                            ************9999.*****************************975......569********* PP
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (2) !   2.6e-05   34.0   0.2  cm        1       67 []        6580        6521 - .. 0.95    no 0.28
+
+                                                                                                 NC
+                            (((((((,,<<<<______>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<____>>>>>))))))): CS
+                  trnF    1 guuuauGUAGCUUAAauUAAAGCAuagCACUG*[4]*UGcuaAGAUGguuaaaaauaacCCauaaacA 67  
+                            G:U:A :UA::UUA++  AAA:: U :CA+UG     UG: AAGAUG :     +  : C: U:A:CA
+  Mitogenome_E_cyaneus 6580 GCUAAGAUAGUUUAUU--AAAAUGUUACAUUG*[4]*UGUGAAGAUGUAU----U-GUACUUUUAGCA 6521
+                            *************976..************98..9..*********9987....6.7899******** PP
+
+>> Mitogenome_E_cyaneus  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (3) !   0.00047   28.1   0.0  cm        1       67 []        8180        8239 + .. 0.85    no 0.27
+
+                                                                            v      v            NC
+                            (((((((,,<<<<______>>>>,<<<<<__~~~~~>>>>>,,,,<<<<<____>>>>>))))))): CS
+                  trnF    1 guuuauGUAGCUUAAauUAAAGCAuagCACU*[5]*UGcuaAGAUGguuaaaaauaacCCauaaacA 67  
+                            GU:U:UGUAG:UUA+A  AAA:C U::::CU     ::::AA   G:U        A:CCA:A:AC 
+  Mitogenome_E_cyaneus 8180 GUCUUUGUAGUUUAUA-AAAAACCUUAGUCU*[5]*ACUAAAAUAGAUC------UAUCCAAAGACU 8239
+                            ****************.99999888877765..8..7777777778874......4799******** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (67 consensus positions)
+Target sequences:                                                1  (28748 residues searched)
+Target sequences re-searched for truncated hits:                 1  (464 residues re-searched)
+Windows   passing  local HMM SSV           filter:             185  (0.8402); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              80  (0.429); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               9  (0.05214); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               5  (0.04406); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               5  (0.01188); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               3  (0.006812); expected (0.0001)
+Total CM hits reported:                                          3  (0.006162); includes 0 truncated hit(s)
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+//
+[ok]

@@ -1,0 +1,107 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnC.cm
+# target sequence database:              mitos2_anno/E_verrucosus//sequence.fas-7800
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnC  [CLEN=68]
+Hit scores:
+ rank     E-value  score  bias  sequence                   start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------- ------ ------   --- ----- ----  -----------
+  (1) !     1e-05   35.1   0.1  Mitogenome_E_verrucosus_S   1905   1964 +  cm    no 0.25  -
+  (2) !   7.4e-05   31.2   0.0  Mitogenome_E_verrucosus_S   8064   8004 -  cm    no 0.34  -
+  (3) !   0.00081   26.5   0.0  Mitogenome_E_verrucosus_S   8174   8118 -  cm    no 0.37  -
+  (4) !    0.0041   23.2   0.0  Mitogenome_E_verrucosus_S  13787  13845 +  cm    no 0.36  -
+  (5) !    0.0059   22.5   0.1  Mitogenome_E_verrucosus_S  11769  11829 +  cm    no 0.25  -
+
+
+Hit alignments:
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !     1e-05   35.1   0.1  cm        1       68 []        1905        1964 + .. 0.89    no 0.25
+
+                                                                                v          v           NC
+                                 (((((((,,<<<<_____>>>>,<<<<<._______>>>>>,,,,<<<<<______>>>>>))))))): CS
+                       trnC    1 aGcccugUAGUguAauuAacACAUuAaA.UUGCAAAUuUaAAGAaGcagauuAauaucugCcagggCuU 68  
+                                 : C::UGUA:U:UA+++AA:A:AUUA:  UUG AA  :UAAAG AG:       U+   :CCA::G :U
+  Mitogenome_E_verrucosus_S 1905 GUCUUUGUAGUUUAUAAAAAAUAUUAGUcUUGUAA-GCUAAAGUAGAA------UU--AUCCAAAGACU 1964
+                                 ***************************53776555.9********986......44..579******** PP
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (2) !   7.4e-05   31.2   0.0  cm        1       68 []        8064        8004 - .. 0.96    no 0.34
+
+                                       v                 v               v      v          v   v       NC
+                                 (((((.((,,<<<<_____>>>>,<<<<<_______>>>>>,,,,<<<<<______>>>>>))))))): CS
+                       trnC    1 aGccc.ugUAGUguAauuAacACAUuAaAUUGCAAAUuUaAAGAaGcagauuAauaucugCcagggCuU 68  
+                                 ::CC   :UAGUGUAAUUAACACA UAA:UUG AAA:UUA A A+GC       +A   GC:  GG::U
+  Mitogenome_E_verrucosus_S 8064 GACCGgUAUAGUGUAAUUAACACAAUAAGUUGUAAACUUAGAUAUGCU------AA--UGCUCCGGUUU 8004
+                                 *****8899*************************************96......55..59********* PP
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (3) !   0.00081   26.5   0.0  cm        1       68 []        8174        8118 - .. 0.90    no 0.37
+
+                                    v       v       v                          v          v     v     NC
+                                 (((((((,,<<<<_____>>>>,<<<<<_______>>>>>,,,,<<<<<______>>>>>))))))): CS
+                       trnC    1 aGcccugUAGUguAauuAacACAUuAaAUUGCAAAUuUaAAGAaGcagauuAauaucugCcagggCuU 68  
+                                 AGC : G AG  U   + A  CA:UAA:UUGCAAA:UUA:  AAGC       UA   GCC : GCU 
+  Mitogenome_E_verrucosus_S 8174 AGCGUGGAAGGAU---AUAACCAAUAAGUUGCAAACUUAUUAAAGCA------UA--AGCCCAAGCUA 8118
+                                 *********9555...455789************************7......56..7********** PP
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (4) !    0.0041   23.2   0.0  cm        1       68 []       13787       13845 + .. 0.82    no 0.36
+
+                                       v                      v          v                          v       NC
+                                  (((((((,,<<<<_____>>>>,.<<<<<_____~~~~~>>>>>,,,.,<<<<<______>>>>>))))))): CS
+                       trnC     1 aGcccugUAGUguAauuAacACA.UuAaAUUGCA*[2]*UuUaAAGA.aGcagauuAauaucugCcagggCuU 68   
+                                  AG: : GUAGU:: AU+A::AC+ :UAA UUGCA      UUA:AGA +:C:      +A  :G:C : :CUU
+  Mitogenome_E_verrucosus_S 13787 AGGGUUGUAGUUU-AUAAGAACGgUUAACUUGCA*[0]*UUUAGAGAgUACU------AA--AGUCUACCCUU 13845
+                                  *************.99*******666666***98.....5666555525777......66..778******** PP
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (5) !    0.0059   22.5   0.1  cm        1       68 []       11769       11829 + .. 0.92    no 0.25
+
+                                                             v        v                                 NC
+                                  (((((((,,<<<<_____>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<______>>>>>))))))): CS
+                       trnC     1 aGcccugUAGUguAauuAacACAUuAaAUUG*[4]*UuUaAAGAaGcagauuAauaucugCcagggCuU 68   
+                                  A:: : :UAGU::AAUUA::ACAUUAA UUG      UUAAA  +:C:     A    :G:: : ::U 
+  Mitogenome_E_verrucosus_S 11769 AAAGAGUUAGUUAAAUUAUAACAUUAAAUUG*[4]*AUUAAAAUUACC-----ACG--GGUACUCUUUG 11829
+                                  ***************************8887..5..689******999.....788..99********* PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (68 consensus positions)
+Target sequences:                                                1  (31202 residues searched)
+Target sequences re-searched for truncated hits:                 1  (576 residues re-searched)
+Windows   passing  local HMM SSV           filter:             157  (0.8201); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              83  (0.4903); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              18  (0.124); expected (0.02)
+Windows   passing glocal HMM Forward       filter:              12  (0.124); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:              14  (0.03285); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               5  (0.01073); expected (0.0001)
+Total CM hits reported:                                          5  (0.009378); includes 0 truncated hit(s)
+
+# CPU time: 0.24u 0.00s 00:00:00.24 Elapsed: 00:00:00.24
+//
+[ok]

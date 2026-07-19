@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/rrnS.cm
+# target sequence database:              mitos2_anno/E_verrucosus//sequence.fas-7800
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rrnS  [CLEN=894]
+Hit scores:
+ rank     E-value  score  bias  sequence                   start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------- ------ ------   --- ----- ----  -----------
+  (1) !   9.8e-51  201.6  66.3  Mitogenome_E_verrucosus_S   6619   5988 -  cm    no 0.31  -
+
+
+Hit alignments:
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   9.8e-51  201.6  66.3  cm        1      894 []        6619        5988 - .. 0.80    no 0.31
+
+                                       v         v    v       v                                                            v        v               v     v                v                   v   v       v               v                         v          v v               v v                           v                   v     vvvv                                  vvvv                                                                                         v                                                                  v    v                 v    v    v     v v     v v     v                                    v           v v   v v                 v        v                          vvv               vvv                                                                                                          NC
+                                 :::<<<<<_______>>>>>,{{{{{{{{{{,{{{{{{{{,,,,[[[-[[[,,~~~~~~~~~~~~~~~~~,,,,,]]]]]],,,,,,,,<<<~~~~~~>>>,}}-}}}}}},,,<<<<<<<<________________>>>-------------->>>>>,}}}}}}}}}},,,,[[[[,,,,,,((((((((((-----------((((((((,,,<<<<<<<<<<<<<______>>>>->>>>>>>>>,,,,,,,,,,,,<<____>>))))))))----)))-))))))),,,,<<<<<<---<<---<<<<_________>>>>--->>>>>>>>,,,,,,,,,,.,,,,,,]]]],<<<<-----<<<<____>>>>--->>>>,,,,,,,,{{{{-{{{{{{{{,,,,,,,{{{{{,,{{{{{{{{{{,,,<<<<________>>>>,,,,,,,,[[[[[[[-----------[[-[[--[[[[[[[[[[,,,,(((,,,<<<____>>>,<<____>>,))),,,,,<<<_____>>>,,,,,]]]-]]]---]]]]]]]]----]]]]]]],,}}-}}}}}}}},,,,,<<<<<___>>>>>,,,,,,,,,,<<<<<<<______>>>>>>>,,,,,,,,,,}}}}},,,,,<<<<<<<_________>>>>>>>,,,,,,,,,,,}}}}}}}}}}-}},,,,,,,,,,,,,,<<<<<<_______>>>>>>,,,,,,,,,,,,,,,,<<<<<<<<<<____>>>>>>>>>>::::::: CS
+                       rrnS    1 uAAagguuUGGUccUagccuUacuauuaacuuuaacuaaauUUAuAcAUGcAA*[8]**[92]**[11]*aaucAgCAgUaaUuAAuAUUaa*[20]*uuAGuuAuaguuaauAgggucGGuaAAuuUuGUGCCAGCaaCCGCGGUUAuACgauagacccAaguuaauaguuuucGGcgUAAAGagugguuuaaauauuuaaaaaAuuaaaguuaAAuuuuaacuuagcuGUaAAAagcuuaaguuaaaauuAAauucaauuacgAAAguaacuuuaauaaauuugaaaccacGAAAgcuaagauAcaAACugGGAUUAGAUACCCcauUAugcuuagccgUAAAuuuu.uaaaaacgCCaggguAcUAcaaGcaauagCuuaAAacccAAAGgAcUUGgCGgugcuuuAgAuCcaucuAGAGGAgccUGuucuaUAaucGAUAAuCCaCgauaaAcCUuACcuuuucUUGcuaauucAGcuugUAuAccgCCGucgUcAGcuuAcccuuUgAaggaacaAuAguaagCaaAAuuguuauaaacaAaaAaguCAGGuCAAggUgcagCuuAUgaaaagGgaagAaaUGggcUACAuUuucuaauauagaaaAuuAcGgAuaauauuuUGAAAuaaauauuUGAAGGuGGAUUUaguAGUAAaauaaaAaUAgAguGuuuauuUGAAuuugGCucUaaagcacGcACAcAuCGCCCGUCACUCuccucUaaaUAAgaggaGaUAAGUCGUAACAuaGuAgGuguAccGGAAggUgcaCcUaGAaaaau 894 
+                                 +AAA:  :U + C U:  :UU    UU::  U: ::::: UUU :ACAU C                        G AGU:  UA  AUU A      U AG : :::: :+U   ::::G +AA+   GUGCCAGCA C:GCGGUUAUAC+++ :::    +::AA            UA AG   G ::::::U+        A::AA   : AA       : ::::GU+AAA::::  :G                          :   UU::U+A+:::G::: C  G         A+ ::AAC::GGAUUAGA ACCC::+UA::  ++++ +UAAAU U+ U  ++A    +:::UA          UA       A:::A A G +UUG:CG::::::    U   U:UAGAGGAG:: G:U: AUAA:CGA A   C CG:U   ++UUA :U::U:U+         :: UGUA:ACCG:C:U +  A :U A+:::+  A::: A    A+UAA:       :  +UA  : AA A  U:AG:UCAAGGU:CA:: U  :A::A:  A : A:U ::CUACA+U:U : +UA : A:A  UA G AUAAUA:   G A    :UAUU   A GUGGAUUUA:UAGUAA        UAG+++     U UGA UUU+ +U   ::::::G:ACA AU GCCCGUCA UCUC       U A   GAGAUAAGUCG AACA+AGUAG:U::AC:GGAA:GU::A:CUA A +  +
+  Mitogenome_E_verrucosus_S 6619 AAAAAUAUUUAGCGUGGGUUUGGGGUUUU--UCUUAAUGGUUUGGACAUGC--*[3]**[ 5]**[ 6]*-----GUAGUCUAUAGAAUUAA*[ 0]*UAAGUCUAUUAGGUU--UAGAGGUUAAAGGGGUGCCAGCAUCUGCGGUUAUACUUAGUCUU---AAAAAUUUA--------UACAGGUAGGCUAUUUUU--------AAAAAGGUUUAA-------UUUUUGGUGAAAUAAACUGG-----------------------G--GUUUUUUUUUAUGAAGAGGUCAGGUCU------AAUAGAACCAGGAUUAGAGACCCUGCUACU--AUUUAUUAAAUCUAaUGCUUA----UAGCUA----------UA-------AGUUACAUGGUUUGGCGGCUUAA----UUGGUUUAGAGGAGUUUGCUUUAUAAUCGACACAGCUCGUUGGCUUUUAUUUACUUUAU--------UUAUGUACACCGUCAUUU--AGUUAAUUUUAAUAGAAGA----AUUAAGG-----AAUGUUAGUUAAACAGCUUAGAUCAAGGUGCAGAGU--AAGUAAA-AGAGAGUUAACUACAAUAUAAAUUAAUAAUA--UAGGCAUAAUAAG--GUAG---UUAUUAAUAAGUGGAUUUAAUAGUAAU-------UAGUUAU---GUUUGAUUUUAUUUA--UUAAGUGUACAAAUUGCCCGUCAAUCUC-------UCA---GAGAUAAGUCGAAACAAAGUAGAUACACUGGAAGGUGUAUCUAAAGUCGA 5988
+                                 ********************998776655..699999999*********99....7.....9.....8.......99************964......569999999999943..3567**********************************997654...345555543........566788888888877754........233333333344.......5699*********9775321.......................1..444444455566777777777766654......445889**********************88..334455555555543222222....555553..........34.......8999**************87765....66788*************************************************99984........999*************87..7999999999888888862....2333333.....33333334666777889***************9987..99*****.9999*************99887555444443..5555555555554..4444...45555566779**************95.......4555444...345788888776666..67778***********************.......888...************************************************** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (894 consensus positions)
+Target sequences:                                                1  (31202 residues searched)
+Target sequences re-searched for truncated hits:                 1  (4468 residues re-searched)
+Windows   passing  local HMM SSV           filter:              30  (0.9374); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              30  (0.9374); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.09142); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.09142); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               3  (0.07424); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               3  (0.04797); expected (0.0001)
+Total CM hits reported:                                          1  (0.01772); includes 0 truncated hit(s)
+
+# CPU time: 16.08u 0.48s 00:00:16.55 Elapsed: 00:00:16.64
+//
+[ok]

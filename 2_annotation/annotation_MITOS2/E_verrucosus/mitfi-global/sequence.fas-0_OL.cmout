@@ -1,0 +1,68 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/OL.cm
+# target sequence database:              mitos2_anno/E_verrucosus//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.1
+# Max sensitivity mode:                  on [all heuristic filters off]
+# maximum DP search matrix size:         80000.0 Mb
+# truncated hit detection:               off [due to --max]
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       OL  [CLEN=33]
+Hit scores:
+ rank     E-value  score  bias  sequence                   start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  ------------------------- ------ ------   --- ----- ----  -----------
+ ------ inclusion threshold ------
+  (1) ?      0.01   16.1   0.0  Mitogenome_E_verrucosus_S  11711  11679 -  cm    no 0.21  -
+  (2) ?     0.031   14.4   0.0  Mitogenome_E_verrucosus_S  11679  11711 +  cm    no 0.21  -
+
+
+Hit alignments:
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (1) ?      0.01   16.1   0.0  cm        1       33 []       11711       11679 - ..   16.0    no 0.21
+
+                                                                      NC
+                                  <.<<<<<<<<_______________>>>>>>>>.> CS
+                         OL     1 U.CUCCCGCCUUuugaaaAaAAAAAGGCGGGAG.A 33   
+                                  U :U:C  C:UUU+    ++ AAAA:G  G:A: A
+  Mitogenome_E_verrucosus_S 11711 UaUUUCUACUUUUAC--UGGUAAAAAGUAGAAAuA 11679
+
+>> Mitogenome_E_verrucosus_S  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (2) ?     0.031   14.4   0.0  cm        1       33 []       11679       11711 + ..   14.2    no 0.21
+
+                                                                      NC
+                                  <.<<<<<<<<_______________>>>>>>>>.> CS
+                         OL     1 U.CUCCCGCCUUuugaaaAaAAAAAGGCGGGAG.A 33   
+                                  U :U:C  C:UUUU+    A  AAA:G  G:A: A
+  Mitogenome_E_verrucosus_S 11679 UaUUUCUACUUUUUA--CCAGUAAAAGUAGAAAuA 11711
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (33 consensus positions)
+Target sequences:                                                1  (31202 residues searched)
+Target sequences re-searched for truncated hits:                 0  (0 residues re-searched)
+Windows   passing  local HMM SSV           filter:                  (off)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:                  (off)
+Windows   passing  local HMM Forward  bias filter:                  (off)
+Windows   passing glocal HMM Forward       filter:                  (off)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:                  (off)
+Envelopes passing  local CM  CYK           filter:                  (off)
+Total CM hits reported:                                          2  (0.002115); includes 0 truncated hit(s)
+
+# CPU time: 7.33u 0.00s 00:00:07.33 Elapsed: 00:00:07.36
+//
+[ok]
