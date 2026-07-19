@@ -1,0 +1,78 @@
+>Feature C_0 Table1
+526	1608	gene
+			gene	nad2
+526	1608	CDS
+			product	NADH dehydrogenase subunit 2
+			protein_id	lcl| G-nad2
+			EC_number	1.6.5.3
+1706	3277	gene
+			gene	cox1
+1706	3277	CDS
+			product	cytochrome c oxidase subunit 1
+			protein_id	lcl| G-cox1
+			EC_number	1.9.3.1
+3223	3981	gene
+			gene	cox2
+3223	3981	CDS
+			product	cytochrome c oxidase subunit 2
+			protein_id	lcl| G-cox2
+			EC_number	1.9.3.1
+4169	4846	gene
+			gene	atp6
+4169	4846	CDS
+			product	ATP synthase F0 subunit a
+			protein_id	lcl| G-atp6
+			EC_number	3.6.3.14
+4846	5631	gene
+			gene	cox3
+4846	5631	CDS
+			product	cytochrome c oxidase subunit 3
+			protein_id	lcl| G-cox3
+			EC_number	1.9.3.1
+5589	5987	gene
+			gene	nad3
+5589	5987	CDS
+			product	NADH dehydrogenase subunit 3
+			protein_id	lcl| G-nad3
+			EC_number	1.6.5.3
+8043	6331	gene
+			gene	nad5
+8043	6331	CDS
+			product	NADH dehydrogenase subunit 5
+			protein_id	lcl| G-nad5
+			EC_number	1.6.5.3
+9414	8101	gene
+			gene	nad4
+9414	8101	CDS
+			product	NADH dehydrogenase subunit 4
+			protein_id	lcl| G-nad4
+			EC_number	1.6.5.3
+9680	9408	gene
+			gene	nad4L
+9680	9408	CDS
+			product	NADH dehydrogenase subunit 4L
+			protein_id	lcl| G-nad4L
+			EC_number	1.6.5.3
+9831	10328	gene
+			gene	orf165
+9831	10328	CDS
+			product	hypothetical protein
+			protein_id	lcl| G-orf165
+10328	11464	gene
+			gene	cob
+10328	11464	CDS
+			product	apocytochrome b
+			protein_id	lcl| G-cob
+			EC_number	1.10.2.2
+12699	11767	gene
+			gene	nad1
+12699	11767	CDS
+			product	NADH dehydrogenase subunit 1
+			protein_id	lcl| G-nad1
+			EC_number	1.6.5.3
+15300	15599	gene
+			gene	orf99
+15300	15599	CDS
+			product	hypothetical protein
+			protein_id	lcl| G-orf99
+
