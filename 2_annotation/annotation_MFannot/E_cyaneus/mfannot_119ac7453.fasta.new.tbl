@@ -1,0 +1,83 @@
+>Feature C_0 Table1
+183	1646	gene
+			gene	cox1
+183	1646	CDS
+			product	cytochrome c oxidase subunit 1
+			protein_id	lcl| G-cox1
+			EC_number	1.9.3.1
+1640	2458	gene
+			gene	cox2
+1640	2458	CDS
+			product	cytochrome c oxidase subunit 2
+			protein_id	lcl| G-cox2
+			EC_number	1.9.3.1
+2649	3323	gene
+			gene	atp6
+2649	3323	CDS
+			product	ATP synthase F0 subunit a
+			protein_id	lcl| G-atp6
+			EC_number	3.6.3.14
+3323	4108	gene
+			gene	cox3
+3323	4108	CDS
+			product	cytochrome c oxidase subunit 3
+			protein_id	lcl| G-cox3
+			EC_number	1.9.3.1
+4042	4464	gene
+			gene	nad3
+4042	4464	CDS
+			product	NADH dehydrogenase subunit 3
+			protein_id	lcl| G-nad3
+			EC_number	1.6.5.3
+6553	4808	gene
+			gene	nad5
+6553	4808	CDS
+			product	NADH dehydrogenase subunit 5
+			protein_id	lcl| G-nad5
+			EC_number	1.6.5.3
+7889	6576	gene
+			gene	nad4
+7889	6576	CDS
+			product	NADH dehydrogenase subunit 4
+			protein_id	lcl| G-nad4
+			EC_number	1.6.5.3
+8173	7883	gene
+			gene	nad4L
+8173	7883	CDS
+			product	NADH dehydrogenase subunit 4L
+			protein_id	lcl| G-nad4L
+			EC_number	1.6.5.3
+8306	8803	gene
+			gene	orf165
+8306	8803	CDS
+			product	hypothetical protein
+			protein_id	lcl| G-orf165
+8800	9939	gene
+			gene	cob
+8800	9939	CDS
+			product	apocytochrome b
+			protein_id	lcl| G-cob
+			EC_number	1.10.2.2
+11098	10172	gene
+			gene	nad1
+11098	10172	CDS
+			product	NADH dehydrogenase subunit 1
+			protein_id	lcl| G-nad1
+			EC_number	1.6.5.3
+11327	10960	gene
+			gene	rnl
+11327	10960	rRNA
+			product	large subunit ribosomal RNA
+			protein_id	lcl| G-rnl
+12247	12183	gene
+			gene	rns
+12247	12183	rRNA
+			product	small subunit ribosomal RNA
+			protein_id	lcl| G-rns
+13377	14273	gene
+			gene	nad2
+13377	14273	CDS
+			product	NADH dehydrogenase subunit 2
+			protein_id	lcl| G-nad2
+			EC_number	1.6.5.3
+
