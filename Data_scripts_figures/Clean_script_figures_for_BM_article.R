@@ -12,7 +12,7 @@ library(ggtext)
 library(ggh4x)
 
 # =============================================================================
-# FIGURE 1: E. cyaneus, two reference types
+# FIGURE #Ecy: E. cyaneus, two reference types
 # =============================================================================
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
@@ -26,14 +26,14 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "mtGrasp", "NOVOplasty", "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[2] <- "n_contigs"
-colnames(mt_result)[3] <- "lenght"
+colnames(mt_result)[3] <- "length"
 colnames(mt_result)[4] <- "score"
 colnames(mt_result)[5] <- "genes"
 mt_result$species <- "E. cyaneus"
 
 # Fix typo in column name
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 
 # Convert length to numeric (non-numeric entries become NA, then 0)
@@ -122,9 +122,12 @@ ggplot(plot_data, aes(x = max_len_kb, y = max_score, color = assembler)) +
 
 ggsave("17032026_figure_1.png", width = 35, height = 26, units = "cm", dpi = 300)
 
+
+
 # =============================================================================
-# FIGURE 2: E. cyaneus at different coverage depths (4 facets)
+# FIGURE #compare_coverage: E. cyaneus at different coverage depths (4 facets)
 # =============================================================================
+
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 mt_result <- subset(all_table_nG_new,
@@ -143,13 +146,16 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "mtGrasp", "NOVOplasty", "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[3] <- "n_contigs"
-colnames(mt_result)[4] <- "lenght"
+colnames(mt_result)[4] <- "length"
 colnames(mt_result)[5] <- "score"
 colnames(mt_result)[6] <- "genes"
 mt_result$species <- "E. cyaneus"
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+mt_result$type_input_data <- factor(mt_result$type_input_data, 
+                      levels = c("genome", "genome_16p", "genome_10p", "genome_1p"))
+
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 # Convert length to numeric
 mt_result$length <- as.numeric(as.character(mt_result$length))
@@ -179,18 +185,20 @@ ggplot() +
              alpha = 0.8) +
   geom_hline(yintercept = 100, linetype = "dashed", color = "gray30", linewidth = 0.8, alpha = 1) +
   geom_vline(xintercept = log10(14370/1000), linetype = "dashed", color = "gray30", linewidth = 0.8, alpha = 1) +
-  facet_wrap(~ type_input_data, scales = "free", ncol = 2,
+  facet_wrap(~ type_input_data, scales = "free", ncol = 4, #ncol=2 ##option
              labeller = labeller(type_input_data = c(
-               "genome"     = "Coverage 6×",
-               "genome_16p" = "Coverage 1×",
-               "genome_10p" = "Coverage 0.6×",
-               "genome_1p"  = "Coverage 0.06×"))) +
+               "genome"     = "Coverage 6× / 166×",
+               "genome_16p" = "Coverage 1× / 27×",
+               "genome_10p" = "Coverage 0.6× / 17×",
+               "genome_1p"  = "Coverage 0.06× / 5×"))) +
   scale_y_continuous(limits = c(-10, 110), expand = c(0, 0)) +
   scale_x_continuous(
     limits = c(-0.1, 3),
     expand = expansion(mult = c(0.01, 0.02)),
-    breaks = c(0, 0.7, 1, 1.3, 1.7, 2, 2.477121, 2.954243),
-    labels = c("0", "5", "10", "20", "50", "100", "300", "900")
+    #breaks = c(0, 0.7, 1, 1.3, 1.7, 2, 2.477121, 2.954243), ##option
+    #labels = c("0", "5", "10", "20", "50", "100", "300", "900") ##option
+    breaks = c(0, 1, 2, 3), ##option
+    labels = c("0", "10", "100", "1000") ##option
   ) +
   scale_size_continuous(range = c(5, 15), name = "Gene count") +
   scale_fill_manual(values = c(
@@ -213,23 +221,24 @@ ggplot() +
     )
   ) +
   labs(
-    title = "*E. cyaneus*",
-    x = "Total contigs length, kb",
+    #title = "*E. cyaneus*",
+    x = "Total contig length, kb",
     y = "Score, %",
     fill = "Assembler",
     size = "Gene count"
   ) +
   theme_ipsum(grid = "XY", axis_title_size = 15) +
   theme(
-    legend.position = "right",
-    legend.box = "vertical",
+    legend.position = "bottom", #right ##option
+#    legend.box = "vertical", ##option
     legend.box.just = "left",
-    legend.direction = "vertical",
+    legend.direction =  "horizontal", #"vertical", ##option
     legend.key.size = unit(1.5, "cm"),
     legend.key.width = unit(1.5, "cm"),
     legend.key.height = unit(1.4, "cm"),
-    legend.spacing = unit(0.2, "cm"),
-    legend.spacing.y = unit(0.2, "cm"),
+#    legend.spacing = unit(0.2, "cm"), ##option
+    legend.spacing = unit(2, "cm"),
+#    legend.spacing.y = unit(0.2, "cm"), ##option
     legend.margin = margin(t = 5, r = 5, b = 5, l = 5),
     legend.text = element_text(size = 22, family = "Helvetica", margin = margin(l = 1)),
     legend.title = element_text(size = 24, face = "bold", family = "Helvetica", margin = margin(b = 3)),
@@ -245,14 +254,18 @@ ggplot() +
     axis.line.y = element_line(color = "gray60", linewidth = 0.8),
     axis.ticks = element_line(color = "black"),
     panel.spacing = unit(0.8, "cm"),
-    plot.margin = margin(t = 10, r = 5, b = 5, l = 5)
+    plot.margin = margin(t = 10, r = 15, b = 5, l = 5) ##option r=5
   )
 
-ggsave("23032026_figure_2_2.png", width = 36, height = 25, units = "cm", dpi = 300)
+#ggsave("Figure_#compare_coverage_2027-07-27_var.png", width = 36, height = 25, units = "cm", dpi = 300)
+ggsave("Figure_#compare_coverage_2027-07-27_var.png", width = 40, height = 16, units = "cm", dpi = 300)
+
+
 
 # =============================================================================
-# FIGURE 3: DNA (genome) vs RNA (transcriptome) across three species
+# FIGURE #assembly_benchmark: DNA (genome) vs RNA (transcriptome) across three species
 # =============================================================================
+
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
 mt_result <- subset(all_table_nG_new,
@@ -275,26 +288,26 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "mtGrasp", "NOVOplasty", "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[4] <- "n_contigs"
-colnames(mt_result)[5] <- "lenght"
+colnames(mt_result)[5] <- "length"
 colnames(mt_result)[6] <- "score"
 colnames(mt_result)[7] <- "genes"
 
 # Map reference to species
 mt_result$Species <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "E. cyaneus",
                             ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul", "B. pullus",
-                                   ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_EveS", "E. verrucosus",
+                                   ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_EveS", "E. verrucosus S",
                                           ifelse(mt_result$type_ref_data == "full_mt_genom_Eve", "E. cyaneus",
                                                  ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul_Eve", "B. pullus",
-                                                        ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_Ecy", "E. verrucosus",
+                                                        ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_Ecy", "E. verrucosus S",
                                                                ifelse(mt_result$type_ref_data == "part_COI_Ecy", "E. cyaneus",
                                                                       ifelse(mt_result$type_ref_data == "part_COI_Bpul", "B. pullus",
-                                                                             ifelse(mt_result$type_ref_data == "part_COI_EveS", "E. verrucosus",
+                                                                             ifelse(mt_result$type_ref_data == "part_COI_EveS", "E. verrucosus S",
                                                                                     ifelse(mt_result$type_ref_data == "de_novo", "E. cyaneus",
                                                                                            ifelse(mt_result$type_ref_data == "de_novo_Bpul", "B. pullus",
-                                                                                                  ifelse(mt_result$type_ref_data == "de_novo_EveS", "E. verrucosus", "none"))))))))))))
+                                                                                                  ifelse(mt_result$type_ref_data == "de_novo_EveS", "E. verrucosus S", "none"))))))))))))
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 mt_result$length <- as.numeric(as.character(mt_result$length))
 mt_result$length[is.na(mt_result$length)] <- 0
@@ -332,7 +345,7 @@ hline_data <- plot_data_clean %>%
   summarise(m_mpg = c(), .groups = 'drop')
 hline_data$value <- ifelse(hline_data$species == "B. pullus", 16.284,
                            ifelse(hline_data$species == "E. cyaneus", 14.370,
-                                  ifelse(hline_data$species == "E. verrucosus", 15.601, "none")))
+                                  ifelse(hline_data$species == "E. verrucosus S", 15.601, "none")))
 hline_data$value <- as.numeric(hline_data$value)
 
 # Annotation for selected points in specific facets
@@ -387,7 +400,7 @@ ggplot(plot_data_clean, aes(x = max_len_kb, y = max_score, fill = assembler)) +
                 data_type = c("genome" = "DNA", "transcriptome" = "RNA"),
                 species = c("B. pullus" = "*B. pullus*",
                             "E. cyaneus" = "*E. cyaneus*",
-                            "E. verrucosus" = "*E. verrucosus*"))) +
+                            "E. verrucosus S" = "*E. verrucosus S*"))) +
   scale_y_continuous(limits = c(-15, 125), expand = c(0, 0),
                      breaks = c(0, 20, 40, 60, 80, 100)) +
   scale_x_continuous(
@@ -446,13 +459,19 @@ ggplot(plot_data_clean, aes(x = max_len_kb, y = max_score, fill = assembler)) +
     plot.margin = margin(t = 10, r = 5, b = 5, l = 5)
   )
 
-ggsave("23032026_figure_3_2_EveS_resambler.png", width = 45, height = 25, units = "cm", dpi = 300)
+#ggsave("23032026_figure_3_2_EveS_resambler.png", width = 45, height = 25, units = "cm", dpi = 300)
+
+ggsave("Figure_#assembly_benchmark.png", width = 45, height = 25, units = "cm", dpi = 300)
+## this one + photos
+ggsave("Figure_#assembly_benchmark.svg", width = 45, height = 25, units = "cm", dpi = 300)
 
 # =============================================================================
-# FIGURE 4: Effect of seed type (4 levels × 3 species)
+# FIGURE #compare_seeds: Effect of seed type (4 levels × 3 species)
 # =============================================================================
+
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
+## here we compare seeds, so choosing only seed-based assemblers
 mt_result <- subset(all_table_nG_new,
                     (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Ecy") |
                       (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Eve") |
@@ -464,7 +483,7 @@ mt_result <- subset(all_table_nG_new,
                       (type_input_data == "genome_3x" & type_ref_data == "de_novo_Bpul") |
                       (type_input_data == "genome"    & type_ref_data == "full_mt_genom_EveS_EveS") |
                       (type_input_data == "genome"    & type_ref_data == "full_mt_genom_EveS_Ecy") |
-                      (type_input_data == "genome"    & type_ref_data == "part_COI_EveS") |
+                      (type_input_data == "genome"    & type_ref_data == "part_COI_EveS") #|
                       (type_input_data == "genome"    & type_ref_data == "de_novo_EveS"))
 
 mt_result <- mt_result[, c(2, 3, 4, 5, 7, 21, 24)]
@@ -473,7 +492,7 @@ mt_result$assembler <- factor(mt_result$assembler,
                                          "mtGrasp", "NOVOplasty", "MEANGS", "MitoZ", "Norgal"))
 
 colnames(mt_result)[4] <- "n_contigs"
-colnames(mt_result)[5] <- "lenght"
+colnames(mt_result)[5] <- "length"
 colnames(mt_result)[6] <- "score"
 colnames(mt_result)[7] <- "genes"
 
@@ -504,8 +523,8 @@ mt_result$tipeseed <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "Mi
                                                                                             ifelse(mt_result$type_ref_data == "de_novo_Bpul", "De novo",
                                                                                                    ifelse(mt_result$type_ref_data == "de_novo_EveS", "De novo", "none"))))))))))))
 
-if("lenght" %in% colnames(mt_result)) {
-  colnames(mt_result)[colnames(mt_result) == "lenght"] <- "length"
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
 }
 mt_result$length <- as.numeric(as.character(mt_result$length))
 mt_result$length[is.na(mt_result$length)] <- 0
@@ -670,7 +689,329 @@ ggplot(plot_data_clean, aes(x = max_len_kb, y = max_score, fill = assembler)) +
 ggsave("23032026_figure_4_2.png", width = 55, height = 32, units = "cm", dpi = 300)
 
 # =============================================================================
-# FIGURE 5: Computational performance (time and memory)
+# FIGURE #compare_seeds_ALT: Effect of seed type (4 levels × 3 species)
+# =============================================================================
+
+all_table_nG_new <- read.csv("all_table_nG.csv")
+
+## here we compare seeds, so choosing only seed-based assemblers
+mt_result <- subset(all_table_nG_new,
+                    (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Ecy") |
+                      (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Eve") |
+                      (type_input_data == "genome_3x" & type_ref_data == "part_COI_Ecy") |
+                      #(type_input_data == "genome_3x" & type_ref_data == "de_novo") |
+                      (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Bpul") |
+                      (type_input_data == "genome_3x" & type_ref_data == "full_mt_genom_Bpul_Eve") |
+                      (type_input_data == "genome_3x" & type_ref_data == "part_COI_Bpul") |
+                      #(type_input_data == "genome_3x" & type_ref_data == "de_novo_Bpul") |
+                      (type_input_data == "genome"    & type_ref_data == "full_mt_genom_EveS_EveS") |
+                      (type_input_data == "genome"    & type_ref_data == "full_mt_genom_EveS_Ecy") |
+                      (type_input_data == "genome"    & type_ref_data == "part_COI_EveS") #|
+                    #  (type_input_data == "genome"    & type_ref_data == "de_novo_EveS")
+)
+
+mt_result <- mt_result[, c(2, 3, 4, 5, 7, 21, 24)]
+mt_result$assembler <- factor(mt_result$assembler, levels=unique(mt_result$assembler))
+
+colnames(mt_result)[4] <- "n_contigs"
+colnames(mt_result)[5] <- "length"
+colnames(mt_result)[6] <- "score"
+colnames(mt_result)[7] <- "genes"
+
+mt_result$Species <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "E. cyaneus",
+                            ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul", "B. pullus",
+                                   ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_EveS", "E. verrucosus",
+                                          ifelse(mt_result$type_ref_data == "full_mt_genom_Eve", "E. cyaneus",
+                                                 ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul_Eve", "B. pullus",
+                                                        ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_Ecy", "E. verrucosus",
+                                                               ifelse(mt_result$type_ref_data == "part_COI_Ecy", "E. cyaneus",
+                                                                      ifelse(mt_result$type_ref_data == "part_COI_Bpul", "B. pullus",
+                                                                             ifelse(mt_result$type_ref_data == "part_COI_EveS", "E. verrucosus",
+                                                                                    ifelse(mt_result$type_ref_data == "de_novo", "E. cyaneus",
+                                                                                           ifelse(mt_result$type_ref_data == "de_novo_Bpul", "B. pullus",
+                                                                                                  ifelse(mt_result$type_ref_data == "de_novo_EveS", "E. verrucosus", "none"))))))))))))
+
+# Map reference to seed type
+mt_result$tipeseed <- ifelse(mt_result$type_ref_data == "full_mt_genom_Ecy", "Mitogenome",
+                             ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul", "Mitogenome",
+                                    ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_EveS", "Mitogenome",
+                                           ifelse(mt_result$type_ref_data == "full_mt_genom_Eve", "Related mitogenome",
+                                                  ifelse(mt_result$type_ref_data == "full_mt_genom_Bpul_Eve", "Related mitogenome",
+                                                         ifelse(mt_result$type_ref_data == "full_mt_genom_EveS_Ecy", "Related mitogenome",
+                                                                ifelse(mt_result$type_ref_data == "part_COI_Ecy", "Folmer region COI",
+                                                                       ifelse(mt_result$type_ref_data == "part_COI_Bpul", "Folmer region COI",
+                                                                              ifelse(mt_result$type_ref_data == "part_COI_EveS", "Folmer region COI",
+                                                                                     ifelse(mt_result$type_ref_data == "de_novo", "De novo",
+                                                                                            ifelse(mt_result$type_ref_data == "de_novo_Bpul", "De novo",
+                                                                                                   ifelse(mt_result$type_ref_data == "de_novo_EveS", "De novo", "none"))))))))))))
+
+if("length" %in% colnames(mt_result)) {
+  colnames(mt_result)[colnames(mt_result) == "length"] <- "length"
+}
+mt_result$length <- as.numeric(as.character(mt_result$length))
+mt_result$length[is.na(mt_result$length)] <- 0
+
+plot_data <- mt_result %>%
+  group_by(assembler, type_input_data, type_ref_data) %>%
+  summarise(
+    tipeseed   = tipeseed,
+    Species    = Species,
+    n_contigs  = first(n_contigs),
+    max_len_kb = log10(length / 1000),
+    max_score  = score * 100,
+    sum_genes  = genes,
+    .groups    = "drop"
+  ) %>%
+  mutate(across(where(is.numeric), ~ ifelse(is.infinite(.) & . < 0, 0, .)))
+
+plot_data_clean <- plot_data %>%
+  mutate(type_input_data = ifelse(type_input_data == "genome_3x", "genome", type_input_data)) %>%
+  mutate(
+    max_len_kb = ifelse(max_len_kb < 0, 0, max_len_kb),
+    max_score  = ifelse(max_score < 0, 0, max_score),
+    sum_genes  = ifelse(sum_genes < 0, 0, sum_genes),
+    max_len_kb = ifelse(is.na(max_len_kb), 0, max_len_kb),
+    max_score  = ifelse(is.na(max_score), 0, max_score),
+    sum_genes  = ifelse(is.na(sum_genes), 0, sum_genes),
+    n_contigs  = ifelse(is.na(n_contigs), 0, n_contigs)
+  )
+
+colnames(plot_data_clean)[2] <- "data_type"
+colnames(plot_data_clean)[5] <- "species"
+
+plot_data_clean$species <- factor(plot_data_clean$species,
+                                  levels = c("B. pullus", "E. cyaneus", "E. verrucosus"))
+plot_data_clean$tipeseed <- factor(plot_data_clean$tipeseed,
+                                   levels = c("Mitogenome", "Related mitogenome",
+                                              "Folmer region COI", "De novo"))
+plot_data_clean$allgenes <- ifelse(plot_data$sum_genes == 15, "15", "<15")
+
+
+
+hline_data <- plot_data_clean %>%
+  group_by(species) %>%
+  summarise(m_mpg = c(), .groups = 'drop')
+hline_data$value <- ifelse(hline_data$species == "B. pullus", 16.284,
+                           ifelse(hline_data$species == "E. cyaneus", 14.370,
+                                  ifelse(hline_data$species == "E. verrucosus", 15.601, "none")))
+hline_data$value <- as.numeric(hline_data$value)
+
+# Define facets for which annotation labels are added
+threshold_x <- 0.3
+target_facets <- list(
+  list(species = "B. pullus", tipeseed = "Mitogenome", value = 16.284, tag = "f1", score_min = 80, score_max = 100, x_condition = "around", exclude = NULL),
+  list(species = "B. pullus", tipeseed = "Folmer region COI", value = 16.284, tag = "f3", score_min = 80, score_max = 100, x_condition = "around", exclude = NULL),
+  list(species = "E. cyaneus", tipeseed = "Mitogenome", value = 14.370, tag = "f5", score_min = 80, score_max = 100, x_condition = "around", exclude = NULL),
+  list(species = "E. cyaneus", tipeseed = "Folmer region COI", value = 14.370, tag = "f7", score_min = 40, score_max = 80, x_condition = "left", exclude = c("ARC", "mtGrasp")),
+  list(species = "E. verrucosus", tipeseed = "Mitogenome", value = 15.601, tag = "f9", score_min = 60, score_max = 100, x_condition = "around", exclude = c("MITObim", "ARC")),
+  list(species = "E. verrucosus", tipeseed = "Folmer region COI", value = 15.601, tag = "f11", score_min = 40, score_max = 100, x_condition = "left", exclude = c("GetOrganelle", "ARC"))
+)
+points_list <- list()
+for (f in target_facets) {
+  target_x <- log10(f$value)
+  df <- plot_data_clean %>% filter(species == f$species, tipeseed == f$tipeseed) %>%
+    filter(max_score >= f$score_min & max_score <= f$score_max)
+  if (f$x_condition == "around") {
+    df <- df %>% filter(abs(max_len_kb - target_x) < threshold_x)
+  } else if (f$x_condition == "left") {
+    df <- df %>% filter(max_len_kb <= target_x + 0.3)
+  }
+  if (!is.null(f$exclude)) { df <- df %>% filter(!(assembler %in% f$exclude)) }
+  df <- df %>% arrange(desc(max_score))
+  if (nrow(df) > 0) {
+    df <- df %>% mutate(label_y = seq(117, 75, length.out = n()),
+                        label_x = 2.55, line_x_end = 2.5)
+    points_list[[f$tag]] <- df
+  } else { points_list[[f$tag]] <- NULL }
+}
+
+ggplot(plot_data_clean, aes(x = max_len_kb, y = max_score, fill = assembler)) +
+  geom_point(aes(size = sum_genes, stroke = ifelse(sum_genes == 15, 2.5, 0.5)),
+             shape = 21, color = "black", alpha = 0.8) +
+  {if (!is.null(points_list$f1)) list(
+    geom_segment(data = points_list$f1, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f1, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f1, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  {if (!is.null(points_list$f3)) list(
+    geom_segment(data = points_list$f3, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f3, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f3, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  {if (!is.null(points_list$f5)) list(
+    geom_segment(data = points_list$f5, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f5, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f5, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  {if (!is.null(points_list$f7)) list(
+    geom_segment(data = points_list$f7, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f7, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f7, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  {if (!is.null(points_list$f9)) list(
+    geom_segment(data = points_list$f9, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f9, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f9, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  {if (!is.null(points_list$f11)) list(
+    geom_segment(data = points_list$f11, aes(x = max_len_kb, y = max_score, xend = line_x_end, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid", alpha = 0.8),
+    geom_segment(data = points_list$f11, aes(x = line_x_end, y = label_y, xend = label_x, yend = label_y), color = "black", linewidth = 0.4, linetype = "solid"),
+    geom_text(data = points_list$f11, aes(x = label_x, y = label_y, label = paste0(assembler, " (", sum_genes, ")")), size = 6, color = "black", hjust = 0, vjust = 0.5, show.legend = FALSE)
+  )} +
+  geom_hline(yintercept = 100, linetype = "dashed", color = "gray30", linewidth = 0.8, alpha = 1) +
+  geom_vline(data = hline_data, aes(xintercept = log10(value)), linetype = "dashed", color = "gray30", size = 1) +
+  facet_grid2(species ~ tipeseed, scales = "free", axes = "all", remove_labels = "none",
+              labeller = labeller(
+                tipeseed = c("Mitogenome" = "Mitogenome", "Related mitogenome" = "Related mitogenome",
+                             "Folmer region COI" = "Folmer region COI", "De novo" = "*De novo*"),
+                species = c("B. pullus" = "*B. pullus*", "E. cyaneus" = "*E. cyaneus*",
+                            "E. verrucosus" = "*E. verrucosus*"))) +
+  scale_y_continuous(limits = c(-20, 125), expand = c(0, 0), breaks = c(0, 20, 40, 60, 80, 100)) +
+  scale_x_continuous(limits = c(-0.4, 5.0), expand = expansion(mult = c(0.01, 0.02)),
+                     breaks = c(0, 0.7, 1.3, 2, 4), labels = c("0", "5", "20", "100", "10000")) +
+  scale_size_continuous(range = c(6, 18), name = "Gene count") +
+  scale_fill_manual(values = c(
+    "#E69F00", "#56B4E9", "#009E73", "#CC79A7", "#0072B2",
+    "#D55E00", "#F0E442", "#999999", "#882255", "#661100"
+  ), name = "Assembler") +
+  guides(
+    fill = guide_legend(override.aes = list(size = 10, alpha = 1, stroke = 0.8, color = "black"),
+                        title.position = "top", title.hjust = 0.5, label.position = "right",
+                        label.theme = element_text(size = 24, family = "Helvetica")),
+    size = guide_legend(override.aes = list(fill = "white", color = "black", stroke = c(0.5, 0.5, 0.5, 2.5), alpha = 1),
+                        title.position = "top", title.hjust = 0.5, label.position = "right",
+                        label.theme = element_text(size = 24, family = "Helvetica"))
+  ) +
+  labs(x = "Total contig length, kb", y = "Score, %", fill = "Assembler", size = "Gene count") +
+  theme_ipsum(grid = "XY", axis_title_size = 18) +
+  theme(
+    legend.position = "right",
+    legend.box = "vertical",
+    legend.box.just = "left",
+    legend.direction = "vertical",
+    legend.key.size = unit(1.8, "cm"),
+    legend.key.width = unit(1.8, "cm"),
+    legend.key.height = unit(1.6, "cm"),
+    legend.spacing = unit(0.3, "cm"),
+    legend.spacing.y = unit(0.3, "cm"),
+    legend.margin = margin(t = 8, r = 8, b = 8, l = 8),
+    legend.text = element_text(size = 20, family = "Helvetica", margin = margin(l = 6)),
+    legend.title = element_text(size = 24, face = "bold", family = "Helvetica", margin = margin(b = 4)),
+    strip.text.x = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.text.y = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.background = element_rect(fill = "gray95", color = "gray60", linewidth = 0.5),
+    axis.title.x = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.title.y = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.text.x = element_text(size = 18, family = "Helvetica", color = "black"),
+    axis.text.y = element_text(size = 18, family = "Helvetica", color = "black"),
+    axis.line.x = element_line(color = "gray60", linewidth = 0.8),
+    axis.line.y = element_line(color = "gray60", linewidth = 0.8),
+    axis.ticks = element_line(color = "black"),
+    panel.spacing = unit(1, "cm"),
+    plot.margin = margin(t = 15, r = 40, b = 10, l = 10)
+  )
+
+## option 1: group by seed
+
+ggplot(plot_data_clean, aes(x=assembler, y=max_score, fill = assembler)) + 
+  geom_bar(stat = 'identity', color = ifelse(plot_data$sum_genes == 15, "black", "white")) + 
+  facet_grid2(species ~ tipeseed, scales = "free", axes = "all", remove_labels = "all",
+              labeller = labeller(
+                tipeseed = c("Mitogenome" = "Mitogenome", "Related mitogenome" = "Related mitogenome",
+                             "Folmer region COI" = "Folmer region COI", "De novo" = "*De novo*"),
+                species = c("B. pullus" = "*B. pullus*", "E. cyaneus" = "*E. cyaneus*",
+                            "E. verrucosus" = "*E. verrucosus*"))) + 
+  scale_y_continuous(limits = c(-5, 105), expand = c(0, 0), breaks = c(0, 20, 40, 60, 80, 100)) +
+  scale_fill_manual(values = c(
+    "#E69F00", "#56B4E9", "#009E73", "#CC79A7", "#0072B2",
+    "#D55E00", "#F0E442"), name = "Assembler") + 
+  labs(x = "Seed type", y = "Score, %", fill = "Assembler") + ##, size = "Gene count"
+  theme_light() + 
+  #theme_ipsum(grid = "XY", axis_title_size = 18) +
+  theme(
+    legend.position = "bottom",
+    legend.box = "horizontal",
+    legend.box.just = "left",
+    legend.direction = "horizontal",
+    legend.key.size = unit(1.8, "cm"),
+    legend.key.width = unit(1.8, "cm"),
+    legend.key.height = unit(1.6, "cm"),
+    legend.spacing = unit(0.3, "cm"),
+    legend.spacing.y = unit(0.3, "cm"),
+    legend.margin = margin(t = 8, r = 8, b = 8, l = 8),
+    legend.text = element_text(size = 20, family = "Helvetica", margin = margin(l = 6)),
+    legend.title = element_text(size = 24, face = "bold", family = "Helvetica", margin = margin(b = 4)),
+    strip.text.x = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.text.y = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.background = element_rect(fill = "gray95", color = "gray60", linewidth = 0.5),
+    axis.title.x = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.title.y = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.text.x = element_blank(),#element_text(size = 18, family = "Helvetica", color = "black"),
+    axis.text.y = element_text(size = 18, family = "Helvetica", color = "black"),
+    axis.line.x = element_line(color = "gray60", linewidth = 0.8),
+    axis.line.y = element_line(color = "gray60", linewidth = 0.8),
+    axis.ticks = element_line(color = "black"),
+    panel.spacing = unit(1, "cm"),
+    plot.margin = margin(t = 15, r = 40, b = 10, l = 10)
+  )
+
+ggsave("Figure_#compare_seeds_alt1.png", width = 45, height = 32, units = "cm", dpi = 300)
+
+
+## option 2: group by assembler, easiest to compare
+
+ggplot(plot_data_clean, aes(x=tipeseed, y=max_score, fill = assembler)) + 
+  geom_bar(stat = 'identity', 
+           aes(color = allgenes), linewidth = 1.5) + 
+  facet_grid2(species ~ assembler, scales = "free", axes = "all", remove_labels = "all",
+              labeller = labeller(
+                tipeseed = c("Mitogenome" = "Mitogenome", "Related mitogenome" = "Related mitogenome",
+                             "Folmer region COI" = "Folmer region COI", "De novo" = "*De novo*"),
+                species = c("B. pullus" = "*B. pullus*", "E. cyaneus" = "*E. cyaneus*",
+                            "E. verrucosus" = "*E. verrucosus S*"))) + 
+  geom_text(aes(label=sum_genes), vjust = -0.5, size=6) + 
+  scale_y_continuous(limits = c(-5, 125), expand = c(0, 0), breaks = c(0, 20, 40, 60, 80, 100)) +
+  scale_fill_manual(values = c(
+    "#E69F00", "#56B4E9", "#009E73", "#CC79A7", "#0072B2",
+    "#D55E00", "#F0E442"), name = "Assembler", guide='none') +
+  scale_color_manual(values = c("NA", "black"), name = "Gene count") + 
+  labs(x = "Seed type", y = "Score, %", fill = "Assembler") + ##, size = "Gene count"
+  theme_light() + 
+  #theme_ipsum(grid = "XY", axis_title_size = 18) +
+  theme(
+    legend.position = "bottom",
+    legend.box = "horizontal",
+    legend.box.just = "left",
+    legend.direction = "horizontal",
+    legend.key.size = unit(1.8, "cm"),
+    legend.key.width = unit(1.8, "cm"),
+    legend.key.height = unit(1.6, "cm"),
+    legend.spacing = unit(0.3, "cm"),
+    legend.spacing.y = unit(0.3, "cm"),
+    legend.margin = margin(t = 8, r = 8, b = 8, l = 8),
+    legend.text = element_text(size = 20, family = "Helvetica", margin = margin(l = 6)),
+    legend.title = element_text(size = 24, face = "bold", family = "Helvetica", margin = margin(b = 4)),
+    strip.text.x = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.text.y = element_markdown(size = 25, face = "bold", family = "Helvetica", color = "black", hjust = 0.5),
+    strip.background = element_rect(fill = "gray95", color = "gray60", linewidth = 0.5),
+    axis.title.x = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.title.y = element_text(size = 28, family = "Helvetica", hjust = 0.5, color = "black"),
+    axis.text.x = element_text(size = 18, family = "Helvetica", color = "black", angle = -90),
+    axis.text.y = element_text(size = 18, family = "Helvetica", color = "black"),
+    axis.line.x = element_line(color = "gray60", linewidth = 0.8),
+    axis.line.y = element_line(color = "gray60", linewidth = 0.8),
+    axis.ticks = element_line(color = "black"),
+    panel.spacing = unit(1, "cm"),
+    plot.margin = margin(t = 15, r = 40, b = 10, l = 10)
+  )
+  
+
+ggsave("Figure_#compare_seeds_alt2.png", width = 60, height = 40, units = "cm", dpi = 300)
+ggsave("Figure_#compare_seeds_alt2.svg", width = 60, height = 40, units = "cm")
+
+
+# =============================================================================
+# FIGURE #S_resources: Computational performance (time and memory)
 # =============================================================================
 all_table_nG_new <- read.csv("all_table_nG.csv")
 
