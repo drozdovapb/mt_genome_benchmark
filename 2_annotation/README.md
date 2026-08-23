@@ -1,5 +1,79 @@
 # Mitochondrial genome annotation
 
+## Annotation workflow
+
+### mt-tRNA annotation with covariance models
+
+To do predictions with covariance models (CMs), we used [Infernal](http://eddylab.org/infernal/) suite. 
+Pack of scripts was used to run mitogenome tRNA annotation, published [here](https://github.com/julie-tooi/competitive_mttrna_search)
+
+>Mitogenome is circular, so it is important to elongate genomic fasta with start sequence (for example for 100b), creating an overlap
+
+Otherwise some genomic features can be missed.
+
+**General CM set**
+
+Links to curated sets of mt-tRNAs CMs can be found in [MITOS repository](https://gitlab.com/Bernt/MITOS)
+We used set [refseq63m.tar.bz2](https://zenodo.org/records/4284483) available at Zenodo platform.
+
+First step - make an annotation per CM:
+```
+python mitoannotation.py -i Mitogenome_E_cyaneus_elongated.fasta \
+-o /path/to/E_cyaneus_annotation \
+-c /path/to/folder/with/cms -t 6
+```
+
+And collect data in one report:
+```
+python collect_annotation_results.py -i /path/to/E_cyaneus_annotation \
+-o E_cyaneus_annotation_results.tsv
+```
+
+Report can be filtered and annotated with anticodons, file with mitochondrial genetic code can be found [here](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
+
+```
+python filter_results.py -i E_cyaneus_annotation_results.tsv \
+-o E_cyaneus_annotation_results.tsv \
+-f 20 -t /path/to/transl_table5.txt
+```
+
+After filtering each locus can me manually inspected. The idea is that for each locus we select a hit with highest score, but sometimes mt-tRNAs can have equal or close high score in different locus (for example, because of duplication events)
+
+**Specific CM set**
+
+Most accurate annotation for mt-tRNAs is possible with clade-specific CM set. It is available for [Amphipods](https://github.com/barnsys/trna_data) 
+
+After downloading, all CMs should be updated to version compatible with Infernal:
+```
+cmconvert Amphipoda_X.cm > trn_X.cm
+```
+
+Then, same workflow as for reference set can be applied:
+```
+python mitoannotation.py -i Mitogenome_E_cyaneus_elongated.fasta \
+-o /path/to/E_cyaneus_annotation \
+-c /path/to/folder/with/cms -t 6
+
+python collect_annotation_results.py -i /path/to/E_cyaneus_annotation \
+-o E_cyaneus_annotation_results.tsv
+
+python filter_results.py -i E_cyaneus_annotation_results.tsv \
+-o E_cyaneus_annotation_results.tsv \
+-f 20 -t /path/to/transl_table5.txt
+```
+With following results inspection.
+
+Specific CM set can be created with tRNA databases, for example [tRNAdb](https://tdb.bioinf.uni-leipzig.de/)
+
+mt-tRNA from specific clade can be retrieved in the form of alignment with sequence and secondary structure. With this information consensus secondary structure can be found and alignment in .sto format can be produced.
+
+Next steps include CM build with Infernal with following calibration:
+
+```
+cmbuild trnX.cm trnX_alignment.sto
+cmcalibrate trnX.cm
+```
+
 ## Trying to predict PolyA by alignment of RNAseq reads
 
 Using the idea published in https://link.springer.com/article/10.1186/s12915-022-01373-5#availability-of-data-and-materials
