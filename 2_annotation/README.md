@@ -1,6 +1,6 @@
 # Mitochondrial genome annotation
 
-## Annotation workflow
+## Annotation workflows
 
 ### mt-tRNA annotation with covariance models
 
@@ -30,7 +30,7 @@ python collect_annotation_results.py -i /path/to/E_cyaneus_annotation \
 ```
 
 Report can be filtered and annotated with anticodons, file with mitochondrial genetic code can be found [here](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
-
+In this example, we filter out results if hit score lower than 20 and do not strictly check anticodon:
 ```
 python filter_results.py -i E_cyaneus_annotation_results.tsv \
 -o E_cyaneus_annotation_results.tsv \
@@ -63,16 +63,55 @@ python filter_results.py -i E_cyaneus_annotation_results.tsv \
 ```
 With following results inspection.
 
-Specific CM set can be created with tRNA databases, for example [tRNAdb](https://tdb.bioinf.uni-leipzig.de/)
+Specific CM set can be build based on clade information from tRNA databases, for example [tRNAdb](https://tdb.bioinf.uni-leipzig.de/)
 
-mt-tRNA from specific clade can be retrieved in the form of alignment with sequence and secondary structure. With this information consensus secondary structure can be found and alignment in .sto format can be produced.
+mt-tRNA from specific clade should be retrieved in the form of sequence alignment. Additionally, secondary structure alignment will be useful to check predicted consensus structure later. 
 
-Next steps include CM build with Infernal with following calibration:
+Sequence alignment used as input to predict consensus secondary structure with [RNAalifold](http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAalifold.cgi) in Stockholm Format (.stk). This file is a base for covariance model.
+
+Next steps include CM build with Infernal with following calibration (for technical details, please check [Infernal Manual](https://gensoft.pasteur.fr/docs/infernal/1.1.4/Userguide.pdf)):
 
 ```
-cmbuild trnX.cm trnX_alignment.sto
+cmbuild trnX.cm trnX_alignment.stk
 cmcalibrate trnX.cm
 ```
+
+### Move reference annotation from RefSeq
+
+Reference genome for *E.cyaneus* and annotation can be found with accession [NC_033360.1](https://www.ncbi.nlm.nih.gov/nuccore/NC_033360.1/)
+
+To be sure that we do not have huge variation between reference and generated sequence, aligner (for example, [Clustal Omega](https://www.ebi.ac.uk/jdispatcher/msa/clustalo?stype=dna)) can be used.
+
+Then, we transformed gff3 format to bed, and derived sequences for all features.
+```
+bedtools getfasta -name+ -fi NC_033360.1_E_cyaneus.fasta -bed NC_033360.1.bed > NC_033360.1_E_cyaneus.features.fasta
+```
+
+And search again new assembly:
+```
+makeblastdb -in Mitogenome_E_cyaneus.fasta -dbtype nucl -out E_cyaneus
+blastn -query NC_033360.1_E_cyaneus.features.fasta -db E_cyaneus -out results.txt -outfmt 6
+```
+
+### Annotation with MITOS2
+
+As reference data set we used [refseq63m.tar.bz2](https://zenodo.org/records/4284483).
+
+It is important to utilize suitable genetic code (```-c 5``` invertebrate mitochondrion):
+```
+runmitos.py -i Mitogenome_E_cyaneus.fasta \
+-c 5 -o mitos2/E_cyaneus -r refseq63m \
+-R /path/to/reference/data/
+```
+Output files available in .bed, .gff and .fasta format both for DNA and protein sequences.
+
+### Annotation with MFannot
+
+Available online: [MFannot page](https://megasun.bch.umontreal.ca/apps/mfannot/)
+
+It is important to select suitable genetic code (for amphipods 5, invertebrate mitochondrion).
+
+Output files include .fasta, .sqn and .tbl files with predicted features.
 
 ## Trying to predict PolyA by alignment of RNAseq reads
 
