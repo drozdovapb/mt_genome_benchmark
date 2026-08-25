@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq63m/ncRNA/rrnS.cm
+# target sequence database:              mitos2_anno/E_cyaneus_new//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       rrnS  [CLEN=899]
+Hit scores:
+ rank     E-value  score  bias  sequence                                start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------------------------- ------ ------   --- ----- ----  -----------
+  (1) !     1e-45  179.5  67.4  NC_033360.1_bb_bb_bb_bb_ciruclar_14377  12774  12188 -  cm    no 0.31  -
+
+
+Hit alignments:
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !     1e-45  179.5  67.4  cm        1      899 []       12774       12188 - .. 0.78    no 0.31
+
+                                                    vvv       vvv          vvv v           v     v     v                v                   v  vvv           vv               vv                         v    vvv            v vv    v                                   vv              v vv                              vv v                        vv                                                                    v   v                                v                                  v                vv    vv   v       v     v                               v       v    v         vvvvv   vvvvv           v  v          v  v                       vvv               vvv                                                                                                           NC
+                                               :::<<<<<_______>>>>>,{{{{{{{{{{,{{{~~~~~~~}}}.,,,<<<<<<<<________________>>>-------------->>>>>,}}}}}}}}}},,,,[[[[,,,,,,((((((((((-----------((((((((,,,<<<<<<<<<<<<<______>>>>->>>>>>>>>,,,,,,,,,,,,<<____>>))))))))----)))-))))))),,,,<<<<<<---<<---<<<<_________>>>>--->>>>>>>>,,,,,,,,,,<________>]]]],<<<<-----<<<<____>>>>--->>>>,,,,,,,,{{{{-{{{{{{{{,,,,,,,{{{{{,,{{{{{{{{{{,,,<<<<________>>>>,,,,,,,,[[[[[[[-----------[[-[[--[[[[[[[[[[,,,,(((,,,<<<____>>>,<<____>>,))),,,,,<<<_____>>>,,,,,]]]-]]]---]]]]]]]]----]]]]]]],,}}-}}}}}}}},,,,,<<<<<___>>>>>,,,,,,,,,,<<<<<<<______>>>>>>>,,,.,,,,,,,}}}}},,,,,<<<<<<<_________>>>>>>>,,,,,,,,,,,}}}}}}}}}}-}},,,,,,,,,,,,,,<<<<<<________>>>>>>,,,,,,,,,,,,,,,,<<<<<<<<<<____>>>>>>>>>>::::::: CS
+                                    rrnS     1 uAAagguuUGGUccUagccuUacuauuaacuuuaa*[181]*uua.auAgggccGGuaAAuuUcGUGCCAGCaaCCGCGGUUAUACgauaggcccAaguuaauaguuuucGGcgUAAAGagugguuaagaaauuaaaaaaAuuaaaguuaAAuuuuaacuuagcuGUaAAAagcuuaaguuaaaauuAAaaucaauuacgAAAguaacuuuaauaaaucugaaaccacGAAAgcuaagauAcaAACugGGAUUAGAUACCCcacUAugcuuagccgUAAAcuuugAuuaaaaaccgCCaGgguAcUAcgaGcaauAgCuuaAAaccCAAAGgAcUUGgCGgugcuuuAuAuCcaucUAGAGGAGccUGuucuaUAaucGAUAAuCCaCgauaaAcCUuACcuuuucUUGcuaauuCAGcuugUAuACcGCCGucgUcAGcuuAcccuuUgAaggaacaAaAguaagCaaAAuuguuauaaacaAaaAcguCAGGUCaAgGUgcagCuuAUgaaaagGgaagAaaUGggCUACAuUuucuaauauagaaaAuuACGaAuaauauuuUGAAAuaaauauuUGA.AGGaGGAUUUAguAGUAAaauaaaAaUAgAguGuuuauuUGAAuuugGCucUaaagcacGcACAcAuCGCCCGUCACUCuccucUaaaUAAagaggaGaUAAGUCGUAACAugGuAaGuguAccGGAAggUgcaCuUaGAaaAau 899  
+                                               +  :G   U GU +U   C:UA ::U:    + :A       U:  AU : G:::G +AA+UU GUGCCAGCA C:GCGGUUAUAC ++ ::C :A    :A:: U+          AG         +:+AUU+++ AAA            : :  :   :::GU AAA:::    :  : : UUA + U+AA       A             A:             A : : +   ::AAC::GGAUUAGA ACCC::CUA::  : :  +UAAA                +C+:: UA UA    :+AUA:     AA ::A A G + UG:CG::::::    U  +U:UAGAGGAG:: G:U U+UAA:CGAUAA  C CG:U + ++UU ::U: U:U+         :: UGUA:ACCG:C:U +  A :U+A+:::+  A:::A     A+U+A:  +A UU:      +:AAA+A  U:AG:UCAAGGU:CA::UU  :A :A:: AAG A:U ::CUACA+U+U+ A         AU+A+  AU:  : :: GAA  :: :  :U+A A G+GGAUUUA: AGUAA         AG+ +       UGA UUU+ +U   ::::::G:ACA AU GCCCGUCA UCUC       UAA    GAGAUAAGUCG AACA++GUA:::G:AC:GGAA:GU:C:::UA A    +
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 12774 AUGCGAGUUUGUAUUUGGCGUAGCCUAGAAAAUUA*[  7]*UAUuAUUUUGGAGGUUAAAUUGGUGCCAGCAUCUGCGGUUAUACUUAGUCCUAAAAAUUAGGUUAG---------AGG-------GAUUAUUUUUCAAA---------GUGUUAGUUUUUUUGGUGAAAUAAUGCUAGUUUGUUUAUUGUUAA------UA-------------AG----------AUUAGGUCCAGCUAGAACCAGGAUUAGAGACCCUGCUACU--GUCUGUUAAA----------------UCUAAUUAUUAU---AUAUAU-----AAGUUACAUGGUCUGGCGGCUUAA----UUGUUUUAGAGGAGUUUGCU-UUUAAUCGAUAAGGCUCGUUGUCUUUUGUUUAUUUUA--------UUUAUGUACACCGUCAUUU--AGUUAAUUUUAAUAGAAA-----AAUUAAGGUAUUUA-----GUUAAAUAGGUUAGAUCAAGGUGCAGAUU--AAUUAAA-AAGUAGUUAACUACAAUAUAGA---------AUAAUAUAUGGGCGUAAGAAUGUGGGUACUAAuAAGUGGAUUUAAGAGUAAUU-------AGUUAU---GUUUGAUUUUAUUUA--UUAAGUGUACAAAUUGCCCGUCAAUCUC-------UAA----GAGAUAAGUCGAAACAAAGUAGAGGUACUGGAAGGUACUUCUAAAGGCGA 12188
+                                               **********************9998876555444....6..33348899**********************************************999999988743.........333.......22222333333333.........347778888889*********987766666666665443333222......11.............11..........222333444466789***********************98..4444455543................238999999998...444444.....799****************88766....56788**************9.679*******************999999999988887........3889*************98..999999988888877775.....22333334333333.....5899*********************9886..6677777.8899*************76543.........33333334444444445555555555544444389***************954.......444444...244777777776655..67788**********************9.......777....************************************************** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (899 consensus positions)
+Target sequences:                                                1  (28754 residues searched)
+Target sequences re-searched for truncated hits:                 1  (4492 residues re-searched)
+Windows   passing  local HMM SSV           filter:              28  (0.9324); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              28  (0.9324); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:               2  (0.09818); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               1  (0.09818); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               3  (0.07863); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               2  (0.03077); expected (0.0001)
+Total CM hits reported:                                          1  (0.01766); includes 0 truncated hit(s)
+
+# CPU time: 6.41u 0.32s 00:00:06.73 Elapsed: 00:00:06.82
+//
+[ok]

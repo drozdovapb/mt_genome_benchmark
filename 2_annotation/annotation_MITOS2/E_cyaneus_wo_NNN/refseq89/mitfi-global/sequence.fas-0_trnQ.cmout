@@ -1,0 +1,55 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq89m/ncRNA/trnQ.cm
+# target sequence database:              mitos2_anno/E_cyaneus_new89//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.01
+# maximum DP search matrix size:         80000.0 Mb
+# HMM gFwd biased comp filter:           off
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnQ  [CLEN=71]
+Hit scores:
+ rank     E-value  score  bias  sequence                                start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------------------------- ------ ------   --- ----- ----  -----------
+  (1) !   2.4e-06   36.8   0.1  NC_033360.1_bb_bb_bb_bb_ciruclar_14377  13126  13058 -  cm    no 0.33  -
+
+
+Hit alignments:
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (1) !   2.4e-06   36.8   0.1  cm        1       71 []       13126       13058 - .. 0.86    no 0.33
+
+                                                v    v                                       v vvv      vvv vv    v   NC
+                                               (((((((,,<<<<_______>>>>,<<<<<_______>>>>>,,,,<<<<<_~~~~~>>>>>))))))): CS
+                                    trnQ     1 UAgaaauUaGUGUAuagGaAGCACgaagagUUUUGAUcucuuAGGuaaagGU*[6]*CcuuuauuucUAA 71   
+                                               U :A:: UAGUGU  A   AGCACG:A:A:UUUUG+U:U:U:A+GU :A+G         :  ::U: AA
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 13126 UUUACUUUAGUGU--AAAGAGCACGUAAAUUUUUGGUGUUUAAAGUGUAAGA*[9]*---UAUGGUGUAA 13058
+                                               *************..*****************************99665444..5.....33699***** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (71 consensus positions)
+Target sequences:                                                1  (28754 residues searched)
+Target sequences re-searched for truncated hits:                 1  (572 residues re-searched)
+Windows   passing  local HMM SSV           filter:             134  (0.7611); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:              71  (0.4533); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:              11  (0.07935); expected (0.02)
+Windows   passing glocal HMM Forward       filter:               7  (0.07328); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:               8  (0.02196); expected (0.02)
+Envelopes passing  local CM  CYK           filter:               3  (0.007843); expected (0.0001)
+Total CM hits reported:                                          1  (0.002353); includes 0 truncated hit(s)
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+//
+[ok]

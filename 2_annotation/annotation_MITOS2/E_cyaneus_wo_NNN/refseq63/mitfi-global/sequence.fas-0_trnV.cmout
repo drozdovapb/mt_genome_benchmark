@@ -1,0 +1,128 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         /scratchsan/julie/projects/strange_trna/refseq63m/ncRNA/trnV.cm
+# target sequence database:              mitos2_anno/E_cyaneus_new//sequence.fas-0
+# max ASCII text line length:            unlimited
+# sequence reporting threshold:          E-value <= 0.1
+# Max sensitivity mode:                  on [all heuristic filters off]
+# maximum DP search matrix size:         80000.0 Mb
+# truncated hit detection:               off [due to --max]
+# number of worker threads:              1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       trnV  [CLEN=70]
+Hit scores:
+ rank     E-value  score  bias  sequence                                start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------------------------------- ------ ------   --- ----- ----  -----------
+  (1) !   0.00073   27.3   1.2  NC_033360.1_bb_bb_bb_bb_ciruclar_14377   8299   8238 -  cm    no 0.23  -
+ ------ inclusion threshold ------
+  (2) ?      0.01   22.0   0.6  NC_033360.1_bb_bb_bb_bb_ciruclar_14377     44    103 +  cm    no 0.22  -
+  (3) ?     0.019   20.8   0.0  NC_033360.1_bb_bb_bb_bb_ciruclar_14377   4689   4748 +  cm    no 0.42  -
+  (4) ?     0.032   19.7   0.2  NC_033360.1_bb_bb_bb_bb_ciruclar_14377   6579   6520 -  cm    no 0.28  -
+  (5) ?     0.041   19.3   0.0  NC_033360.1_bb_bb_bb_bb_ciruclar_14377   2444   2504 +  cm    no 0.31  -
+  (6) ?     0.056   18.7   0.0  NC_033360.1_bb_bb_bb_bb_ciruclar_14377  13319  13378 +  cm    no 0.35  -
+  (7) ?     0.074   18.1   0.0  NC_033360.1_bb_bb_bb_bb_ciruclar_14377   4462   4520 +  cm    no 0.39  -
+
+
+Hit alignments:
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (1) !   0.00073   27.3   1.2  cm        1       70 []        8299        8238 - ..   26.1    no 0.23
+
+                                                    v                                                        v        NC
+                                              (((((((,,<<<<______>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                                    trnV    1 CAaagugUAGCUuAAauaaaAGCAucUcaCUU*[4]*ugAgaAGAUauccgUgCAAaUcggaucacuuUGA 70  
+                                              CAAA:: UA::UUA +UA AA::A ::::+UU     :::: AGA A:  :       :  :U ::UUUGA
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 8299 CAAAAAUUAGUUUAUUUA-AAAUAGUAGUUUU*[4]*ACUACAGAAAAGGA-------UUCUUUUUUUUGA 8238
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (2) ?      0.01   22.0   0.6  cm        1       70 []          44         103 + ..   19.9    no 0.22
+
+                                                                                                               NC
+                                             (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<~~~~~~>>>))))))): CS
+                                    trnV   1 CAaagugUAGCUuAAauaaaAGCAucUcaCUUACACugAgaAGAUauc*[11]*gaucacuuUGA 70 
+                                             : AA:::UA: UUA AUA AA :AU :: CUU CA  :: AA A A::      ::U:::UU :A
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377  44 UGAAUCUUAAGUUAUAUA-AACUAUGAGCCUUCCAAGCUUAAAAAAAU*[ 2]*AUUAGAUUUAA 103
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (3) ?     0.019   20.8   0.0  cm        1       70 []        4689        4748 + ..   18.5    no 0.42
+
+                                                   v      v      v                              v       v     v       NC
+                                              (((((((,,<<<<______>>>>,<<<<<___~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                                    trnV    1 CAaagugUAGCUuAAauaaaAGCAucUcaCUU*[4]*ugAgaAGAUauccgUgCAAaUcggaucacuuUGA 70  
+                                              :AAA  G AG::        ::CAU:U::CUU     ::A:A  A ::C:         :G::C  UUU:A
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 4689 AAAACUGAAGUAA---CUCCUACAUUUGGCUU*[4]*CCAAAUUACGGCUA-------AAGCCCUGUUUUA 4748
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (4) ?     0.032   19.7   0.2  cm        1       70 []        6579        6520 - ..   18.2    no 0.28
+
+                                                                                               v       v             NC
+                                              (((((((,,<<<<______>>>>,<<<<<__~~~~~>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                                    trnV    1 CAaagugUAGCUuAAauaaaAGCAucUcaCU*[5]*ugAgaAGAUauccgUgCAAaUcggaucacuuUGA 70  
+                                                 A: :UA::UU  AU AAA:: U :CA+U     UG: AAGAU:U:         + :A:: :U   A
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 6579 GCUAAGAUAGUUU--AUUAAAAUGUUACAUU*[5]*UGUGAAGAUGUAU--------UGUACUUUUAGCA 6520
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (5) ?     0.041   19.3   0.0  cm        1       70 []        2444        2504 + ..   16.9    no 0.31
+
+                                                                          v       v           vv       vv            NC
+                                              (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))))): CS
+                                    trnV    1 CAaagugUAGCUuAAauaaaAGCAucUcaCUUACACugAgaAGAUauccgUgCAAaUcggaucacuuUGA 70  
+                                              :AA:G: UAG:U:A ++A :A:CAU::: CU  CA  :::AA   A::         C ::U :C:UU: 
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 2444 AAAGGGCUAGUUAAGUAA-UAACAUUAAACUGUCAAAUUAAAAUCACUA--------CAAGUGCCCUUUG 2504
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (6) ?     0.056   18.7   0.0  cm        1       70 []       13319       13378 + ..   16.4    no 0.35
+
+                                                                                                               NC
+                                               (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<~~~~~~>>))))))): CS
+                                    trnV     1 CAaagugUAGCUuAAauaaaAGCAucUcaCUUACACugAgaAGAUau*[13]*aucacuuUGA 70   
+                                               :AAA:::UA: :UAA +A A: : :: ::+U A AC:: ::  AU::      :::::UUU:A
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 13319 UAAAAGAUAAGCUAACAA-AGCUGAAGGGUUCAUACCCCUUUAAUGG*[ 4]*CCUCUUUUAA 13378
+
+>> NC_033360.1_bb_bb_bb_bb_ciruclar_14377  
+ rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       cyksc trunc   gc
+ ----   --------- ------ ----- --- -------- --------    ----------- -----------      ------ ----- ----
+  (7) ?     0.074   18.1   0.0  cm        1       70 []        4462        4520 + ..   15.6    no 0.39
+
+                                                   v                  v               v                 v       NC
+                                              (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<~~~~~~>>>))))))): CS
+                                    trnV    1 CAaagugUAGCUuAAauaaaAGCAucUcaCUUACACugAgaAGAUauc*[11]*gaucacuuUGA 70  
+                                              ::::: GUAG:U:   UAA:A:C  :U:ACUU CACU:A:     A::      ::UC ::::: 
+  NC_033360.1_bb_bb_bb_bb_ciruclar_14377 4462 AGGGUUGUAGUUU--CUAAGAACGGUUAACUUGCACUUAAACAGGACU*[ 2]*AGUCUACCCUU 4520
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (70 consensus positions)
+Target sequences:                                                1  (28754 residues searched)
+Target sequences re-searched for truncated hits:                 0  (0 residues re-searched)
+Windows   passing  local HMM SSV           filter:                  (off)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:                  (off)
+Windows   passing  local HMM Forward  bias filter:                  (off)
+Windows   passing glocal HMM Forward       filter:                  (off)
+Windows   passing glocal HMM Forward  bias filter:                  (off)
+Envelopes passing glocal HMM envelope defn filter:                  (off)
+Envelopes passing  local CM  CYK           filter:                  (off)
+Total CM hits reported:                                          7  (0.01468); includes 0 truncated hit(s)
+
+# CPU time: 18.93u 0.00s 00:00:18.93 Elapsed: 00:00:19.11
+//
+[ok]
