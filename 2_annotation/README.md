@@ -14,7 +14,7 @@ Otherwise some genomic features can be missed.
 **General CM set**
 
 Links to curated sets of mt-tRNAs CMs can be found in [MITOS repository](https://gitlab.com/Bernt/MITOS)
-We used set [refseq63m.tar.bz2](https://zenodo.org/records/4284483) available at Zenodo platform.
+We used set [refseq89m.tar.bz2](https://zenodo.org/records/4284483) available at Zenodo platform.
 
 First step - make an annotation per CM:
 ```
@@ -37,7 +37,7 @@ python filter_results.py -i E_cyaneus_annotation_results.tsv \
 -f 20 -t /path/to/transl_table5.txt
 ```
 
-After filtering each locus can me manually inspected. The idea is that for each locus we select a hit with highest score, but sometimes mt-tRNAs can have equal or close high score in different locus (for example, because of duplication events)
+After filtering each locus can be manually inspected. The idea is that for each locus we select a hit with highest score, but sometimes mt-tRNAs can have equal or close enough score in different locus (for example, because of duplication events)
 
 **Specific CM set**
 
@@ -95,9 +95,9 @@ blastn -query NC_033360.1_E_cyaneus.features.fasta -db E_cyaneus -out results.tx
 
 ### Annotation with MITOS2
 
-As reference data set we used [refseq63m.tar.bz2](https://zenodo.org/records/4284483).
+As reference data set we used both [refseq63m.tar.bz2 and refseq89m.tar.bz2](https://zenodo.org/records/4284483).
 
-It is important to utilize suitable genetic code (```-c 5``` invertebrate mitochondrion):
+It is important to utilize suitable genetic code (```-c 5``` for invertebrate mitochondrion):
 ```
 runmitos.py -i Mitogenome_E_cyaneus.fasta \
 -c 5 -o mitos2/E_cyaneus -r refseq63m \
@@ -111,7 +111,7 @@ Available online: [MFannot page](https://megasun.bch.umontreal.ca/apps/mfannot/)
 
 It is important to select suitable genetic code (for amphipods 5, invertebrate mitochondrion).
 
-Output files include .fasta, .sqn and .tbl files with predicted features.
+Output includes .fasta, .sqn and .tbl files with predicted features.
 
 ## Trying to predict PolyA by alignment of RNAseq reads
 
