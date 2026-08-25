@@ -83,6 +83,7 @@ Reference genome for *E.cyaneus* and annotation can be found with accession [NC_
 To be sure that we do not have huge variation between reference and generated sequence, aligner (for example, [Clustal Omega](https://www.ebi.ac.uk/jdispatcher/msa/clustalo?stype=dna)) can be used.
 
 Then, we transformed gff3 format to bed, and derived sequences for all features.
+
 ```
 bedtools getfasta -name+ -fi NC_033360.1_E_cyaneus.fasta -bed NC_033360.1.bed > NC_033360.1_E_cyaneus.features.fasta
 ```
@@ -119,8 +120,8 @@ Available online: [AGORA hage](https://bigdata.dongguk.edu/gene_project/AGORA/)
 
 To perform the annotation, suitable reference genome should be selected. For test, we used more close-relative specie *Gammarus pisinnus* (NC_044410.1) and model specie from the same phylum Arthropoda - *Drosophila melanogaster* (NC_024511.2).
 
-Genome type: Mitochondrion, 
-Genetic code: invertebrate mitochondrial
+- Genome type: Mitochondrion 
+- Genetic code: invertebrate mitochondrial
 
 Output includes blast results, various fasta files and GenBank format file.
 
@@ -130,13 +131,13 @@ Available online: [GeSeq page](https://chlorobox.mpimp-golm.mpg.de/geseq.html)
 
 In comparison to AGORA, GeSeq provide an opportunity to use not only one reference genome, but the whole clade. We used separately Gammarus and Drosophila genera as reference. 
 
-Genome type: Circular
-Sequence source: Mitochondrial
-Annotation revision: Keep best annotation only
-BLAT search: default parameters
-ARAGORN v1.2.38: default parameters
-ARWEN v1.2.3: search mode - metazoan mitochondrial tRNA, genetic code - invertebrate mitochondrial
-tRNAscan-SE v2.0.7: sequence source - organellar tRNAs, genetic code - invertebrate mitochondrial
+- Genome type: Circular
+- Sequence source: Mitochondrial
+- Annotation revision: Keep best annotation only
+- BLAT search: default parameters
+- ARAGORN v1.2.38: default parameters
+- ARWEN v1.2.3: search mode - metazoan mitochondrial tRNA, genetic code - invertebrate mitochondrial
+- tRNAscan-SE v2.0.7: sequence source - organellar tRNAs, genetic code - invertebrate mitochondrial
 
 Different output file types can be selected: GenBank format, gff3 and gbson. 
 Primary output from annotation tools can be inspected separately.
