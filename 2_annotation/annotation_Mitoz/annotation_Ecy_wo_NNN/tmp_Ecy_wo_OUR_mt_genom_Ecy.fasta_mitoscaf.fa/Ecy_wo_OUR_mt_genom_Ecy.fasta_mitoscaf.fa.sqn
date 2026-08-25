@@ -1,0 +1,1785 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2026 ,
+          month 8 ,
+          day 25 } } ,
+    subtype new ,
+    tool "tbl2asn 25.8 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Test sp." ,
+                  orgname {
+                    mgcode 5 } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly, annotation and visualization" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 25 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2026 } } } ,
+              create-date
+                std {
+                  year 2026 ,
+                  month 8 ,
+                  day 25 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN" } ,
+                descr {
+                  title "topology=linear" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 14377 ,
+                  seq-data
+                    iupacna "AAACTAAAGGCCTTCAAAGCCTTATAAGAGCTCTCTCAGACTTTGAATC
+TTAAGTTATATAAACTATGAGCCTTCCAAGCTTAAAAAAATTTATTAGATTTAAATTATCAATCAGTGACTATTTTCT
+ACTAATCATAAAGATATTGGTACTCTATATTTTATTTTAGGAGCTTGGGCTAGAATAGTCGGAACATCTATAAGCGTA
+ATTATTCGGTCTGAGTTAAGGGCTCCTGGTAATTTAATTGGAGATGACCAATTATATAACGTTATAGTAACAGCCCAT
+GCTTTTGTTATAATTTTCTTTATAGTAATGCCTATCATAATTGGCGGATTTGGTAACTGGTTAGTCCCATTAATACTA
+GGAAGTCCTGATATAGCTTTTCCACGTATAAACAATATAAGATTTTGACTTTTACCGCCTTCTCTTACTCTTCTTATC
+GCCAGTGGTCTTGTTGAAAGAGGAGTGGGAACAGGTTGAACTGTATACCCCCCTTTAGCTAGAGTAATAGCTCATAGA
+GGAGGAGCTGTTGATCTAGCTATTTTTTCTCTTCACTTAGCCGGAGCGTCCTCTATTTTAGGAGCTGTAAATTTTATT
+TCTACTATTGTTAATATACGTAGGCCAGGTATAAGAATGGACCAAATACCTTTATTTGTTTGATCCATTCTTATTACT
+ACTATTTTACTACTTTTATCCTTACCTGTACTGGCTGGGGCAATCACTATGTTGCTTACTGATCGAAACTTAAATACT
+TCTTTTTTTGACCCTAGTGGAGGTGGTGACCCAATCCTATACCAACATCTATTTTGATTTTTCGGTCACCCAGAAGTT
+TATATTCTAATTTTACCAGCATTTGGTATAATTTCCCATATCGTAAGACAAGAGTCTGGTAAAAAAGAGACATTCGGG
+TCCCTAGGTATAATTTATGCTATACTAGCTATTGGATTTTTAGGCTTTATCGTATGGGCTCATCACATATTTACAGTT
+GGCATAGATGTGGACACCCGAGCTTACTTTACATCTGCTACAATAATTATTGCAGTTCCCACTGGAATTAAAGTATTT
+AGGTGACTAGGTACTCTTCAAGGAGGAAAAATTAACTTTACACCCGCTCTAATTTGAAGATTAGGGTTTATTTTTCTT
+TTCTCTATTGGAGGTCTAACCGGAGTAATACTAGCTAACTCGTCAATTGATATTGTTTTACATGATACTTACTATGTG
+GTAGCACATTTTCACTATGTGTTGTCTATAGGAGCTGTTTTTGGTATTTTTGCTGGGTTTGCCTACTGATTTCCGTTA
+TTTACAGGTGTAACTGCTAATCCAATTTTAGCAAAAACTCACTTTTATGTTATATTTGTAGGAGTAAACTTAACCTTT
+TTCCCTCAACATTTTCTAGGGCTGACCGGTATACCACGACGATATTCTGATTACCCTGATTTCTTTACTGCTTGAAAT
+ATCGTCTCTTCTTTAGGTTCTTACATCTCTGTTTTAGCTATAGTAGTATTTATCATTATAATTATAGAGGCCTTTATT
+TCCAAACGACCTGCTTTATTTTCTTTAAGCCTATCATCTGCTTTAGAGTGGCATCATCCTTACCCTCCAGCCGACCAT
+AGCTATAACGATACTCCTATTCTAACCTCATATTAGAGTGGCAGATTTTATGCAGTAGCTTTAAAGACTACACAAGGC
+TAAGCCCTCTAATATTGCCGACTTGACATATATTATCTTTTCAGGATAGTGCTTCTCCGTCCATAGAGCAACTTACTA
+TATTTCATGATTTTACTATGGCTATTTTGACCTTAATCACAATTATAGTGGCCTTAAATATAATTTTTATCTCATCAT
+ATAATCTTACAGACCGTTTTTTAATACAACACCAAATTGTAGAAATTATTTGAACTGCTTGTCCAGTAGTTATTCTTG
+TTCTTATTGCCCTACCTTCTCTTCAAACTCTTTACATTCTTGACGACCCTTTTGCGCCAAGTATTACAGTCAAGGCAA
+TCGGGCATCAATGGTATTGATCATATGAATACTCAGATTTTTCTAAAGTAGAATTTGATTCTTATATAATTCCAACCT
+CAGATTTAACTCTATACCAAAGCCGACTACTAGAAACAGATAACAGAGTAGCTTTACCAGTTAACTCACAAATCCGGT
+TAGTTACTACCGGAGCTGACGTTATTCATTCATGAGCCATGCCGGCTTTAGGTTTAAAAGCAGACGCCGTACCTGGTC
+GATTAAATCAAATAATATTTTCAATTAAGCGACCAGGTATTTTTTATGGACAATGTAGAGAAATTTGCGGTTCTAATC
+ATAGATTTATACCAATTAAAGTTGAGGCTTTACCAATAAAAAATTTCTTAACCTGAGTTATCTCTTTTAACTCGCTAA
+GTGGCCGAATGAGGTGTAAGTCTTTTAAACTTACTATAGACTATTCTCTTAGCGAAAGGGCTAGTTAAGTAATAACAT
+TAAACTGTCAAATTAAAATCACTACAAGTGCCCTTTGGTGCCTCAGATAGCCCCTATTATATGATTACCTTTGTTTAT
+TTTAATTATTACACTTCTACTTTTGACAAAGTCTACTATCTATTTTATCAGAAGTAAAAACTCAACTAAAGCTAAATC
+TCAAAAAAACTATTTTAATTCTAGTTGATTATGATAACTAATTTATTTTCTATTTTTGACCCCTCAACCCCTAATTTT
+TTGTTCTCTAACTGGACCTCTATATTTATATTTATTCTACTTTCACCAGTTTTAATATGAAACTACCCTAGTCGACCT
+AAACTTCTAGCCTCTCTTTTAAGTAATTATATTTTCAAAGAATTTAAACCTCTTATTAAAAAATCCTCTTATTTTTTA
+GTCTTCCCCGTAACATTATTTACATTTATTACATATAATAATTTATTAGGGTTAGCCCCATACATCTTTACCGGCTCA
+AGACAACTAGTTTTTACAGTTACCTTAGCCTTACCTATCTGAATAACATTAATATTATACGGCTGGCTAAATAACACA
+TCTAATTTACTGATTCACTTAATTCCGCAAAGAACACCGGTATTTTTAATACCTTTTATAGTTTTAGTTGAAACAGTG
+AGAAATATAATCCGACCTTTAACTTTAGCTGTACGACTAACCGCTAACATAGTAGCTGGTCATCTTCTTATTGTTTTA
+TTAAACTCAGCAGACCTCTCGTCTATTTTATTAACCCCAGTTATTTTCTCAGCTAAACAAATACTCCTGTTACTTGAG
+CTAGCTGTTGCCTTTATTCAAGCCTATGTATTTAGTGTTTTAGTAACTCTATATGCTGCCGAATTTACTAGCTAATGA
+CAACCTCAAACCATCCTTACCATTTAGTTGAAAAAAGACCTTGACCAATTATTGCCTCTCTAGGAGCCATATTACTAA
+CTACAGGATTAGTAAAATGATTCCATCATTTTACGCCTTATTTACTTTTAACCGCAATATTAGCTCTCGTATTAGTTA
+GAGTACTATGGTGGCGAGATGTCTCTCGAGAGGGTACTCTTCAAGGGTTACATACTTTAAAAGTCACTACTGGCCTAC
+GAATAGGCATGCTTCTATTCATTGTTTCGGAAGTGCTTTTTTTCTTTTCATTTTTTTGGGCTTTTTTTCACAGTAGGC
+TCAACCCCACAATAGAGCTAGGCGATATCTGGCCTCCTACTTCTATTAATCCTTTCAACCCGTTTCAAATTCCCCTTC
+TAAACACAGCCATCCTTTTAGCTTCAGGCGTCACTGTTACATGAGCGCACCATGCTGTTACCGAAAATCTACACACAA
+CAGCTATTAACGGTATAATCTTAACAGTTTTTTTAGGTTTATATTTTTCTGCCTTGCAGGCAATAGAGTACATCGAAG
+CACCGTTTACAATAGCTGACTCTATCTACGGATCAACTTTCTTTGTTGCTACCGGTTTTCATGGTCTTCATGTAATTA
+TTGGCACTACCTTTTTAGCAATCTGTTTAATACGCTTACATAAAGCCCATTTTTCAAAAATTCATCACATAGGTTTAG
+AGGCCGCTATTTGATATTGGCATTTTGTCGATGTAGTTTGGCTATTCTTATATATCTCCATTTATTGGTGAGGCTCAT
+AATTATGCCTATTATCTTATTCACTTTGGTACTTTCATTAATTATCTCTACTGCACTAGCAGTGTTAGCTTTAACCGC
+GGGGAAAAAATCAATACTTGATCGAGAAAAACTTACATCATTTGAATGTGGGTTTGACTCAAAAAAAAAAGCGCGGGC
+CCCTTTTTCTTTACGATTTTTTATAGTAACTATTTTATTTTTAATTTTTGATGTTGAGATTACCCTTCTATTACCGTT
+AGGGTTCTTAACTCCTTACTCAGACCCCTTCATAATTACCCTAACAGCTAGTATCCTAGCTTTAGTTTTAATTTTAGG
+TCTTATTCATGAATGAAATCAGGGAGCCCTTGCCTGAGTTCACTAGGGTTGTAGTTTCTAAGAACGGTTAACTTGCAC
+TTAAACAGGACTAAAGTCTACCCTTAGGTGTAAAAAAGACTTCTAATCTTTAAATAGCACGCTGCTACACCTAACATT
+GACTAAAGCCAAATAAGAGGCTAATCATTGTTACTGATTTAATTGGAAGTCCCTAGTCGTTTTTAAGGTGTTCATAAC
+ATATAGTCCTTTCAAGACTAAGCAAACTTTTTGTTTAAAAACTGAAGTAACTCCTACATTTGGCTTCGGCCCAAATTA
+CGGCTAAAGCCCTGTTTTATTCAGAGAAAACTCACCTTTGCATCTTCAATGCAACGCTCTACTTTAGCTATCTAAATT
+TAAATTATTAATAGTAAAAAAGCTAATCTTACAAAAACAGTAATTATAAATCTTTTTACTATAGACCTCCCTTGTCCT
+TCCTGGAGTGCCCCTCTTATTTTTAACATTAGAGACCGACCTCCTTGACCCCCGTAATACTCAAATCAGCCTATATCT
+ACTAGCTTAGCACCATTTAGTCCTATTATTATCGAGCTAATTACAGGAATTTTAGTCCTTAACTGTAGTAAAAACCAT
+ATTCTACTTATAGCTATCTCAGTTACTTTAAATCCTCTAATATTCTTTAATCCTTTTATTTGTAGGACTCTGTATACT
+CTTACCCCGCCCACTAGACTTACTAGCGCGATACTGTACTTCTGAGGATTACTTAGGAAACTAGGTACTGCAACCGGC
+GTTACAACCCAATATATAAAAAATCCTATAAATAAACTAGCTAAAAATAAAATTATTACTGATTTTACAACATTAAAC
+CTAAAATCTCTTAAACCACTAACTATTCTTGTTACTCTAACCTTAGATACCCTTAGGTACAAAACTCGGAATCTATAA
+GCTACTGTTAAACCGGTTCCTATTATAACTAAACTAATAAAACCTAAATTTATATTTATTATATGTGTATATTCTAGT
+ATAGCATCTTTAGAGTAAAATCCAGCTAGAAAGGGAAATCCACATAAAGCTAAATTTGTCGTACCTAATATAACACCC
+AGCATTGGACTGCTTAACCCAAATCTGCTTATTTGGCGGCTATCCTGGGCTCTGCCAGAACTATGAATTATAAATCCT
+ACACACATAAATAAACTAGATTTAAACATAGCATGCGTAATTAAATGAAAAAAAGCTAGCTCTTTTATGCCTATCCTT
+AAAATTATAATTATCAAGCCTAATTGGCTAAGAGTAGACAGTGCTACCACTTTTTTTATATCTCTTTCGAAAACTGCT
+CCTAACCCAGCTATAAACATAGTTAAAACCGACACTCTTAGGAGTAAAATGCTTAACTCTCTTTTTTGGATAATTCTA
+TCAAACCGAATTAACAAATAAACTCCAGCAGTTACAAGTGTAGATGAGTGAACAAGAGCCCTAACCGGTGTAGGAGCA
+GCTATAGCTGCAGGCAGCCAGGCAGAAAAAGGTATTTGAGCTCTTTTTGTAAACCCAGCTAAAATCACTAAAAATACT
+AGCCCTTCATCTATTTTATAAAATACATTATAAAAATCTCATCTACCTTCTCTAAACATTAGAGCAATTCTTACTAAA
+ATAGCTACATCTCCGATACGGTTTCTTAATACAGTCAGTATACCTGCATTACAAGACAGCTCATTTTGGTAATAAATA
+ACCAACGCGTATGAAGTTAAACCTAGTCCATCCCAGCCTAATAATAAACTAATTATATTAGGCCTAATAATTAACAGC
+CATATAGAAATTACAAATATAATAAGAATAAAACTAAACCGGATAAAATTTGCTTCTCCTTCTATATAGTATTCTGAG
+TATTTTATAATAGAGCCAGAAATTAAACAAACCCTCCCCAAAAATACTAGCCTTATCCAATCAAATACTAAACTTATG
+CTAACTAAAGAAGAACTAAATCTTAATACCTCTCATTCAATAATCAAGCTGTAATCATAAGCCACTCTTAACACCCCA
+CTAAAAAATATAATCATGCTCATAGTAATAAGACCAGATCTTATAACACTAAAAATCTTAAAACCAATTATCACTGCT
+AAAAGTACAATACATCTTCACAACCACAATGTAACATTTTAATAAACTATCTTAGCAAACCAGTCAAACCACACATAA
+AATAACAACATTTAAGGGCACCCAATGACCTGCACAAACTAAATACTCTAGTATACCACCGCTGTGAAAACCACTTTT
+TCTATTTAAATAAACTCCGTGTTGTCTTAACGAAAATAAATACAGGCTATACCCTGCTCTAAAAAAAGATATAGCTAT
+AACTACCCCAACCGTGCATTTTCTCCAGCTTACTAGTATTCTAATAAGTATAATCTCCCCTAATAAATTTAATCTTGG
+GGGTGAAGCTATATTAACACCTAGCAAAATAAACCACCATAAACATATACTAGGTATTAAAGTAAGAAAACCTTTTCT
+AACTGCCATTCTTCGCCTATGACTGCGCTCATACACTACATTAGCTAAATAAAAAAGACCTGAAGAACAAAGACCATG
+CCCAATCATCACTACTATAGCCCCTTTAAAACCCCAATCTCTTAAAGCTAATAACCCTACAATACATAAGCTTATATG
+AACAACCGATGACCTGGCAATCAGTAACTTTATATCTATTTGGCGTAAACAACTTAACCTAAGTAATAAGCCCCCTCA
+TAATCTCAAACAAATAATTACCTCTGCCAATAATAAAGGTTTGACCGGACAAACAGGTAAAAACCGAATTAAGCCATA
+CCCCCCTAGTTTCAATATCACCCCTGCTAGAATTATAGAGCCTGCTACAGGGGCTTCTACATGAGCCTTTAATAATCA
+TAAATGTGTAGAGTATATTGGAAACTTAACTAAAAATGCCCCTACCAAAAAAATAAAAAAATAAACTTCATTAACCTG
+GTTAGATGTGTATATATAACCACTAGTTTTTGTGTATAAACTTATAATTAAAAAAAAAAGAGGTAAAGACCCAAATAA
+AGTATAAAATAATATGTAGATACCAGCCTGGGCCCGCTCAGGCTGGTATCCTCAACCTAAAACCATAAAAAAAATAGG
+AATTAAACATCCTTCAAATCCCAGATAAAAAAATATAAAATCTGATACATAAAATCTAATTAAAAATATACCTAATAA
+ACTCATAGCTAATCTAATAAATACACCTCGCAAACTTCTCACTTTTTTAATTGTTTTTCTACCTAAGATAGCTAAAAA
+AACTACCCAAAATCTTAATAATCTGAGGCTCCAACCGATATAGTCTAATTCCCCGGCCTGCCCTGCTTTTCAAACTAA
+GCTATCTCTTCTACTTATTACTATTAAGCCTCTTATTAATATAACCCAAACTAATCTTTCACCCCACACACTTATTAA
+CACTACCACACTAAAAACCCCTATAAGTATACTTAACATCTTAATGTTCTATACCTTTTTATATAATCAACCCCGTGA
+CTATAGACTCTACTAATAAGTAAAGAGAGTCCTAATACCCCTTCACAGGCTACCATAACTAAATAAAAAAGAGCAAAA
+AAAAAATCCTTTCCTGTATAAACACTTCTCACACTGAGCCACCAGTAAATTATCAAAGACAAAAATTCTAACCTTAGC
+AGACTTCTCAGTAAGTGGCCATAATTTAAAATAAACCTTAGACTTCCTACAACTAACCCTAATCCTACTCTTCCCTCA
+GTATAAAATATCATTCTGTCTTTGTAGTTTATAAAAAACCTTAGTCTTGTAAACTAAAATAGATCTATCCAAAGACTC
+AAAAAAAAGAATCCTTTTCTGTAGTACCCAAAACTACTATTTTAAATAAACTAATTTTTGGTTTAATGACTTTATTTA
+CCTTATCTACTAGATTATCTGTACTTTTTATATTTTCTAAAACTCCTTTAATACTAGCTCTATTAATTGTATTACAAA
+CAATCCTTGTAACTTTATCAATCTATATTTTTCTATTAACTTCCTGATTATCTTTTATTCTTTTCATAATTCTTATTA
+GAGCTATGATAGTTATTTTTGTCTATGTCTCGTCATTAGCTTCTAATGATTTTATTGTTTTATCTTATTCCGTATTTG
+CATCCTCCTTATACTTTCTCCCTATTTTAATGATAGCAGCTTATTTACTTCTCAGTGAACAAGAAAACCATACTAAAT
+CTCAGATCACTTTATCAGACATAGATCTTGGGCCTATAGTTTCGTATAAATTGTACGCGCCAAATATCAGCTCCTTAA
+CTATATTTCTAATTATTTATCTTTTAGTTGCTTTAATTGTTGTAGCTAAAATTTCTATGTCACCTAAAGGGGCTTTAC
+GGGCCCTAAAACCATAATGACAAAATCTATTACTAATATAAATACACTAATAAAAATTTTTACAAAAACTTTTATTAG
+TCTGCCTGCCCCCACTAATATCTCAACTTTATGGAATTTTGGGTCTTTACTATCTTTATGTTTAGTTATCCAGATTGT
+CTCAGGCTTATTTTTAGCTTCAACATACTCAGCAAATTTAGAAACTTCTTTCACTCTGGTGACCCAGATCATGGAAAC
+AACAGATAAAGGCTGACTTATCCGAAGAATTCACGCCAACGGGGCCTCTTTATTTTTTGCTTGTTTGTATATCCACGT
+AGGACGGGGATTATACTATAGATCATTCATATTAATACATGTCTGGTCGGCTGGAACAACTATACTTTTAATTATTAT
+GGCTACAGCTTTTATAGGTTATGTACTACCAGCGAATCAAATATCATTTTGAGGTGCCTCGGTAATTACAAACTTATT
+TTCAGAAGTACCTTATTTGGGCCCTAATATTGTTCAATTTATCTGGGGCGGTAATTCAGTAGATACTCCCACTATTAT
+ACGATTTTTTACTTTTCATTTTTTTTTACCTTTTATTACTTTAGCCTTAGTCATTATCCACATTACTTTTTTACACCA
+AACTGGCTCTAATAACCCACTAGGCCTGTCTTCAATAACTAGAAAAGTTAGATTTAACTCATTCTTATCGTTTAAAGA
+TTTATTCGGAGTAGCCCTAACTACTTTAGGGTTTTTATTTCTAAACTTTTATTGACCTTTACTACTATCAGACCATGA
+AAACTTTAACCCAGCTGACCCTGCTGTTACCCCAAACCATATTCAGCCAGAATGATATTTTTTATTTGCTTACGCAAT
+TTTGCGTTCTATTCCTAACAAATTAGGCGGTGTAATCGCCTTACTTCTCTCTGTTTTAATTCTATACACCTTGCCATT
+CACCTCTCTGGCAAAAATAAAAAGAACTTATTTTTACCCGGCTAATATCTTACTATTTTGAGCCTTTATTGTTACAGT
+AATTTTATTAACTTGAATCGGCGCACGACCTGTAGAAGAGCCCTATATTTTTACAGGGCAAATCTTAACTATATTATA
+TTTCAGTTATTTTATATTAGCCCCATTAATATCAAAATTATGGGACCTTATTATTTCTTAATCATTAAGTTACAAACA
+TTTGTTTTGAAAACATTATAGGAGCCTTAGCTCAATGATTATTTAATCGATATCCCCGTTAAATTTTTCTACTTTTTA
+CCCTAATAATCTAATAGATGGATATCCCCGTTAAATTTTTCTACTTTTTACCCTAATAATCTAATAGATGGATATCCC
+CGTTAAATTTTTCTACTTTTTACCCTAATAATCTAATAGATGGATATCCTCCGTTAAATTTAATAGAGTAATCTTCTT
+TCACTTATTCTTAAATGATACCTAAATATCAACAACGTAATAGGTAAAAATCTCTTTCAAGCTAACCCTATTAATTTA
+TCGTATCGATATCGGGGTAAAGTAGCGCGTACTCATACAAAACCAAAAACCACCGCTATACTTTTTAATATAACTATT
+ATACTAACTACTCTACTTAAAAATAACACACTAAATAAAAATCCTATAAACAAAATTCTTCTATATTCTCTCATAAAA
+ATTAAAGTAAATCCACCAGACCCATATTCTGTATTAAATCCTGAAACCAACTCAGACTCGCCCTCCGCAAAATCGTAA
+GGTGTTCGGTTTGTTTCAGCTAACCTGGAAACAAACCAAACATACCTTAAAGGCAAATACAAAAAAATATTTCACACT
+AAGTACTGACTTTCTACTAAATCATAAAATCTAAATGACCAACTTAACCAAACCAACCTTAACAAAACTATAGCTATC
+CTTACCTCGTAAGAAACTATCTGTGCCACAGCTCGTAACCTCCCTAATATTGAATATTTACAATTAGATGACCAACCT
+CTAGTTAAAATAGGGTAAACTATTAATCCACTTAAACACATAAAAAATAGAACGCTATATATTAAGTCAACACCCCCT
+TTTTCAAATATGTAACTCACTCACATCAATAACCTTAATATTAATCTAATCACTGGTGATAAATAATAAATCTTTAAT
+CTGGCAAACCGAGTACTTATTCCTTCTTTCCTTAGTAATTTAACTGCATCTGCAAATGGTTGAAGTAATCCTCATAAC
+CCAGTGTAATTTGGACCAACCCGAATTTGAGCCCCTGCTAAAATCTTTTGCTCTATTAATGTAATAAAAGCTACTCTG
+ATTAAAACTATAACTAATAAAATTAAATAACTTACTAATATAATAATTATCTCCAATATCACTTGGTGATCCCGTTCC
+AAAGTCCTAAACTTTGTGCGTTTATCCGCCAAAGTGATGCTAACAAAAACCAATCAACCCTTTCGTACTAAAAAGATT
+TAAAGAATATTTAGAGATAAAATCCAATCTGGCTTAAACCGATTTGAACTCAAATCATGTAAAAATTTAAAGGTTGAA
+CAAACCCTCTACTATACCTTCTGCTTCACGTAGAAATTTTAATTCAACATCGAGGTTGCAAACATATTTATTGATAAG
+ATCTCTCCAAAAATATTGCACTGTTATCCCTAAAGTAACTTTTACGCTCCATCTTTATTTTAAGGATCTTAATTTACC
+TAATAGTTAAAATACTAGTACCGCCCCAGTAAAACAAACTAACTTGAAAAACAAAACCATTATAATATTTATTAAGCT
+TTTAGGGTCTTATCGTCCCCTAAAATATCAAAGAATTATTACCTTGACTTTAATTTTCTATTTAAATATACACACTTA
+TTAAACCAGCTCAACCGTTCATTCCAGCTACCAATTAAGAAGCAAATGATTATGCTACCTTAGCACAGTCAAAATACC
+GCAGCCGTTTAATACTCACTGGGCAGGCCATACTTTATTAACACAAAAAAAAATGTTTTTGTTAAACTTTCTAATTTA
+CTCTGAGTAAATTTATATTTTCACTTTATATTCAATAAATTCATTGTTAAACTAAATCATTACTACTAAAGTTAACCC
+TAAAAATCTATTAAATCTAAGACTTTAAAGATTATTTAAAACAATTTAACAACTTAGCTAATTTAAAGCATTGTTTTC
+TTTATATAATAATAATTATATAGATAATGAAAAACTTAACCTTTTCATTAAAGAGTAAATAGATACCAAATACACCGT
+ACATTTGTCACCTCATAAAAAATTATAATATTAAATTCAACTAATACTTTAATAAAAAGTTCCATATTACTCGATTAA
+CAATTATATTATCTTTTAAACTCCCCTGATACAAAAGGTACAGTAATTAAACTTTCTTTATCTCTATAAATATTTACC
+AATATAAAAGCGCCCTTAGGTGTTTCTTATTGTAAGTAAAAATTTTAATCGCCTTTAGAAGTACCTTCCAGTACCTCT
+ACTTTGTTTCGACTTATCTCTTAGAGATTGACGGGCAATTTGTACACTTAATAAATAAAATCAAACATAACTAATTAC
+TCTTAAATCCACTTATTAGTACCCACATTCTTACGCCCATATATTATTCTATATTGTAGTTAACTACTTTTTAATTAA
+TCTGCACCTTGATCTAACCTATTTAACTAAATACCTTAATTTTTCTATTAAAATTAACTAAATGACGGTGTACATAAA
+TAAAATAAACAAAAGACAACGAGCCTTATCGATTAAAAGCAAACTCCTCTAAAACAATTAAGCCGCCAGACCATGTAA
+CTTATATATATAATAATTAGATTTAACAGACAGTAGCAGGGTCTCTAATCCTGGTTCTAGCTGGACCTAATCTTATTA
+ACAATAAACAAACTAGCATTATTTCACCAAAAAAACTAACACTTTGAAAAATAATCCCTCTAACCTAATTTTTAGGAC
+TAAGTATAACCGCAGATGCTGGCACCAATTTAACCTCCAAAATAATAAACCTAATAATTTTCTAGGCTACGCCAAATA
+CAAACTCGCATGTCCAACCTACTAAGAAAAACCATAAACCTACGCCAAATACATCTATAATTTTTTTTTTATTAGTAC
+TAAGCACTAACACCTATTAATAGGTGTTAGTGCTTAGTACTAATCTTTAAACAATTACTTTTATAATTTAAATAATAA
+TCTAATAATATACAACCACGTATAAAAAATCAAAATTTTTTAAAAACCAAATTACATATAAATTTTAAAAACCAAATT
+ACATATAAATTTTAAAAACCGAAGCATTAGCATATCTAAGTTTACAACTTATTGTGTTAATTACACCATACCGGCTTA
+CTCTTACACTTTAAACACCAAAAATTTACGTGCTCTTTACACTAAAGTAAATAGCTTAGGCTTACGCTTTATTAAGTT
+TGCAACTTAATGGTTTAACCTTCCAAGCCATAATCTTACAGTTAGACTTTATTACCACGTATAATTTACTTTATATAT
+TTTCTATTCAGAAAAGCAAAAAAAAAGTAGGGTACCTTATTTAAGGGAGTGCCTTGATACGGCAAACATGTTAATAAC
+CTCTGCTTATAAAAGATAAGCTAACAAAGCTGAAGGGTTCATACCCCTTTAATGGGTTTCCTCTTTTAATTGTTACTA
+CACCCCTCTACAGTTCTATTTTATACTACTTTAATTACTTCTGTAGTTATCACAACTTCAACCAACTCCTGGTTTATT
+GCATGAGTGGGTTTGGAGATTAACCTATTAGCTTTTATCCCTTTAGTGGTGAATAAAAAAAATAAATACTCTGTAGAG
+TCAGCCCTAAAATATTTCTTAATTCAAAGATTAGCGTCAATTTTTATTATTTTAGCCTCCGCTACTAGATCTTCGCAC
+GATCTGTCTCTTTTAATTGTAGTAATGCTACTTTTAAAAAGTGGGGTGGCCCCCTCACATCAATGAATGCCTGCCATA
+GTAGATGGGTTATCTTGGCCTCTCTTTGCCACACTTATAACAATACAAAAAATAAATCCTATAATCCTAACTTTTTTT
+TTATTAAAAACAGATTATATTTATATATTTATTATTCTGTACATTATTATCTCTAGTATAGTTGGAGCTTTAGGGGGT
+CTAACCCAAACCTCTTTGCGTAAAATTATTGCATACTCTTCTATCGCTCACTTAGCCTGGATACTAGCAACACTAACT
+ATAAGCTCTTGGTTATGGCTAACATATTTTATCATTTATGCCTTCGTGCTTATATCCTTGACATTTCTGTTAAACCAC
+ACCCAGATAACAACATTAAACCACGTTTCCAATATAAATAAATCTTATTTATCCTTTATTATCGCAATTTCTATTTTG
+TCTTTAGGCGGTCTACCGCCTTTTACAGGTTTTCTTGGTAAACTATTGGCAGTTCAACAATTAGCGCCTACTCCAGAG
+AGCTTTTTACTTATTCCTTTACTAGCTAGTGCTTATTTAAGTCTTTTTTTTTATGCTCGGATTCTATTAACAACGTTA
+GTCCTATCAGCTTCATCTTCAAACTCGCTTAATAAAATTAAAGAGACTAACTCCAATTTATTAACTGCTAATTTAATT
+GGCCTATTATTACCTACCGTATGTATAATTCTCTTATTAAGTCTTAAGTTATAT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 106 ,
+                              to 1644 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 1701 ,
+                              to 2382 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 2504 ,
+                              to 2659 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 2653 ,
+                              to 3321 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 3321 ,
+                              to 4106 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 4109 ,
+                              to 4462 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 4806 ,
+                              to 6518 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 6574 ,
+                              to 7887 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 7881 ,
+                              to 8174 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 8304 ,
+                              to 8801 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 8801 ,
+                              to 9937 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 10170 ,
+                              to 11102 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 13378 ,
+                              to 14359 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 43 ,
+                              to 102 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 43 ,
+                              to 102 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 1640 ,
+                              to 1700 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 1640 ,
+                              to 1700 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(uuu)" } ,
+                          location
+                            int {
+                              from 2383 ,
+                              to 2442 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 2383 ,
+                              to 2442 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 2443 ,
+                              to 2503 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 2443 ,
+                              to 2503 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 4461 ,
+                              to 4518 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 4461 ,
+                              to 4518 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(ucu)" } ,
+                          location
+                            int {
+                              from 4519 ,
+                              to 4568 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 4519 ,
+                              to 4568 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 4571 ,
+                              to 4633 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 4571 ,
+                              to 4633 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 4631 ,
+                              to 4693 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 4631 ,
+                              to 4693 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 4688 ,
+                              to 4747 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 4688 ,
+                              to 4747 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 4746 ,
+                              to 4805 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 4746 ,
+                              to 4805 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 6519 ,
+                              to 6578 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 6519 ,
+                              to 6578 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 8178 ,
+                              to 8237 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 8178 ,
+                              to 8237 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 8237 ,
+                              to 8298 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 8237 ,
+                              to 8298 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 9936 ,
+                              to 9995 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 9936 ,
+                              to 9995 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 11103 ,
+                              to 11162 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 11103 ,
+                              to 11162 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 13012 ,
+                              to 13072 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 13012 ,
+                              to 13072 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 13072 ,
+                              to 13123 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 13072 ,
+                              to 13123 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 13126 ,
+                              to 13181 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 13126 ,
+                              to 13181 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 13256 ,
+                              to 13316 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 13256 ,
+                              to 13316 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 13318 ,
+                              to 13377 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 13318 ,
+                              to 13377 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 12187 ,
+                              to 12944 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 12187 ,
+                              to 12944 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 11097 ,
+                              to 12442 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 11097 ,
+                              to 12442 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_1" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 512 ,
+                  seq-data
+                    ncbieaa "MNQWLFSTNHKDIGTLYFILGAWASMVGTSMSVIIRSELSAPGNLIGDD
+QLYNVMVTAHAFVMIFFMVMPIMIGGFGNWLVPLMLGSPDMAFPRMNNMSFWLLPPSLTLLIASGLVESGVGTGWTVY
+PPLASVMAHSGGAVDLAIFSLHLAGASSILGAVNFISTIVNMRSPGMSMDQMPLFVWSILITTILLLLSLPVLAGAIT
+MLLTDRNLNTSFFDPSGGGDPILYQHLFWFFGHPEVYILILPAFGMISHIVSQESGKKETFGSLGMIYAMLAIGFLGF
+IVWAHHMFTVGMDVDTRAYFTSATMIIAVPTGIKVFSWLGTLQGGKINFTPALIWSLGFIFLFSIGGLTGVMLANSSI
+DIVLHDTYYVVAHFHYVLSMGAVFGIFAGFAYWFPLFTGVTANPILAKTHFYVMFVGVNLTFFPQHFLGLTGMPRRYS
+DYPDFFTAWNIVSSLGSYISVLAMVVFIIMIMEAFISKRPALFSLSLSSALEWHHPYPPADHSYNDTPILTSY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 511 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MPTWHMLSFQDSASPSMEQLTMFHDFTMAILTLITIMVALNMIFISSYN
+LTDRFLMQHQIVEIIWTACPVVILVLIALPSLQTLYILDDPFAPSITVKAIGHQWYWSYEYSDFSKVEFDSYMIPTSD
+LTLYQSRLLETDNSVALPVNSQIRLVTTGADVIHSWAMPALGLKADAVPGRLNQMMFSIKRPGIFYGQCSEICGSNHS
+FMPIKVEALPMKNFLTWVISFN" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_3" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 51 ,
+                  seq-data
+                    ncbieaa "MPQMAPIMWLPLFILIITLLLLTKSTIYFISSKNSTKAKSQKNYFNSSW
+LW" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 50 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_4" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 222 ,
+                  seq-data
+                    ncbieaa "MMTNLFSIFDPSTPNFLFSNWTSMFMFILLSPVLMWNYPSRPKLLASLL
+SNYIFKEFKPLIKKSSYFLVFPVTLFTFITYNNLLGLAPYIFTGSSQLVFTVTLALPIWMTLMLYGWLNNTSNLLIHL
+IPQSTPVFLMPFMVLVETVSNMIRPLTLAVRLTANMVAGHLLIVLLNSADLSSILLTPVIFSAKQMLLLLELAVAFIQ
+AYVFSVLVTLYAAEFTS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 221 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_5" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 261 ,
+                  seq-data
+                    ncbieaa "MTTSNHPYHLVEKSPWPIIASLGAMLLTTGLVKWFHHFTPYLLLTAMLA
+LVLVSVLWWRDVSREGTLQGLHTLKVTTGLRMGMLLFIVSEVLFFFSFFWAFFHSSLNPTMELGDIWPPTSINPFNPF
+QIPLLNTAILLASGVTVTWAHHAVTENLHTTAINGMILTVFLGLYFSALQAMEYIEAPFTMADSIYGSTFFVATGFHG
+LHVIIGTTFLAICLMRLHKAHFSKIHHMGLEAAIWYWHFVDVVWLFLYISIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 260 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 117 ,
+                  seq-data
+                    ncbieaa "MPIILFTLVLSLIISTALAVLALTAGKKSMLDREKLTSFECGFDSKKKA
+RAPFSLRFFMVTILFLIFDVEITLLLPLGFLTPYSDPFMITLTASILALVLILGLIHEWNQGALAWVH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 116 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_7" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 570 ,
+                  seq-data
+                    ncbieaa "MMIGFKIFSVMSSGLITMSMIMFFSGVLSVAYDYSLIIEWEVLSFSSSL
+VSMSLVFDWMSLVFLGSVCLISGSIMKYSEYYMEGEANFIRFSFILIMFVISMWLLIISPNMISLLLGWDGLGLTSYA
+LVIYYQNELSCNAGMLTVLSNRIGDVAILVSIALMFSEGSWDFYNVFYKMDEGLVFLVILAGFTKSAQMPFSAWLPAA
+MAAPTPVSALVHSSTLVTAGVYLLIRFDSIIQKSELSILLLSVSVLTMFMAGLGAVFESDMKKVVALSTLSQLGLMIM
+ILSMGMKELAFFHLITHAMFKSSLFMCVGFMIHSSGSAQDSRQMSSFGLSSPMLGVMLGTTNLALCGFPFLAGFYSKD
+AMLEYTHMMNMNLGFISLVMMGTGLTVAYSFRVLYLSVSKVSVTSMVSGLSDFSFNVVKSVMILFLASLFMGFFMYWV
+VTPVAVPSFLSNPQKYSIALVSLVGGVSVYSVLQMKGLKNISGFKVTEMAMSSMWFLLQLSTKIPVISSMMMGLNGAK
+LVDMGWFEYYGGQGGRSLMLKMSGALQEGQGSSMVKSFMITVFVSLAFLLLMI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 569 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 437 ,
+                  seq-data
+                    ncbieaa "MLSMLMGVFSVVVLMSVWGESLVWVMLMSGLMVMSSSDSLVWKAGQAGE
+LDYIGWSLSLLSFWVVFLAILGSKTIKKVSSLRGVFISLAMSLLGMFLISFYVSDFMFFYLGFEGCLIPIFFMVLGWG
+YQPERAQAGIYMLFYTLFGSLPLFFLIMSLYTKTSGYMYTSNQVNEVYFFIFLVGAFLVKFPMYSTHLWLLKAHVEAP
+VAGSMILAGVMLKLGGYGLIRFLPVCPVKPLLLAEVIICLSLWGGLLLSLSCLRQMDMKLLIASSSVVHMSLCIVGLL
+ALSDWGFKGAMVVMIGHGLCSSGLFYLANVVYERSHSRSMAVSKGFLTLMPSMCLWWFILLGVNMASPPSLNLLGEIM
+LISMLVSWSKCTVGVVMAMSFFSAGYSLYLFSLSQHGVYLNSKSGFHSGGMLEYLVCAGHWVPLNVVILCVVWLVC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 436 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 97 ,
+                  seq-data
+                    ncbieaa "MMFYTEGSVGLGLVVGSLSFILNYGHLLSSLLSLEFLSLMIYWWLSVSS
+VYTGKDFFFALFYLVMVACEGVLGLSLLISSVYSHGVDYMKSYSTLSC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 96 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 165 ,
+                  seq-data
+                    ncbieaa "MTLFTLSTSLSVLFMFSKTPLMLALLIVLQTILVTLSIYIFLLTSWLSF
+ILFMILISAMMVIFVYVSSLASNDFIVLSYSVFASSLYFLPILMMAAYLLLSEQENHTKSQITLSDMDLGPMVSYKLY
+APNISSLTMFLIIYLLVALIVVAKISMSPKGALRALKP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 164 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_11" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Test sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 378 ,
+                  seq-data
+                    ncbieaa "MTKSITNMNTLMKIFTKTFISLPAPTNISTLWNFGSLLSLCLVIQIVSG
+LFLASTYSANLETSFTLVTQIMETTDKGWLIRSIHANGASLFFACLYIHVGRGLYYSSFMLMHVWSAGTTMLLIIMAT
+AFMGYVLPANQMSFWGASVITNLFSEVPYLGPNIVQFIWGGNSVDTPTIMRFFTFHFFLPFITLALVIIHITFLHQTG
+SNNPLGLSSMTSKVSFNSFLSFKDLFGVALTTLGFLFLNFYWPLLLSDHENFNPADPAVTPNHIQPEWYFLFAYAILR
+SIPNKLGGVIALLLSVLILYTLPFTSLAKMKSTYFYPANILLFWAFIVTVILLTWIGARPVEEPYIFTGQILTMLYFS
+YFMLAPLMSKLWDLIIS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 377 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_12" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 310 ,
+                  seq-data
+                    ncbieaa "MEMIIMLVSYLILLVMVLISVAFITLMEQKILAGAQIRVGPNYTGLWGL
+LQPFADAVKLLSKEGMSTRFASLKIYYLSPVISLMLSLLMWVSYMFEKGGVDLMYSVLFFMCLSGLMVYPILTSGWSS
+NCKYSMLGSLRAVAQMVSYEVSMAMVLLSLVWLSWSFSFYDLVESQYLVWNIFLYLPLSYVWFVSSLAETNRTPYDFA
+EGESELVSGFNTEYGSGGFTLIFMSEYSSILFMGFLFSVLFLSSVVSMMVMLKSMAVVFGFVWVRATLPRYRYDKLMG
+LAWKSFLPITLLMFSYHLSMSESSLLY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 309 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Ecya_3xwoNNN_13" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Test
+ sp.]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 327 ,
+                  seq-data
+                    ncbieaa "MLLHPSTVLFYTTLITSVVITTSTNSWFIAWVGLEINLLAFIPLVVNKK
+NKYSVESALKYFLIQSLASIFIILASATSSSHDLSLLIVVMLLLKSGVAPSHQWMPAMVDGLSWPLFATLMTMQKMNP
+MILTFFLLKTDYIYMFIILYIIISSMVGALGGLTQTSLRKIIAYSSIAHLAWMLATLTMSSWLWLTYFIIYAFVLMSL
+TFLLNHTQMTTLNHVSNMNKSYLSFIIAISILSLGGLPPFTGFLGKLLAVQQLAPTPESFLLIPLLASAYLSLFFYAR
+ILLTTLVLSASSSNSLNKIKETNSNLLTANLIGLLLPTVCMILL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 326 ,
+                              id
+                                local
+                                  str "Ecya_3xwoNNN_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_1" ,
+                      location
+                        int {
+                          from 106 ,
+                          to 1644 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_2" ,
+                      location
+                        int {
+                          from 1701 ,
+                          to 2382 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_3" ,
+                      location
+                        int {
+                          from 2504 ,
+                          to 2659 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_4" ,
+                      location
+                        int {
+                          from 2653 ,
+                          to 3321 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_5" ,
+                      location
+                        int {
+                          from 3321 ,
+                          to 4106 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_6" ,
+                      location
+                        int {
+                          from 4109 ,
+                          to 4462 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_7" ,
+                      location
+                        int {
+                          from 4806 ,
+                          to 6518 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_8" ,
+                      location
+                        int {
+                          from 6574 ,
+                          to 7887 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_9" ,
+                      location
+                        int {
+                          from 7881 ,
+                          to 8174 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_10" ,
+                      location
+                        int {
+                          from 8304 ,
+                          to 8801 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_11" ,
+                      location
+                        int {
+                          from 8801 ,
+                          to 9937 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_12" ,
+                      location
+                        int {
+                          from 10170 ,
+                          to 11102 ,
+                          strand minus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 5 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "Ecya_3xwoNNN_13" ,
+                      location
+                        int {
+                          from 13378 ,
+                          to 14359 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Ecya_3xwoNNN" } } } } } } } } } }

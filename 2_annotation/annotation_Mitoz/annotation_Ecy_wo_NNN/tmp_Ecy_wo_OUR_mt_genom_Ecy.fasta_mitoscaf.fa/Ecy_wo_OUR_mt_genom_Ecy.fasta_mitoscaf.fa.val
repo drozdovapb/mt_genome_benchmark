@@ -1,0 +1,3 @@
+NOTE: valid [SEQ_DESCR.OrganismIsUndefinedSpecies] Organism 'Test sp.' is undefined species and does not have a specific identifier. DESCRIPTOR: BioSrc: Test sp. BIOSEQ-SET: lcl|Ecya_3xwoNNN
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit II [lcl|Ecya_3xwoNNN:1702-2383] [lcl|Ecya_3xwoNNN: raw, dna len= 14377] -> [lcl|Ecya_3xwoNNN_2]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 2 [lcl|Ecya_3xwoNNN:13379-14360] [lcl|Ecya_3xwoNNN: raw, dna len= 14377] -> [lcl|Ecya_3xwoNNN_13]

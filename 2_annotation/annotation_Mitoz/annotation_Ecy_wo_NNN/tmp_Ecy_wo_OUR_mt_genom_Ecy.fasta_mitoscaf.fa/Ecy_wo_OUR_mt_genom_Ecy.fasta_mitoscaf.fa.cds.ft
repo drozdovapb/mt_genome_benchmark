@@ -1,0 +1,68 @@
+>Feature Ecya_3xwoNNN
+107	1645	gene
+			gene	COX1
+107	1645	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+1702	2383	gene
+			gene	COX2
+1702	2383	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+2505	2660	gene
+			gene	ATP8
+2505	2660	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+2654	3322	gene
+			gene	ATP6
+2654	3322	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+3322	4107	gene
+			gene	COX3
+3322	4107	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+4110	4463	gene
+			gene	ND3
+4110	4463	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+6519	4807	gene
+			gene	ND5
+6519	4807	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+7888	6575	gene
+			gene	ND4
+7888	6575	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+8175	7882	gene
+			gene	ND4L
+8175	7882	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+8305	8802	gene
+			gene	ND6
+8305	8802	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+8802	9938	gene
+			gene	CYTB
+8802	9938	CDS
+			product	cytochrome b
+			transl_table	5
+11103	10171	gene
+			gene	ND1
+11103	10171	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
+13379	14360	gene
+			gene	ND2
+13379	14360	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA

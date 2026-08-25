@@ -1,0 +1,13 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Ecya_3xwoNNN         -         16snew_curated.81-1  -          cm        1     1630    12443    11098      -    no    1 0.28 227.3   22.6     4e-06 !   topology=linear
+#
+# Program:         cmsearch
+# Version:         1.1.1 (July 2014)
+# Pipeline mode:   SEARCH
+# Query file:      /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+# Target file:     /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation_Mitoz/annotation_Ecy/tmp_Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa/Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa
+# Option settings: cmsearch -g --tblout /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation_Mitoz/annotation_Ecy/tmp_Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa/Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa.l-rRNA.tbl --cpu 8 /media/main/sandbox/ad/miniforge3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation_Mitoz/annotation_Ecy/tmp_Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa/Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa 
+# Current dir:     /media/main/sandbox/ad/mt_BM/use_Mitoz/annotation_Mitoz/annotation_Ecy/tmp_Ecy_wo_OUR_mt_genom_Ecy.fasta_mitoscaf.fa
+# Date:            Tue Aug 25 14:16:02 2026
+# [ok]
