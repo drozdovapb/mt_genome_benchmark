@@ -166,7 +166,7 @@ RefSeq	6519	6579	trnH	1.42e-28	-
 RefSeq	6581	7888	nad4	0.0	-
 RefSeq	7881	8175	nad4l	3.22e-151	-
 RefSeq	8178	8238	trnT	1.42e-28	+
-RefSeq	827	8299	trnP	1.14e-29	-
+RefSeq	8237	8299	trnP	1.14e-29	-
 RefSeq	8304	8802	nad6	0.0	+
 RefSeq	8801	9938	cytb	0.0	+
 RefSeq	9936	9996	trnS	6.60e-27	+
