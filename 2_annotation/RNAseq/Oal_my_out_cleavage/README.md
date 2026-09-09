@@ -39,8 +39,9 @@ Alignment:
 
 `/media/secondary/apps/STAR-2.7.10b/bin/Linux_x86_64/STAR --runThreadN 8 --runMode genomeGenerate --genomeDir genomeDir/ --genomeFastaFiles Oal_mt_contig.fa --genomeSAindexNbases 6`
 
-    ```
-    STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+
+```
+STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
 Jun 03 21:21:31 ..... started STAR run
 Jun 03 21:21:31 ... starting to generate Genome files
 Jun 03 21:21:31 ... starting to sort Suffix Array. This may take a long time...
@@ -54,6 +55,8 @@ Jun 03 21:21:31 ... writing Suffix Array to disk ...
 Jun 03 21:21:31 ... writing SAindex to disk
 Jun 03 21:21:31 ..... finished successfully
 ```
+
+
 
 `/media/secondary/apps/STAR-2.7.10b/bin/Linux_x86_64/STAR --runThreadN 8 --alignEndsType EndToEnd --outSAMtype BAM SortedByCoordinate --genomeDir genomeDir/ --readFilesIn Oal_SRR3467085_prinseq_1.fastq Oal_SRR3467085_prinseq_2.fastq --outFileNamePrefix Oal_SRR_STAR`
 
