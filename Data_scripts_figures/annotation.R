@@ -6,7 +6,7 @@ library(dplyr)
 library(RColorBrewer)
 
 # read bed annotation (in 2_annotation folder)
-path_to_bed <- "annotation.bed"
+path_to_bed <- "../2_annotation/annotation.bed"
 
 bed <- read_tsv(
   path_to_bed,
@@ -77,4 +77,7 @@ ggplot(data = prots_and_rrn,
   ) +
   scale_fill_manual(values = more) +
   labs(x = "Genomic position", y = NULL) +
-  theme_genes()
+  theme_genes() + 
+  theme(legend.position = "bottom", text = element_text(size=14))
+
+ggsave("Fig5_annotation.svg", device=svg, width=12, height=8)
