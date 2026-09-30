@@ -28,12 +28,13 @@ This pipeline has been tested in several Linux distributions. It uses the follow
  - (_optional_) FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for checking read quality;
  - MitoFinder, which can be installed in two ways:
    - for direct compilation (https://github.com/RemiAllio/MitoFinder); we highly recommend creating a reserved conda environment using python 2.7;
-     - Please also note that this installation requires MIRA ≥4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/)
    - or as a Singularity containter (https://github.com/RemiAllio/MitoFinder_container/); requires Singularity;
    - or a Docker container (https://hub.docker.com/r/chrishah/mitobim); requires Docker.
  - (_optional depending on MitoFinder results_) MITObim (https://github.com/chrishah/MITObim);
+   - Please also note that this installation requires MIRA ≥4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/)
+   - please not that MITObim is also available in Galaxy (https://usegalaxy.eu/ and https://usegalaxy.org.au/)
  - (_optinal_) Seqkit for read file manipulation (https://bioinf.shenwei.me/seqkit/).
-  
+ - (_optional depending on MitoFinder annotation results_) MITOS2 for annotation (https://gitlab.com/Bernt/MITOS/-/tree/mitos2); also available from Galaxy (https://usegalaxy.org; https://usegalaxy.eu; https://usegalaxy.org.au; https://usegalaxy.fr)
 
 Particular versions used in this work are available in the [full procedure](https://github.com/drozdovapb/mt_genome_benchmark/tree/main/1_assembly/README.md), but in general this procedure should work with any recent version.
 
@@ -94,10 +95,12 @@ bbduk.sh -Xmx1G in=Ofl_filt_1.fq.gz in2=Ofl_filt_2.fq.gz out=Ofl_filt_interleave
 ```
 MITObim.pl -start 1 -end 30 -sample Ofl -ref Ofl_mf -readpool Ofl_filt_interleaved.fastq.gz --kbait 31 --quick Ofl_2Ecy_mf_largest_mtDNA_contig.fasta
 ```
-   - Tip 1: `MITObim.pl` needs to be in your `$PATH` for this command, or you can provide full path to the script.
-   - Tip 2: MITObim relies on MIRA, which must also be added to your `$PATH`.
-   - Tip 3: if you are running a non-English locale and receive an error connected to that, execute the following command: `export LC_ALL=C` before the MITObim run.
-   - Tip 4: if you receive an error connected to repeated read names, rename the reads like this `seqkit rename Ofl_filt_interleaved.fastq.gz -o Ofl_filt_interleaved_renamed.fastq.gz` and feed MITObim.pl the resulting file as `-readpool`.
+   - Tip: `MITObim.pl` needs to be in your `$PATH` for this command, or you can provide full path to the script.
+   - Tip: `-sample` and `-ref` are string variables that do not have to match any files, but they need to be provided. They only define the name of the resulting file.
+   - Tip: MITObim relies on MIRA, which must also be added to your `$PATH`.
+   - Tip: if you are low in disk space, adding the option `--clean` might help, as it removes older iterations.
+   - Tip: if you are running a non-English locale and receive an error connected to that, execute the following command: `export LC_ALL=C` before the MITObim run.
+   - Tip: if you receive an error connected to repeated read names, rename the reads like this `seqkit rename Ofl_filt_interleaved.fastq.gz -o Ofl_filt_interleaved_renamed.fastq.gz` and feed MITObim.pl the resulting file as `-readpool`.
 
   - Annotate the MITObim assembly result with MitoFinder. The final assembly can be found in the `iteration*` folder with the largest number and has the name ending with `noIUPAC.fasta`.
     - Tip: if using MitoFinder in a conda environment, do not forget to activate it again if it was deactivated.
@@ -106,5 +109,8 @@ MITObim.pl -start 1 -end 30 -sample Ofl -ref Ofl_mf -readpool Ofl_filt_interleav
 mitofinder -a iteration15/Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta -r KX341964_Ecy_mt_genome.gb -o 5 -j Ofl_mf_mb
 ```
 
-  - Inspect the log file and the `<samplename>_MitoFinder_megahit_mitfi_Final_Results/` folder to assess circularization and assembly quality, as well the found genes.
-    - In our *O. flavus* example, at this stage we obtained a complete circular genome.
+  - Inspect the log file and the `<samplename>_MitoFinder_megahit_mitfi_Final_Results/` folder to assess circularization and assembly quality, as well the found genes. In our *O. flavus* example, at this stage we obtained a complete circular genome with all genes annotated.
+    - It is highly recommended to do some sanity checks at this step, such as:
+      - Check if the well-studied genes (COX1 for example) belong to the correct taxon. This can be done with NCBI BLAST (https://blast.ncbi.nlm.nih.gov/).
+        - Here, it is also worth checking that the obtained assembly is not overly similar to the reference, as this can happen if target species is contaminated with the reference one.
+      - Count how many of expected genes (13 PCGs, 2 rRNA genes, and 22 tRNA genes) are found. If something looks suspicious, it might be worth comparing annotation by MitoFinder with the one produced by MITOS2 to see if the problem is in assembly or annotation.
