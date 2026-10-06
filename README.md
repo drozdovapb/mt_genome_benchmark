@@ -2,8 +2,9 @@
 This repository contains reproducible code for a benchmark of most existing tools for animal mitochondrial genome assembly and annotation on the example of Baikal amphipods.
 
 If you:
+  * would like to skip the detail and just go to the recommended procedure for mitochondrial genome assembly (command-line interface) from short whole-genome reads, go to the next section;
+  * need to reconstruct mitochondrial genome from RNA-seq, we recommend starting with MitoZ (https://github.com/linzhi2013/MitoZ);
   * wish to reproduce assembler benchmark or perform a similar analysis using own data, please check out [Procedure 1. Multi-assembler algorithm](https://github.com/drozdovapb/mt_genome_benchmark/tree/main/1_assembly/README.md);
-  * would like to skip the detail and just go to the recommended procedure for mitochondrial genome assembly (command-line interface), keep reading. 
 
 ## Recommended procedure
 
