@@ -31,8 +31,8 @@ This pipeline has been tested in several Linux distributions. It uses the follow
    - or as a Singularity containter (https://github.com/RemiAllio/MitoFinder_container/); requires Singularity;
    - or a Docker container (https://hub.docker.com/r/chrishah/mitobim); requires Docker.
  - (_optional depending on MitoFinder results_) MITObim (https://github.com/chrishah/MITObim);
-   - Please also note that this installation requires MIRA ≥4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/)
-   - please not that MITObim is also available in Galaxy (https://usegalaxy.eu/ and https://usegalaxy.org.au/)
+   - Please also note that this installation requires MIRA == 4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/) for MITObim 1.8, and newer versions of MIRA would not work;
+   - MITObim is also available in Galaxy (https://usegalaxy.eu/ and https://usegalaxy.org.au/)
  - (_optinal_) Seqkit for read file manipulation (https://bioinf.shenwei.me/seqkit/).
  - (_optional depending on MitoFinder annotation results_) MITOS2 for annotation (https://gitlab.com/Bernt/MITOS/-/tree/mitos2); also available from Galaxy (https://usegalaxy.org; https://usegalaxy.eu; https://usegalaxy.org.au; https://usegalaxy.fr)
 
@@ -113,4 +113,4 @@ mitofinder -a iteration15/Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta -r KX341964_Ecy_mt
     - It is highly recommended to do some sanity checks at this step, such as:
       - Check if the well-studied genes (COX1 for example) belong to the correct taxon. This can be done with NCBI BLAST (https://blast.ncbi.nlm.nih.gov/).
         - Here, it is also worth checking that the obtained assembly is not overly similar to the reference, as this can happen if target species is contaminated with the reference one.
-      - Count how many of expected genes (13 PCGs, 2 rRNA genes, and 22 tRNA genes) are found. If something looks suspicious, it might be worth comparing annotation by MitoFinder with the one produced by MITOS2 to see if the problem is in assembly or annotation.
+      - Count how many of expected genes (13 protein-coding, 2 rRNA genes, and in most cases 22 tRNA genes) are found. If something looks suspicious, for example one of protein-coding or rRNA genes is missing, it might be worth comparing annotation by MitoFinder with the one produced by MITOS2 to see if the problem is in assembly or annotation. MITOS2 can be run like this: `runmitos.py -c 5 -o . -r refseq89f/ Oal_D2-Oal_D2_mf-it11_noIUPAC.fasta` where `-c` is the genetic code, `-o` is the output directory, `-r` is the path to reference data that needs to be downloaded beforehand (https://zenodo.org/records/4284483), and the fasta file is the assembly. MITOS2 is also available from Galaxy (see above).
