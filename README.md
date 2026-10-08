@@ -10,7 +10,7 @@ If you:
 
 We found that the following procedure has maximal efficiency:
 
-![recommended_procedure](Data_scripts_figures/Figure_7A.png)
+![recommended_procedure](article-figures/figures/fig07a.png)
 
 
 > [!IMPORTANT]
