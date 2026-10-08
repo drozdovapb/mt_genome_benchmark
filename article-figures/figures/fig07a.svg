@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="Figure_7_recommended.svg"
+   sodipodi:docname="fig07a.svg"
    inkscape:export-filename="recommended_pipeline_doodle2.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="139.5"
-     inkscape:cy="265"
+     inkscape:zoom="2"
+     inkscape:cx="115.25"
+     inkscape:cy="141"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -43,6 +43,118 @@
      inkscape:guide-bbox="true" />
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker23182"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path23180" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker22963"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path22961" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker22953"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path22951" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker22399"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path22397" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker22389"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path19611" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path19629" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker19872"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path19623" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker19863"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path19605" />
+    </marker>
     <marker
        style="overflow:visible"
        id="marker15478"
@@ -178,245 +290,128 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path2990" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="EmptyTriangleOutL-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path15325-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1844"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1842" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1848"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1846" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1852"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1850" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1856"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1854" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1860"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1858" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1864"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="EmptyTriangleOutL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1862" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0.29328054,-5.4224834)">
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="2.8192186"
-       y="15.080597"
-       id="text1440"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         id="tspan1438"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="2.8192186"
-         y="15.080597"><tspan
-   style="font-weight:normal;font-size:2.87015px;stroke-width:0.179385"
-   id="tspan1444"
-   rotate="0 0 0 0 0 0 0 0 0 0 0 0">LcWGS reads</tspan> </tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="2.8192186"
-         y="17.950747"
-         id="tspan1446"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
-   rotate="0 0 0 0 0 0 0 0 0"
-   id="tspan13310"
-   style="font-size:2.87015px;stroke-width:0.179385">for the </tspan>target species</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="2.8192186"
-         y="20.820896"
-         id="tspan1442"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">.fastq (<tspan
-   style="font-weight:bold;stroke-width:0.179385"
-   id="tspan11852">reads</tspan>)</tspan></text>
     <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:2.91999;stop-color:#000000"
-       id="rect1594"
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:2.91999;stop-color:#000000"
+       id="rect1594-1"
        width="29.201939"
-       height="12.419983"
-       x="0.98842937"
-       y="10.599145"
-       ry="2.2311852"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="32.597095"
-       y="15.080597"
-       id="text9233"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="32.597095"
-         y="15.080597"
-         id="tspan9231">Assembly </tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="32.597095"
-         y="17.950747"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan13536">for a related species</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="32.597095"
-         y="20.820896"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan13592">.fasta + .gb (<tspan
-   style="font-weight:bold;stroke-width:0.179385"
-   id="tspan13594">ref</tspan>)</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="32.597095"
-         y="23.691048"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan13534" /></text>
+       height="10.705405"
+       x="1.5481448"
+       y="8.7779522"
+       ry="1.9231702"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:2.91999;stop-color:#000000"
-       id="rect9235"
-       width="27.825151"
-       height="12.419983"
-       x="31.250219"
-       y="10.599145"
-       ry="2.2311852"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="m 17.191719,22.941623 8.828691,9.60386"
-       id="path15083"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="m 43.182719,22.941623 -8.829222,9.60386"
-       id="path15504"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:1.62718, 0.271196;stroke-dashoffset:0;stop-color:#000000"
-       id="rect15580"
-       width="35.42017"
-       height="15.064681"
-       x="12.484249"
-       y="32.709873"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:1.62718, 0.271196;stroke-dashoffset:0;stop-color:#000000"
-       id="rect15582"
-       width="31.939623"
-       height="15.064681"
-       x="14.170945"
-       y="32.709873"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="30.340906"
-       y="35.576672"
-       id="text15596"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="35.576672"
-         id="tspan15594">Optional to reduce </tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="38.446823"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan15634">memory usage:</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="41.316971"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan15628">k-mer filtering of <tspan
-   style="font-weight:bold;stroke-width:0.179385"
-   id="tspan20108">reads</tspan> </tspan><tspan
-         sodipodi:role="line"
-         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="44.187122"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan15630">based on <tspan
-   style="font-weight:bold;stroke-width:0.179385"
-   id="tspan19398">ref</tspan></tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="47.148937"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan15632">bbduk</tspan></text>
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect25662"
-       width="35.42017"
-       height="12.469617"
-       x="12.484249"
-       y="53.661381"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect25664"
-       width="31.939623"
-       height="12.469617"
-       x="14.170945"
-       y="53.661381"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="30.340906"
-       y="56.528172"
-       id="text25680"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="56.528172"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan25678">Assembly + annotation</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="59.489986"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan25775">MitoFinder</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="62.360138"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan48784">Complete assembly</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="30.340906"
-         y="65.230286"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan48786">(circular, 1 contig)?</tspan></text>
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="m 30.400668,47.602664 v 5.732295"
-       id="path27111"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:0.356658;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:2.85327, 1.42663;stop-color:#000000"
+       id="rect4652"
+       width="3.8453648"
+       height="3.9711907"
+       x="0.54882187"
+       y="5.8952403" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
@@ -429,216 +424,6 @@
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
          id="tspan27670"
          sodipodi:role="line" /></text>
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect30004"
-       width="28.558075"
-       height="12.06241"
-       x="31.131062"
-       y="83.130707"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect30006"
-       width="25.751831"
-       height="12.06241"
-       x="32.490993"
-       y="83.130707"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="45.758801"
-       y="85.99752"
-       id="text30012"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="85.99752"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan30008">Assembly with</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="88.959335"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan30010">MITObim</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="91.829491"
-         id="tspan32137">use MitoFinder result </tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="94.699638"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan32139">as reference</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="38.063324"
-       y="71.915413"
-       id="text30764"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         id="tspan30762"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="38.063324"
-         y="71.915413">No</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="16.725222"
-       y="75.230812"
-       id="text31466"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         id="tspan31464"
-         style="font-size:2.87015px;stroke-width:0.179385"
-         x="16.725222"
-         y="75.230812">Yes</tspan></text>
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect44885"
-       width="28.558075"
-       height="7.2564287"
-       x="31.131062"
-       y="101.18204"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect44887"
-       width="25.751831"
-       height="7.2564287"
-       x="32.490993"
-       y="101.18204"
-       ry="0"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="45.758801"
-       y="104.04881"
-       id="text44897"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="104.04881"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan44889">Annotation with</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="45.758801"
-         y="107.01063"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan44895"><tspan
-           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-           id="tspan45409"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385">MitoFinder</tspan></tspan></text>
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="m 45.528524,95.183536 v 5.732214"
-       id="path46847"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <rect
-       style="fill:#d7f4d7;fill-opacity:0.6;stroke:#999999;stroke-width:0.271196;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
-       id="rect46912"
-       width="23.985741"
-       height="4.8574977"
-       x="1.7214055"
-       y="103.81532"
-       ry="2.1203501"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="13.602422"
-       y="106.97437"
-       id="text46998"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
-         x="13.602421"
-         y="106.97437"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         id="tspan46996"
-         sodipodi:role="line">Pipeline complete</tspan></text>
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="M 27.693489,66.123706 12.395257,103.38324"
-       id="path52741"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <path
-       sodipodi:type="spiral"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.41324;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path1112"
-       sodipodi:cx="135.13176"
-       sodipodi:cy="223.41925"
-       sodipodi:expansion="1"
-       sodipodi:revolution="0.35530117"
-       sodipodi:radius="273.35342"
-       sodipodi:argument="-18.378204"
-       sodipodi:t0="0"
-       transform="matrix(0.02990136,0.02990136,-0.02990136,0.02990136,55.752784,62.409686)"
-       d="m 135.13176,223.41925 c 56.24492,28.6662 36.30711,104.36197 -3.09813,137.35023 -24.03159,20.11815 -53.17161,31.03735 -84.241366,34.01544 -58.37918,5.59576 -116.423763,-17.68001 -160.230934,-55.47359"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <path
-       sodipodi:type="spiral"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8.43592;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path3546"
-       sodipodi:cx="235.54646"
-       sodipodi:cy="225.47458"
-       sodipodi:expansion="0.1"
-       sodipodi:revolution="1.3"
-       sodipodi:radius="126.14626"
-       sodipodi:argument="1.0183434"
-       sodipodi:t0="0.19313124"
-       transform="matrix(0.03124374,0,0,0.03307797,8.8967941,72.923307)"
-       d="m 144.07217,281.02144 c -34.97548,-50.14557 -18.5049,-120.68856 31.95335,-153.56566 53.70432,-34.992147 127.40529,-17.65529 161.58846,36.03931 35.55763,55.85357 17.50032,131.92364 -38.28137,167.02221 -57.43257,36.13733 -135.36767,17.52756 -171.19688,-39.81862 -6.83891,-10.94597 -11.97108,-22.94432 -15.1709,-35.44789"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
-    <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="M 31.173222,66.123706 46.610449,80.515679"
-       id="path53259"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
@@ -661,13 +446,540 @@
          style="font-weight:bold;font-size:4.23333px;stroke-width:0.179385"
          x="65.578697"
          y="9.5499449">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="16.182362"
+       y="11.825459"
+       id="text1440-7"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan1438-5"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="16.182362"
+         y="11.825459"><tspan
+   style="font-weight:normal;font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+   id="tspan1444-3"
+   rotate="0 0 0 0 0 0 0 0 0 0 0 0">LcWGS reads</tspan> </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="16.182362"
+         y="14.69561"
+         id="tspan1446-5"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
+   rotate="0 0 0 0 0 0 0 0 0"
+   id="tspan13310-6"
+   style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385">for the </tspan>target species</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="16.182362"
+         y="17.56576"
+         id="tspan1442-2"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">.fastq (<tspan
+   style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.179385"
+   id="tspan11852-9">reads</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="46.026226"
+       y="11.544827"
+       id="text9233-2"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="46.026226"
+         y="11.544827"
+         id="tspan9231-7">Assembly </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="46.026226"
+         y="14.414978"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan13536-0">for a related species</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="46.026226"
+         y="17.285128"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan13592-9">.fasta + .gb (<tspan
+   style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.179385"
+   id="tspan13594-3">ref</tspan>)</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="46.026226"
+         y="20.155277"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan13534-6" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:2.91999;stop-color:#000000"
+       id="rect9235-0"
+       width="27.825151"
+       height="10.705405"
+       x="31.809921"
+       y="8.7779522"
+       ry="1.9231702"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
     <path
-       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL)"
-       d="M 31.091152,106.33611 H 25.972353"
-       id="path971"
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22399)"
+       d="m 18.706719,19.405483 v 7.017"
+       id="path15083-6"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="./Figure_7A.png"
-       inkscape:export-xdpi="150"
-       inkscape:export-ydpi="150" />
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 44.706719,19.405856 v 7.016627"
+       id="path15504-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:1.5,0.25;stroke-dashoffset:0;stop-color:#000000"
+       id="rect15580-6"
+       width="48.094788"
+       height="9.8909578"
+       x="6.7066584"
+       y="27.05744"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:1.5,0.25;stroke-dashoffset:0;stop-color:#000000"
+       id="rect15582-1"
+       width="46.356579"
+       height="9.8496103"
+       x="7.5030012"
+       y="27.05744"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="30.900604"
+       y="29.92424"
+       id="text15596-8"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="30.900604"
+         y="29.92424"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan15634-9">Optional to reduce memory usage:</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:2.87015px;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="30.900604"
+         y="32.794392"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan15628-2">k-mer filtering of <tspan
+   style="font-weight:bold;stroke-width:0.179385"
+   id="tspan20108-0">reads</tspan> </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="30.900604"
+         y="35.756207"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan15632-7"><tspan
+   rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+   id="tspan6372"
+   style="font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">based on <tspan
+   style="font-weight:bold;stroke-width:0.179385"
+   id="tspan19398-3">ref </tspan>with </tspan>bbduk</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect25662-5"
+       width="53.694832"
+       height="6.8509498"
+       x="3.9066355"
+       y="39.222893"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect25664-9"
+       width="51.754234"
+       height="6.8509498"
+       x="4.7957025"
+       y="39.222893"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="30.900604"
+       y="42.089676"
+       id="text25680-2"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="30.900604"
+         y="42.089676"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan25775-8"
+         sodipodi:role="line"><tspan
+   rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+   id="tspan11313"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Assembly + annotation with </tspan>MitoFinder</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="30.900604"
+         y="44.959827"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan48786-7"
+         sodipodi:role="line"><tspan
+   rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+   id="tspan11315"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Complete assembly </tspan>(circular, 1 contig)?</tspan></text>
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.828083,37.055428 v 2.203133"
+       id="path27111-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect30004-6"
+       width="40.284077"
+       height="7.8073888"
+       x="22.730808"
+       y="61.283859"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect30006-1"
+       width="36.325588"
+       height="7.8073888"
+       x="24.649139"
+       y="61.283859"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="43.143509"
+       y="64.812126"
+       id="text30012-2"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="43.143509"
+         y="64.812126"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan30010-3"><tspan
+   rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+   id="tspan13483"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Assembly with </tspan>MITObim;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="43.143509"
+         y="67.682274"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan32139-9"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+   id="tspan17937">MitoFinder</tspan> result = reference</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="38.236099"
+       y="52.763405"
+       id="text30764-4"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan30762-7"
+         style="font-size:2.87015px;stroke-width:0.179385"
+         x="38.236099"
+         y="52.763405">No</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="14.104767"
+       y="52.763405"
+       id="text31466-8"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan31464-4"
+         style="font-size:2.87015px;stroke-width:0.179385"
+         x="14.104767"
+         y="52.763405">Yes</tspan></text>
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.406794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.811933,69.110658 v 2.61555"
+       id="path46847-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:#d7f4d7;fill-opacity:0.6;stroke:#999999;stroke-width:0.326701;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect46912-3"
+       width="34.808765"
+       height="4.8574977"
+       x="14.178383"
+       y="103.33968"
+       ry="2.1203501"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="31.531612"
+       y="106.51051"
+       id="text46998-2"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="31.531612"
+         y="106.51051"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan46996-0"
+         sodipodi:role="line">Procedure complete</tspan></text>
+    <path
+       style="fill:none;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22389)"
+       d="M 30.828083,45.938294 14.706719,58.314465 v 22.108018"
+       id="path52741-6"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.41324;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1112-1"
+       sodipodi:cx="135.13176"
+       sodipodi:cy="223.41925"
+       sodipodi:expansion="1"
+       sodipodi:revolution="0.35530117"
+       sodipodi:radius="273.35342"
+       sodipodi:argument="-18.378204"
+       sodipodi:t0="0"
+       transform="matrix(0.02990136,0.02990136,-0.02990136,0.02990136,56.454735,42.199363)"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       d="m 135.13176,223.41925 c 56.24492,28.6662 36.30711,104.36197 -3.09813,137.35023 -24.03159,20.11815 -53.17161,31.03735 -84.241366,34.01544 -58.37918,5.59576 -116.423763,-17.68001 -160.230934,-55.47359" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8.43592;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3546-5"
+       sodipodi:cx="235.54646"
+       sodipodi:cy="225.47458"
+       sodipodi:expansion="0.1"
+       sodipodi:revolution="1.3"
+       sodipodi:radius="126.14626"
+       sodipodi:argument="1.0183434"
+       sodipodi:t0="0.19313124"
+       transform="matrix(0.03124374,0,0,0.03307797,1.8613416,45.952205)"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"
+       d="m 144.07217,281.02144 c -34.97548,-50.14557 -18.5049,-120.68856 31.95335,-153.56566 53.70432,-34.992147 127.40529,-17.65529 161.58846,36.03931 35.55763,55.85357 17.50032,131.92364 -38.28137,167.02221 -57.43257,36.13733 -135.36767,17.52756 -171.19688,-39.81862 -6.83891,-10.94597 -11.97108,-22.94432 -15.1709,-35.44789" />
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22963)"
+       d="m 30.828083,45.938294 11.98385,14.705385"
+       id="path53259-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23182);paint-order:normal"
+       d="m 37.706719,77.347264 v 3.075219"
+       id="path971-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect1718"
+       width="32.648495"
+       height="4.8511105"
+       x="7.2774611"
+       y="81.055"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="23.674646"
+       y="84.450966"
+       id="text1726"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="23.674646"
+         y="84.450966"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan1752">All expected genes found?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="42.903008"
+       y="75.577484"
+       id="text18685"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="42.903008"
+         y="75.577484"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan18683"><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           id="tspan18709"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Annotation with </tspan><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           id="tspan18681"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.179385">MitoFinder</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect18795"
+       width="40.284077"
+       height="5.7739134"
+       x="22.730808"
+       y="71.680084"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect18797"
+       width="36.325588"
+       height="5.7739134"
+       x="24.649139"
+       y="71.680084"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22389)"
+       d="m 17.706719,85.868673 0,16.753807"
+       id="path23927"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="12.517675"
+       y="91.110153"
+       id="text24479"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan24477"
+         style="font-size:2.87015px;stroke-width:0.179385"
+         x="12.517675"
+         y="91.110153">Yes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="23.116417"
+       y="89.256638"
+       id="text24734"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan24732"
+         style="font-size:2.87015px;stroke-width:0.179385"
+         x="23.116417"
+         y="89.256638">No</tspan></text>
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22963)"
+       d="m 17.885882,85.868483 8.750705,6.673172"
+       id="path24736"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
+       x="45.137505"
+       y="96.919075"
+       id="text24744"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.63098px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385"
+         x="45.137505"
+         y="96.919075"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         id="tspan24742"><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           id="tspan24738"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Annotation with MITOS2</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect24746"
+       width="35.802052"
+       height="5.7739134"
+       x="27.212837"
+       y="93.021675"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
+       id="rect24748"
+       width="32.283985"
+       height="5.7739134"
+       x="28.917732"
+       y="93.021675"
+       ry="0"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       style="fill:#999999;stroke:#999999;stroke-width:0.33;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23182);paint-order:normal"
+       d="m 45.059725,98.705319 v 3.917161"
+       id="path26412"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="fig07a.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
   </g>
 </svg>
