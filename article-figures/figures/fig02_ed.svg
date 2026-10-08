@@ -1,0 +1,4223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="935.43pt"
+   height="595.28pt"
+   viewBox="0 0 935.43 595.28"
+   version="1.1"
+   id="svg986"
+   sodipodi:docname="Figure2_facets.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs990">
+    <clipPath
+       id="cpMC4wMHw2NDguMDB8MC4wMHwyODguMDA=">
+      <rect
+         x="0"
+         y="0"
+         width="648"
+         height="288"
+         id="rect8-3" />
+    </clipPath>
+    <style
+       type="text/css"
+       id="style2-7"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    <clipPath
+       id="clipPath997">
+      <rect
+         x="0"
+         y="0"
+         width="648"
+         height="288"
+         id="rect995" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview988"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.4529381"
+     inkscape:cx="-315.71643"
+     inkscape:cy="357.66477"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g727" />
+  <g
+     class="svglite"
+     id="g984"
+     transform="matrix(1.0074204,0,0,1.0074204,-1146.909,144.19738)"
+     inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/g9841.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
+    <defs
+       id="defs4">
+      <style
+         type="text/css"
+         id="style2"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <rect
+       width="100%"
+       height="100%"
+       style="fill:#ffffff;stroke:none"
+       id="rect6"
+       x="0"
+       y="0"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect6.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <defs
+       id="defs11">
+      <clipPath
+         id="cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=">
+        <rect
+           x="0"
+           y="0"
+           width="935.42999"
+           height="595.28003"
+           id="rect8" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g15"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect6.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="0"
+         y="0"
+         width="935.42999"
+         height="595.28003"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1.07"
+         id="rect13" />
+    </g>
+    <defs
+       id="defs20">
+      <clipPath
+         id="cpNDguMTh8ODk2LjQ3fDM0LjA4fDQ2Ny45NA==">
+        <rect
+           x="48.18"
+           y="34.080002"
+           width="848.28003"
+           height="433.85999"
+           id="rect17" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNDguMTh8ODk2LjQ3fDM0LjA4fDQ2Ny45NA==)"
+       id="g22" />
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g24" />
+    <defs
+       id="defs29">
+      <clipPath
+         id="cpNS40OHw5MjkuOTV8NS40OHwyNDYuMzM=">
+        <rect
+           x="5.48"
+           y="5.48"
+           width="924.46997"
+           height="240.85001"
+           id="rect26" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNS40OHw5MjkuOTV8NS40OHwyNDYuMzM=)"
+       id="g33"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="5.48"
+         y="5.48"
+         width="924.46997"
+         height="240.85001"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1.26"
+         id="rect31" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g35" />
+    <defs
+       id="defs40">
+      <clipPath
+         id="cpNS40OHw5MjkuOTV8MjQ2LjMzfDU4OS44MA==">
+        <rect
+           x="5.48"
+           y="246.33"
+           width="924.46997"
+           height="343.47"
+           id="rect37" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNS40OHw5MjkuOTV8MjQ2LjMzfDU4OS44MA==)"
+       id="g44"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="5.48"
+         y="246.33"
+         width="924.46997"
+         height="343.47"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1.26"
+         id="rect42" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g270"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="48.18"
+         y="34.080002"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect46" />
+      <circle
+         cx="199.91"
+         cy="170.12"
+         r="11.8"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle48" />
+      <circle
+         cx="114.35"
+         cy="81.290001"
+         r="13.08"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle50" />
+      <circle
+         cx="176.82001"
+         cy="146.55"
+         r="13.08"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle52" />
+      <circle
+         cx="115.67"
+         cy="51.029999"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle54" />
+      <circle
+         cx="114.54"
+         cy="75.779999"
+         r="13.08"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle56" />
+      <circle
+         cx="115.43"
+         cy="64.620003"
+         r="12.78"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle58" />
+      <circle
+         cx="87.629997"
+         cy="107.37"
+         r="9.2399998"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle60" />
+      <circle
+         cx="143.08"
+         cy="154.2"
+         r="11.45"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle62" />
+      <circle
+         cx="104.4"
+         cy="81.639999"
+         r="11.45"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle64" />
+      <circle
+         cx="126.43"
+         cy="93"
+         r="12.78"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle66" />
+      <line
+         x1="48.18"
+         y1="50.169998"
+         x2="235.75999"
+         y2="50.169998"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line68" />
+      <line
+         x1="115.43"
+         y1="227.09"
+         x2="115.43"
+         y2="34.080002"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line70" />
+      <rect
+         x="268.42001"
+         y="34.080002"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect72" />
+      <circle
+         cx="337.89001"
+         cy="96.389999"
+         r="12.47"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle74" />
+      <circle
+         cx="333.51001"
+         cy="89.910004"
+         r="12.47"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle76" />
+      <circle
+         cx="382.75"
+         cy="142"
+         r="13.08"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle78" />
+      <circle
+         cx="335.89999"
+         cy="51.02"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle80" />
+      <circle
+         cx="333.41"
+         cy="85.07"
+         r="13.08"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle82" />
+      <circle
+         cx="296.42999"
+         cy="116.8"
+         r="8.6499996"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle84" />
+      <circle
+         cx="307.09"
+         cy="108.04"
+         r="8.6499996"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle86" />
+      <circle
+         cx="347.45999"
+         cy="153.36"
+         r="9.2399998"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle88" />
+      <circle
+         cx="317.98001"
+         cy="114.21"
+         r="10.67"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle90" />
+      <circle
+         cx="343.51999"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle92" />
+      <line
+         x1="268.42001"
+         y1="50.169998"
+         x2="455.98999"
+         y2="50.169998"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line94" />
+      <line
+         x1="335.67001"
+         y1="227.09"
+         x2="335.67001"
+         y2="34.080002"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line96" />
+      <rect
+         x="488.64999"
+         y="34.080002"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect98" />
+      <circle
+         cx="554.83002"
+         cy="88.279999"
+         r="13.08"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle100" />
+      <circle
+         cx="552.28998"
+         cy="95.110001"
+         r="12.78"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle102" />
+      <circle
+         cx="598.27002"
+         cy="138.06"
+         r="13.08"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle104" />
+      <circle
+         cx="555.92999"
+         cy="50.720001"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle106" />
+      <circle
+         cx="553.21997"
+         cy="92.82"
+         r="13.08"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle108" />
+      <circle
+         cx="495.67999"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle110" />
+      <circle
+         cx="516.72998"
+         cy="116.9"
+         r="8.6499996"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle112" />
+      <circle
+         cx="559.41998"
+         cy="132.92"
+         r="8.6499996"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle114" />
+      <circle
+         cx="534.10999"
+         cy="120.52"
+         r="9.7600002"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle116" />
+      <circle
+         cx="566.78003"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle118" />
+      <line
+         x1="554.83002"
+         y1="88.279999"
+         x2="597.14001"
+         y2="79.120003"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line120" />
+      <line
+         x1="553.21997"
+         y1="92.82"
+         x2="597.14001"
+         y2="90.379997"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line122" />
+      <line
+         x1="552.28998"
+         y1="95.110001"
+         x2="597.14001"
+         y2="101.64"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line124" />
+      <line
+         x1="597.14001"
+         y1="79.120003"
+         x2="599.73999"
+         y2="79.120003"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line126" />
+      <line
+         x1="597.14001"
+         y1="90.379997"
+         x2="599.73999"
+         y2="90.379997"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line128" />
+      <line
+         x1="597.14001"
+         y1="101.64"
+         x2="599.73999"
+         y2="101.64"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line130" />
+      <text
+         x="599.73999"
+         y="82.75"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="41.299999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text132">ARC (14)</text>
+      <text
+         x="599.73999"
+         y="94.010002"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="67.199997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text134">MitoFinder (14)</text>
+      <text
+         x="599.73999"
+         y="105.27"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="79.330002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text136">GetOrganelle (13)</text>
+      <line
+         x1="488.64999"
+         y1="50.169998"
+         x2="676.22998"
+         y2="50.169998"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line138" />
+      <line
+         x1="555.90002"
+         y1="227.09"
+         x2="555.90002"
+         y2="34.080002"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line140" />
+      <rect
+         x="708.89001"
+         y="34.080002"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect142" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle144" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle146" />
+      <circle
+         cx="786.71002"
+         cy="157.42999"
+         r="4.8299999"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle148" />
+      <circle
+         cx="775.78998"
+         cy="84.809998"
+         r="10.23"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle150" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle152" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle154" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle156" />
+      <circle
+         cx="727.91998"
+         cy="193.25999"
+         r="4.8299999"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle158" />
+      <circle
+         cx="715.90997"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle160" />
+      <circle
+         cx="786.76001"
+         cy="211.00999"
+         r="4.8299999"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle162" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="162.75999"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line164" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="173.69"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line166" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="184.63"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line168" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="195.57001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line170" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="206.5"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line172" />
+      <line
+         x1="715.90997"
+         y1="211.00999"
+         x2="817.38"
+         y2="217.44"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line174" />
+      <line
+         x1="817.38"
+         y1="162.75999"
+         x2="819.97998"
+         y2="162.75999"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line176" />
+      <line
+         x1="817.38"
+         y1="173.69"
+         x2="819.97998"
+         y2="173.69"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line178" />
+      <line
+         x1="817.38"
+         y1="184.63"
+         x2="819.97998"
+         y2="184.63"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line180" />
+      <line
+         x1="817.38"
+         y1="195.57001"
+         x2="819.97998"
+         y2="195.57001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line182" />
+      <line
+         x1="817.38"
+         y1="206.5"
+         x2="819.97998"
+         y2="206.5"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line184" />
+      <line
+         x1="817.38"
+         y1="217.44"
+         x2="819.97998"
+         y2="217.44"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line186" />
+      <text
+         x="819.97998"
+         y="166.39"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="35.77"
+         lengthAdjust="spacingAndGlyphs"
+         id="text188">ARC (0)</text>
+      <text
+         x="819.97998"
+         y="177.32001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="73.800003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text190">GetOrganelle (0)</text>
+      <text
+         x="819.97998"
+         y="188.25999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="61.669998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text192">MitoFinder (0)</text>
+      <text
+         x="819.97998"
+         y="199.2"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="53.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text194">mtGrasp (0)</text>
+      <text
+         x="819.97998"
+         y="210.13"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="69.519997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text196">NOVOplasty (0)</text>
+      <text
+         x="819.97998"
+         y="221.07001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="39.669998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text198">MitoZ (0)</text>
+      <line
+         x1="708.89001"
+         y1="50.169998"
+         x2="896.46997"
+         y2="50.169998"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line200" />
+      <line
+         x1="776.14001"
+         y1="227.09"
+         x2="776.14001"
+         y2="34.080002"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line202" />
+      <polyline
+         points="708.89,227.09 708.89,34.08 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline204" />
+      <text
+         x="703.06"
+         y="215.02"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text206">0</text>
+      <text
+         x="703.06"
+         y="174.81"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text208">25</text>
+      <text
+         x="703.06"
+         y="134.60001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text210">50</text>
+      <text
+         x="703.06"
+         y="94.389999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text212">75</text>
+      <text
+         x="703.06"
+         y="54.18"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text214">100</text>
+      <polyline
+         points="705.65,211.01 708.89,211.01 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline216" />
+      <polyline
+         points="705.65,170.80 708.89,170.80 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline218" />
+      <polyline
+         points="705.65,130.59 708.89,130.59 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline220" />
+      <polyline
+         points="705.65,90.38 708.89,90.38 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline222" />
+      <polyline
+         points="705.65,50.17 708.89,50.17 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline224" />
+      <polyline
+         points="488.65,227.09 488.65,34.08 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline226" />
+      <text
+         x="482.82999"
+         y="215.02"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text228">0</text>
+      <text
+         x="482.82999"
+         y="174.81"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text230">25</text>
+      <text
+         x="482.82999"
+         y="134.60001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text232">50</text>
+      <text
+         x="482.82999"
+         y="94.389999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text234">75</text>
+      <text
+         x="482.82999"
+         y="54.18"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text236">100</text>
+      <polyline
+         points="485.42,211.01 488.65,211.01 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline238" />
+      <polyline
+         points="485.42,170.80 488.65,170.80 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline240" />
+      <polyline
+         points="485.42,130.59 488.65,130.59 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline242" />
+      <polyline
+         points="485.42,90.38 488.65,90.38 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline244" />
+      <polyline
+         points="485.42,50.17 488.65,50.17 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline246" />
+      <polyline
+         points="268.42,227.09 268.42,34.08 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline248" />
+      <text
+         x="262.59"
+         y="215.02"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text250">0</text>
+      <text
+         x="262.59"
+         y="174.81"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text252">25</text>
+      <text
+         x="262.59"
+         y="134.60001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text254">50</text>
+      <text
+         x="262.59"
+         y="94.389999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text256">75</text>
+      <text
+         x="262.59"
+         y="54.18"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text258">100</text>
+      <polyline
+         points="265.18,211.01 268.42,211.01 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline260" />
+      <polyline
+         points="265.18,170.80 268.42,170.80 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline262" />
+      <polyline
+         points="265.18,130.59 268.42,130.59 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline264" />
+      <polyline
+         points="265.18,90.38 268.42,90.38 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline266" />
+      <polyline
+         points="265.18,50.17 268.42,50.17 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline268" />
+    </g>
+    <defs
+       id="defs275">
+      <clipPath
+         id="cpNDguMTh8MjM1Ljc2fDEwLjQ2fDM0LjA4">
+        <rect
+           x="48.18"
+           y="10.46"
+           width="187.58"
+           height="23.620001"
+           id="rect272" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNDguMTh8MjM1Ljc2fDEwLjQ2fDM0LjA4)"
+       id="g281"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="48.18"
+         y="10.46"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect277" />
+      <text
+         x="141.97"
+         y="27.370001"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="137.94"
+         lengthAdjust="spacingAndGlyphs"
+         id="text279">Coverage 3.8× / 187×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g283" />
+    <defs
+       id="defs288">
+      <clipPath
+         id="cpMjY4LjQyfDQ1NS45OXwxMC40NnwzNC4wOA==">
+        <rect
+           x="268.42001"
+           y="10.46"
+           width="187.58"
+           height="23.620001"
+           id="rect285" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMjY4LjQyfDQ1NS45OXwxMC40NnwzNC4wOA==)"
+       id="g294"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="268.42001"
+         y="10.46"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect290" />
+      <text
+         x="362.20999"
+         y="27.370001"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="130.16"
+         lengthAdjust="spacingAndGlyphs"
+         id="text292">Coverage 0.6× / 30×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g296" />
+    <defs
+       id="defs301">
+      <clipPath
+         id="cpNDg4LjY1fDY3Ni4yM3wxMC40NnwzNC4wOA==">
+        <rect
+           x="488.64999"
+           y="10.46"
+           width="187.58"
+           height="23.620001"
+           id="rect298" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNDg4LjY1fDY3Ni4yM3wxMC40NnwzNC4wOA==)"
+       id="g307"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="488.64999"
+         y="10.46"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect303" />
+      <text
+         x="582.44"
+         y="27.370001"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="130.16"
+         lengthAdjust="spacingAndGlyphs"
+         id="text305">Coverage 0.4× / 18×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g309" />
+    <defs
+       id="defs314">
+      <clipPath
+         id="cpNzA4Ljg5fDg5Ni40N3wxMC40NnwzNC4wOA==">
+        <rect
+           x="708.89001"
+           y="10.46"
+           width="187.58"
+           height="23.620001"
+           id="rect311" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNzA4Ljg5fDg5Ni40N3wxMC40NnwzNC4wOA==)"
+       id="g320"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="708.89001"
+         y="10.46"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect316" />
+      <text
+         x="802.67999"
+         y="27.370001"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="141.83"
+         lengthAdjust="spacingAndGlyphs"
+         id="text318">Coverage 0.04× / 1.7×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g322" />
+    <defs
+       id="defs327">
+      <clipPath
+         id="cpODk2LjQ3fDkyMS45OHwzNC4wOHwyMjcuMDk=">
+        <rect
+           x="896.46997"
+           y="34.080002"
+           width="25.52"
+           height="193.00999"
+           id="rect324" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpODk2LjQ3fDkyMS45OHwzNC4wOHwyMjcuMDk=)"
+       id="g333"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="896.46997"
+         y="34.080002"
+         width="25.52"
+         height="193.00999"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect329" />
+      <text
+         transform="rotate(90,386.4,516.99)"
+         text-anchor="middle"
+         style="font-style:italic;font-weight:bold;font-size:16px;font-family:'Nimbus Sans'"
+         textLength="82.949997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text331">E. cyaneus</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g727"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect6.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <polyline
+         points="48.18,227.09 235.76,227.09 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline335"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="55.21,230.33 55.21,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline337"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="107.24,230.33 107.24,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline339"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="159.27,230.33 159.27,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline341"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="211.30,230.33 211.30,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline343"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="55.209999"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text345"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="107.24"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text347"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">10</text>
+      <text
+         x="159.27"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text349"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <text
+         x="211.3"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text351"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">1000</text>
+      <polyline
+         points="268.42,227.09 455.99,227.09 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline353"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="275.44,230.33 275.44,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline355"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="327.47,230.33 327.47,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline357"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="379.51,230.33 379.51,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline359"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="431.54,230.33 431.54,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline361"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="275.44"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text363"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="327.47"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text365"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">10</text>
+      <text
+         x="379.51001"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text367"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <text
+         x="431.54001"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text369"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">1000</text>
+      <polyline
+         points="488.65,227.09 676.23,227.09 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline371"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="495.68,230.33 495.68,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline373"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="547.71,230.33 547.71,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline375"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="599.74,230.33 599.74,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline377"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="651.77,230.33 651.77,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline379"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="495.67999"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text381"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="547.71002"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text383"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">10</text>
+      <text
+         x="599.73999"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text385"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <text
+         x="651.77002"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text387"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">1000</text>
+      <polyline
+         points="708.89,227.09 896.47,227.09 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline389"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="715.91,230.33 715.91,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline391"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="767.95,230.33 767.95,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline393"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="819.98,230.33 819.98,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline395"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="872.01,230.33 872.01,227.09 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline397"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="715.90997"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text399"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="767.95001"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text401"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">10</text>
+      <text
+         x="819.97998"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text403"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <text
+         x="872.01001"
+         y="240.94"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text405"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">1000</text>
+      <polyline
+         points="48.18,227.09 48.18,34.08 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline407"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="42.349998"
+         y="215.02"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text409"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="42.349998"
+         y="174.81"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text411"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">25</text>
+      <text
+         x="42.349998"
+         y="134.60001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text413"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">50</text>
+      <text
+         x="42.349998"
+         y="94.389999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text415"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">75</text>
+      <text
+         x="42.349998"
+         y="54.18"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text417"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <polyline
+         points="44.94,211.01 48.18,211.01 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline419"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="44.94,170.80 48.18,170.80 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline421"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="44.94,130.59 48.18,130.59 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline423"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="44.94,90.38 48.18,90.38 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline425"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="44.94,50.17 48.18,50.17 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline427"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         transform="matrix(0,-1.5067691,1.5067691,0,18.892007,244.77971)"
+         text-anchor="middle"
+         style="font-size:13px;font-family:'Nimbus Sans'"
+         textLength="52.389999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text429"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">Score, %</text>
+      <rect
+         x="48.18"
+         y="274.92999"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect431"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="121.1"
+         cy="340.88"
+         r="14.93"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle433"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="117.91"
+         cy="311.16"
+         r="14.93"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle435"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="169.53"
+         cy="372.19"
+         r="14.93"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle437"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="118.01"
+         cy="291.60001"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle439"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="118.05"
+         cy="291.73001"
+         r="14.93"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle441"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="73.940002"
+         cy="359.89999"
+         r="7.9499998"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle443"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="123.45"
+         cy="311.42001"
+         r="4.8299999"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle445"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="123.98"
+         cy="360.60001"
+         r="13.08"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle447"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="110.12"
+         cy="314.42001"
+         r="12.47"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle449"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="132.21001"
+         cy="328.85001"
+         r="4.8299999"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle451"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="118.01"
+         y1="291.60001"
+         x2="156.67"
+         y2="307.10001"
+         style="stroke:#000000;stroke-width:0.6402491;stroke-linecap:butt;stroke-opacity:0.8;stroke-miterlimit:10;stroke-dasharray:none"
+         id="line453"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="117.9896"
+         y1="291.69547"
+         x2="156.33952"
+         y2="326.81567"
+         style="stroke:#000000;stroke-width:0.6402491;stroke-linecap:butt;stroke-opacity:0.8;stroke-miterlimit:10;stroke-dasharray:none"
+         id="line455"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="156.67"
+         y1="307.10001"
+         x2="159.27"
+         y2="307.10001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line457"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="159.27"
+         y="310.73001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="60.77"
+         lengthAdjust="spacingAndGlyphs"
+         id="text461"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MITObim (15)</text>
+      <text
+         x="159.27"
+         y="363.81"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="67.199997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text463"
+         transform="translate(-1.6373887,-32.742984)"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoFinder (15)</text>
+      <line
+         x1="48.18"
+         y1="291.01999"
+         x2="235.75999"
+         y2="291.01999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line465"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="115.43"
+         y1="467.94"
+         x2="115.43"
+         y2="274.92999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line467"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="268.42001"
+         y="274.92999"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect469"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="338.12"
+         cy="311.32001"
+         r="14.93"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle471"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="337.79999"
+         cy="312.34"
+         r="14.93"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle473"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="387.03"
+         cy="367.64999"
+         r="14.93"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle475"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="338.23001"
+         cy="291.54001"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle477"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="337.89001"
+         cy="312.23999"
+         r="14.93"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle479"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="275.44"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle481"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="307.82001"
+         cy="350.84"
+         r="8.6499996"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle483"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="330.39999"
+         cy="357.31"
+         r="11.8"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle485"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="330.25"
+         cy="314.57001"
+         r="12.47"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle487"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="346.31"
+         cy="335.32001"
+         r="12.47"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle489"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="338.23001"
+         y1="291.54001"
+         x2="376.89999"
+         y2="307.10001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line491"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="338.12"
+         y1="311.32001"
+         x2="376.89999"
+         y2="320.37"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line493"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="337.89001"
+         y1="312.23999"
+         x2="376.89999"
+         y2="333.64001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line495"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="337.79999"
+         y1="312.34"
+         x2="376.89999"
+         y2="346.91"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line497"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="330.3158"
+         y1="314.63757"
+         x2="374.94751"
+         y2="394.00638"
+         style="stroke:#000000;stroke-width:0.825793;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line499"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="376.89999"
+         y1="307.10001"
+         x2="379.51001"
+         y2="307.10001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line501"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="376.89999"
+         y1="320.37"
+         x2="379.51001"
+         y2="320.37"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line503"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="376.89999"
+         y1="333.64001"
+         x2="379.51001"
+         y2="333.64001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line505"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="376.89999"
+         y1="346.91"
+         x2="379.51001"
+         y2="346.91"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line507"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="379.51001"
+         y="310.73001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="60.77"
+         lengthAdjust="spacingAndGlyphs"
+         id="text511"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MITObim (15)</text>
+      <text
+         x="379.51001"
+         y="324"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="41.299999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text513"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">ARC (15)</text>
+      <text
+         x="379.51001"
+         y="337.26999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="67.199997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text515"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoFinder (15)</text>
+      <text
+         x="379.51001"
+         y="350.54001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="79.330002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text517"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">GetOrganelle (15)</text>
+      <text
+         x="379.51001"
+         y="363.81"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="45.200001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text519"
+         transform="translate(-3.701267,33.893967)"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoZ (12)</text>
+      <line
+         x1="268.42001"
+         y1="291.01999"
+         x2="455.98999"
+         y2="291.01999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line521"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="335.67001"
+         y1="467.94"
+         x2="335.67001"
+         y2="274.92999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line523"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="488.64999"
+         y="274.92999"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect525"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="558.32001"
+         cy="311.31"
+         r="14.93"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle527"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="558.35999"
+         cy="311.34"
+         r="14.93"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle529"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="609.78998"
+         cy="372.12"
+         r="14.93"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle531"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="558.46997"
+         cy="291.54001"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle533"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="558.10999"
+         cy="312.25"
+         r="14.93"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle535"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="495.67999"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle537"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="495.67999"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle539"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="547.58002"
+         cy="364.91"
+         r="9.7600002"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle541"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="495.67999"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle543"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="566.48999"
+         cy="335.20999"
+         r="12.47"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle545"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="495.67999"
+         y1="451.85999"
+         x2="597.14001"
+         y2="403.60001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line547"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="495.67999"
+         y1="451.85999"
+         x2="597.14001"
+         y2="430.95001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line549"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="495.67999"
+         y1="451.85999"
+         x2="597.14001"
+         y2="458.29001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line551"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="597.14001"
+         y1="403.60001"
+         x2="599.73999"
+         y2="403.60001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line553"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="597.14001"
+         y1="430.95001"
+         x2="599.73999"
+         y2="430.95001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line555"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="597.14001"
+         y1="458.29001"
+         x2="599.73999"
+         y2="458.29001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line557"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="599.73999"
+         y="407.23001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="53.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text559"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">mtGrasp (0)</text>
+      <text
+         x="599.73999"
+         y="434.57999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="69.519997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text561"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">NOVOplasty (0)</text>
+      <text
+         x="599.73999"
+         y="461.92001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="39.669998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text563"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoZ (0)</text>
+      <line
+         x1="558.46997"
+         y1="291.54001"
+         x2="597.14001"
+         y2="307.10001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line565"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="558.32001"
+         y1="311.31"
+         x2="597.14001"
+         y2="324.79001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line567"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="558.33563"
+         y1="311.31015"
+         x2="596.25702"
+         y2="336.47449"
+         style="stroke:#000000;stroke-width:0.568829;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line569"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="558.08008"
+         y1="312.22565"
+         x2="595.89978"
+         y2="349.64581"
+         style="stroke:#000000;stroke-width:0.556659;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line571"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="597.14001"
+         y1="307.10001"
+         x2="599.73999"
+         y2="307.10001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line573"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="597.14001"
+         y1="324.79001"
+         x2="599.73999"
+         y2="324.79001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line575"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="599.73999"
+         y="310.73001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="60.77"
+         lengthAdjust="spacingAndGlyphs"
+         id="text581"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MITObim (15)</text>
+      <text
+         x="599.73999"
+         y="328.42001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="41.299999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text583"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">ARC (15)</text>
+      <text
+         x="599.73999"
+         y="346.10999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="79.330002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text585"
+         transform="translate(-2.9779028,-5.9558056)"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">GetOrganelle (15)</text>
+      <text
+         x="599.73999"
+         y="363.81"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="67.199997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text587"
+         transform="translate(-2.5669881,-11.500696)"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoFinder (15)</text>
+      <line
+         x1="488.64999"
+         y1="291.01999"
+         x2="676.22998"
+         y2="291.01999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line589"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="555.90002"
+         y1="467.94"
+         x2="555.90002"
+         y2="274.92999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line591"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         x="708.89001"
+         y="274.92999"
+         width="187.58"
+         height="193.00999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect593"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#e69f00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle595"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#56b4e9;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle597"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="812.91998"
+         cy="416.44"
+         r="4.8299999"
+         style="fill:#009e73;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle599"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="778.62"
+         cy="291.01999"
+         r="14.93"
+         style="fill:#cc79a7;fill-opacity:0.85;stroke:#000000;stroke-width:4.25;stroke-opacity:0.85"
+         id="circle601"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#0072b2;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle603"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#d55e00;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle605"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#f0e442;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle607"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#999999;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle609"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="715.90997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#882255;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle611"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         cx="783.65997"
+         cy="451.85999"
+         r="4.8299999"
+         style="fill:#661100;fill-opacity:0.85;stroke:#000000;stroke-width:1.13;stroke-opacity:0.85"
+         id="circle613"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="403.60001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line615"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="412.72"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line617"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="421.82999"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line619"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="430.95001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line621"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="440.06"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line623"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="449.17999"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line625"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="715.90997"
+         y1="451.85999"
+         x2="817.38"
+         y2="458.29001"
+         style="stroke:#000000;stroke-width:0.64;stroke-linecap:butt;stroke-opacity:0.8"
+         id="line627"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="403.60001"
+         x2="819.97998"
+         y2="403.60001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line629"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="412.72"
+         x2="819.97998"
+         y2="412.72"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line631"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="421.82999"
+         x2="819.97998"
+         y2="421.82999"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line633"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="430.95001"
+         x2="819.97998"
+         y2="430.95001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line635"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="440.06"
+         x2="819.97998"
+         y2="440.06"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line637"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="449.17999"
+         x2="819.97998"
+         y2="449.17999"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line639"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="817.38"
+         y1="458.29001"
+         x2="819.97998"
+         y2="458.29001"
+         style="stroke-width:0.64;stroke-linecap:butt"
+         id="line641"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="819.97998"
+         y="407.23001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="35.77"
+         lengthAdjust="spacingAndGlyphs"
+         id="text643"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">ARC (0)</text>
+      <text
+         x="819.97998"
+         y="416.35001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="73.800003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text645"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">GetOrganelle (0)</text>
+      <text
+         x="819.97998"
+         y="425.45999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="61.669998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text647"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoFinder (0)</text>
+      <text
+         x="819.97998"
+         y="434.57999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="53.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text649"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">mtGrasp (0)</text>
+      <text
+         x="819.97998"
+         y="443.69"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="69.519997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text651"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">NOVOplasty (0)</text>
+      <text
+         x="819.97998"
+         y="452.79999"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="57.919998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text653"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MEANGS (0)</text>
+      <text
+         x="819.97998"
+         y="461.92001"
+         style="font-size:9.96px;font-family:'Nimbus Sans'"
+         textLength="39.669998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text655"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">MitoZ (0)</text>
+      <line
+         x1="708.89001"
+         y1="291.01999"
+         x2="896.46997"
+         y2="291.01999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line657"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <line
+         x1="776.14001"
+         y1="467.94"
+         x2="776.14001"
+         y2="274.92999"
+         style="stroke:#4d4d4d;stroke-width:1.28;stroke-linecap:butt;stroke-dasharray:6.83, 6.83"
+         id="line659"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="708.89,467.94 708.89,274.93 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline661"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="703.06"
+         y="455.87"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text663"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="703.06"
+         y="415.66"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text665"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">25</text>
+      <text
+         x="703.06"
+         y="375.45001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text667"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">50</text>
+      <text
+         x="703.06"
+         y="335.23999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text669"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">75</text>
+      <text
+         x="703.06"
+         y="295.03"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text671"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <polyline
+         points="705.65,451.86 708.89,451.86 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline673"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="705.65,411.65 708.89,411.65 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline675"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="705.65,371.44 708.89,371.44 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline677"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="705.65,331.23 708.89,331.23 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline679"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="705.65,291.02 708.89,291.02 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline681"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="488.65,467.94 488.65,274.93 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline683"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="482.82999"
+         y="455.87"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text685"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="482.82999"
+         y="415.66"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text687"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">25</text>
+      <text
+         x="482.82999"
+         y="375.45001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text689"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">50</text>
+      <text
+         x="482.82999"
+         y="335.23999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text691"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">75</text>
+      <text
+         x="482.82999"
+         y="295.03"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text693"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <polyline
+         points="485.42,451.86 488.65,451.86 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline695"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="485.42,411.65 488.65,411.65 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline697"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="485.42,371.44 488.65,371.44 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline699"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="485.42,331.23 488.65,331.23 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline701"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="485.42,291.02 488.65,291.02 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline703"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="268.42,467.94 268.42,274.93 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline705"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         x="262.59"
+         y="455.87"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text707"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">0</text>
+      <text
+         x="262.59"
+         y="415.66"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text709"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">25</text>
+      <text
+         x="262.59"
+         y="375.45001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text711"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">50</text>
+      <text
+         x="262.59"
+         y="335.23999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text713"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">75</text>
+      <text
+         x="262.59"
+         y="295.03"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text715"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">100</text>
+      <polyline
+         points="265.18,451.86 268.42,451.86 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline717"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="265.18,411.65 268.42,411.65 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline719"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="265.18,371.44 268.42,371.44 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline721"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="265.18,331.23 268.42,331.23 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline723"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <polyline
+         points="265.18,291.02 268.42,291.02 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline725"
+         inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <defs
+       id="defs732">
+      <clipPath
+         id="cpNDguMTh8MjM1Ljc2fDI1MS4zMXwyNzQuOTM=">
+        <rect
+           x="48.18"
+           y="251.31"
+           width="187.58"
+           height="23.620001"
+           id="rect729" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNDguMTh8MjM1Ljc2fDI1MS4zMXwyNzQuOTM=)"
+       id="g738"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="48.18"
+         y="251.31"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect734" />
+      <text
+         x="141.97"
+         y="268.22"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="137.94"
+         lengthAdjust="spacingAndGlyphs"
+         id="text736">Coverage 0.5× / 166×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g740" />
+    <defs
+       id="defs745">
+      <clipPath
+         id="cpMjY4LjQyfDQ1NS45OXwyNTEuMzF8Mjc0Ljkz">
+        <rect
+           x="268.42001"
+           y="251.31"
+           width="187.58"
+           height="23.620001"
+           id="rect742" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMjY4LjQyfDQ1NS45OXwyNTEuMzF8Mjc0Ljkz)"
+       id="g751"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="268.42001"
+         y="251.31"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect747" />
+      <text
+         x="362.20999"
+         y="268.22"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="137.94"
+         lengthAdjust="spacingAndGlyphs"
+         id="text749">Coverage 0.07× / 27×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g753" />
+    <defs
+       id="defs758">
+      <clipPath
+         id="cpNDg4LjY1fDY3Ni4yM3wyNTEuMzF8Mjc0Ljkz">
+        <rect
+           x="488.64999"
+           y="251.31"
+           width="187.58"
+           height="23.620001"
+           id="rect755" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNDg4LjY1fDY3Ni4yM3wyNTEuMzF8Mjc0Ljkz)"
+       id="g764"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="488.64999"
+         y="251.31"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect760" />
+      <text
+         x="582.44"
+         y="268.22"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="137.94"
+         lengthAdjust="spacingAndGlyphs"
+         id="text762">Coverage 0.05× / 17×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g766" />
+    <defs
+       id="defs771">
+      <clipPath
+         id="cpNzA4Ljg5fDg5Ni40N3wyNTEuMzF8Mjc0Ljkz">
+        <rect
+           x="708.89001"
+           y="251.31"
+           width="187.58"
+           height="23.620001"
+           id="rect768" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpNzA4Ljg5fDg5Ni40N3wyNTEuMzF8Mjc0Ljkz)"
+       id="g777"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="708.89001"
+         y="251.31"
+         width="187.58"
+         height="23.620001"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect773" />
+      <text
+         x="802.67999"
+         y="268.22"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:14px;font-family:'Nimbus Sans'"
+         textLength="149.61"
+         lengthAdjust="spacingAndGlyphs"
+         id="text775">Coverage 0.005× / 1.8×</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g779" />
+    <defs
+       id="defs784">
+      <clipPath
+         id="cpODk2LjQ3fDkyMS45OHwyNzQuOTN8NDY3Ljk0">
+        <rect
+           x="896.46997"
+           y="274.92999"
+           width="25.52"
+           height="193.00999"
+           id="rect781" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpODk2LjQ3fDkyMS45OHwyNzQuOTN8NDY3Ljk0)"
+       id="g790"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="896.46997"
+         y="274.92999"
+         width="25.52"
+         height="193.00999"
+         style="fill:#f2f2f2;stroke:#999999;stroke-width:0.85"
+         id="rect786" />
+      <text
+         transform="rotate(90,265.975,637.415)"
+         text-anchor="middle"
+         style="font-style:italic;font-weight:bold;font-size:16px;font-family:'Nimbus Sans'"
+         textLength="69.419998"
+         lengthAdjust="spacingAndGlyphs"
+         id="text788">H. azteca</text>
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw5MzUuNDN8MC4wMHw1OTUuMjg=)"
+       id="g982"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <polyline
+         points="48.18,467.94 235.76,467.94 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline792" />
+      <polyline
+         points="55.21,471.18 55.21,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline794" />
+      <polyline
+         points="107.24,471.18 107.24,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline796" />
+      <polyline
+         points="159.27,471.18 159.27,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline798" />
+      <polyline
+         points="211.30,471.18 211.30,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline800" />
+      <text
+         x="55.209999"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text802">0</text>
+      <text
+         x="107.24"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text804">10</text>
+      <text
+         x="159.27"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text806">100</text>
+      <text
+         x="211.3"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text808">1000</text>
+      <polyline
+         points="268.42,467.94 455.99,467.94 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline810" />
+      <polyline
+         points="275.44,471.18 275.44,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline812" />
+      <polyline
+         points="327.47,471.18 327.47,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline814" />
+      <polyline
+         points="379.51,471.18 379.51,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline816" />
+      <polyline
+         points="431.54,471.18 431.54,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline818" />
+      <text
+         x="275.44"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text820">0</text>
+      <text
+         x="327.47"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text822">10</text>
+      <text
+         x="379.51001"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text824">100</text>
+      <text
+         x="431.54001"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text826">1000</text>
+      <polyline
+         points="488.65,467.94 676.23,467.94 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline828" />
+      <polyline
+         points="495.68,471.18 495.68,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline830" />
+      <polyline
+         points="547.71,471.18 547.71,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline832" />
+      <polyline
+         points="599.74,471.18 599.74,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline834" />
+      <polyline
+         points="651.77,471.18 651.77,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline836" />
+      <text
+         x="495.67999"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text838">0</text>
+      <text
+         x="547.71002"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text840">10</text>
+      <text
+         x="599.73999"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text842">100</text>
+      <text
+         x="651.77002"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text844">1000</text>
+      <polyline
+         points="708.89,467.94 896.47,467.94 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline846" />
+      <polyline
+         points="715.91,471.18 715.91,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline848" />
+      <polyline
+         points="767.95,471.18 767.95,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline850" />
+      <polyline
+         points="819.98,471.18 819.98,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline852" />
+      <polyline
+         points="872.01,471.18 872.01,467.94 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline854" />
+      <text
+         x="715.90997"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text856">0</text>
+      <text
+         x="767.95001"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text858">10</text>
+      <text
+         x="819.97998"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text860">100</text>
+      <text
+         x="872.01001"
+         y="481.79001"
+         text-anchor="middle"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="24.440001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text862">1000</text>
+      <polyline
+         points="48.18,467.94 48.18,274.93 "
+         style="stroke:#999999;stroke-width:1.07;stroke-linecap:square"
+         id="polyline864" />
+      <text
+         x="42.349998"
+         y="455.87"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text866">0</text>
+      <text
+         x="42.349998"
+         y="415.66"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text868">25</text>
+      <text
+         x="42.349998"
+         y="375.45001"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text870">50</text>
+      <text
+         x="42.349998"
+         y="335.23999"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text872">75</text>
+      <text
+         x="42.349998"
+         y="295.03"
+         text-anchor="end"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="18.33"
+         lengthAdjust="spacingAndGlyphs"
+         id="text874">100</text>
+      <polyline
+         points="44.94,451.86 48.18,451.86 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline876" />
+      <polyline
+         points="44.94,411.65 48.18,411.65 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline878" />
+      <polyline
+         points="44.94,371.44 48.18,371.44 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline880" />
+      <polyline
+         points="44.94,331.23 48.18,331.23 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline882" />
+      <polyline
+         points="44.94,291.02 48.18,291.02 "
+         style="stroke-width:0.85;stroke-linecap:butt"
+         id="polyline884" />
+      <text
+         x="472.32001"
+         y="496.89999"
+         text-anchor="middle"
+         style="font-size:13px;font-family:'Nimbus Sans'"
+         textLength="125.89"
+         lengthAdjust="spacingAndGlyphs"
+         id="text886">Total contig length, kb</text>
+      <rect
+         x="163.2"
+         y="510.70001"
+         width="182.03999"
+         height="58.290001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect890" />
+      <text
+         x="254.22"
+         y="525.59003"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:13px;font-family:'Nimbus Sans'"
+         textLength="71.589996"
+         lengthAdjust="spacingAndGlyphs"
+         id="text892">Gene count</text>
+      <rect
+         x="169.17999"
+         y="530.98999"
+         width="19.84"
+         height="34.02"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect894" />
+      <circle
+         cx="179.10001"
+         cy="548"
+         r="4.98"
+         style="fill:#ffffff;stroke-width:1.42"
+         id="circle896" />
+      <rect
+         x="204.59"
+         y="530.98999"
+         width="19.84"
+         height="34.02"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect898" />
+      <circle
+         cx="214.50999"
+         cy="548"
+         r="8.1800003"
+         style="fill:#ffffff;stroke-width:1.42"
+         id="circle900" />
+      <rect
+         x="240.00999"
+         y="530.98999"
+         width="28.35"
+         height="34.02"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect902" />
+      <circle
+         cx="254.17999"
+         cy="548"
+         r="11.38"
+         style="fill:#ffffff;stroke-width:1.42"
+         id="circle904" />
+      <rect
+         x="290.04001"
+         y="530.98999"
+         width="34.02"
+         height="34.02"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect906" />
+      <circle
+         cx="307.04999"
+         cy="548"
+         r="14.93"
+         style="fill:#ffffff;stroke-width:4.25"
+         id="circle908" />
+      <text
+         x="192.00999"
+         y="552.01001"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text910">0</text>
+      <text
+         x="227.42"
+         y="552.01001"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="6.1100001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text912">5</text>
+      <text
+         x="271.34"
+         y="552.01001"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text914">10</text>
+      <text
+         x="327.04001"
+         y="552.01001"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="12.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text916">15</text>
+      <rect
+         x="356.20001"
+         y="510.70001"
+         width="425.25"
+         height="76.099998"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect918" />
+      <text
+         x="568.82001"
+         y="525.59003"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:13px;font-family:'Nimbus Sans'"
+         textLength="66.480003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text920">Assembler</text>
+      <rect
+         x="362.17999"
+         y="530.98999"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect922" />
+      <circle
+         cx="373.51001"
+         cy="542.33002"
+         r="9.2399998"
+         style="fill:#e69f00;stroke-width:1.42"
+         id="circle924" />
+      <rect
+         x="362.17999"
+         y="560.15002"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect926" />
+      <circle
+         cx="373.51001"
+         cy="571.47998"
+         r="9.2399998"
+         style="fill:#56b4e9;stroke-width:1.42"
+         id="circle928" />
+      <rect
+         x="459.35999"
+         y="530.98999"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect930" />
+      <circle
+         cx="470.70001"
+         cy="542.33002"
+         r="9.2399998"
+         style="fill:#009e73;stroke-width:1.42"
+         id="circle932" />
+      <rect
+         x="459.35999"
+         y="560.15002"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect934" />
+      <circle
+         cx="470.70001"
+         cy="571.47998"
+         r="9.2399998"
+         style="fill:#cc79a7;stroke-width:1.42"
+         id="circle936" />
+      <rect
+         x="541.33002"
+         y="530.98999"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect938" />
+      <circle
+         cx="552.66998"
+         cy="542.33002"
+         r="9.2399998"
+         style="fill:#0072b2;stroke-width:1.42"
+         id="circle940" />
+      <rect
+         x="541.33002"
+         y="560.15002"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect942" />
+      <circle
+         cx="552.66998"
+         cy="571.47998"
+         r="9.2399998"
+         style="fill:#d55e00;stroke-width:1.42"
+         id="circle944" />
+      <rect
+         x="625.12"
+         y="530.98999"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect946" />
+      <circle
+         cx="636.46002"
+         cy="542.33002"
+         r="9.2399998"
+         style="fill:#f0e442;stroke-width:1.42"
+         id="circle948" />
+      <rect
+         x="625.12"
+         y="560.15002"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect950" />
+      <circle
+         cx="636.46002"
+         cy="571.47998"
+         r="9.2399998"
+         style="fill:#999999;stroke-width:1.42"
+         id="circle952" />
+      <rect
+         x="717.59003"
+         y="530.98999"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect954" />
+      <circle
+         cx="728.92999"
+         cy="542.33002"
+         r="9.2399998"
+         style="fill:#882255;stroke-width:1.42"
+         id="circle956" />
+      <rect
+         x="717.59003"
+         y="560.15002"
+         width="22.68"
+         height="22.68"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26"
+         id="rect958" />
+      <circle
+         cx="728.92999"
+         cy="571.47998"
+         r="9.2399998"
+         style="fill:#661100;stroke-width:1.42"
+         id="circle960" />
+      <text
+         x="387.84"
+         y="546.34003"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="23.030001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text962">ARC</text>
+      <text
+         x="387.84"
+         y="575.48999"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="65.050003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text964">GetOrganelle</text>
+      <text
+         x="485.03"
+         y="546.34003"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="49.830002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text966">MITGARD</text>
+      <text
+         x="485.03"
+         y="575.48999"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="44.529999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text968">MITObim</text>
+      <text
+         x="567"
+         y="546.34003"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="51.639999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text970">MitoFinder</text>
+      <text
+         x="567"
+         y="575.48999"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="42.110001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text972">mtGrasp</text>
+      <text
+         x="650.78003"
+         y="546.34003"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="60.330002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text974">NOVOplasty</text>
+      <text
+         x="650.78003"
+         y="575.48999"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="47.52"
+         lengthAdjust="spacingAndGlyphs"
+         id="text976">MEANGS</text>
+      <text
+         x="743.25"
+         y="546.34003"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="27.34"
+         lengthAdjust="spacingAndGlyphs"
+         id="text978">MitoZ</text>
+      <text
+         x="743.25"
+         y="575.48999"
+         style="font-size:11px;font-family:'Nimbus Sans'"
+         textLength="32.220001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text980">Norgal</text>
+    </g>
+  </g>
+  <g
+     class="svglite"
+     id="g159"
+     transform="translate(-70.791216,-559.91413)"
+     inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/rect126.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
+    <defs
+       id="defs4-6">
+      <style
+         type="text/css"
+         id="style1898"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <defs
+       id="defs11-3">
+      <clipPath
+         id="clipPath1904">
+        <rect
+           x="0"
+           y="0"
+           width="648"
+           height="288"
+           id="rect1902" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMC4wMHw2NDguMDB8MC4wMHwyODguMDA=)"
+       id="g157"
+       transform="matrix(1.4950714,0,0,1.4950714,-1079.6145,273.69442)"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/g9841.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         x="161.68196"
+         y="73.090149"
+         width="466.72937"
+         height="173.37973"
+         style="fill:#ffffff;stroke:none;stroke-width:1.24209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="rect15" />
+      <line
+         x1="174.07326"
+         y1="246.46994"
+         x2="174.07326"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line17" />
+      <line
+         x1="223.24417"
+         y1="246.46994"
+         x2="223.24417"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line19" />
+      <line
+         x1="272.4151"
+         y1="246.46994"
+         x2="272.4151"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line21" />
+      <line
+         x1="321.57614"
+         y1="246.46994"
+         x2="321.57614"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line23" />
+      <line
+         x1="370.74707"
+         y1="246.46994"
+         x2="370.74707"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line25" />
+      <line
+         x1="419.91797"
+         y1="246.46994"
+         x2="419.91797"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line27" />
+      <line
+         x1="469.08893"
+         y1="246.46994"
+         x2="469.08893"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line29" />
+      <line
+         x1="518.25977"
+         y1="246.46994"
+         x2="518.25977"
+         y2="73.090149"
+         style="fill:none;stroke:#bfbfbf;stroke-width:1.24209;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.65612, 4.96836"
+         id="line31" />
+      <line
+         x1="174.07326"
+         y1="233.78281"
+         x2="214.30312"
+         y2="233.78281"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line33" />
+      <line
+         x1="174.07326"
+         y1="212.63751"
+         x2="221.21347"
+         y2="212.63751"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line35" />
+      <line
+         x1="174.07326"
+         y1="191.49274"
+         x2="240.81087"
+         y2="191.49274"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line37" />
+      <line
+         x1="174.07326"
+         y1="170.35759"
+         x2="290.8887"
+         y2="170.35759"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line39" />
+      <line
+         x1="174.07326"
+         y1="149.21231"
+         x2="325.29257"
+         y2="149.21231"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line41" />
+      <line
+         x1="174.07326"
+         y1="128.06706"
+         x2="375.55771"
+         y2="128.06706"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line43" />
+      <line
+         x1="174.07326"
+         y1="106.92241"
+         x2="491.70282"
+         y2="106.92241"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line45" />
+      <line
+         x1="174.07326"
+         y1="85.777306"
+         x2="537.12775"
+         y2="85.777306"
+         style="fill:none;stroke:#adadad;stroke-width:1.6857;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="line47" />
+      <circle
+         cx="214.30312"
+         cy="233.78281"
+         r="5.1457934"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle49" />
+      <circle
+         cx="221.21347"
+         cy="212.63751"
+         r="5.1457934"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle51" />
+      <circle
+         cx="240.81087"
+         cy="191.49274"
+         r="5.1457934"
+         style="fill:#dd6b20;fill-opacity:0.7;stroke:#dd6b20;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle53" />
+      <circle
+         cx="290.8887"
+         cy="170.35759"
+         r="5.1457934"
+         style="fill:#dd6b20;fill-opacity:0.7;stroke:#dd6b20;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle55" />
+      <circle
+         cx="325.29257"
+         cy="149.21231"
+         r="5.1457934"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle57" />
+      <circle
+         cx="375.55771"
+         cy="128.06706"
+         r="5.1457934"
+         style="fill:#319795;fill-opacity:0.7;stroke:#319795;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle59" />
+      <circle
+         cx="491.70282"
+         cy="106.92241"
+         r="5.1457934"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle61" />
+      <circle
+         cx="537.12775"
+         cy="85.777306"
+         r="5.1457934"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.828058;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle63" />
+      <circle
+         cx="221.21347"
+         cy="212.63751"
+         r="7.4328127"
+         style="fill:none;stroke:#000000;stroke-width:2.23773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="circle65" />
+      <circle
+         cx="537.12775"
+         cy="85.777306"
+         r="7.4328127"
+         style="fill:none;stroke:#000000;stroke-width:2.23773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="circle67" />
+      <text
+         x="233.42"
+         y="234.75999"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="27.66"
+         lengthAdjust="spacingAndGlyphs"
+         id="text69"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">40.92</text>
+      <text
+         x="240.42999"
+         y="213.31"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="27.66"
+         lengthAdjust="spacingAndGlyphs"
+         id="text71"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">47.93</text>
+      <text
+         x="260.31"
+         y="191.86"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="27.66"
+         lengthAdjust="spacingAndGlyphs"
+         id="text73"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">67.86</text>
+      <text
+         x="311.10999"
+         y="170.41"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="29.67"
+         lengthAdjust="spacingAndGlyphs"
+         id="text75"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">118.79</text>
+      <text
+         x="346.01001"
+         y="148.96001"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="30.42"
+         lengthAdjust="spacingAndGlyphs"
+         id="text77"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">153.77</text>
+      <text
+         x="397"
+         y="127.51"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="30.42"
+         lengthAdjust="spacingAndGlyphs"
+         id="text79"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">204.88</text>
+      <text
+         x="514.82001"
+         y="106.06"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="30.42"
+         lengthAdjust="spacingAndGlyphs"
+         id="text81"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">322.99</text>
+      <text
+         x="560.90002"
+         y="84.610001"
+         style="font-size:9.96px;font-family:Arial;white-space:pre"
+         textLength="30.42"
+         lengthAdjust="spacingAndGlyphs"
+         id="text83"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">369.18</text>
+      <text
+         x="165.48"
+         y="235.13"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="159"
+         lengthAdjust="spacingAndGlyphs"
+         id="text85"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Eulimnogammarus verrucosus S</text>
+      <text
+         x="165.48"
+         y="213.67999"
+         text-anchor="end"
+         style="font-style:italic;font-weight:bold;font-size:11px;font-family:Arial;white-space:pre;fill:#1a365d"
+         textLength="146.19"
+         lengthAdjust="spacingAndGlyphs"
+         id="text87"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Eulimnogammarus cyaneus</text>
+      <text
+         x="165.48"
+         y="192.23"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="119.64"
+         lengthAdjust="spacingAndGlyphs"
+         id="text89"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Trinorchestia longiramus</text>
+      <text
+         x="165.48"
+         y="170.78"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="78.879997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text91"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Orchestia grillus</text>
+      <text
+         x="165.48"
+         y="149.33"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="119.88"
+         lengthAdjust="spacingAndGlyphs"
+         id="text93"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Baikalogammarus pullus</text>
+      <text
+         x="165.48"
+         y="127.89"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="100.94"
+         lengthAdjust="spacingAndGlyphs"
+         id="text95"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Parhyale hawaiensis</text>
+      <text
+         x="165.48"
+         y="106.44"
+         text-anchor="end"
+         style="font-style:italic;font-size:11px;font-family:Arial;white-space:pre"
+         textLength="106.41"
+         lengthAdjust="spacingAndGlyphs"
+         id="text97"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Gammarus nekkensis</text>
+      <text
+         x="165.48"
+         y="84.989998"
+         text-anchor="end"
+         style="font-style:italic;font-weight:bold;font-size:11px;font-family:Arial;white-space:pre;fill:#1a365d"
+         textLength="78.339996"
+         lengthAdjust="spacingAndGlyphs"
+         id="text99"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Hyalella azteca</text>
+      <polyline
+         points="168.07,244.06 641.52,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline101"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <polyline
+         points="180.64,247.30 180.64,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline103"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <polyline
+         points="280.40,247.30 280.40,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline105"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <polyline
+         points="380.15,247.30 380.15,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline107"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <polyline
+         points="479.91,247.30 479.91,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline109"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <polyline
+         points="579.67,247.30 579.67,244.06 "
+         style="fill:none;stroke:#000000;stroke-width:1.26;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+         id="polyline111"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)" />
+      <text
+         x="180.64"
+         y="257.32999"
+         text-anchor="middle"
+         style="font-size:10.4px;font-family:Arial;white-space:pre"
+         textLength="5.7800002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text113"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">0</text>
+      <text
+         x="280.39999"
+         y="257.32999"
+         text-anchor="middle"
+         style="font-size:10.4px;font-family:Arial;white-space:pre"
+         textLength="17.34"
+         lengthAdjust="spacingAndGlyphs"
+         id="text115"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">100</text>
+      <text
+         x="380.14999"
+         y="257.32999"
+         text-anchor="middle"
+         style="font-size:10.4px;font-family:Arial;white-space:pre"
+         textLength="17.34"
+         lengthAdjust="spacingAndGlyphs"
+         id="text117"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">200</text>
+      <text
+         x="479.91"
+         y="257.32999"
+         text-anchor="middle"
+         style="font-size:10.4px;font-family:Arial;white-space:pre"
+         textLength="17.34"
+         lengthAdjust="spacingAndGlyphs"
+         id="text119"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">300</text>
+      <text
+         x="579.66998"
+         y="257.32999"
+         text-anchor="middle"
+         style="font-size:10.4px;font-family:Arial;white-space:pre"
+         textLength="17.34"
+         lengthAdjust="spacingAndGlyphs"
+         id="text121"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">400</text>
+      <text
+         x="404.79999"
+         y="278.79001"
+         text-anchor="middle"
+         style="font-weight:bold;font-size:13px;font-family:Arial;white-space:pre"
+         textLength="128.61"
+         lengthAdjust="spacingAndGlyphs"
+         id="text123"
+         transform="matrix(0.98578421,0,0,0.98578421,-3.9987975,5.8794464)">Coverage ratio index</text>
+      <text
+         x="233.25"
+         y="44.77"
+         style="font-weight:bold;font-size:13px;font-family:Arial;white-space:pre"
+         textLength="106.91"
+         lengthAdjust="spacingAndGlyphs"
+         id="text135"
+         transform="translate(249.94215,107.50175)">Ecological niche:</text>
+      <rect
+         x="497.82172"
+         y="158.71165"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="rect137" />
+      <circle
+         cx="506.46191"
+         cy="167.35164"
+         r="5.2199998"
+         style="fill:#319795;fill-opacity:0.7;stroke:#319795;stroke-width:0.84;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle139" />
+      <text
+         x="370.39001"
+         y="44.049999"
+         style="font-size:11px;font-family:Arial;white-space:pre"
+         textLength="42.189999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text149"
+         transform="translate(151.19023,127.24164)">Brackish</text>
+      <rect
+         x="497.82172"
+         y="175.99165"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="rect141" />
+      <circle
+         cx="506.46198"
+         cy="184.63167"
+         r="5.2199998"
+         style="fill:#2b6cb0;fill-opacity:0.7;stroke:#2b6cb0;stroke-width:0.84;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle143" />
+      <text
+         x="442.81"
+         y="44.049999"
+         style="font-size:11px;font-family:Arial;white-space:pre"
+         textLength="55.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text151"
+         transform="translate(78.770155,144.52165)">Freshwater</text>
+      <rect
+         x="497.82172"
+         y="193.27165"
+         width="17.280001"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.26;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         id="rect145" />
+      <circle
+         cx="506.46198"
+         cy="201.91164"
+         r="5.2199998"
+         style="fill:#dd6b20;fill-opacity:0.7;stroke:#dd6b20;stroke-width:0.84;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.7"
+         id="circle147" />
+      <text
+         x="528.07001"
+         y="44.049999"
+         style="font-size:11px;font-family:Arial;white-space:pre"
+         textLength="48.27"
+         lengthAdjust="spacingAndGlyphs"
+         id="text153"
+         transform="translate(-6.5002174,161.80164)">Terrestrial</text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:32.2375px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;stroke-width:0.755565"
+       x="-1058.2969"
+       y="737.9458"
+       id="text2906-6"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/g9841.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2904-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.2375px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.755565"
+         x="-1058.2969"
+         y="737.9458">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.2375px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;stroke-width:0.755565"
+       x="-991.88312"
+       y="412.83633"
+       id="text2906-6-3"
+       inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/new_script/v4/g9841.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2904-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.2375px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.755565"
+         x="-991.88312"
+         y="412.83633">A</tspan></text>
+  </g>
+</svg>
