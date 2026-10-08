@@ -10,7 +10,9 @@ If you:
 
 We found that the following procedure has maximal efficiency:
 
-![recommended_procedure](article-figures/figures/fig07a.png)
+<div align="center">
+   <img src="./article-figures/figures/fig07a.png" width="35%" alt="Recommended procedure">
+</div>
 
 
 > [!IMPORTANT]
