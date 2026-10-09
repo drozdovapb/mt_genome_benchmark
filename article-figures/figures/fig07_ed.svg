@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 760 780"
+   viewBox="0 0 1082.2056 570.82222"
    font-family="Helvetica, Arial, sans-serif"
    version="1.1"
    id="svg370"
-   sodipodi:docname="fig07.svg"
+   sodipodi:docname="fig07_ed.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   width="286.33356mm"
+   height="151.03004mm"
+   inkscape:export-filename="fig07_ed.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,15 +25,21 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.6518074"
-     inkscape:cx="-105.85949"
-     inkscape:cy="1047.8555"
+     inkscape:zoom="0.3259037"
+     inkscape:cx="204.04801"
+     inkscape:cy="598.33626"
      inkscape:window-width="1920"
-     inkscape:window-height="1020"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="1080"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg370" />
+     inkscape:current-layer="svg370"
+     units="mm"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     inkscape:document-units="mm" />
   <defs
      id="defs46">
     <g
@@ -52,7 +63,7 @@
          id="circle6" />
       <text
          y="4.5"
-         font-size="12.5"
+         font-size="12.5px"
          font-weight="800"
          fill="#2e8b57"
          text-anchor="middle"
@@ -76,12 +87,12 @@
          stroke="#e8912c"
          stroke-width="2.8"
          stroke-linecap="round"
-         stroke-dasharray="66 22"
+         stroke-dasharray="66, 22"
          transform="rotate(-90)"
          id="circle13" />
       <text
          y="4.5"
-         font-size="11.5"
+         font-size="11.5px"
          font-weight="800"
          fill="#e8912c"
          text-anchor="middle"
@@ -93,7 +104,7 @@
          x="-13"
          y="-10"
          width="26"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -102,7 +113,7 @@
          x="-10"
          y="-3"
          width="20"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -111,7 +122,7 @@
          x="-7"
          y="4"
          width="14"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -120,7 +131,7 @@
          x="-5"
          y="11"
          width="10"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -132,7 +143,7 @@
          x="-12"
          y="-7"
          width="24"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -141,7 +152,7 @@
          x="-9"
          y="0"
          width="18"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -150,7 +161,7 @@
          x="-6"
          y="7"
          width="12"
-         height="4.8"
+         height="4.8000002"
          rx="2.2"
          fill="#c94a3f"
          opacity="0.9"
@@ -163,7 +174,7 @@
          y="-5"
          width="24"
          height="5"
-         rx="2.4"
+         rx="2.4000001"
          fill="#c94a3f"
          opacity="0.9"
          id="rect34" />
@@ -172,7 +183,7 @@
          y="3"
          width="16"
          height="5"
-         rx="2.4"
+         rx="2.4000001"
          fill="#c94a3f"
          opacity="0.9"
          id="rect36" />
@@ -417,8 +428,8 @@
   </defs>
   <!-- HEADER -->
   <text
-     x="42.625248"
-     y="939.34796"
+     x="366.42599"
+     y="32.407043"
      font-size="15px"
      font-weight="700"
      fill="#8a92a4"
@@ -428,8 +439,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">SPECIES</text>
   <text
-     x="364.62524"
-     y="939.34796"
+     x="688.42596"
+     y="32.407043"
      font-size="15px"
      font-weight="700"
      fill="#8a92a4"
@@ -440,8 +451,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">MITOFINDER</text>
   <text
-     x="658.62524"
-     y="939.34796"
+     x="982.42596"
+     y="32.407043"
      font-size="15px"
      font-weight="700"
      fill="#2e8b57"
@@ -452,10 +463,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">MITOFINDER + MITOBIM</text>
   <line
-     x1="42.625248"
-     y1="953.34796"
-     x2="754.62524"
-     y2="953.34796"
+     x1="366.42599"
+     y1="46.407043"
+     x2="1078.426"
+     y2="46.407043"
      stroke="#c8cdd6"
      stroke-width="1.2"
      id="line54"
@@ -464,8 +475,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 1: E. vittatus S -->
   <text
-     x="42.7565"
-     y="984.33716"
+     x="366.55725"
+     y="77.39624"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -477,8 +488,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Eulimnogammarus</text>
   <text
-     x="42.7565"
-     y="1003.2308"
+     x="366.55725"
+     y="96.289856"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -489,8 +500,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">vittatus S</text>
   <text
-     x="304.62524"
-     y="985.34796"
+     x="628.42596"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -500,8 +511,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14</text>
   <text
-     x="304.62524"
-     y="999.34802"
+     x="628.42596"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -512,8 +523,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="985.34796"
+     x="676.42596"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -523,8 +534,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">3</text>
   <text
-     x="352.62524"
-     y="999.34802"
+     x="676.42596"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -535,8 +546,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIGS</text>
   <text
-     x="408.62524"
-     y="985.34796"
+     x="732.42596"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -546,8 +557,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">12,602</text>
   <text
-     x="408.62524"
-     y="999.34802"
+     x="732.42596"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -562,15 +573,15 @@
      x="510"
      y="92"
      id="use76"
-     transform="translate(34.62525,897.34799)"
+     transform="translate(358.426,-9.5929281)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="985.34796"
+     x="932.42596"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -580,8 +591,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14,369</text>
   <text
-     x="608.62524"
-     y="999.34802"
+     x="932.42596"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -592,8 +603,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1003.348"
+     x="913.42596"
+     y="96.407104"
      width="38"
      height="13"
      rx="3"
@@ -603,8 +614,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1014.1619"
+     x="932.42596"
+     y="107.22101"
      font-size="10.5px"
      font-weight="800"
      fill="#2e8b57"
@@ -615,8 +626,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">+14%</text>
   <text
-     x="666.62524"
-     y="985.34796"
+     x="990.42596"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -626,8 +637,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="999.34802"
+     x="990.42596"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -638,8 +649,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="985.34796"
+     x="1044.426"
+     y="78.407043"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -649,8 +660,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14</text>
   <text
-     x="720.62524"
-     y="999.34802"
+     x="1044.426"
+     y="92.407104"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -661,10 +672,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1024.348"
-     x2="754.62524"
-     y2="1024.348"
+     x1="366.42599"
+     y1="117.4071"
+     x2="1078.426"
+     y2="117.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line94"
@@ -673,8 +684,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 2: E. verrucosus S -->
   <text
-     x="42.7565"
-     y="1054.6632"
+     x="366.55725"
+     y="147.72229"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -686,8 +697,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Eulimnogammarus</text>
   <text
-     x="42.7565"
-     y="1073.5568"
+     x="366.55725"
+     y="166.61584"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -698,8 +709,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">verrucosus S</text>
   <text
-     x="304.62524"
-     y="1052.348"
+     x="628.42596"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -709,8 +720,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="304.62524"
-     y="1066.348"
+     x="628.42596"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -721,8 +732,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1052.348"
+     x="676.42596"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -732,8 +743,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">3</text>
   <text
-     x="352.62524"
-     y="1066.348"
+     x="676.42596"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -744,8 +755,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIGS</text>
   <text
-     x="408.62524"
-     y="1052.348"
+     x="732.42596"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -755,8 +766,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14,226</text>
   <text
-     x="408.62524"
-     y="1066.348"
+     x="732.42596"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -771,15 +782,15 @@
      x="510"
      y="167"
      id="use116"
-     transform="translate(34.62525,889.34799)"
+     transform="translate(358.426,-17.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1052.348"
+     x="932.42596"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -789,8 +800,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">10,732</text>
   <text
-     x="608.62524"
-     y="1066.348"
+     x="932.42596"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -801,8 +812,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1070.348"
+     x="913.42596"
+     y="163.4071"
      width="38"
      height="13"
      rx="3"
@@ -812,8 +823,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1081.433"
+     x="932.42596"
+     y="174.49207"
      font-size="10.5px"
      font-weight="800"
      fill="#c94a3f"
@@ -824,8 +835,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">−25%</text>
   <text
-     x="666.62524"
-     y="1052.348"
+     x="990.42596"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -835,8 +846,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1066.348"
+     x="990.42596"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -847,8 +858,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1052.348"
+     x="1044.426"
+     y="145.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -858,8 +869,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">10</text>
   <text
-     x="720.62524"
-     y="1066.348"
+     x="1044.426"
+     y="159.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -870,10 +881,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1091.348"
-     x2="754.62524"
-     y2="1091.348"
+     x1="366.42599"
+     y1="184.4071"
+     x2="1078.426"
+     y2="184.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line134"
@@ -882,8 +893,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 3: O. albinus -->
   <text
-     x="42.7565"
-     y="1124.9891"
+     x="366.55725"
+     y="218.04822"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -895,8 +906,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="42.7565"
-     y="1143.8827"
+     x="366.55725"
+     y="236.94177"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -907,8 +918,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">albinus</text>
   <text
-     x="304.62524"
-     y="1119.348"
+     x="628.42596"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -918,8 +929,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="304.62524"
-     y="1133.348"
+     x="628.42596"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -930,8 +941,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1119.348"
+     x="676.42596"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -941,8 +952,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="352.62524"
-     y="1133.348"
+     x="676.42596"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -953,8 +964,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="408.62524"
-     y="1119.348"
+     x="732.42596"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -964,8 +975,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15,113</text>
   <text
-     x="408.62524"
-     y="1133.348"
+     x="732.42596"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -980,15 +991,15 @@
      x="440"
      y="242"
      id="use152"
-     transform="translate(34.62525,881.34799)"
+     transform="translate(358.426,-25.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="507.69748"
-     y="1129.9835"
+     x="831.49823"
+     y="223.0426"
      font-size="22.6579px"
      fill="#2e8b57"
      text-anchor="middle"
@@ -998,8 +1009,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">→</text>
   <text
-     x="507.45657"
-     y="1199.8561"
+     x="831.25732"
+     y="292.91516"
      font-size="22.6579px"
      fill="#2e8b57"
      text-anchor="middle"
@@ -1009,8 +1020,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">→</text>
   <text
-     x="507.72778"
-     y="1264.0994"
+     x="831.5285"
+     y="357.15845"
      font-size="22.6579px"
      fill="#2e8b57"
      text-anchor="middle"
@@ -1020,8 +1031,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">→</text>
   <text
-     x="507.72778"
-     y="1330.105"
+     x="831.5285"
+     y="423.16406"
      font-size="22.6579px"
      fill="#2e8b57"
      text-anchor="middle"
@@ -1031,8 +1042,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">→</text>
   <text
-     x="507.72778"
-     y="1399.0663"
+     x="831.5285"
+     y="492.12537"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -1046,15 +1057,15 @@
      x="510"
      y="242"
      id="use156"
-     transform="translate(34.62525,881.34799)"
+     transform="translate(358.426,-25.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1119.348"
+     x="932.42596"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1064,8 +1075,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">16,466</text>
   <text
-     x="608.62524"
-     y="1133.348"
+     x="932.42596"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1076,8 +1087,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1137.348"
+     x="913.42596"
+     y="230.4071"
      width="38"
      height="13"
      rx="3"
@@ -1087,8 +1098,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1148.7042"
+     x="932.42596"
+     y="241.76331"
      font-size="10.5px"
      font-weight="800"
      fill="#2e8b57"
@@ -1099,8 +1110,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">+9%</text>
   <text
-     x="666.62524"
-     y="1119.348"
+     x="990.42596"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1110,8 +1121,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1133.348"
+     x="990.42596"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1122,8 +1133,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1119.348"
+     x="1044.426"
+     y="212.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1133,8 +1144,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="720.62524"
-     y="1133.348"
+     x="1044.426"
+     y="226.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1145,10 +1156,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1158.348"
-     x2="754.62524"
-     y2="1158.348"
+     x1="366.42599"
+     y1="251.4071"
+     x2="1078.426"
+     y2="251.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line174"
@@ -1157,8 +1168,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 4: O. flavus -->
   <text
-     x="42.7565"
-     y="1187.3152"
+     x="366.55725"
+     y="280.37427"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1170,8 +1181,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="42.7565"
-     y="1206.2087"
+     x="366.55725"
+     y="299.26782"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1182,8 +1193,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">flavus</text>
   <text
-     x="304.62524"
-     y="1186.348"
+     x="628.42596"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1193,8 +1204,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">18</text>
   <text
-     x="304.62524"
-     y="1200.348"
+     x="628.42596"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1205,8 +1216,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1186.348"
+     x="676.42596"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1216,8 +1227,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">4</text>
   <text
-     x="352.62524"
-     y="1200.348"
+     x="676.42596"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1228,8 +1239,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIGS</text>
   <text
-     x="408.62524"
-     y="1186.348"
+     x="732.42596"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1239,8 +1250,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">19,581</text>
   <text
-     x="408.62524"
-     y="1200.348"
+     x="732.42596"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1255,15 +1266,15 @@
      x="510"
      y="317"
      id="use196"
-     transform="translate(34.62525,873.34799)"
+     transform="translate(358.426,-33.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1186.348"
+     x="932.42596"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1273,8 +1284,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15,314</text>
   <text
-     x="608.62524"
-     y="1200.348"
+     x="932.42596"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1285,8 +1296,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1204.348"
+     x="913.42596"
+     y="297.4071"
      width="38"
      height="13"
      rx="3"
@@ -1296,8 +1307,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1215.433"
+     x="932.42596"
+     y="308.49207"
      font-size="10.5px"
      font-weight="800"
      fill="#c94a3f"
@@ -1308,8 +1319,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">−22%</text>
   <text
-     x="666.62524"
-     y="1186.348"
+     x="990.42596"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1319,8 +1330,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1200.348"
+     x="990.42596"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1331,8 +1342,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1186.348"
+     x="1044.426"
+     y="279.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1342,8 +1353,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="720.62524"
-     y="1200.348"
+     x="1044.426"
+     y="293.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1354,10 +1365,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1225.348"
-     x2="754.62524"
-     y2="1225.348"
+     x1="366.42599"
+     y1="318.4071"
+     x2="1078.426"
+     y2="318.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line214"
@@ -1366,8 +1377,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 5: O. melanophthalmus -->
   <text
-     x="42.7565"
-     y="1253.6411"
+     x="366.55725"
+     y="346.7002"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1379,8 +1390,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="42.7565"
-     y="1272.5347"
+     x="366.55725"
+     y="365.59375"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1391,8 +1402,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">melanophthalmus</text>
   <text
-     x="304.62524"
-     y="1253.348"
+     x="628.42596"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1402,8 +1413,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="304.62524"
-     y="1267.348"
+     x="628.42596"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1414,8 +1425,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1253.348"
+     x="676.42596"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1425,8 +1436,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="352.62524"
-     y="1267.348"
+     x="676.42596"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1437,8 +1448,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="408.62524"
-     y="1253.348"
+     x="732.42596"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1448,8 +1459,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14,859</text>
   <text
-     x="408.62524"
-     y="1267.348"
+     x="732.42596"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1464,7 +1475,7 @@
      x="440"
      y="392"
      id="use232"
-     transform="translate(34.62525,865.34799)"
+     transform="translate(358.426,-41.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -1475,15 +1486,15 @@
      x="510"
      y="392"
      id="use236"
-     transform="translate(34.62525,865.34799)"
+     transform="translate(358.426,-41.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1253.348"
+     x="932.42596"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1493,8 +1504,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">17,114</text>
   <text
-     x="608.62524"
-     y="1267.348"
+     x="932.42596"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1505,8 +1516,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1271.348"
+     x="913.42596"
+     y="364.4071"
      width="38"
      height="13"
      rx="3"
@@ -1516,8 +1527,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1282.433"
+     x="932.42596"
+     y="375.49207"
      font-size="10.5px"
      font-weight="800"
      fill="#2e8b57"
@@ -1528,8 +1539,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">+15%</text>
   <text
-     x="666.62524"
-     y="1253.348"
+     x="990.42596"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1539,8 +1550,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1267.348"
+     x="990.42596"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1551,8 +1562,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1253.348"
+     x="1044.426"
+     y="346.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1562,8 +1573,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="720.62524"
-     y="1267.348"
+     x="1044.426"
+     y="360.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1574,10 +1585,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1292.348"
-     x2="754.62524"
-     y2="1292.348"
+     x1="366.42599"
+     y1="385.4071"
+     x2="1078.426"
+     y2="385.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line254"
@@ -1586,8 +1597,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 6: A. victorii -->
   <text
-     x="42.7565"
-     y="1323.967"
+     x="366.55725"
+     y="417.02612"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1599,8 +1610,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Acanthogammarus</text>
   <text
-     x="42.7565"
-     y="1342.8606"
+     x="366.55725"
+     y="435.91968"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1611,8 +1622,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">victorii</text>
   <text
-     x="304.62524"
-     y="1320.348"
+     x="628.42596"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1622,8 +1633,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="304.62524"
-     y="1334.348"
+     x="628.42596"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1634,8 +1645,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1320.348"
+     x="676.42596"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1645,8 +1656,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="352.62524"
-     y="1334.348"
+     x="676.42596"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1657,8 +1668,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="408.62524"
-     y="1320.348"
+     x="732.42596"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1668,8 +1679,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15,682</text>
   <text
-     x="408.62524"
-     y="1334.348"
+     x="732.42596"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1684,7 +1695,7 @@
      x="440"
      y="467"
      id="use272"
-     transform="translate(34.62525,857.34799)"
+     transform="translate(358.426,-49.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -1695,15 +1706,15 @@
      x="510"
      y="467"
      id="use276"
-     transform="translate(34.62525,857.34799)"
+     transform="translate(358.426,-49.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1320.348"
+     x="932.42596"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1713,8 +1724,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">18,037</text>
   <text
-     x="608.62524"
-     y="1334.348"
+     x="932.42596"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1725,8 +1736,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1338.348"
+     x="913.42596"
+     y="431.4071"
      width="38"
      height="13"
      rx="3"
@@ -1736,8 +1747,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1349.7042"
+     x="932.42596"
+     y="442.76331"
      font-size="10.5px"
      font-weight="800"
      fill="#2e8b57"
@@ -1748,8 +1759,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">+15%</text>
   <text
-     x="666.62524"
-     y="1320.348"
+     x="990.42596"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1759,8 +1770,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1334.348"
+     x="990.42596"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1771,8 +1782,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1320.348"
+     x="1044.426"
+     y="413.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1782,8 +1793,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="720.62524"
-     y="1334.348"
+     x="1044.426"
+     y="427.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1794,10 +1805,10 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <line
-     x1="42.625248"
-     y1="1359.348"
-     x2="754.62524"
-     y2="1359.348"
+     x1="366.42599"
+     y1="452.4071"
+     x2="1078.426"
+     y2="452.4071"
      stroke="#e2e6ec"
      stroke-width="1"
      id="line294"
@@ -1806,8 +1817,8 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 7: B. grewingkii -->
   <text
-     x="42.7565"
-     y="1396.2931"
+     x="366.55725"
+     y="489.35217"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1819,8 +1830,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Brachyuropus</text>
   <text
-     x="42.7565"
-     y="1415.1866"
+     x="366.55725"
+     y="508.24573"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
      font-size="15.7446px"
@@ -1831,8 +1842,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">grewingkii</text>
   <text
-     x="304.62524"
-     y="1387.348"
+     x="628.42596"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1842,8 +1853,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">15</text>
   <text
-     x="304.62524"
-     y="1401.348"
+     x="628.42596"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1854,8 +1865,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">GENES</text>
   <text
-     x="352.62524"
-     y="1387.348"
+     x="676.42596"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1865,8 +1876,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">2</text>
   <text
-     x="352.62524"
-     y="1401.348"
+     x="676.42596"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1877,8 +1888,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIGS</text>
   <text
-     x="408.62524"
-     y="1387.348"
+     x="732.42596"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1888,8 +1899,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">13,848</text>
   <text
-     x="408.62524"
-     y="1401.348"
+     x="732.42596"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1904,15 +1915,15 @@
      x="510"
      y="542"
      id="use316"
-     transform="translate(34.62525,849.34799)"
+     transform="translate(358.426,-57.592928)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1387.348"
+     x="932.42596"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1922,8 +1933,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">14,673</text>
   <text
-     x="608.62524"
-     y="1401.348"
+     x="932.42596"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1934,8 +1945,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">BP</text>
   <rect
-     x="589.62524"
-     y="1405.348"
+     x="913.42596"
+     y="498.4071"
      width="38"
      height="13"
      rx="3"
@@ -1945,8 +1956,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="608.62524"
-     y="1416.5343"
+     x="932.42596"
+     y="509.59338"
      font-size="10.5px"
      font-weight="800"
      fill="#2e8b57"
@@ -1957,8 +1968,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">+6%</text>
   <text
-     x="666.62524"
-     y="1387.348"
+     x="990.42596"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1968,8 +1979,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">1</text>
   <text
-     x="666.62524"
-     y="1401.348"
+     x="990.42596"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -1980,8 +1991,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">CONTIG</text>
   <text
-     x="720.62524"
-     y="1387.348"
+     x="1044.426"
+     y="480.4071"
      font-size="15px"
      font-weight="700"
      fill="#0f1218"
@@ -1991,8 +2002,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">12</text>
   <text
-     x="720.62524"
-     y="1401.348"
+     x="1044.426"
+     y="494.4071"
      font-size="9.5px"
      font-weight="600"
      fill="#a4acbd"
@@ -2004,10 +2015,10 @@
      inkscape:export-ydpi="300">GENES</text>
   <!-- LEGEND -->
   <line
-     x1="42.625248"
-     y1="1439.348"
-     x2="754.62524"
-     y2="1439.348"
+     x1="366.42599"
+     y1="532.4071"
+     x2="1078.426"
+     y2="532.4071"
      stroke="#c8cdd6"
      stroke-width="1.2"
      id="line334"
@@ -2016,7 +2027,7 @@
      inkscape:export-ydpi="300" />
   <!-- FOOTNOTE -->
   <g
-     transform="translate(67.406248,1458.2171)"
+     transform="translate(391.207,551.27618)"
      id="g215"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2040,8 +2051,8 @@
        id="circle213" />
   </g>
   <text
-     x="89.406242"
-     y="1464.217"
+     x="413.207"
+     y="557.27612"
      font-size="16px"
      fill="#5a6272"
      id="text217"
@@ -2049,7 +2060,7 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">Circular mitogenome</text>
   <g
-     transform="translate(259.40625,1458.2171)"
+     transform="translate(583.207,551.27618)"
      id="g223"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2075,8 +2086,8 @@
        id="circle221" />
   </g>
   <text
-     x="281.40622"
-     y="1464.217"
+     x="605.20697"
+     y="557.27612"
      font-size="16px"
      fill="#5a6272"
      id="text225"
@@ -2088,15 +2099,15 @@
      x="40"
      y="576"
      id="use227"
-     transform="translate(333.40625,874.86612)"
+     transform="translate(657.207,-32.074798)"
      width="100%"
      height="100%"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="397.40622"
-     y="1464.217"
+     x="721.20697"
+     y="557.27612"
      font-size="16px"
      font-weight="700"
      fill="#c94a3f"
@@ -2108,8 +2119,8 @@
        style="font-weight:normal"
        id="tspan23275">Multiple contigs</tspan></text>
   <text
-     x="641.40625"
-     y="1464.217"
+     x="965.20697"
+     y="557.27612"
      font-size="16px"
      fill="#5a6272"
      id="text231"
@@ -2118,8 +2129,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">Length change</text>
   <rect
-     x="515.40625"
-     y="1449.217"
+     x="839.20697"
+     y="542.27612"
      width="52"
      height="18"
      rx="4"
@@ -2129,8 +2140,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="539.99872"
-     y="1464.2688"
+     x="863.79944"
+     y="557.32788"
      font-size="18.236px"
      font-weight="800"
      fill="#2e8b57"
@@ -2141,8 +2152,8 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.51967">%</text>
   <text
-     x="569.40625"
-     y="1464.217"
+     x="893.20697"
+     y="557.27612"
      font-size="16px"
      fill="#5a6272"
      id="text237"
@@ -2150,8 +2161,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">/</text>
   <rect
-     x="577.40625"
-     y="1449.217"
+     x="901.20697"
+     y="542.27612"
      width="58"
      height="18"
      rx="4"
@@ -2161,8 +2172,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
-     x="606.47351"
-     y="1463.9027"
+     x="930.27924"
+     y="556.97565"
      font-size="18.2357px"
      font-weight="800"
      fill="#c94a3f"
@@ -2174,8 +2185,8 @@
      transform="scale(0.99998471,1.0000153)"
      style="stroke-width:1.51964">%</text>
   <text
-     x="507.52634"
-     y="998.09912"
+     x="831.32709"
+     y="91.158203"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -2185,8 +2196,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">→</text>
   <text
-     x="507.6496"
-     y="1065.9155"
+     x="831.45032"
+     y="158.97461"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -2198,8 +2209,8 @@
   <text
      xml:space="preserve"
      style="font-size:20.5977px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.872817"
-     x="24.352253"
-     y="931.65588"
+     x="348.15302"
+     y="24.714966"
      id="text57040"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2207,11 +2218,11 @@
        sodipodi:role="line"
        id="tspan57038"
        style="font-weight:bold;font-size:20.5977px;stroke-width:0.872817"
-       x="24.352253"
-       y="931.65588">B</tspan></text>
+       x="348.15302"
+       y="24.714966">B</tspan></text>
   <rect
-     x="463.40652"
-     y="1180.5797"
+     x="787.20728"
+     y="273.63879"
      width="24.525454"
      height="4.5277758"
      rx="2.0752306"
@@ -2223,8 +2234,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="463.75696"
-     y="1187.1827"
+     x="787.55768"
+     y="280.24182"
      width="18.865732"
      height="4.5277758"
      rx="2.0752306"
@@ -2236,8 +2247,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="464.49094"
-     y="1193.7858"
+     x="788.29169"
+     y="286.84485"
      width="13.206013"
      height="4.5277758"
      rx="2.0752306"
@@ -2249,8 +2260,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="464.95282"
-     y="1200.3887"
+     x="788.75354"
+     y="293.44775"
      width="9.4328661"
      height="4.5277758"
      rx="2.0752306"
@@ -2262,8 +2273,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="464.2695"
-     y="1386.0319"
+     x="788.07025"
+     y="479.09094"
      width="24.525454"
      height="4.5277758"
      rx="2.0752306"
@@ -2275,8 +2286,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="464.61993"
-     y="1392.6349"
+     x="788.42065"
+     y="485.69397"
      width="18.865732"
      height="4.5277758"
      rx="2.0752306"
@@ -2288,8 +2299,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="462.89722"
-     y="1050.6167"
+     x="786.69794"
+     y="143.67578"
      width="24.525454"
      height="4.5277758"
      rx="2.0752306"
@@ -2301,8 +2312,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="463.24765"
-     y="1057.2197"
+     x="787.0484"
+     y="150.27881"
      width="18.865732"
      height="4.5277758"
      rx="2.0752306"
@@ -2314,8 +2325,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="463.98163"
-     y="1063.8228"
+     x="787.78235"
+     y="156.88184"
      width="13.206013"
      height="4.5277758"
      rx="2.0752306"
@@ -2327,8 +2338,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="463.06702"
-     y="981.9989"
+     x="786.86774"
+     y="75.057983"
      width="24.525454"
      height="4.5277758"
      rx="2.0752306"
@@ -2340,8 +2351,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="463.41745"
-     y="988.60193"
+     x="787.2182"
+     y="81.661011"
      width="18.865732"
      height="4.5277758"
      rx="2.0752306"
@@ -2353,8 +2364,8 @@
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <rect
-     x="464.15143"
-     y="995.20502"
+     x="787.95215"
+     y="88.264099"
      width="13.206013"
      height="4.5277758"
      rx="2.0752306"
@@ -2370,8 +2381,8 @@
      id="rect1594-1"
      width="160.24741"
      height="58.746563"
-     x="-313.55878"
-     y="927.51819"
+     x="10.241974"
+     y="20.577271"
      ry="10.553514"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2381,16 +2392,16 @@
      id="rect4652"
      width="21.101673"
      height="21.79215"
-     x="-319.04263"
-     y="911.69904"
+     x="4.7581177"
+     y="4.7581177"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <text
      xml:space="preserve"
      style="font-size:23.2307px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-316.56589"
-     y="931.75464"
+     x="7.2348633"
+     y="24.813721"
      id="text54339"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2398,13 +2409,13 @@
        sodipodi:role="line"
        id="tspan54337"
        style="font-weight:bold;font-size:23.2307px;stroke-width:0.984387"
-       x="-316.56589"
-       y="931.75464">A</tspan></text>
+       x="7.2348633"
+       y="24.813721">A</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-233.25262"
-     y="944.24152"
+     x="90.548126"
+     y="37.300598"
      id="text1440-7"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2412,15 +2423,15 @@
        sodipodi:role="line"
        id="tspan1438-5"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-233.25262"
-       y="944.24152"><tspan
+       x="90.548126"
+       y="37.300598"><tspan
    style="font-weight:normal;font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
    id="tspan1444-3"
    rotate="0 0 0 0 0 0 0 0 0 0 0 0">LcWGS reads</tspan> </tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-233.25262"
-       y="959.99158"
+       x="90.548126"
+       y="53.05072"
        id="tspan1446-5"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
    rotate="0 0 0 0 0 0 0 0 0"
@@ -2428,8 +2439,8 @@
    style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387">for the </tspan>target species</tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-233.25262"
-       y="975.7417"
+       x="90.548126"
+       y="68.800781"
        id="tspan1442-2"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">.fastq (<tspan
    style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.984387"
@@ -2437,35 +2448,35 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-69.48259"
-     y="942.70142"
+     x="254.31816"
+     y="35.760498"
      id="text9233-2"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-69.48259"
-       y="942.70142"
+       x="254.31816"
+       y="35.760498"
        id="tspan9231-7">Assembly </tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-69.48259"
-       y="958.45154"
+       x="254.31816"
+       y="51.51062"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan13536-0">for a related species</tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-69.48259"
-       y="974.20166"
+       x="254.31816"
+       y="67.260681"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan13592-9">.fasta + .gb (<tspan
    style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.984387"
    id="tspan13594-3">ref</tspan>)</tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-69.48259"
-       y="989.95166"
+       x="254.31816"
+       y="83.010803"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan13534-6" /></text>
   <rect
@@ -2473,15 +2484,15 @@
      id="rect9235-0"
      width="152.6922"
      height="58.746563"
-     x="-147.49545"
-     y="927.51819"
+     x="176.3053"
+     y="20.577271"
      ry="10.553514"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22399)"
-     d="m -219.40005,985.83733 v 38.50627"
+     d="M 104.4007,78.896412 V 117.40268"
      id="path15083-6"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2489,7 +2500,7 @@
      inkscape:export-ydpi="300" />
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-     d="m -76.723474,985.83943 v 38.50417"
+     d="M 247.07728,78.898512 V 117.40268"
      id="path15504-2"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2500,8 +2511,8 @@
      id="rect15580-6"
      width="263.92307"
      height="54.277233"
-     x="-285.25113"
-     y="1027.8279"
+     x="38.549622"
+     y="120.88696"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2511,8 +2522,8 @@
      id="rect15582-1"
      width="254.38454"
      height="54.050339"
-     x="-280.88116"
-     y="1027.8279"
+     x="42.919586"
+     y="120.88696"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2520,30 +2531,30 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-152.48535"
-     y="1043.5597"
+     x="171.3154"
+     y="136.61877"
      id="text15596-8"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-152.48535"
-       y="1043.5597"
+       x="171.3154"
+       y="136.61877"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan15634-9">Optional to reduce memory usage:</tspan><tspan
        sodipodi:role="line"
        style="font-size:15.7501px;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-152.48535"
-       y="1059.3098"
+       x="171.3154"
+       y="152.3689"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan15628-2">k-mer filtering of <tspan
    style="font-weight:bold;stroke-width:0.984387"
    id="tspan20108-0">reads</tspan> </tspan><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-152.48535"
-       y="1075.5629"
+       x="171.3154"
+       y="168.62195"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan15632-7"><tspan
    rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2556,8 +2567,8 @@
      id="rect25662-5"
      width="294.65366"
      height="37.595005"
-     x="-300.61642"
-     y="1094.5867"
+     x="23.184326"
+     y="187.64575"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2567,8 +2578,8 @@
      id="rect25664-9"
      width="284.00449"
      height="37.595005"
-     x="-295.73761"
-     y="1094.5867"
+     x="28.063141"
+     y="187.64575"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2576,15 +2587,15 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-152.48535"
-     y="1110.3182"
+     x="171.3154"
+     y="203.37732"
      id="text25680-2"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-152.48535"
-       y="1110.3182"
+       x="171.3154"
+       y="203.37732"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan25775-8"
        sodipodi:role="line"><tspan
@@ -2592,8 +2603,8 @@
    id="tspan11313"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387">Assembly + annotation with </tspan>MitoFinder</tspan><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-152.48535"
-       y="1126.0684"
+       x="171.3154"
+       y="219.12744"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan48786-7"
        sodipodi:role="line"><tspan
@@ -2602,7 +2613,7 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387">Complete assembly </tspan>(circular, 1 contig)?</tspan></text>
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m -152.88333,1082.6926 v 12.0898"
+     d="m 170.91742,175.75168 v 12.0898"
      id="path27111-3"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2613,8 +2624,8 @@
      id="rect30004-6"
      width="221.06131"
      height="42.843521"
-     x="-197.31763"
-     y="1215.6475"
+     x="126.48312"
+     y="308.70654"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2624,8 +2635,8 @@
      id="rect30006-1"
      width="199.33888"
      height="42.843521"
-     x="-186.79065"
-     y="1215.6475"
+     x="137.0101"
+     y="308.70654"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2633,16 +2644,16 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-85.301712"
-     y="1235.0092"
+     x="238.49904"
+     y="328.06824"
      id="text30012-2"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-85.301712"
-       y="1235.0092"
+       x="238.49904"
+       y="328.06824"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan30010-3"><tspan
    rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2650,8 +2661,8 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387">Assembly with </tspan>MITObim;</tspan><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.4377px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-85.301712"
-       y="1250.7593"
+       x="238.49904"
+       y="343.81836"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan32139-9"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';stroke-width:0.984387"
@@ -2659,8 +2670,8 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-112.23138"
-     y="1168.8911"
+     x="211.56937"
+     y="261.9502"
      id="text30764-4"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2668,13 +2679,13 @@
        sodipodi:role="line"
        id="tspan30762-7"
        style="font-size:15.7501px;stroke-width:0.984387"
-       x="-112.23138"
-       y="1168.8911">No</tspan></text>
+       x="211.56937"
+       y="261.9502">No</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-244.65356"
-     y="1168.8911"
+     x="79.147186"
+     y="261.9502"
      id="text31466-8"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2682,11 +2693,11 @@
        sodipodi:role="line"
        id="tspan31464-4"
        style="font-size:15.7501px;stroke-width:0.984387"
-       x="-244.65356"
-       y="1168.8911">Yes</tspan></text>
+       x="79.147186"
+       y="261.9502">Yes</tspan></text>
   <path
      style="fill:#999999;stroke:#999999;stroke-width:2.23231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m -87.121234,1258.5975 v 14.353"
+     d="m 236.67952,351.65658 v 14.353"
      id="path46847-6"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2697,8 +2708,8 @@
      id="rect46912-3"
      width="191.01521"
      height="26.655815"
-     x="-244.24957"
-     y="1446.4314"
+     x="79.551178"
+     y="539.49048"
      ry="11.63555"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2706,21 +2717,21 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-149.02271"
-     y="1463.8315"
+     x="174.77805"
+     y="556.89062"
      id="text46998-2"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-149.02271"
-       y="1463.8315"
+       x="174.77805"
+       y="556.89062"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan46996-0"
        sodipodi:role="line">Procedure complete</tspan></text>
   <path
      style="fill:none;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22389)"
-     d="m -152.88333,1131.4378 -88.46696,67.915 v 121.319"
+     d="m 170.91742,224.49688 -88.466959,67.915 v 121.319"
      id="path52741-6"
      sodipodi:nodetypes="ccc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2737,7 +2748,7 @@
      sodipodi:radius="273.35342"
      sodipodi:argument="-18.378204"
      sodipodi:t0="0"
-     transform="matrix(0.16408554,0.16408554,-0.16408554,0.16408554,-12.255524,1110.9201)"
+     transform="matrix(0.16408554,0.16408554,-0.16408554,0.16408554,311.54523,203.97918)"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"
@@ -2753,14 +2764,14 @@
      sodipodi:radius="126.14626"
      sodipodi:argument="1.0183434"
      sodipodi:t0="0.19313124"
-     transform="matrix(0.17145193,0,0,0.18151737,-311.84009,1131.5141)"
+     transform="matrix(0.17145193,0,0,0.18151737,11.960661,224.57318)"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"
      d="m 144.07217,281.02144 c -34.97548,-50.14557 -18.5049,-120.68856 31.95335,-153.56566 53.70432,-34.992147 127.40529,-17.65529 161.58846,36.03931 35.55763,55.85357 17.50032,131.92364 -38.28137,167.02221 -57.43257,36.13733 -135.36767,17.52756 -171.19688,-39.81862 -6.83891,-10.94597 -11.97108,-22.94432 -15.1709,-35.44789" />
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22963)"
-     d="m -152.88333,1131.4378 65.762096,80.6967"
+     d="m 170.91742,224.49688 65.7621,80.6967"
      id="path53259-5"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2768,7 +2779,7 @@
      inkscape:export-ydpi="300" />
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23182);paint-order:normal"
-     d="m -115.13639,1303.7964 v 16.8754"
+     d="m 208.66436,396.85548 v 16.8754"
      id="path971-6"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2779,8 +2790,8 @@
      id="rect1718"
      width="179.1606"
      height="26.620764"
-     x="-282.1188"
-     y="1324.1428"
+     x="41.681946"
+     y="417.2019"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2788,31 +2799,31 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-192.13828"
-     y="1342.7783"
+     x="131.66248"
+     y="435.8374"
      id="text1726"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.4377px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-192.13828"
-       y="1342.7783"
+       x="131.66248"
+       y="435.8374"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan1752">All expected genes found?</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-86.621445"
-     y="1294.0847"
+     x="237.17931"
+     y="387.1438"
      id="text18685"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.4377px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-86.621445"
-       y="1294.0847"
+       x="237.17931"
+       y="387.1438"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan18683"><tspan
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2826,8 +2837,8 @@
      id="rect18795"
      width="221.06131"
      height="31.6847"
-     x="-197.31763"
-     y="1272.6975"
+     x="126.48312"
+     y="365.75659"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2837,15 +2848,15 @@
      id="rect18797"
      width="199.33888"
      height="31.6847"
-     x="-186.79065"
-     y="1272.6975"
+     x="137.0101"
+     y="365.75659"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <path
      style="fill:none;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22389)"
-     d="m -224.88762,1350.5582 v 91.9374"
+     d="m 98.913131,443.61728 v 91.9374"
      id="path23927"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2854,8 +2865,8 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-253.36279"
-     y="1379.321"
+     x="70.437958"
+     y="472.38013"
      id="text24479"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2863,13 +2874,13 @@
        sodipodi:role="line"
        id="tspan24477"
        style="font-size:15.7501px;stroke-width:0.984387"
-       x="-253.36279"
-       y="1379.321">Yes</tspan></text>
+       x="70.437958"
+       y="472.38013">Yes</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-195.20157"
-     y="1369.1498"
+     x="128.59918"
+     y="462.20886"
      id="text24734"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2877,11 +2888,11 @@
        sodipodi:role="line"
        id="tspan24732"
        style="font-size:15.7501px;stroke-width:0.984387"
-       x="-195.20157"
-       y="1369.1498">No</tspan></text>
+       x="128.59918"
+       y="462.20886">No</tspan></text>
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker22963)"
-     d="m -223.90445,1350.5572 48.02004,36.6194"
+     d="m 99.896301,443.61628 48.020039,36.6194"
      id="path24736"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2890,28 +2901,30 @@
   <text
      xml:space="preserve"
      style="font-size:15.7501px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.984387"
-     x="-74.359512"
-     y="1411.198"
+     x="249.44124"
+     y="504.25708"
      id="text24744"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.4377px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387"
-       x="-74.359512"
-       y="1411.198"
+       x="249.44122"
+       y="504.25708"
        rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
        id="tspan24742"><tspan
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
          id="tspan24738"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387">Annotation with MITOS2</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7501px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.984387">Annotation with <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+   id="tspan2879">MITOS2</tspan></tspan></tspan></text>
   <rect
      style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:1.37189;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
      id="rect24746"
      width="196.46593"
      height="31.6847"
-     x="-172.7222"
-     y="1389.8108"
+     x="151.07855"
+     y="482.86987"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
@@ -2921,15 +2934,15 @@
      id="rect24748"
      width="177.16032"
      height="31.6847"
-     x="-163.36649"
-     y="1389.8108"
+     x="160.43427"
+     y="482.86987"
      ry="0"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300" />
   <path
      style="fill:#999999;stroke:#999999;stroke-width:1.81089;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23182);paint-order:normal"
-     d="m -74.786334,1421 v 21.4956"
+     d="m 249.01442,514.05908 v 21.4956"
      id="path26412"
      sodipodi:nodetypes="cc"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"

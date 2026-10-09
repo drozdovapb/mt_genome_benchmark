@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="115.25"
-     inkscape:cy="141"
+     inkscape:zoom="1"
+     inkscape:cx="151.5"
+     inkscape:cy="65"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -405,13 +405,6 @@
        inkscape:export-filename="fig07a.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180" />
-    <rect
-       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:0.356658;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:2.85327, 1.42663;stop-color:#000000"
-       id="rect4652"
-       width="3.8453648"
-       height="3.9711907"
-       x="0.54882187"
-       y="5.8952403" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
@@ -424,28 +417,6 @@
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
          id="tspan27670"
          sodipodi:role="line" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="1.00016"
-       y="9.5499449"
-       id="text54339"><tspan
-         sodipodi:role="line"
-         id="tspan54337"
-         style="font-weight:bold;font-size:4.23333px;stroke-width:0.179385"
-         x="1.00016"
-         y="9.5499449">A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
-       x="65.578697"
-       y="9.5499449"
-       id="text57040"><tspan
-         sodipodi:role="line"
-         id="tspan57038"
-         style="font-weight:bold;font-size:4.23333px;stroke-width:0.179385"
-         x="65.578697"
-         y="9.5499449">B</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.87015px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.179385"
@@ -950,7 +921,9 @@
          id="tspan24742"><tspan
            rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
            id="tspan24738"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Annotation with MITOS2</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87015px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.179385">Annotation with <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+   id="tspan3211">MITOS2</tspan></tspan></tspan></text>
     <rect
        style="fill:none;fill-opacity:0.6;stroke:#808080;stroke-width:0.25;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stop-color:#000000"
        id="rect24746"
