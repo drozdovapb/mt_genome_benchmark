@@ -33,7 +33,7 @@ This pipeline has been tested in several Linux distributions. It uses the follow
    - for direct compilation (https://github.com/RemiAllio/MitoFinder); we highly recommend creating a reserved conda environment using python 2.7;
    - or as a Singularity containter (https://github.com/RemiAllio/MitoFinder_container/); requires Singularity;
  - (_optional depending on MitoFinder results_) MITObim (https://github.com/chrishah/MITObim);
-   - Please also note that this installation requires MIRA == 4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/) for MITObim 1.8, and newer versions of MIRA would not work;
+   - Please also note that MITObim 1.8 requires MIRA == 4.0.2 (https://sourceforge.net/projects/mira-assembler/files/MIRA/stable/), and newer versions of MIRA would not work;
    - MITObim is also available in Galaxy (https://usegalaxy.eu/ and https://usegalaxy.org.au/);
    - MITObim is also available as a Docker container (https://hub.docker.com/r/chrishah/mitobim); requires Docker;
  - (_optinal_) Seqkit for read file manipulation (https://bioinf.shenwei.me/seqkit/).
