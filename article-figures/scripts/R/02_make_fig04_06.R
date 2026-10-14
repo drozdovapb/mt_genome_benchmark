@@ -43,7 +43,7 @@ custom_theme <- theme_ipsum(grid = "XY", axis_title_size = 18) +
     plot.margin = margin(t = 15, r = 40, b = 10, l = 10)
   )
 
-final_table <- read.csv("all_table_nG_full_with_max_contig.csv")
+final_table <- read.csv("../../data/all_table_nG_full_with_max_contig.csv")
 
 # Kept for compatibility with the rest of the script
 all_table_nG_new <- final_table
@@ -82,7 +82,7 @@ pRSS <-
   scale_shape_manual(values=c("circle", "asterisk")) + 
   scale_y_reverse() + 
   geom_vline(xintercept = 7.5, linetype = "dashed") + 
-  xlab("Assembler") + ylab("Resident set size, Gb") + 
+  xlab("Assembler") + ylab("Resident set size, GB") + 
   #custom_theme + 
   theme(axis.title.x = element_text(hjust = 0.5), axis.title.y = element_text(hjust = 0.5),
         legend.position = "bottom")

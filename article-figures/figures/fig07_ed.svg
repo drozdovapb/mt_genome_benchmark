@@ -25,9 +25,9 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.3259037"
-     inkscape:cx="204.04801"
-     inkscape:cy="598.33626"
+     inkscape:zoom="0.46089743"
+     inkscape:cx="886.31433"
+     inkscape:cy="614.01948"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -428,7 +428,7 @@
   </defs>
   <!-- HEADER -->
   <text
-     x="366.42599"
+     x="390.42599"
      y="32.407043"
      font-size="15px"
      font-weight="700"
@@ -475,7 +475,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 1: E. vittatus S -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="77.39624"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -488,7 +488,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Eulimnogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="96.289856"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -684,7 +684,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 2: E. verrucosus S -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="147.72229"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -697,7 +697,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Eulimnogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="166.61584"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -893,7 +893,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 3: O. albinus -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="218.04822"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -906,7 +906,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="236.94177"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1010,7 +1010,7 @@
      inkscape:export-ydpi="300">→</text>
   <text
      x="831.25732"
-     y="292.91516"
+     y="282.91516"
      font-size="22.6579px"
      fill="#2e8b57"
      text-anchor="middle"
@@ -1043,7 +1043,7 @@
      inkscape:export-ydpi="300">→</text>
   <text
      x="831.5285"
-     y="492.12537"
+     y="488.12537"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -1168,7 +1168,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 4: O. flavus -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="280.37427"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1181,7 +1181,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="299.26782"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1377,7 +1377,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 5: O. melanophthalmus -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="346.7002"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1390,7 +1390,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Ommatogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="365.59375"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1597,7 +1597,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 6: A. victorii -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="417.02612"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1610,7 +1610,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Acanthogammarus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="435.91968"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1817,7 +1817,7 @@
      inkscape:export-ydpi="300" />
   <!-- ROW 7: B. grewingkii -->
   <text
-     x="366.55725"
+     x="390.55725"
      y="489.35217"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -1830,7 +1830,7 @@
      inkscape:export-ydpi="300"
      style="stroke-width:1.04964">Brachyuropus</text>
   <text
-     x="366.55725"
+     x="390.55725"
      y="508.24573"
      font-family="Georgia, 'Times New Roman', serif"
      font-style="italic"
@@ -2186,7 +2186,7 @@
      style="stroke-width:1.51964">%</text>
   <text
      x="831.32709"
-     y="91.158203"
+     y="85.158203"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -2197,7 +2197,7 @@
      inkscape:export-ydpi="300">→</text>
   <text
      x="831.45032"
-     y="158.97461"
+     y="152.97461"
      font-size="22.6584px"
      fill="#c9a227"
      text-anchor="middle"
@@ -2209,7 +2209,7 @@
   <text
      xml:space="preserve"
      style="font-size:20.5977px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.872817"
-     x="348.15302"
+     x="372.15302"
      y="24.714966"
      id="text57040"
      inkscape:export-filename="/media/Data/Work/Article/Drozdova/2026_Banch_mark_mtGenome/Results/Figure/git/Data_scripts_figures/article-figures/figures/Figure_7A_08102026.png"
@@ -2218,7 +2218,7 @@
        sodipodi:role="line"
        id="tspan57038"
        style="font-weight:bold;font-size:20.5977px;stroke-width:0.872817"
-       x="348.15302"
+       x="372.15302"
        y="24.714966">B</tspan></text>
   <rect
      x="787.20728"
