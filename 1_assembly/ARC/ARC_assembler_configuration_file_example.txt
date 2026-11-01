@@ -1,0 +1,28 @@
+## Configuration options start with a single "#" and use
+## Name=Bpul
+##
+## Data Columns define samples:
+## Sample_ID:Bpul
+## FileName: path for fasta/fastq file
+## FileType: PE1, PE2, or SE
+## FileFormat: fasta or fastq
+# reference=/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Bpul_ref.fa
+# numcycles=10
+# mapper=bowtie2
+# assembler=spades
+# only-assembler=False
+# nprocs=7
+# format=fastq
+# verbose=True
+# urt=True
+# map_against_reads=False
+# assemblytimeout=2
+# bowtie2_k=5
+# rip=True
+# subsample=1
+# maskrepeats=True
+# sloppymapping=True
+# sra=False
+Sample_ID	FileName	FileType
+Sample1	/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_1.fq	PE1
+Sample1	/media/main/sandbox/ad/mt_BM/reads_mt_BM/DNA/Bpu_D1_trim_filt_2.fq	PE2
