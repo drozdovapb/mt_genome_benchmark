@@ -1,0 +1,4 @@
+Eve_Ecy_rna_proj
+/media/main/sandbox/ad/mt_BM/ref_mt_BM/mt_genom_Ecya_ref.fa
+/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR12564969_1.fastq
+/media/main/sandbox/ad/mt_BM/reads_mt_BM/RNA/SRR12564969_2.fastq
