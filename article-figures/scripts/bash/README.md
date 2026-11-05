@@ -1,4 +1,4 @@
-## Supplementary Code S1: Numt Identification
+## Supplementary Code S3: Numt Identification
 
 This script reproduces the pipeline for identifying putative nuclear mitochondrial insertions (numts) in *O. flavus*, as described in the Methods section. 
 
