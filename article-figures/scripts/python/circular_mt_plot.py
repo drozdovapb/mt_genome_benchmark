@@ -291,7 +291,7 @@ def main():
     args = ap.parse_args()
 
     print("\n" + "="*60)
-    print(" MITOCHONDRIAL GENOME CIRCULAR PLOTTER (v36)")
+    print(" MITOCHONDRIAL GENOME CIRCULAR PLOTTER")
     print("="*60)
     print(f" BAM:      {args.bam}")
     print(f" GenBank:  {args.genbank}")
