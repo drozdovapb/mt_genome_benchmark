@@ -741,66 +741,104 @@ ggsave("fig02b.svg",
 library(ggplot2)
 library(dplyr)
 library(openxlsx)
+library(ggtext) 
 
+# Focal species for highlighting
 MY_SPECIES <- c("Eulimnogammarus cyaneus", "Hyalella azteca")
 
-# ----- 1. Load data and prepare plotting table -----
+# 1. Data ingestion and transformation
 plot_data <- read.xlsx("exp_mtCoverge.xlsx", 3) %>%
   mutate(
     sample = trimws(as.character(sample)),
-    coverage_ratio = mt_cov / nuclear_cov,
+    coverage_ratio = mt_cov / nuclear_cov, # mt/nuclear depth ratio
     group = case_when(
       group == "Fresh"    ~ "Freshwater",
       group == "Terra"    ~ "Terrestrial",
       group == "salinity" ~ "Brackish"
+    ),
+    # Append absolute mito read fraction (from samtools flagstat)
+    mito_percent = case_when(
+      sample == "Hyalella azteca"                 ~ 0.25,
+      sample == "Gammarus nekkensis"              ~ 0.08,
+      sample == "Parhyale hawaiensis"             ~ 0.11,
+      sample == "Baikalogammarus pullus"          ~ 0.12,
+      sample == "Orchestia grillus"               ~ 0.02,
+      sample == "Trinorchestia longiramus"        ~ 0.11,
+      sample == "Eulimnogammarus cyaneus"         ~ 0.02,
+      sample == "Eulimnogammarus verrucosus S"    ~ 0.01,
+      TRUE ~ NA_real_
+    ),
+    # Construct rich text label: Ratio (black) / Mito% (red)
+    rich_label = paste0(
+      "<span style='color:black;'>", 
+      format(round(coverage_ratio, 2), nsmall = 2), 
+      "</span> / <span style='color:#E53E3E; font-weight:bold;'>", 
+      round(mito_percent, 2), 
+      "%</span>"
     )
   ) %>%
   arrange(coverage_ratio) %>%
-  mutate(sample = factor(sample, levels = sample))
+  mutate(sample = factor(sample, levels = sample)) # Lock Y-axis order
 
-# ----- 2. Lollipop chart -----
+# 2. Lollipop plot generation
 p_coverage_ratio <- ggplot(plot_data, aes(x = coverage_ratio, y = sample, color = group)) +
   
+  # Baseline grid
   geom_vline(xintercept = seq(0, 350, by = 50),
              linetype = "dotted", color = "gray75") +
   
+  # Stems
   geom_segment(aes(x = 0, xend = coverage_ratio,
                    y = sample, yend = sample),
                color = "gray68", size = 0.8, show.legend = FALSE) +
   
+  # Nodes colored by ecological niche
   geom_point(size = 4.5, alpha = 0.7, show.legend = TRUE) +
   
-  # Focus species outline — slightly smaller/thinner so it doesn't crash into labels
+  # Highlight focal species (black outline)
   geom_point(data = plot_data %>% filter(sample %in% MY_SPECIES),
              size = 6.0, shape = 21, stroke = 1.6,
              color = "black", fill = NA, show.legend = FALSE) +
   
-  # Numeric labels nudged to the right of the outline
-  geom_text(aes(label = format(round(coverage_ratio, 2), nsmall = 2)),
-            hjust = 0, nudge_x = 12,
-            size = 3.5, color = "black", show.legend = FALSE) +
+  # Combined rich text label: Ratio (black) / Mito% (red)
+  geom_richtext(aes(label = rich_label),
+                hjust = 0, nudge_x = 12,
+                size = 3.5, 
+                fill = NA, label.color = NA, # Remove background box
+                show.legend = FALSE) +
   
+  # Custom legend for the rich text labels (top left area)
+  annotate("richtext", x = 0, y = 7.5, 
+           label = "<span style='color:black;'>Coverage ratio</span> / <span style='color:#E53E3E; font-weight:bold;'>Mito reads %</span>",
+           hjust = 0, vjust = 0, 
+           fill = NA, label.color = NA, size = 3.5, show.legend = FALSE) +
+  
+  # Niche color palette
   scale_color_manual(values = c(
     "Freshwater"  = "#2B6CB0",
     "Terrestrial" = "#DD6B20",
     "Brackish"    = "#319795"
   )) +
   
+  # X-axis: extra space to accommodate external labels
   scale_x_continuous(
-    limits = c(0, 420),
+    limits = c(0, 480), 
     expand = expansion(mult = c(0.03, 0.1))
   ) +
   
+  # Aesthetics and labels
   labs(
     title = "Mitochondrial-to-nuclear DNA coverage ratio in amphipods",
     x     = "Coverage ratio index",
     y     = NULL,
-    color = "Ecological niche:"
+    color = "Ecological niche:",
+    caption = "Text labels show: Coverage ratio (black) / Absolute mitochondrial reads, % (red)"
   ) +
   
   theme_classic(base_size = 13) +
   theme(
     plot.title = element_text(face = "bold", size = 13, color = "#1A202C"),
+    plot.caption = element_text(size = 10, color = "gray30", hjust = 0, margin = margin(t = 10)),
     axis.text.y = element_text(
       face  = ifelse(levels(plot_data$sample) %in% MY_SPECIES,
                      "bold.italic", "italic"),
@@ -816,13 +854,16 @@ p_coverage_ratio <- ggplot(plot_data, aes(x = coverage_ratio, y = sample, color 
     legend.title    = element_text(face = "bold"),
     legend.text     = element_text(size = 11)
   ) +
+  
+  # Disable clipping to render labels outside plot bounds
   coord_cartesian(clip = "off")
 
 print(p_coverage_ratio)
 
-ggsave("fig02a.svg",
+# Export as vector format for manuscript
+ggsave("coverage_ratio_plots_R_05112026.svg",
        plot = p_coverage_ratio,
-       width = 9, height = 4, dpi = 300)
+       width = 9, height = 4.5, dpi = 300)
 
 
 # =============================================================================
