@@ -1,7 +1,7 @@
 bash
 #!/bin/bash
 # ==============================================================================
-# Supplementary Code S1: Identification of putative numts in O. flavus
+# Supplementary Code S3: Identification of putative numts in O. flavus
 # Description: Pipeline for cross-mapping analysis and sequence divergence 
 #              between the main mitochondrial contig and a short duplicate.
 # ==============================================================================
