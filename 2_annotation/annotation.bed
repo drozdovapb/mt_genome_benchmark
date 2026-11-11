@@ -253,7 +253,7 @@ AGORA_Gammarus	10185	11049	nad1	0	-
 AGORA_Gammarus	10612	10690	nad2	0	-
 AGORA_Gammarus	10806	10959	cox1	0	-
 AGORA_Gammarus	11353	11398	cox3	0	-
-AGORA_Gammarus	11793	11183	rrnL	0	+
+AGORA_Gammarus	11183	11793	rrnL	0	-
 AGORA_Gammarus	12446	12467	atp8	0	-
 AGORA_Gammarus	12656	12680	atp6	0	+
 AGORA_Gammarus	13387	14251	nad2	0	+
